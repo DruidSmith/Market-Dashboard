@@ -13,7 +13,6 @@ on:
         required: false
         default: '5'
 
-# Add this permissions block
 permissions:
   contents: write
 
@@ -59,46 +58,3 @@ jobs:
           git add data/
           git diff --staged --quiet || git commit -m "Update market data - $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
-```
-
----
-
-### **Update .gitignore to Allow Analytics Files**
-
-Make sure analytics files are committed:
-
-**File:** `.gitignore`
-```
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-venv/
-env/
-ENV/
-*.egg-info/
-dist/
-build/
-
-# IDEs
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# API keys and secrets
-.env
-secrets.txt
-*.key
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# Note: We COMMIT both raw data and analytics files
-# so they're available for the dashboard
