@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# API keys and secrets
+.env
+secrets.txt
+*.key
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Note: We now COMMIT data files so GitHub Actions can update them
+# The .gitkeep files ensure empty directories are tracked
