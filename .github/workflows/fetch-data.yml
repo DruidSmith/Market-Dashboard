@@ -3,7 +3,7 @@ name: Fetch Market Data
 on:
   # Run on a schedule (every 6 hours)
   schedule:
-    - cron: '0 */6 * * *'  # At minute 0 past every 6th hour
+    - cron: '0 */6 * * *'
   
   # Allow manual triggering from GitHub UI
   workflow_dispatch:
@@ -13,6 +13,10 @@ on:
         required: false
         default: '5'
 
+# Add this permissions block
+permissions:
+  contents: write
+
 jobs:
   fetch-data:
     runs-on: ubuntu-latest
@@ -20,6 +24,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
       
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -52,5 +59,3 @@ jobs:
           git add data/
           git diff --staged --quiet || git commit -m "Update market data - $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
