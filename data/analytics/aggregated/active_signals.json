@@ -1,14 +1,53 @@
 {
-  "generated_at": "2026-02-15T00:38:58.679313Z",
+  "generated_at": "2026-02-15T01:16:25.845125Z",
   "golden_crosses": [],
   "death_crosses": [],
-  "macd_bullish_crosses": [],
-  "macd_bearish_crosses": [],
-  "rsi_overbought": [],
+  "macd_bullish_crosses": [
+    {
+      "symbol": "CRWD",
+      "date": "2026-02-13 00:00:00"
+    }
+  ],
+  "macd_bearish_crosses": [
+    {
+      "symbol": "V",
+      "date": "2026-02-13 00:00:00"
+    },
+    {
+      "symbol": "JPM",
+      "date": "2026-02-13 00:00:00"
+    }
+  ],
+  "rsi_overbought": [
+    {
+      "symbol": "SPLV",
+      "rsi": 74.37620825657426
+    },
+    {
+      "symbol": "SCHD",
+      "rsi": 78.15430936100262
+    },
+    {
+      "symbol": "XLE",
+      "rsi": 71.784729515442
+    },
+    {
+      "symbol": "FENY",
+      "rsi": 71.16055272528172
+    },
+    {
+      "symbol": "VDE",
+      "rsi": 71.08562891545397
+    }
+  ],
   "rsi_oversold": [
     {
       "symbol": "AMZN",
       "rsi": 23.086288886881917
+    },
+    {
+      "symbol": "NFLX",
+      "rsi": 27.36633621927048
     }
   ],
   "high_volatility": [
@@ -41,8 +80,36 @@
       "volatility": 2.0600999440319088
     },
     {
+      "symbol": "ASML",
+      "volatility": 2.3718979583988236
+    },
+    {
+      "symbol": "LRCX",
+      "volatility": 4.030636764406259
+    },
+    {
+      "symbol": "MU",
+      "volatility": 4.842100205101894
+    },
+    {
+      "symbol": "TSM",
+      "volatility": 2.410886750752196
+    },
+    {
+      "symbol": "PLTR",
+      "volatility": 4.305190886456118
+    },
+    {
+      "symbol": "AAPL",
+      "volatility": 2.0595773296709394
+    },
+    {
       "symbol": "SOXX",
       "volatility": 2.452883406138774
+    },
+    {
+      "symbol": "VGT",
+      "volatility": 1.7607643787622664
     },
     {
       "symbol": "SPY",
@@ -53,13 +120,74 @@
       "volatility": 1.1898668889934194
     },
     {
+      "symbol": "QQQM",
+      "volatility": 1.1844820332085042
+    },
+    {
+      "symbol": "MGK",
+      "volatility": 1.2265204303511281
+    },
+    {
+      "symbol": "VUG",
+      "volatility": 1.2075621963212053
+    },
+    {
       "symbol": "^VIX",
       "volatility": 10.293415396025974
     },
     {
       "symbol": "NQ=F",
       "volatility": 1.1950309736990303
+    },
+    {
+      "symbol": "SPLV",
+      "volatility": 0.4781478132188052
+    },
+    {
+      "symbol": "SCHD",
+      "volatility": 0.8556716738400084
+    },
+    {
+      "symbol": "DGRO",
+      "volatility": 0.6894293848166605
+    },
+    {
+      "symbol": "VIG",
+      "volatility": 0.8259009041169055
+    },
+    {
+      "symbol": "VYM",
+      "volatility": 0.809737587748002
+    },
+    {
+      "symbol": "XLE",
+      "volatility": 1.3866985300104846
+    },
+    {
+      "symbol": "FENY",
+      "volatility": 1.4002165655253618
+    },
+    {
+      "symbol": "VDE",
+      "volatility": 1.4090330931061008
+    },
+    {
+      "symbol": "MA",
+      "volatility": 1.6397917986408364
+    },
+    {
+      "symbol": "V",
+      "volatility": 1.5596513531828538
+    },
+    {
+      "symbol": "JPM",
+      "volatility": 1.7756168187470815
     }
   ],
-  "low_volatility": []
+  "low_volatility": [
+    {
+      "symbol": "QUBT",
+      "volatility": 7.26128402004557
+    }
+  ]
 }
