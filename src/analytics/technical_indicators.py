@@ -89,6 +89,9 @@ class TechnicalIndicators:
         result['adx_pos'] = adx.adx_pos()
         result['adx_neg'] = adx.adx_neg()
         
+        # Add crossover detection at the end, before return
+        result = TechnicalIndicators.detect_crossovers(result)
+        
         return result
     
     @staticmethod
@@ -172,5 +175,42 @@ class TechnicalIndicators:
         
         # Rolling volatility (standard deviation of returns)
         result['volatility_20d'] = result['roc_1d'].rolling(window=20).std()
+        
+        return result
+    
+    @staticmethod
+    def detect_crossovers(df: pd.DataFrame) -> pd.DataFrame:
+        """
+        Detect and classify SMA/EMA crossovers.
+        
+        Args:
+            df: DataFrame with moving averages
+        
+        Returns:
+            DataFrame with crossover status columns
+        """
+        result = df.copy()
+        
+        # SMA Cross (50 vs 200)
+        if 'sma_50' in result.columns and 'sma_200' in result.columns:
+            # Current position
+            result['sma_position'] = 'neutral'
+            result.loc[result['sma_50'] > result['sma_200'], 'sma_position'] = 'golden'
+            result.loc[result['sma_50'] < result['sma_200'], 'sma_position'] = 'death'
+            
+            # Recent cross detection (within last 5 days)
+            sma_50_above = result['sma_50'] > result['sma_200']
+            sma_50_was_below = result['sma_50'].shift(5) <= result['sma_200'].shift(5)
+            result['recent_golden_cross'] = sma_50_above & sma_50_was_below
+            
+            sma_50_below = result['sma_50'] < result['sma_200']
+            sma_50_was_above = result['sma_50'].shift(5) >= result['sma_200'].shift(5)
+            result['recent_death_cross'] = sma_50_below & sma_50_was_above
+        
+        # EMA Trend (12 vs 26)
+        if 'ema_12' in result.columns and 'ema_26' in result.columns:
+            result['ema_trend'] = 'neutral'
+            result.loc[result['ema_12'] > result['ema_26'], 'ema_trend'] = 'bullish'
+            result.loc[result['ema_12'] < result['ema_26'], 'ema_trend'] = 'bearish'
         
         return result

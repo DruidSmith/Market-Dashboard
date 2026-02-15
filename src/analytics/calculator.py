@@ -12,6 +12,7 @@ from src.utils.data_helpers import (
     save_analytics
 )
 from src.analytics.technical_indicators import TechnicalIndicators
+from src.analytics.fundamentals import FundamentalsCalculator
 
 
 class AnalyticsCalculator:
@@ -19,13 +20,15 @@ class AnalyticsCalculator:
     
     def __init__(self):
         self.technical = TechnicalIndicators()
+        self.fundamentals = FundamentalsCalculator()
     
-    def calculate_for_symbol(self, symbol: str, verbose: bool = True) -> bool:
+    def calculate_for_symbol(self, symbol: str, include_fundamentals: bool = True, verbose: bool = True) -> bool:
         """
         Calculate all analytics for a single symbol.
         
         Args:
             symbol: Ticker symbol
+            include_fundamentals: Whether to fetch fundamental data
             verbose: Print progress messages
         
         Returns:
@@ -62,18 +65,26 @@ class AnalyticsCalculator:
                 print(f"  ✅ Calculated {len(df_complete.columns)} indicators for {symbol}")
                 print(f"  📈 Data points: {len(df_complete)}")
             
+            # Fetch fundamentals (only for stocks, not indices or crypto)
+            if include_fundamentals:
+                # Skip fundamentals for indices and crypto
+                skip_symbols = ['^VIX', '^GSPC', '^DJI', '^IXIC']
+                if symbol not in skip_symbols and not symbol.endswith('-USD'):
+                    self.fundamentals.calculate_for_symbol(symbol, verbose=verbose)
+            
             return True
             
         except Exception as e:
             print(f"  ❌ Error calculating analytics for {symbol}: {e}")
             return False
     
-    def calculate_all(self, symbols: Optional[List[str]] = None) -> Dict[str, int]:
+    def calculate_all(self, symbols: Optional[List[str]] = None, include_fundamentals: bool = True) -> Dict[str, int]:
         """
         Calculate analytics for all symbols (or specified list).
         
         Args:
             symbols: Optional list of symbols to process. If None, process all.
+            include_fundamentals: Whether to fetch fundamental data
         
         Returns:
             Dictionary with counts: {'successful': N, 'failed': M}
@@ -87,7 +98,7 @@ class AnalyticsCalculator:
         failed = 0
         
         for symbol in symbols:
-            if self.calculate_for_symbol(symbol):
+            if self.calculate_for_symbol(symbol, include_fundamentals=include_fundamentals):
                 successful += 1
             else:
                 failed += 1
