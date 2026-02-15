@@ -1,64 +1,58 @@
 """
-Calculate technical indicators and analytics for all market data.
-Run this after fetching new data.
+Run analytics calculations on fetched market data.
 """
 
-import sys
-import argparse
 from src.analytics.calculator import AnalyticsCalculator
 from src.analytics.aggregator import AnalyticsAggregator
 
 
 def main():
-    """Run analytics calculations."""
-    parser = argparse.ArgumentParser(description="Calculate market analytics")
-    parser.add_argument(
-        "--symbols",
-        nargs="+",
-        help="Specific symbols to calculate (default: all)"
-    )
-    parser.add_argument(
-        "--skip-aggregates",
-        action="store_true",
-        help="Skip creating aggregate views"
-    )
-    
-    args = parser.parse_args()
-    
-    print("="*60)
-    print("Market Analytics Calculator - Phase 2")
-    print("="*60)
+    """Main execution function."""
+    print("="*70)
+    print("🚀 MARKET ANALYTICS CALCULATOR")
+    print("="*70)
     
     try:
-        # Step 1: Calculate technical indicators
+        # Step 1: Calculate technical indicators for all symbols
+        print("\n📊 Step 1: Calculating Technical Indicators")
+        print("-"*70)
+        
         calculator = AnalyticsCalculator()
-        calc_results = calculator.calculate_all(symbols=args.symbols)
+        calc_results = calculator.calculate_all(include_fundamentals=True)
+        
+        print("\n✅ Technical indicator calculation complete!")
+        print(f"   Successful: {calc_results['successful']}")
+        print(f"   Failed: {calc_results['failed']}")
         
         # Step 2: Create aggregated views
-        if not args.skip_aggregates and calc_results['successful'] > 0:
-            print("\n" + "="*60)
-            print("Creating Aggregated Views")
-            print("="*60)
-            
-            aggregator = AnalyticsAggregator()
-            agg_results = aggregator.create_all_aggregates()
-            
-            successful_aggs = sum(1 for v in agg_results.values() if v)
-            print(f"\n✅ Created {successful_aggs}/{len(agg_results)} aggregate views")
+        print("\n📊 Step 2: Creating Aggregated Views")
+        print("-"*70)
         
-        if calc_results['failed'] == 0:
-            print("\n✅ All calculations completed successfully!")
-            return 0
-        else:
-            print(f"\n⚠️  Completed with {calc_results['failed']} failures")
-            return 0 if calc_results['successful'] > 0 else 1
+        aggregator = AnalyticsAggregator()
+        aggregator.create_all()  # Changed from create_all_aggregates()
         
+        print("\n✅ Aggregated views created!")
+        
+        # Summary
+        print("\n" + "="*70)
+        print("✅ ANALYTICS CALCULATION COMPLETE")
+        print("="*70)
+        print(f"Total symbols processed: {calc_results['successful'] + calc_results['failed']}")
+        print(f"Success rate: {calc_results['successful']}/{calc_results['successful'] + calc_results['failed']}")
+        print("\n💡 Next steps:")
+        print("   - Run the dashboard: streamlit run dashboard/app.py")
+        print("   - Or commit to GitHub to trigger automated updates")
+        print("="*70)
+        
+    except KeyboardInterrupt:
+        print("\n\n⚠️  Process interrupted by user")
+        print("="*70)
     except Exception as e:
         print(f"\n❌ Unexpected error: {e}")
         import traceback
         traceback.print_exc()
-        return 1
+        print("="*70)
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    main()
