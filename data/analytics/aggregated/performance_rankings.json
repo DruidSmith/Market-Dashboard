@@ -1,53 +1,71 @@
 {
-  "generated_at": "2026-02-15T00:38:58.613687Z",
+  "generated_at": "2026-02-15T01:35:02.438472Z",
   "top_gainers_1d": [
     {
-      "symbol": "SOXX",
+      "symbol": "IONQ",
+      "category": "Quantum/Emerging Tech",
+      "roc_1d": 8.97764038908937,
+      "roc_5d": -2.51500721892447,
+      "roc_20d": -28.28006807100887,
+      "rsi_14": 38.09665881275038,
+      "volatility_20d": 6.788996494951172
+    },
+    {
+      "symbol": "CRWD",
       "category": "AI bubble indicator",
-      "roc_1d": 0.8990042674253296,
-      "roc_5d": 1.7646552466213494,
-      "roc_20d": 5.171698001304792,
-      "rsi_14": 58.16660310674923,
-      "volatility_20d": 2.452883406138774
+      "roc_1d": 4.3981157913447255,
+      "roc_5d": 8.632114955357139,
+      "roc_20d": -5.573623154189555,
+      "rsi_14": 46.7234600215797,
+      "volatility_20d": 3.3492511254466426
     },
     {
-      "symbol": "AMD",
-      "category": "AI bubble indicator",
-      "roc_1d": 0.6700980868213913,
-      "roc_5d": -0.5373248896564986,
-      "roc_20d": -9.038259038259033,
-      "rsi_14": 41.78924651740286,
-      "volatility_20d": 5.3617213865138105
+      "symbol": "QUBT",
+      "category": "Quantum/Emerging Tech",
+      "roc_1d": 3.4188119779171355,
+      "roc_5d": -10.180275790872074,
+      "roc_20d": -30.45976966495183,
+      "rsi_14": 38.698919204060246,
+      "volatility_20d": 7.26128402004557
     },
     {
-      "symbol": "INTC",
-      "category": "AI bubble indicator",
-      "roc_1d": 0.6669535283993167,
-      "roc_5d": -7.511365882585497,
-      "roc_20d": -3.16639072847682,
-      "rsi_14": 50.66058244705991,
-      "volatility_20d": 6.261006742701221
+      "symbol": "FIX",
+      "category": "Defense/Industrial Tech",
+      "roc_1d": 2.9176421186422496,
+      "roc_5d": 8.753429401217861,
+      "roc_20d": 22.630692116628246,
+      "rsi_14": 68.83438492582701,
+      "volatility_20d": 3.2629280432211507
     },
     {
-      "symbol": "QQQ",
-      "category": "Market bull/bear indicator",
-      "roc_1d": 0.21310602024506853,
-      "roc_5d": -1.2679406216681732,
-      "roc_20d": -3.1940557753546317,
-      "rsi_14": 40.82465084569051,
-      "volatility_20d": 1.1898668889934194
-    },
-    {
-      "symbol": "NQ=F",
-      "category": "Market bull/bear indicator",
-      "roc_1d": 0.14232073643409837,
-      "roc_5d": -1.4306578045363727,
-      "roc_20d": -3.5108876418700086,
-      "rsi_14": 40.02426631320423,
-      "volatility_20d": 1.1950309736990303
+      "symbol": "GLD",
+      "category": "Precious Metals",
+      "roc_1d": 2.4878663914389865,
+      "roc_5d": 1.572037894971845,
+      "roc_20d": 9.281177755220217,
+      "rsi_14": 56.053125156356785,
+      "volatility_20d": 3.5954291340233135
     }
   ],
   "top_losers_1d": [
+    {
+      "symbol": "V",
+      "category": "Payments/Fintech",
+      "roc_1d": -3.1155550409358024,
+      "roc_5d": -5.0824349382551866,
+      "roc_20d": -3.9732548606214557,
+      "rsi_14": 35.06493654519922,
+      "volatility_20d": 1.5596513531828538
+    },
+    {
+      "symbol": "AAPL",
+      "category": "AI bubble indicator",
+      "roc_1d": -2.2733396848946263,
+      "roc_5d": -7.9464434378087585,
+      "roc_20d": -0.8483973067916373,
+      "rsi_14": 39.42938218026748,
+      "volatility_20d": 2.0595773296709394
+    },
     {
       "symbol": "NVDA",
       "category": "AI bubble indicator",
@@ -58,90 +76,90 @@
       "volatility_20d": 2.740865610760484
     },
     {
-      "symbol": "META",
+      "symbol": "AVGO",
       "category": "AI bubble indicator",
-      "roc_1d": -1.5450670195903404,
-      "roc_5d": -3.2791098479121983,
-      "roc_20d": 3.0557345360824772,
-      "rsi_14": 42.730651179515945,
-      "volatility_20d": 3.2493282599576685
+      "roc_1d": -1.811758237981076,
+      "roc_5d": -2.3278864854672565,
+      "roc_20d": -5.203771254632638,
+      "rsi_14": 44.80594252360773,
+      "volatility_20d": 2.847371855898058
     },
     {
-      "symbol": "GOOGL",
-      "category": "AI bubble indicator",
-      "roc_1d": -1.0614886731391548,
-      "roc_5d": -5.308802576968342,
-      "roc_20d": -8.131498287156669,
-      "rsi_14": 32.24593186946336,
-      "volatility_20d": 1.3931866472820023
-    },
-    {
-      "symbol": "^VIX",
-      "category": "Market volatility indicator",
-      "roc_1d": -1.056672990293961,
-      "roc_5d": 1.1291091446267387,
-      "roc_20d": 30.050506205987393,
-      "rsi_14": 59.62777562706269,
-      "volatility_20d": 10.293415396025974
-    },
-    {
-      "symbol": "AMZN",
-      "category": "AI bubble indicator",
-      "roc_1d": -0.4058116232464992,
-      "roc_5d": -5.4821224800304265,
-      "roc_20d": -16.53791250314889,
-      "rsi_14": 23.086288886881917,
-      "volatility_20d": 2.0600999440319088
+      "symbol": "MA",
+      "category": "Payments/Fintech",
+      "roc_1d": -1.7252561790484844,
+      "roc_5d": -5.536320556815399,
+      "roc_20d": -4.476188697996964,
+      "rsi_14": 35.87379221133419,
+      "volatility_20d": 1.6397917986408364
     }
   ],
   "top_gainers_5d": [
     {
-      "symbol": "SOXX",
+      "symbol": "HWM",
+      "category": "Defense/Industrial Tech",
+      "roc_1d": 2.2141482807260804,
+      "roc_5d": 12.121349080417975,
+      "roc_20d": 11.635298995349475,
+      "rsi_14": 77.00246785788761,
+      "volatility_20d": 2.588904415935407
+    },
+    {
+      "symbol": "FIX",
+      "category": "Defense/Industrial Tech",
+      "roc_1d": 2.9176421186422496,
+      "roc_5d": 8.753429401217861,
+      "roc_20d": 22.630692116628246,
+      "rsi_14": 68.83438492582701,
+      "volatility_20d": 3.2629280432211507
+    },
+    {
+      "symbol": "CRWD",
       "category": "AI bubble indicator",
-      "roc_1d": 0.8990042674253296,
-      "roc_5d": 1.7646552466213494,
-      "roc_20d": 5.171698001304792,
-      "rsi_14": 58.16660310674923,
-      "volatility_20d": 2.452883406138774
+      "roc_1d": 4.3981157913447255,
+      "roc_5d": 8.632114955357139,
+      "roc_20d": -5.573623154189555,
+      "rsi_14": 46.7234600215797,
+      "volatility_20d": 3.3492511254466426
     },
     {
-      "symbol": "^VIX",
-      "category": "Market volatility indicator",
-      "roc_1d": -1.056672990293961,
-      "roc_5d": 1.1291091446267387,
-      "roc_20d": 30.050506205987393,
-      "rsi_14": 59.62777562706269,
-      "volatility_20d": 10.293415396025974
-    },
-    {
-      "symbol": "MSFT",
+      "symbol": "TSM",
       "category": "AI bubble indicator",
-      "roc_1d": -0.1294047382042529,
-      "roc_5d": 0.0448721144737485,
-      "roc_20d": -12.11842508649762,
-      "rsi_14": 32.3755826694818,
-      "volatility_20d": 3.0220525122838025
+      "roc_1d": -0.4727032662595998,
+      "roc_5d": 5.019343254031949,
+      "roc_20d": 7.235677802134188,
+      "rsi_14": 65.81672712074183,
+      "volatility_20d": 2.410886750752196
     },
     {
-      "symbol": "AMD",
-      "category": "AI bubble indicator",
-      "roc_1d": 0.6700980868213913,
-      "roc_5d": -0.5373248896564986,
-      "roc_20d": -9.038259038259033,
-      "rsi_14": 41.78924651740286,
-      "volatility_20d": 5.3617213865138105
-    },
-    {
-      "symbol": "QQQ",
-      "category": "Market bull/bear indicator",
-      "roc_1d": 0.21310602024506853,
-      "roc_5d": -1.2679406216681732,
-      "roc_20d": -3.1940557753546317,
-      "rsi_14": 40.82465084569051,
-      "volatility_20d": 1.1898668889934194
+      "symbol": "EME",
+      "category": "Defense/Industrial Tech",
+      "roc_1d": 2.285008214756945,
+      "roc_5d": 4.771378675105464,
+      "roc_20d": 17.399909341591968,
+      "rsi_14": 68.75517772192583,
+      "volatility_20d": 2.512168590993238
     }
   ],
   "top_losers_5d": [
+    {
+      "symbol": "QUBT",
+      "category": "Quantum/Emerging Tech",
+      "roc_1d": 3.4188119779171355,
+      "roc_5d": -10.180275790872074,
+      "roc_20d": -30.45976966495183,
+      "rsi_14": 38.698919204060246,
+      "volatility_20d": 7.26128402004557
+    },
+    {
+      "symbol": "AAPL",
+      "category": "AI bubble indicator",
+      "roc_1d": -2.2733396848946263,
+      "roc_5d": -7.9464434378087585,
+      "roc_20d": -0.8483973067916373,
+      "rsi_14": 39.42938218026748,
+      "volatility_20d": 2.0595773296709394
+    },
     {
       "symbol": "INTC",
       "category": "AI bubble indicator",
@@ -152,40 +170,22 @@
       "volatility_20d": 6.261006742701221
     },
     {
-      "symbol": "AMZN",
+      "symbol": "NFLX",
       "category": "AI bubble indicator",
-      "roc_1d": -0.4058116232464992,
-      "roc_5d": -5.4821224800304265,
-      "roc_20d": -16.53791250314889,
-      "rsi_14": 23.086288886881917,
-      "volatility_20d": 2.0600999440319088
+      "roc_1d": 1.3314027525761052,
+      "roc_5d": -6.484178101632077,
+      "roc_20d": -12.69733096840885,
+      "rsi_14": 27.36633621927048,
+      "volatility_20d": 1.878732368578719
     },
     {
-      "symbol": "GOOGL",
-      "category": "AI bubble indicator",
-      "roc_1d": -1.0614886731391548,
-      "roc_5d": -5.308802576968342,
-      "roc_20d": -8.131498287156669,
-      "rsi_14": 32.24593186946336,
-      "volatility_20d": 1.3931866472820023
-    },
-    {
-      "symbol": "META",
-      "category": "AI bubble indicator",
-      "roc_1d": -1.5450670195903404,
-      "roc_5d": -3.2791098479121983,
-      "roc_20d": 3.0557345360824772,
-      "rsi_14": 42.730651179515945,
-      "volatility_20d": 3.2493282599576685
-    },
-    {
-      "symbol": "NQ=F",
-      "category": "Market bull/bear indicator",
-      "roc_1d": 0.14232073643409837,
-      "roc_5d": -1.4306578045363727,
-      "roc_20d": -3.5108876418700086,
-      "rsi_14": 40.02426631320423,
-      "volatility_20d": 1.1950309736990303
+      "symbol": "JPM",
+      "category": "Financials",
+      "roc_1d": -0.02974717522841175,
+      "roc_5d": -6.156949900529163,
+      "roc_20d": -2.169702438327381,
+      "rsi_14": 41.97918429033743,
+      "volatility_20d": 1.7756168187470815
     }
   ],
   "top_gainers_20d": [
@@ -199,134 +199,134 @@
       "volatility_20d": 10.293415396025974
     },
     {
-      "symbol": "SOXX",
-      "category": "AI bubble indicator",
-      "roc_1d": 0.8990042674253296,
-      "roc_5d": 1.7646552466213494,
-      "roc_20d": 5.171698001304792,
-      "rsi_14": 58.16660310674923,
-      "volatility_20d": 2.452883406138774
+      "symbol": "FIX",
+      "category": "Defense/Industrial Tech",
+      "roc_1d": 2.9176421186422496,
+      "roc_5d": 8.753429401217861,
+      "roc_20d": 22.630692116628246,
+      "rsi_14": 68.83438492582701,
+      "volatility_20d": 3.2629280432211507
     },
     {
-      "symbol": "META",
+      "symbol": "MU",
       "category": "AI bubble indicator",
-      "roc_1d": -1.5450670195903404,
-      "roc_5d": -3.2791098479121983,
-      "roc_20d": 3.0557345360824772,
-      "rsi_14": 42.730651179515945,
-      "volatility_20d": 3.2493282599576685
+      "roc_1d": -0.5580108587052379,
+      "roc_5d": 4.299577165809354,
+      "roc_20d": 22.288565395534565,
+      "rsi_14": 59.55369472205108,
+      "volatility_20d": 4.842100205101894
     },
     {
-      "symbol": "SPY",
-      "category": "Market bull/bear indicator",
-      "roc_1d": 0.07045664714431243,
-      "roc_5d": -1.284353189887344,
-      "roc_20d": -1.5153703917716421,
-      "rsi_14": 43.77687679917716,
-      "volatility_20d": 0.8981973301357002
+      "symbol": "EME",
+      "category": "Defense/Industrial Tech",
+      "roc_1d": 2.285008214756945,
+      "roc_5d": 4.771378675105464,
+      "roc_20d": 17.399909341591968,
+      "rsi_14": 68.75517772192583,
+      "volatility_20d": 2.512168590993238
     },
     {
-      "symbol": "NVDA",
-      "category": "AI bubble indicator",
-      "roc_1d": -2.209265004814376,
-      "roc_5d": -1.402297610700609,
-      "roc_20d": -2.2667735899492114,
-      "rsi_14": 47.32405078793285,
-      "volatility_20d": 2.740865610760484
+      "symbol": "XLE",
+      "category": "Energy Sector",
+      "roc_1d": 0.6854370785891906,
+      "roc_5d": 2.0657248340302248,
+      "roc_20d": 14.156685102633858,
+      "rsi_14": 71.784729515442,
+      "volatility_20d": 1.3866985300104846
     }
   ],
   "top_losers_20d": [
     {
-      "symbol": "AMZN",
-      "category": "AI bubble indicator",
-      "roc_1d": -0.4058116232464992,
-      "roc_5d": -5.4821224800304265,
-      "roc_20d": -16.53791250314889,
-      "rsi_14": 23.086288886881917,
-      "volatility_20d": 2.0600999440319088
+      "symbol": "AXON",
+      "category": "Defense/Industrial Tech",
+      "roc_1d": -1.4088672048038209,
+      "roc_5d": 3.7349108558139443,
+      "roc_20d": -32.567991999019895,
+      "rsi_14": 30.007488338185183,
+      "volatility_20d": 3.797701919212534
     },
     {
-      "symbol": "MSFT",
-      "category": "AI bubble indicator",
-      "roc_1d": -0.1294047382042529,
-      "roc_5d": 0.0448721144737485,
-      "roc_20d": -12.11842508649762,
-      "rsi_14": 32.3755826694818,
-      "volatility_20d": 3.0220525122838025
+      "symbol": "QUBT",
+      "category": "Quantum/Emerging Tech",
+      "roc_1d": 3.4188119779171355,
+      "roc_5d": -10.180275790872074,
+      "roc_20d": -30.45976966495183,
+      "rsi_14": 38.698919204060246,
+      "volatility_20d": 7.26128402004557
     },
     {
-      "symbol": "AMD",
-      "category": "AI bubble indicator",
-      "roc_1d": 0.6700980868213913,
-      "roc_5d": -0.5373248896564986,
-      "roc_20d": -9.038259038259033,
-      "rsi_14": 41.78924651740286,
-      "volatility_20d": 5.3617213865138105
+      "symbol": "IONQ",
+      "category": "Quantum/Emerging Tech",
+      "roc_1d": 8.97764038908937,
+      "roc_5d": -2.51500721892447,
+      "roc_20d": -28.28006807100887,
+      "rsi_14": 38.09665881275038,
+      "volatility_20d": 6.788996494951172
     },
     {
-      "symbol": "GOOGL",
-      "category": "AI bubble indicator",
-      "roc_1d": -1.0614886731391548,
-      "roc_5d": -5.308802576968342,
-      "roc_20d": -8.131498287156669,
-      "rsi_14": 32.24593186946336,
-      "volatility_20d": 1.3931866472820023
+      "symbol": "ETH-USD",
+      "category": "Crypto indicator",
+      "roc_1d": 0.8883692172158675,
+      "roc_5d": -1.7513958858723644,
+      "roc_20d": -26.60520224839118,
+      "rsi_14": 35.56662716088084,
+      "volatility_20d": 6.079874614346702
     },
     {
-      "symbol": "NQ=F",
-      "category": "Market bull/bear indicator",
-      "roc_1d": 0.14232073643409837,
-      "roc_5d": -1.4306578045363727,
-      "roc_20d": -3.5108876418700086,
-      "rsi_14": 40.02426631320423,
-      "volatility_20d": 1.1950309736990303
+      "symbol": "PLTR",
+      "category": "AI bubble indicator",
+      "roc_1d": 1.7656614985541275,
+      "roc_5d": -3.303892888909943,
+      "roc_20d": -25.786413154942156,
+      "rsi_14": 33.40863646965721,
+      "volatility_20d": 4.305190886456118
     }
   ],
   "most_overbought": [
     {
-      "symbol": "^VIX",
-      "category": "Market volatility indicator",
-      "roc_1d": -1.056672990293961,
-      "roc_5d": 1.1291091446267387,
-      "roc_20d": 30.050506205987393,
-      "rsi_14": 59.62777562706269,
-      "volatility_20d": 10.293415396025974
+      "symbol": "SCHD",
+      "category": "Dividend Growth",
+      "roc_1d": 0.861520282224304,
+      "roc_5d": 0.4448722594590615,
+      "roc_20d": 8.887357432591859,
+      "rsi_14": 78.15430936100262,
+      "volatility_20d": 0.8556716738400084
     },
     {
-      "symbol": "SOXX",
-      "category": "AI bubble indicator",
-      "roc_1d": 0.8990042674253296,
-      "roc_5d": 1.7646552466213494,
-      "roc_20d": 5.171698001304792,
-      "rsi_14": 58.16660310674923,
-      "volatility_20d": 2.452883406138774
+      "symbol": "HWM",
+      "category": "Defense/Industrial Tech",
+      "roc_1d": 2.2141482807260804,
+      "roc_5d": 12.121349080417975,
+      "roc_20d": 11.635298995349475,
+      "rsi_14": 77.00246785788761,
+      "volatility_20d": 2.588904415935407
     },
     {
-      "symbol": "INTC",
-      "category": "AI bubble indicator",
-      "roc_1d": 0.6669535283993167,
-      "roc_5d": -7.511365882585497,
-      "roc_20d": -3.16639072847682,
-      "rsi_14": 50.66058244705991,
-      "volatility_20d": 6.261006742701221
+      "symbol": "SPLV",
+      "category": "Low Volatility/Defensive",
+      "roc_1d": 0.8777709951920398,
+      "roc_5d": 1.322465743651935,
+      "roc_20d": 4.024752544139942,
+      "rsi_14": 74.37620825657426,
+      "volatility_20d": 0.4781478132188052
     },
     {
-      "symbol": "NVDA",
-      "category": "AI bubble indicator",
-      "roc_1d": -2.209265004814376,
-      "roc_5d": -1.402297610700609,
-      "roc_20d": -2.2667735899492114,
-      "rsi_14": 47.32405078793285,
-      "volatility_20d": 2.740865610760484
+      "symbol": "XLE",
+      "category": "Energy Sector",
+      "roc_1d": 0.6854370785891906,
+      "roc_5d": 2.0657248340302248,
+      "roc_20d": 14.156685102633858,
+      "rsi_14": 71.784729515442,
+      "volatility_20d": 1.3866985300104846
     },
     {
-      "symbol": "SPY",
-      "category": "Market bull/bear indicator",
-      "roc_1d": 0.07045664714431243,
-      "roc_5d": -1.284353189887344,
-      "roc_20d": -1.5153703917716421,
-      "rsi_14": 43.77687679917716,
-      "volatility_20d": 0.8981973301357002
+      "symbol": "FENY",
+      "category": "Energy Sector",
+      "roc_1d": 0.8721913235150591,
+      "roc_5d": 2.070606345242809,
+      "roc_20d": 13.90151564137887,
+      "rsi_14": 71.16055272528172,
+      "volatility_20d": 1.4002165655253618
     }
   ],
   "most_oversold": [
@@ -340,6 +340,24 @@
       "volatility_20d": 2.0600999440319088
     },
     {
+      "symbol": "NFLX",
+      "category": "AI bubble indicator",
+      "roc_1d": 1.3314027525761052,
+      "roc_5d": -6.484178101632077,
+      "roc_20d": -12.69733096840885,
+      "rsi_14": 27.36633621927048,
+      "volatility_20d": 1.878732368578719
+    },
+    {
+      "symbol": "AXON",
+      "category": "Defense/Industrial Tech",
+      "roc_1d": -1.4088672048038209,
+      "roc_5d": 3.7349108558139443,
+      "roc_20d": -32.567991999019895,
+      "rsi_14": 30.007488338185183,
+      "volatility_20d": 3.797701919212534
+    },
+    {
       "symbol": "GOOGL",
       "category": "AI bubble indicator",
       "roc_1d": -1.0614886731391548,
@@ -356,24 +374,6 @@
       "roc_20d": -12.11842508649762,
       "rsi_14": 32.3755826694818,
       "volatility_20d": 3.0220525122838025
-    },
-    {
-      "symbol": "NQ=F",
-      "category": "Market bull/bear indicator",
-      "roc_1d": 0.14232073643409837,
-      "roc_5d": -1.4306578045363727,
-      "roc_20d": -3.5108876418700086,
-      "rsi_14": 40.02426631320423,
-      "volatility_20d": 1.1950309736990303
-    },
-    {
-      "symbol": "QQQ",
-      "category": "Market bull/bear indicator",
-      "roc_1d": 0.21310602024506853,
-      "roc_5d": -1.2679406216681732,
-      "roc_20d": -3.1940557753546317,
-      "rsi_14": 40.82465084569051,
-      "volatility_20d": 1.1898668889934194
     }
   ],
   "highest_volatility": [
@@ -387,6 +387,24 @@
       "volatility_20d": 10.293415396025974
     },
     {
+      "symbol": "QUBT",
+      "category": "Quantum/Emerging Tech",
+      "roc_1d": 3.4188119779171355,
+      "roc_5d": -10.180275790872074,
+      "roc_20d": -30.45976966495183,
+      "rsi_14": 38.698919204060246,
+      "volatility_20d": 7.26128402004557
+    },
+    {
+      "symbol": "IONQ",
+      "category": "Quantum/Emerging Tech",
+      "roc_1d": 8.97764038908937,
+      "roc_5d": -2.51500721892447,
+      "roc_20d": -28.28006807100887,
+      "rsi_14": 38.09665881275038,
+      "volatility_20d": 6.788996494951172
+    },
+    {
       "symbol": "INTC",
       "category": "AI bubble indicator",
       "roc_1d": 0.6669535283993167,
@@ -396,31 +414,13 @@
       "volatility_20d": 6.261006742701221
     },
     {
-      "symbol": "AMD",
-      "category": "AI bubble indicator",
-      "roc_1d": 0.6700980868213913,
-      "roc_5d": -0.5373248896564986,
-      "roc_20d": -9.038259038259033,
-      "rsi_14": 41.78924651740286,
-      "volatility_20d": 5.3617213865138105
-    },
-    {
-      "symbol": "META",
-      "category": "AI bubble indicator",
-      "roc_1d": -1.5450670195903404,
-      "roc_5d": -3.2791098479121983,
-      "roc_20d": 3.0557345360824772,
-      "rsi_14": 42.730651179515945,
-      "volatility_20d": 3.2493282599576685
-    },
-    {
-      "symbol": "MSFT",
-      "category": "AI bubble indicator",
-      "roc_1d": -0.1294047382042529,
-      "roc_5d": 0.0448721144737485,
-      "roc_20d": -12.11842508649762,
-      "rsi_14": 32.3755826694818,
-      "volatility_20d": 3.0220525122838025
+      "symbol": "ETH-USD",
+      "category": "Crypto indicator",
+      "roc_1d": 0.8883692172158675,
+      "roc_5d": -1.7513958858723644,
+      "roc_20d": -26.60520224839118,
+      "rsi_14": 35.56662716088084,
+      "volatility_20d": 6.079874614346702
     }
   ]
 }
