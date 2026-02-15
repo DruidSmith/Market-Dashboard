@@ -196,7 +196,7 @@ def display_comprehensive_indicators(symbol):
     # Get latest data point
     latest = tech_data['data'][-1]
     
-    # === YIELDS SECTION ===
+    # === PERFORMANCE SECTION ===
     st.markdown("### 📈 Performance")
     col1, col2, col3 = st.columns(3)
     
@@ -285,67 +285,238 @@ def display_comprehensive_indicators(symbol):
     
     # === FUNDAMENTALS ===
     if fund_data:
-        st.markdown("### 💼 Fundamental Metrics")
+        st.markdown("### 💼 Fundamental Analysis")
         
+        # Valuation Metrics
+        st.markdown("#### 📊 Valuation")
         valuation = fund_data.get('valuation', {})
         
-        fund_html = '<div class="indicator-row">'
+        col1, col2, col3, col4 = st.columns(4)
         
-        # Forward PE
-        fwd_pe = valuation.get('forward_pe')
-        if fwd_pe:
-            fund_html += f'<span class="indicator-badge neutral">Forward PE: {fwd_pe:.2f}</span>'
-        else:
-            fund_html += '<span class="indicator-badge neutral">Forward PE: N/A</span>'
-        
-        # Trailing PE
-        trail_pe = valuation.get('trailing_pe')
-        if trail_pe:
-            fund_html += f'<span class="indicator-badge neutral">Trailing PE: {trail_pe:.2f}</span>'
-        else:
-            fund_html += '<span class="indicator-badge neutral">Trailing PE: N/A</span>'
-        
-        # PEG Ratio
-        peg = valuation.get('peg_ratio')
-        if peg:
-            if peg < 1:
-                peg_badge = f'<span class="indicator-badge bullish">PEG: {peg:.2f} (Undervalued)</span>'
-            elif peg > 2:
-                peg_badge = f'<span class="indicator-badge bearish">PEG: {peg:.2f} (Overvalued)</span>'
+        with col1:
+            fwd_pe = valuation.get('forward_pe')
+            if fwd_pe:
+                st.metric("Forward PE", f"{fwd_pe:.2f}")
             else:
-                peg_badge = f'<span class="indicator-badge neutral">PEG: {peg:.2f}</span>'
-            fund_html += peg_badge
+                st.metric("Forward PE", "N/A")
         
-        # Price to Book
-        pb = valuation.get('price_to_book')
-        if pb:
-            fund_html += f'<span class="indicator-badge neutral">P/B: {pb:.2f}</span>'
+        with col2:
+            trail_pe = valuation.get('trailing_pe')
+            if trail_pe:
+                st.metric("Trailing PE", f"{trail_pe:.2f}")
+            else:
+                st.metric("Trailing PE", "N/A")
         
-        fund_html += '</div>'
-        st.markdown(fund_html, unsafe_allow_html=True)
-        
-        # Profitability
-        profitability = fund_data.get('profitability', {})
-        if any(profitability.values()):
-            st.markdown("**Profitability:**")
-            prof_html = '<div class="indicator-row">'
-            
-            if profitability.get('profit_margin'):
-                margin = profitability['profit_margin'] * 100
-                prof_html += f'<span class="indicator-badge neutral">Profit Margin: {margin:.1f}%</span>'
-            
-            if profitability.get('roe'):
-                roe = profitability['roe'] * 100
-                if roe > 15:
-                    prof_html += f'<span class="indicator-badge bullish">ROE: {roe:.1f}%</span>'
-                elif roe < 5:
-                    prof_html += f'<span class="indicator-badge bearish">ROE: {roe:.1f}%</span>'
+        with col3:
+            peg = valuation.get('peg_ratio')
+            if peg:
+                if peg < 1:
+                    st.metric("PEG Ratio", f"{peg:.2f}", delta="Undervalued", delta_color="normal")
+                elif peg > 2:
+                    st.metric("PEG Ratio", f"{peg:.2f}", delta="Overvalued", delta_color="inverse")
                 else:
-                    prof_html += f'<span class="indicator-badge neutral">ROE: {roe:.1f}%</span>'
+                    st.metric("PEG Ratio", f"{peg:.2f}")
+            else:
+                st.metric("PEG Ratio", "N/A")
+        
+        with col4:
+            ev_ebitda = valuation.get('ev_to_ebitda')
+            if ev_ebitda:
+                st.metric("EV/EBITDA", f"{ev_ebitda:.2f}")
+            else:
+                st.metric("EV/EBITDA", "N/A")
+        
+        st.divider()
+        
+        # Profitability Metrics
+        st.markdown("#### 💰 Profitability")
+        profitability = fund_data.get('profitability', {})
+        
+        col1, col2, col3, col4 = st.columns(4)
+        
+        with col1:
+            gross_margin = profitability.get('gross_margin')
+            if gross_margin:
+                st.metric("Gross Margin", f"{gross_margin * 100:.1f}%")
+            else:
+                st.metric("Gross Margin", "N/A")
+        
+        with col2:
+            profit_margin = profitability.get('profit_margin')
+            if profit_margin:
+                st.metric("Profit Margin", f"{profit_margin * 100:.1f}%")
+            else:
+                st.metric("Profit Margin", "N/A")
+        
+        with col3:
+            roe = profitability.get('roe')
+            if roe:
+                roe_pct = roe * 100
+                if roe_pct > 15:
+                    st.metric("ROE", f"{roe_pct:.1f}%", delta="Strong", delta_color="normal")
+                elif roe_pct < 5:
+                    st.metric("ROE", f"{roe_pct:.1f}%", delta="Weak", delta_color="inverse")
+                else:
+                    st.metric("ROE", f"{roe_pct:.1f}%")
+            else:
+                st.metric("ROE", "N/A")
+        
+        with col4:
+            roic = profitability.get('roic')
+            if roic:
+                if roic > 15:
+                    st.metric("ROIC", f"{roic:.1f}%", delta="Strong", delta_color="normal")
+                elif roic < 5:
+                    st.metric("ROIC", f"{roic:.1f}%", delta="Weak", delta_color="inverse")
+                else:
+                    st.metric("ROIC", f"{roic:.1f}%")
+            else:
+                st.metric("ROIC", "N/A")
+        
+        st.divider()
+        
+        # Cash Flow & CapEx
+        st.markdown("#### 💵 Cash Flow & Capital Expenditure")
+        cash_flow = fund_data.get('cash_flow', {})
+        
+        col1, col2, col3, col4 = st.columns(4)
+        
+        with col1:
+            fcf = cash_flow.get('free_cashflow')
+            if fcf:
+                fcf_billions = fcf / 1e9
+                st.metric("Free Cash Flow", f"${fcf_billions:.2f}B")
+            else:
+                st.metric("Free Cash Flow", "N/A")
+        
+        with col2:
+            fcf_margin = cash_flow.get('fcf_margin')
+            if fcf_margin:
+                st.metric("FCF Margin", f"{fcf_margin:.1f}%")
+            else:
+                st.metric("FCF Margin", "N/A")
+        
+        with col3:
+            capex = cash_flow.get('capex')
+            if capex:
+                capex_billions = capex / 1e9
+                st.metric("CapEx", f"${capex_billions:.2f}B")
+            else:
+                st.metric("CapEx", "N/A")
+        
+        with col4:
+            capex_pct = cash_flow.get('capex_as_pct_revenue')
+            if capex_pct:
+                st.metric("CapEx % Revenue", f"{capex_pct:.1f}%")
+            else:
+                st.metric("CapEx % Revenue", "N/A")
+        
+        # CapEx Trend Indicator
+        capex_trend = cash_flow.get('capex_trend')
+        capex_cagr = cash_flow.get('capex_3yr_cagr')
+        
+        if capex_trend or capex_cagr:
+            st.markdown("**CapEx Trend:**")
+            trend_html = '<div class="indicator-row">'
             
-            prof_html += '</div>'
-            st.markdown(prof_html, unsafe_allow_html=True)
-
+            if capex_trend == 'increasing':
+                trend_html += '<span class="indicator-badge bearish">📈 Increasing CapEx (potential concern for AI bubble)</span>'
+            elif capex_trend == 'decreasing':
+                trend_html += '<span class="indicator-badge bullish">📉 Decreasing CapEx (positive signal)</span>'
+            else:
+                trend_html += '<span class="indicator-badge neutral">➡️ Stable CapEx</span>'
+            
+            if capex_cagr:
+                if capex_cagr > 20:
+                    trend_html += f'<span class="indicator-badge bearish">3Y CAGR: +{capex_cagr:.1f}%</span>'
+                elif capex_cagr < -10:
+                    trend_html += f'<span class="indicator-badge bullish">3Y CAGR: {capex_cagr:.1f}%</span>'
+                else:
+                    trend_html += f'<span class="indicator-badge neutral">3Y CAGR: {capex_cagr:.1f}%</span>'
+            
+            trend_html += '</div>'
+            st.markdown(trend_html, unsafe_allow_html=True)
+        
+        st.divider()
+        
+        # Financial Health
+        st.markdown("#### 🏥 Financial Health")
+        financial_health = fund_data.get('financial_health', {})
+        
+        col1, col2, col3, col4 = st.columns(4)
+        
+        with col1:
+            debt_to_equity = financial_health.get('debt_to_equity')
+            if debt_to_equity:
+                if debt_to_equity < 50:
+                    st.metric("Debt/Equity", f"{debt_to_equity:.1f}", delta="Low", delta_color="normal")
+                elif debt_to_equity > 150:
+                    st.metric("Debt/Equity", f"{debt_to_equity:.1f}", delta="High", delta_color="inverse")
+                else:
+                    st.metric("Debt/Equity", f"{debt_to_equity:.1f}")
+            else:
+                st.metric("Debt/Equity", "N/A")
+        
+        with col2:
+            current_ratio = financial_health.get('current_ratio')
+            if current_ratio:
+                if current_ratio > 2:
+                    st.metric("Current Ratio", f"{current_ratio:.2f}", delta="Strong", delta_color="normal")
+                elif current_ratio < 1:
+                    st.metric("Current Ratio", f"{current_ratio:.2f}", delta="Weak", delta_color="inverse")
+                else:
+                    st.metric("Current Ratio", f"{current_ratio:.2f}")
+            else:
+                st.metric("Current Ratio", "N/A")
+        
+        with col3:
+            interest_coverage = financial_health.get('interest_coverage')
+            if interest_coverage:
+                if interest_coverage > 5:
+                    st.metric("Interest Coverage", f"{interest_coverage:.1f}x", delta="Safe", delta_color="normal")
+                elif interest_coverage < 2:
+                    st.metric("Interest Coverage", f"{interest_coverage:.1f}x", delta="Risk", delta_color="inverse")
+                else:
+                    st.metric("Interest Coverage", f"{interest_coverage:.1f}x")
+            else:
+                st.metric("Interest Coverage", "N/A")
+        
+        with col4:
+            total_cash = financial_health.get('total_cash')
+            if total_cash:
+                cash_billions = total_cash / 1e9
+                st.metric("Total Cash", f"${cash_billions:.2f}B")
+            else:
+                st.metric("Total Cash", "N/A")
+        
+        st.divider()
+        
+        # Growth Metrics
+        st.markdown("#### 📈 Growth")
+        growth = fund_data.get('growth', {})
+        
+        col1, col2, col3 = st.columns(3)
+        
+        with col1:
+            revenue_growth = growth.get('revenue_growth')
+            if revenue_growth:
+                st.metric("Revenue Growth", f"{revenue_growth * 100:.1f}%")
+            else:
+                st.metric("Revenue Growth", "N/A")
+        
+        with col2:
+            earnings_growth = growth.get('earnings_growth')
+            if earnings_growth:
+                st.metric("Earnings Growth", f"{earnings_growth * 100:.1f}%")
+            else:
+                st.metric("Earnings Growth", "N/A")
+        
+        with col3:
+            qtr_growth = growth.get('earnings_quarterly_growth')
+            if qtr_growth:
+                st.metric("Quarterly Growth", f"{qtr_growth * 100:.1f}%")
+            else:
+                st.metric("Quarterly Growth", "N/A")
 
 def create_price_chart(symbol_data):
     """Create comprehensive price chart."""

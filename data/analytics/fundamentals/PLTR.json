@@ -1,6 +1,6 @@
 {
   "symbol": "PLTR",
-  "last_updated": "2026-02-15T01:37:34.153866Z",
+  "last_updated": "2026-02-15T16:41:17.420164Z",
   "valuation": {
     "forward_pe": 71.90029,
     "trailing_pe": 208.58731,
@@ -9,13 +9,16 @@
     "price_to_sales": 69.9835,
     "enterprise_value": 306816090112,
     "ev_to_revenue": 68.555,
-    "ev_to_ebitda": 213.043
+    "ev_to_ebitda": 213.043,
+    "market_cap": 313207357440
   },
   "profitability": {
     "profit_margin": 0.36310002,
     "operating_margin": 0.40901002,
+    "gross_margin": 0.82366997,
     "roe": 0.25983,
-    "roa": 0.11597
+    "roa": 0.11597,
+    "roic": null
   },
   "growth": {
     "revenue_growth": 0.7,
@@ -28,12 +31,21 @@
     "debt_to_equity": 3.063,
     "total_cash": 7177042944,
     "total_debt": 229338000,
-    "free_cashflow": 1260918400
+    "interest_coverage": null
+  },
+  "cash_flow": {
+    "operating_cashflow": 2134472960,
+    "free_cashflow": 1260918400,
+    "fcf_margin": 28.17414102679238,
+    "capex": 12634000.0,
+    "capex_as_pct_revenue": 0.4408992893753182,
+    "capex_trend": "decreasing",
+    "capex_3yr_cagr": -43.8184242778753
   },
   "company_info": {
-    "market_cap": 313207357440,
     "sector": "Technology",
     "industry": "Software - Infrastructure",
-    "full_time_employees": null
+    "full_time_employees": null,
+    "beta": 1.687
   }
 }

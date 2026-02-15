@@ -1,6 +1,6 @@
 {
   "symbol": "INTC",
-  "last_updated": "2026-02-15T01:37:31.963619Z",
+  "last_updated": "2026-02-15T16:41:09.459114Z",
   "valuation": {
     "forward_pe": 47.20636,
     "trailing_pe": null,
@@ -9,13 +9,16 @@
     "price_to_sales": 4.42216,
     "enterprise_value": 255488049152,
     "ev_to_revenue": 4.834,
-    "ev_to_ebitda": 20.224
+    "ev_to_ebitda": 20.224,
+    "market_cap": 233724411904
   },
   "profitability": {
     "profit_margin": -0.00505,
     "operating_margin": 0.051409997,
+    "gross_margin": 0.36563998,
     "roe": 0.00022,
-    "roa": 0.0028400002
+    "roa": 0.0028400002,
+    "roic": null
   },
   "growth": {
     "revenue_growth": -0.041,
@@ -28,12 +31,21 @@
     "debt_to_equity": 37.282,
     "total_cash": 37416001536,
     "total_debt": 47109001216,
-    "free_cashflow": -4504500224
+    "interest_coverage": null
+  },
+  "cash_flow": {
+    "operating_cashflow": 9697000448,
+    "free_cashflow": -4504500224,
+    "fcf_margin": -8.522695745144519,
+    "capex": 14646000000.0,
+    "capex_as_pct_revenue": 27.71082057782907,
+    "capex_trend": "decreasing",
+    "capex_3yr_cagr": -24.58271424738715
   },
   "company_info": {
-    "market_cap": 233724411904,
     "sector": "Technology",
     "industry": "Semiconductors",
-    "full_time_employees": 85100
+    "full_time_employees": 85100,
+    "beta": 1.377
   }
 }

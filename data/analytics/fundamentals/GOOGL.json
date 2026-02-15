@@ -1,6 +1,6 @@
 {
   "symbol": "GOOGL",
-  "last_updated": "2026-02-15T01:37:31.626115Z",
+  "last_updated": "2026-02-15T16:41:08.209617Z",
   "valuation": {
     "forward_pe": 22.893396,
     "trailing_pe": 28.255085,
@@ -9,13 +9,16 @@
     "price_to_sales": 9.180647,
     "enterprise_value": 3638447833088,
     "ev_to_revenue": 9.032,
-    "ev_to_ebitda": 24.228
+    "ev_to_ebitda": 24.228,
+    "market_cap": 3698295046144
   },
   "profitability": {
     "profit_margin": 0.32810003,
     "operating_margin": 0.31568,
+    "gross_margin": 0.59652,
     "roe": 0.35705003,
-    "roa": 0.15427
+    "roa": 0.15427,
+    "roic": null
   },
   "growth": {
     "revenue_growth": 0.18,
@@ -28,12 +31,21 @@
     "debt_to_equity": 16.133,
     "total_cash": 126843002880,
     "total_debt": 66995998720,
-    "free_cashflow": 38088376320
+    "interest_coverage": null
+  },
+  "cash_flow": {
+    "operating_cashflow": 164713005056,
+    "free_cashflow": 38088376320,
+    "fcf_margin": 9.455057798872078,
+    "capex": 91447000000.0,
+    "capex_as_pct_revenue": 22.700801318650765,
+    "capex_trend": "increasing",
+    "capex_3yr_cagr": 68.38877544763365
   },
   "company_info": {
-    "market_cap": 3698295046144,
     "sector": "Communication Services",
     "industry": "Internet Content & Information",
-    "full_time_employees": 190820
+    "full_time_employees": 190820,
+    "beta": 1.086
   }
 }

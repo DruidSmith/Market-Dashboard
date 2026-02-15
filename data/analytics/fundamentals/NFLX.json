@@ -1,6 +1,6 @@
 {
   "symbol": "NFLX",
-  "last_updated": "2026-02-15T01:37:33.572322Z",
+  "last_updated": "2026-02-15T16:41:15.620339Z",
   "valuation": {
     "forward_pe": 20.126831,
     "trailing_pe": 30.3834,
@@ -9,13 +9,16 @@
     "price_to_sales": 7.2167363,
     "enterprise_value": 332471074816,
     "ev_to_revenue": 7.358,
-    "ev_to_ebitda": 24.339
+    "ev_to_ebitda": 24.339,
+    "market_cap": 326074073088
   },
   "profitability": {
     "profit_margin": 0.24304001,
     "operating_margin": 0.24535,
+    "gross_margin": 0.48487,
     "roe": 0.42762002,
-    "roa": 0.15251
+    "roa": 0.15251,
+    "roic": null
   },
   "growth": {
     "revenue_growth": 0.176,
@@ -28,12 +31,21 @@
     "debt_to_equity": 63.782,
     "total_cash": 9062359040,
     "total_debt": 16975837184,
-    "free_cashflow": 24817524736
+    "interest_coverage": null
+  },
+  "cash_flow": {
+    "operating_cashflow": 10149272576,
+    "free_cashflow": 24817524736,
+    "fcf_margin": 54.926640930141055,
+    "capex": 688220000.0,
+    "capex_as_pct_revenue": 1.523182284607878,
+    "capex_trend": "increasing",
+    "capex_3yr_cagr": 40.51731900710407
   },
   "company_info": {
-    "market_cap": 326074073088,
     "sector": "Communication Services",
     "industry": "Entertainment",
-    "full_time_employees": 16000
+    "full_time_employees": 16000,
+    "beta": 1.712
   }
 }

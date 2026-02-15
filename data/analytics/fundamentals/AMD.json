@@ -1,6 +1,6 @@
 {
   "symbol": "AMD",
-  "last_updated": "2026-02-15T01:37:29.300825Z",
+  "last_updated": "2026-02-15T16:41:01.222801Z",
   "valuation": {
     "forward_pe": 19.458391,
     "trailing_pe": 79.43295,
@@ -9,13 +9,16 @@
     "price_to_sales": 9.758272,
     "enterprise_value": 331470766080,
     "ev_to_revenue": 9.569,
-    "ev_to_ebitda": 49.143
+    "ev_to_ebitda": 49.143,
+    "market_cap": 338016796672
   },
   "profitability": {
     "profit_margin": 0.12515001,
     "operating_margin": 0.17059,
+    "gross_margin": 0.52493,
     "roe": 0.07082,
-    "roa": 0.032
+    "roa": 0.032,
+    "roic": null
   },
   "growth": {
     "revenue_growth": 0.341,
@@ -28,12 +31,21 @@
     "debt_to_equity": 6.359,
     "total_cash": 10552000512,
     "total_debt": 4006000128,
-    "free_cashflow": 4587250176
+    "interest_coverage": null
+  },
+  "cash_flow": {
+    "operating_cashflow": 7709000192,
+    "free_cashflow": 4587250176,
+    "fcf_margin": 13.24302155180212,
+    "capex": 974000000.0,
+    "capex_as_pct_revenue": 2.811859464765149,
+    "capex_trend": "increasing",
+    "capex_3yr_cagr": 33.56207485221185
   },
   "company_info": {
-    "market_cap": 338016796672,
     "sector": "Technology",
     "industry": "Semiconductors",
-    "full_time_employees": 31000
+    "full_time_employees": 31000,
+    "beta": 1.949
   }
 }

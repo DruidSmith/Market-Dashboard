@@ -1,6 +1,6 @@
 {
   "symbol": "MSFT",
-  "last_updated": "2026-02-15T01:37:33.265677Z",
+  "last_updated": "2026-02-15T16:41:14.289732Z",
   "valuation": {
     "forward_pe": 21.29065,
     "trailing_pe": 25.129618,
@@ -9,13 +9,16 @@
     "price_to_sales": 9.765044,
     "enterprise_value": 3013869568000,
     "ev_to_revenue": 9.867,
-    "ev_to_ebitda": 17.197
+    "ev_to_ebitda": 17.197,
+    "market_cap": 2982761988096
   },
   "profitability": {
     "profit_margin": 0.39044,
     "operating_margin": 0.47094002,
+    "gross_margin": 0.68586,
     "roe": 0.34390998,
-    "roa": 0.1486
+    "roa": 0.1486,
+    "roic": null
   },
   "growth": {
     "revenue_growth": 0.167,
@@ -28,12 +31,21 @@
     "debt_to_equity": 31.539,
     "total_cash": 89461997568,
     "total_debt": 123278000128,
-    "free_cashflow": 53640626176
+    "interest_coverage": null
+  },
+  "cash_flow": {
+    "operating_cashflow": 160506003456,
+    "free_cashflow": 53640626176,
+    "fcf_margin": 17.561007740445238,
+    "capex": 64551000000.0,
+    "capex_as_pct_revenue": 22.912850875324786,
+    "capex_trend": "increasing",
+    "capex_3yr_cagr": 51.54591717454655
   },
   "company_info": {
-    "market_cap": 2982761988096,
     "sector": "Technology",
     "industry": "Software - Infrastructure",
-    "full_time_employees": 228000
+    "full_time_employees": 228000,
+    "beta": 1.084
   }
 }

@@ -1,6 +1,6 @@
 {
   "symbol": "NVDA",
-  "last_updated": "2026-02-15T01:37:33.994721Z",
+  "last_updated": "2026-02-15T16:41:16.790974Z",
   "valuation": {
     "forward_pe": 23.631657,
     "trailing_pe": 45.25,
@@ -9,13 +9,16 @@
     "price_to_sales": 23.783413,
     "enterprise_value": 4392496922624,
     "ev_to_revenue": 23.471,
-    "ev_to_ebitda": 38.977
+    "ev_to_ebitda": 38.977,
+    "market_cap": 4450875342848
   },
   "profitability": {
     "profit_margin": 0.53007,
     "operating_margin": 0.63168997,
+    "gross_margin": 0.7005,
     "roe": 1.07359,
-    "roa": 0.53528
+    "roa": 0.53528,
+    "roic": null
   },
   "growth": {
     "revenue_growth": 0.625,
@@ -28,12 +31,21 @@
     "debt_to_equity": 9.102,
     "total_cash": 60608000000,
     "total_debt": 10821999616,
-    "free_cashflow": 53282873344
+    "interest_coverage": null
+  },
+  "cash_flow": {
+    "operating_cashflow": 83158999040,
+    "free_cashflow": 53282873344,
+    "fcf_margin": 28.47189531371296,
+    "capex": 3236000000.0,
+    "capex_as_pct_revenue": 2.479750492348483,
+    "capex_trend": "increasing",
+    "capex_3yr_cagr": 32.86880345180607
   },
   "company_info": {
-    "market_cap": 4450875342848,
     "sector": "Technology",
     "industry": "Semiconductors",
-    "full_time_employees": 36000
+    "full_time_employees": 36000,
+    "beta": 2.314
   }
 }

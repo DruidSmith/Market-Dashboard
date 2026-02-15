@@ -1,39 +1,51 @@
 {
   "symbol": "HWM",
-  "last_updated": "2026-02-15T01:37:31.793482Z",
+  "last_updated": "2026-02-15T16:41:08.814003Z",
   "valuation": {
     "forward_pe": 46.316315,
     "trailing_pe": 67.62433,
     "peg_ratio": null,
-    "price_to_book": 18.790178,
+    "price_to_book": 18.77185,
     "price_to_sales": 12.204257,
-    "enterprise_value": 102892421120,
-    "ev_to_revenue": 12.469,
-    "ev_to_ebitda": 42.641
+    "enterprise_value": 102790209536,
+    "ev_to_revenue": 12.456,
+    "ev_to_ebitda": 43.044,
+    "market_cap": 100709531648
   },
   "profitability": {
     "profit_margin": 0.18274,
-    "operating_margin": 0.26614,
+    "operating_margin": 0.26338,
+    "gross_margin": 0.34174,
     "roe": 0.30443,
-    "roa": 0.12271
+    "roa": 0.12127,
+    "roic": null
   },
   "growth": {
     "revenue_growth": 0.146,
-    "earnings_growth": 0.197,
+    "earnings_growth": 0.203,
     "earnings_quarterly_growth": 0.185
   },
   "financial_health": {
     "current_ratio": 2.134,
     "quick_ratio": 0.868,
-    "debt_to_equity": 56.977,
+    "debt_to_equity": 60.022,
     "total_cash": 742000000,
-    "total_debt": 3049999872,
-    "free_cashflow": 974875008
+    "total_debt": 3212999936,
+    "interest_coverage": null
+  },
+  "cash_flow": {
+    "operating_cashflow": 1884000000,
+    "free_cashflow": 917249984,
+    "fcf_margin": 11.11548661590347,
+    "capex": 453000000.0,
+    "capex_as_pct_revenue": 5.489578284052351,
+    "capex_trend": "increasing",
+    "capex_3yr_cagr": 43.822569532216725
   },
   "company_info": {
-    "market_cap": 100709531648,
     "sector": "Industrials",
     "industry": "Aerospace & Defense",
-    "full_time_employees": null
+    "full_time_employees": 25430,
+    "beta": 1.248
   }
 }

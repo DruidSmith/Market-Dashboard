@@ -1,6 +1,6 @@
 {
   "symbol": "AXON",
-  "last_updated": "2026-02-15T01:37:30.015469Z",
+  "last_updated": "2026-02-15T16:41:03.844796Z",
   "valuation": {
     "forward_pe": 56.760853,
     "trailing_pe": 135.11635,
@@ -9,13 +9,16 @@
     "price_to_sales": 13.343387,
     "enterprise_value": 33559758848,
     "ev_to_revenue": 13.12,
-    "ev_to_ebitda": 471.352
+    "ev_to_ebitda": 471.352,
+    "market_cap": 34131810304
   },
   "profitability": {
     "profit_margin": 0.100509994,
     "operating_margin": -0.00229,
+    "gross_margin": 0.60357,
     "roe": 0.10028,
-    "roa": -0.00032000002
+    "roa": -0.00032000002,
+    "roic": null
   },
   "growth": {
     "revenue_growth": 0.306,
@@ -28,12 +31,21 @@
     "debt_to_equity": 69.33,
     "total_cash": 2444836096,
     "total_debt": 2099134976,
-    "free_cashflow": 248673872
+    "interest_coverage": null
+  },
+  "cash_flow": {
+    "operating_cashflow": 244270000,
+    "free_cashflow": 248673872,
+    "fcf_margin": 9.721580946595383,
+    "capex": 78785000.0,
+    "capex_as_pct_revenue": 3.783146044755264,
+    "capex_trend": "increasing",
+    "capex_3yr_cagr": 18.822007985622857
   },
   "company_info": {
-    "market_cap": 34131810304,
     "sector": "Industrials",
     "industry": "Aerospace & Defense",
-    "full_time_employees": 4100
+    "full_time_employees": 4100,
+    "beta": 1.483
   }
 }

@@ -1,6 +1,6 @@
 {
   "symbol": "MU",
-  "last_updated": "2026-02-15T01:37:33.425604Z",
+  "last_updated": "2026-02-15T16:41:14.960749Z",
   "valuation": {
     "forward_pe": 9.486722,
     "trailing_pe": 39.056927,
@@ -9,13 +9,16 @@
     "price_to_sales": 10.9502535,
     "enterprise_value": 465502142464,
     "ev_to_revenue": 11.002,
-    "ev_to_ebitda": 20.937
+    "ev_to_ebitda": 20.937,
+    "market_cap": 463327133696
   },
   "profitability": {
     "profit_margin": 0.28146,
     "operating_margin": 0.44974998,
+    "gross_margin": 0.45308998,
     "roe": 0.22554001,
-    "roa": 0.10934
+    "roa": 0.10934,
+    "roic": null
   },
   "growth": {
     "revenue_growth": 0.567,
@@ -28,12 +31,21 @@
     "debt_to_equity": 21.244,
     "total_cash": 10318000128,
     "total_debt": 12492999680,
-    "free_cashflow": 444249984
+    "interest_coverage": null
+  },
+  "cash_flow": {
+    "operating_cashflow": 22691999744,
+    "free_cashflow": 444249984,
+    "fcf_margin": 1.0499385266016383,
+    "capex": 15857000000.0,
+    "capex_as_pct_revenue": 42.423350634062814,
+    "capex_trend": "increasing",
+    "capex_3yr_cagr": 43.728545309698674
   },
   "company_info": {
-    "market_cap": 463327133696,
     "sector": "Technology",
     "industry": "Semiconductors",
-    "full_time_employees": 53000
+    "full_time_employees": 53000,
+    "beta": 1.505
   }
 }

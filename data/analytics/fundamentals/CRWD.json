@@ -1,6 +1,6 @@
 {
   "symbol": "CRWD",
-  "last_updated": "2026-02-15T01:37:30.238767Z",
+  "last_updated": "2026-02-15T16:41:04.527082Z",
   "valuation": {
     "forward_pe": 88.82476,
     "trailing_pe": null,
@@ -9,13 +9,16 @@
     "price_to_sales": 23.725649,
     "enterprise_value": 104371060736,
     "ev_to_revenue": 22.862,
-    "ev_to_ebitda": -1112.413
+    "ev_to_ebitda": -1112.413,
+    "market_cap": 108311576576
   },
   "profitability": {
     "profit_margin": -0.06882,
     "operating_margin": -0.05589,
+    "gross_margin": 0.74277,
     "roe": -0.088149995,
-    "roa": -0.02001
+    "roa": -0.02001,
+    "roic": null
   },
   "growth": {
     "revenue_growth": 0.222,
@@ -28,12 +31,21 @@
     "debt_to_equity": 20.154,
     "total_cash": 4801082880,
     "total_debt": 818046016,
-    "free_cashflow": 1416660352
+    "interest_coverage": null
+  },
+  "cash_flow": {
+    "operating_cashflow": 1460201984,
+    "free_cashflow": 1416660352,
+    "fcf_margin": 31.03194257646408,
+    "capex": 313821000.0,
+    "capex_as_pct_revenue": 7.937552989358624,
+    "capex_trend": "increasing",
+    "capex_3yr_cagr": 8.528483239560082
   },
   "company_info": {
-    "market_cap": 108311576576,
     "sector": "Technology",
     "industry": "Software - Infrastructure",
-    "full_time_employees": 10410
+    "full_time_employees": 10410,
+    "beta": 1.034
   }
 }

@@ -1,6 +1,6 @@
 {
   "symbol": "LRCX",
-  "last_updated": "2026-02-15T01:37:32.617644Z",
+  "last_updated": "2026-02-15T16:41:11.796376Z",
   "valuation": {
     "forward_pe": 34.221874,
     "trailing_pe": 48.264343,
@@ -9,13 +9,16 @@
     "price_to_sales": 14.38838,
     "enterprise_value": 292426350592,
     "ev_to_revenue": 14.223,
-    "ev_to_ebitda": 39.821
+    "ev_to_ebitda": 39.821,
+    "market_cap": 295832748032
   },
   "profitability": {
     "profit_margin": 0.3022,
     "operating_margin": 0.33868998,
+    "gross_margin": 0.49800998,
     "roe": 0.65565,
-    "roa": 0.21047
+    "roa": 0.21047,
+    "roic": null
   },
   "growth": {
     "revenue_growth": 0.221,
@@ -28,12 +31,21 @@
     "debt_to_equity": 44.195,
     "total_cash": 6180440064,
     "total_debt": 4483747840,
-    "free_cashflow": 4816949760
+    "interest_coverage": null
+  },
+  "cash_flow": {
+    "operating_cashflow": 7121860096,
+    "free_cashflow": 4816949760,
+    "fcf_margin": 23.42813837428464,
+    "capex": 759186000.0,
+    "capex_as_pct_revenue": 4.118045361279711,
+    "capex_trend": "increasing",
+    "capex_3yr_cagr": 23.029479034484844
   },
   "company_info": {
-    "market_cap": 295832748032,
     "sector": "Technology",
     "industry": "Semiconductor Equipment & Materials",
-    "full_time_employees": 19700
+    "full_time_employees": 19700,
+    "beta": 1.776
   }
 }

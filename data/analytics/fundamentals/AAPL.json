@@ -1,6 +1,6 @@
 {
   "symbol": "AAPL",
-  "last_updated": "2026-02-15T01:37:29.094380Z",
+  "last_updated": "2026-02-15T16:41:00.570036Z",
   "valuation": {
     "forward_pe": 27.538435,
     "trailing_pe": 32.377216,
@@ -9,13 +9,16 @@
     "price_to_sales": 8.630139,
     "enterprise_value": 3778743894016,
     "ev_to_revenue": 8.674,
-    "ev_to_ebitda": 24.714
+    "ev_to_ebitda": 24.714,
+    "market_cap": 3759435415552
   },
   "profitability": {
     "profit_margin": 0.27037,
     "operating_margin": 0.35374,
+    "gross_margin": 0.47325,
     "roe": 1.5202099,
-    "roa": 0.24377
+    "roa": 0.24377,
+    "roic": null
   },
   "growth": {
     "revenue_growth": 0.157,
@@ -28,12 +31,21 @@
     "debt_to_equity": 102.63,
     "total_cash": 66907000832,
     "total_debt": 90509000704,
-    "free_cashflow": 106312753152
+    "interest_coverage": null
+  },
+  "cash_flow": {
+    "operating_cashflow": 135471996928,
+    "free_cashflow": 106312753152,
+    "fcf_margin": 24.405097090592008,
+    "capex": 12715000000.0,
+    "capex_as_pct_revenue": 3.0553079216937675,
+    "capex_trend": "increasing",
+    "capex_3yr_cagr": 7.7141401096447515
   },
   "company_info": {
-    "market_cap": 3759435415552,
     "sector": "Technology",
     "industry": "Consumer Electronics",
-    "full_time_employees": 150000
+    "full_time_employees": 150000,
+    "beta": 1.107
   }
 }

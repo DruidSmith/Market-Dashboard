@@ -1,6 +1,6 @@
 {
   "symbol": "V",
-  "last_updated": "2026-02-15T01:37:36.082225Z",
+  "last_updated": "2026-02-15T16:41:22.706791Z",
   "valuation": {
     "forward_pe": 21.614746,
     "trailing_pe": 29.49108,
@@ -9,13 +9,16 @@
     "price_to_sales": 14.630201,
     "enterprise_value": 604051406848,
     "ev_to_revenue": 14.594,
-    "ev_to_ebitda": 20.839
+    "ev_to_ebitda": 20.839,
+    "market_cap": 605558669312
   },
   "profitability": {
     "profit_margin": 0.50233,
     "operating_margin": 0.68296,
+    "gross_margin": 0.97777003,
     "roe": 0.53954,
-    "roa": 0.18364
+    "roa": 0.18364,
+    "roic": null
   },
   "growth": {
     "revenue_growth": 0.146,
@@ -28,12 +31,21 @@
     "debt_to_equity": 54.612,
     "total_cash": 16396999680,
     "total_debt": 21176999936,
-    "free_cashflow": 22032250880
+    "interest_coverage": null
+  },
+  "cash_flow": {
+    "operating_cashflow": 24443000832,
+    "free_cashflow": 22032250880,
+    "fcf_margin": 53.22956688247912,
+    "capex": 1482000000.0,
+    "capex_as_pct_revenue": 3.705,
+    "capex_trend": "increasing",
+    "capex_3yr_cagr": 18.297651192322473
   },
   "company_info": {
-    "market_cap": 605558669312,
     "sector": "Financial Services",
     "industry": "Credit Services",
-    "full_time_employees": null
+    "full_time_employees": null,
+    "beta": 0.78
   }
 }

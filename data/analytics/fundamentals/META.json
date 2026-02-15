@@ -1,6 +1,6 @@
 {
   "symbol": "META",
-  "last_updated": "2026-02-15T01:37:32.943929Z",
+  "last_updated": "2026-02-15T16:41:13.153814Z",
   "valuation": {
     "forward_pe": 17.935595,
     "trailing_pe": 27.247446,
@@ -9,13 +9,16 @@
     "price_to_sales": 8.052774,
     "enterprise_value": 1621822668800,
     "ev_to_revenue": 8.07,
-    "ev_to_ebitda": 15.917
+    "ev_to_ebitda": 15.917,
+    "market_cap": 1618333794304
   },
   "profitability": {
     "profit_margin": 0.30084,
     "operating_margin": 0.41314998,
+    "gross_margin": 0.81999,
     "roe": 0.30238,
-    "roa": 0.16212
+    "roa": 0.16212,
+    "roic": null
   },
   "growth": {
     "revenue_growth": 0.238,
@@ -28,12 +31,21 @@
     "debt_to_equity": 39.164,
     "total_cash": 81592000512,
     "total_debt": 85080997888,
-    "free_cashflow": 23432374272
+    "interest_coverage": null
+  },
+  "cash_flow": {
+    "operating_cashflow": 115799998464,
+    "free_cashflow": 23432374272,
+    "fcf_margin": 11.659870164587598,
+    "capex": 69691000000.0,
+    "capex_as_pct_revenue": 34.678005234716316,
+    "capex_trend": "increasing",
+    "capex_3yr_cagr": 60.525804545374925
   },
   "company_info": {
-    "market_cap": 1618333794304,
     "sector": "Communication Services",
     "industry": "Internet Content & Information",
-    "full_time_employees": 78865
+    "full_time_employees": 78865,
+    "beta": 1.284
   }
 }

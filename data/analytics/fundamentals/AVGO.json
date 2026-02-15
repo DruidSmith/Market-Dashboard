@@ -1,6 +1,6 @@
 {
   "symbol": "AVGO",
-  "last_updated": "2026-02-15T01:37:29.832592Z",
+  "last_updated": "2026-02-15T16:41:03.168717Z",
   "valuation": {
     "forward_pe": 22.489994,
     "trailing_pe": 68.0272,
@@ -9,13 +9,16 @@
     "price_to_sales": 24.131983,
     "enterprise_value": 163023863808,
     "ev_to_revenue": 2.552,
-    "ev_to_ebitda": 4.657
+    "ev_to_ebitda": 4.657,
+    "market_cap": 1541719982080
   },
   "profitability": {
     "profit_margin": 0.36198002,
     "operating_margin": 0.31765,
+    "gross_margin": 0.77325994,
     "roe": 0.31048,
-    "roa": 0.09788
+    "roa": 0.09788,
+    "roic": null
   },
   "growth": {
     "revenue_growth": 0.164,
@@ -28,12 +31,21 @@
     "debt_to_equity": 166.032,
     "total_cash": 11105000448,
     "total_debt": 40456998912,
-    "free_cashflow": 25044125696
+    "interest_coverage": null
+  },
+  "cash_flow": {
+    "operating_cashflow": 27537000448,
+    "free_cashflow": 25044125696,
+    "fcf_margin": 39.200660340317995,
+    "capex": 623000000.0,
+    "capex_as_pct_revenue": 0.9751592655782867,
+    "capex_trend": "increasing",
+    "capex_3yr_cagr": 17.401813617626736
   },
   "company_info": {
-    "market_cap": 1541719982080,
     "sector": "Technology",
     "industry": "Semiconductors",
-    "full_time_employees": 33000
+    "full_time_employees": 33000,
+    "beta": 1.221
   }
 }

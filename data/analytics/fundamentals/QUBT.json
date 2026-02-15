@@ -1,6 +1,6 @@
 {
   "symbol": "QUBT",
-  "last_updated": "2026-02-15T01:37:34.704973Z",
+  "last_updated": "2026-02-15T16:41:18.939204Z",
   "valuation": {
     "forward_pe": -47.055553,
     "trailing_pe": null,
@@ -9,13 +9,16 @@
     "price_to_sales": 3476.7844,
     "enterprise_value": 1345336448,
     "ev_to_revenue": 2463.986,
-    "ev_to_ebitda": -40.182
+    "ev_to_ebitda": -40.182,
+    "market_cap": 1898324352
   },
   "profitability": {
     "profit_margin": 0.0,
     "operating_margin": -27.09375,
+    "gross_margin": 0.36446998,
     "roe": -0.1457,
-    "roa": -0.04843
+    "roa": -0.04843,
+    "roic": null
   },
   "growth": {
     "revenue_growth": 2.802,
@@ -28,12 +31,21 @@
     "debt_to_equity": 0.294,
     "total_cash": 555571968,
     "total_debt": 2584000,
-    "free_cashflow": -23226624
+    "interest_coverage": null
+  },
+  "cash_flow": {
+    "operating_cashflow": -23052000,
+    "free_cashflow": -23226624,
+    "fcf_margin": -4253.960439560439,
+    "capex": 6036000.0,
+    "capex_as_pct_revenue": 1618.230563002681,
+    "capex_trend": "increasing",
+    "capex_3yr_cagr": 163.3995260907422
   },
   "company_info": {
-    "market_cap": 1898324352,
     "sector": "Technology",
     "industry": "Computer Hardware",
-    "full_time_employees": 41
+    "full_time_employees": 41,
+    "beta": 3.485
   }
 }

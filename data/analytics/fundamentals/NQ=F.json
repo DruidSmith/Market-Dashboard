@@ -1,6 +1,6 @@
 {
   "symbol": "NQ=F",
-  "last_updated": "2026-02-15T01:37:33.793926Z",
+  "last_updated": "2026-02-15T16:41:16.096937Z",
   "valuation": {
     "forward_pe": null,
     "trailing_pe": null,
@@ -9,13 +9,16 @@
     "price_to_sales": null,
     "enterprise_value": null,
     "ev_to_revenue": null,
-    "ev_to_ebitda": null
+    "ev_to_ebitda": null,
+    "market_cap": null
   },
   "profitability": {
     "profit_margin": null,
     "operating_margin": null,
+    "gross_margin": null,
     "roe": null,
-    "roa": null
+    "roa": null,
+    "roic": null
   },
   "growth": {
     "revenue_growth": null,
@@ -28,12 +31,21 @@
     "debt_to_equity": null,
     "total_cash": null,
     "total_debt": null,
-    "free_cashflow": null
+    "interest_coverage": null
+  },
+  "cash_flow": {
+    "operating_cashflow": null,
+    "free_cashflow": null,
+    "fcf_margin": null,
+    "capex": null,
+    "capex_as_pct_revenue": null,
+    "capex_trend": null,
+    "capex_3yr_cagr": null
   },
   "company_info": {
-    "market_cap": null,
     "sector": null,
     "industry": null,
-    "full_time_employees": null
+    "full_time_employees": null,
+    "beta": null
   }
 }

@@ -1,6 +1,6 @@
 {
   "symbol": "FIX",
-  "last_updated": "2026-02-15T01:37:31.084097Z",
+  "last_updated": "2026-02-15T16:41:06.674891Z",
   "valuation": {
     "forward_pe": 43.226135,
     "trailing_pe": 56.813164,
@@ -9,13 +9,16 @@
     "price_to_sales": 5.6713533,
     "enterprise_value": 46628958208,
     "ev_to_revenue": 5.602,
-    "ev_to_ebitda": 37.256
+    "ev_to_ebitda": 37.256,
+    "market_cap": 47204818944
   },
   "profitability": {
     "profit_margin": 0.10063,
     "operating_margin": 0.15434,
+    "gross_margin": 0.23487,
     "roe": 0.43842,
-    "roa": 0.13645001
+    "roa": 0.13645001,
+    "roic": null
   },
   "growth": {
     "revenue_growth": 0.352,
@@ -28,12 +31,21 @@
     "debt_to_equity": 18.973,
     "total_cash": 881184000,
     "total_debt": 423735008,
-    "free_cashflow": 622054272
+    "interest_coverage": null
+  },
+  "cash_flow": {
+    "operating_cashflow": 928278976,
+    "free_cashflow": 622054272,
+    "fcf_margin": 7.473579342984308,
+    "capex": 111071000.0,
+    "capex_as_pct_revenue": 1.5805247858548361,
+    "capex_trend": "increasing",
+    "capex_3yr_cagr": 51.55200457662366
   },
   "company_info": {
-    "market_cap": 47204818944,
     "sector": "Industrials",
     "industry": "Engineering & Construction",
-    "full_time_employees": 18300
+    "full_time_employees": 18300,
+    "beta": 1.668
   }
 }

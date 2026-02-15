@@ -1,6 +1,6 @@
 {
   "symbol": "JPM",
-  "last_updated": "2026-02-15T01:37:32.456205Z",
+  "last_updated": "2026-02-15T16:41:11.045864Z",
   "valuation": {
     "forward_pe": 13.085705,
     "trailing_pe": 15.104841,
@@ -9,13 +9,16 @@
     "price_to_sales": 4.895654,
     "enterprise_value": 369801297920,
     "ev_to_revenue": 2.198,
-    "ev_to_ebitda": null
+    "ev_to_ebitda": null,
+    "market_cap": 823620403200
   },
   "profitability": {
     "profit_margin": 0.3391,
     "operating_margin": 0.42646,
+    "gross_margin": 0.0,
     "roe": 0.16134001,
-    "roa": 0.01354
+    "roa": 0.01354,
+    "roic": null
   },
   "growth": {
     "revenue_growth": 0.025,
@@ -28,12 +31,21 @@
     "debt_to_equity": null,
     "total_cash": 1482637049856,
     "total_debt": 1016658001920,
-    "free_cashflow": null
+    "interest_coverage": null
+  },
+  "cash_flow": {
+    "operating_cashflow": null,
+    "free_cashflow": null,
+    "fcf_margin": null,
+    "capex": null,
+    "capex_as_pct_revenue": null,
+    "capex_trend": null,
+    "capex_3yr_cagr": null
   },
   "company_info": {
-    "market_cap": 823620403200,
     "sector": "Financial Services",
     "industry": "Banks - Diversified",
-    "full_time_employees": 318512
+    "full_time_employees": 318512,
+    "beta": 1.053
   }
 }

@@ -1,6 +1,6 @@
 {
   "symbol": "IONQ",
-  "last_updated": "2026-02-15T01:37:32.128539Z",
+  "last_updated": "2026-02-15T16:41:10.106050Z",
   "valuation": {
     "forward_pe": -29.71824,
     "trailing_pe": null,
@@ -9,13 +9,16 @@
     "price_to_sales": 153.53719,
     "enterprise_value": 11045065728,
     "ev_to_revenue": 138.347,
-    "ev_to_ebitda": -27.076
+    "ev_to_ebitda": -27.076,
+    "market_cap": 12257795072
   },
   "profitability": {
     "profit_margin": 0.0,
     "operating_margin": -4.23451,
+    "gross_margin": 0.52292,
     "roe": -1.07759,
-    "roa": -0.11775
+    "roa": -0.11775,
+    "roic": null
   },
   "growth": {
     "revenue_growth": 2.215,
@@ -28,12 +31,21 @@
     "debt_to_equity": 1.246,
     "total_cash": 1082365056,
     "total_debt": 28516000,
-    "free_cashflow": -10612875
+    "interest_coverage": null
+  },
+  "cash_flow": {
+    "operating_cashflow": -248104992,
+    "free_cashflow": -10612875,
+    "fcf_margin": -13.293345107470314,
+    "capex": 23569000.0,
+    "capex_as_pct_revenue": 54.718733313212454,
+    "capex_trend": "increasing",
+    "capex_3yr_cagr": 36.9640578251972
   },
   "company_info": {
-    "market_cap": 12257795072,
     "sector": "Technology",
     "industry": "Computer Hardware",
-    "full_time_employees": 407
+    "full_time_employees": 407,
+    "beta": 2.602
   }
 }

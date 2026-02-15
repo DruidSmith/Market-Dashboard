@@ -1,6 +1,6 @@
 {
   "symbol": "AMZN",
-  "last_updated": "2026-02-15T01:37:29.477909Z",
+  "last_updated": "2026-02-15T16:41:01.863765Z",
   "valuation": {
     "forward_pe": 21.401733,
     "trailing_pe": 27.686628,
@@ -9,13 +9,16 @@
     "price_to_sales": 2.9765983,
     "enterprise_value": 2189512933376,
     "ev_to_revenue": 3.054,
-    "ev_to_ebitda": 15.024
+    "ev_to_ebitda": 15.024,
+    "market_cap": 2133994766336
   },
   "profitability": {
     "profit_margin": 0.108339995,
     "operating_margin": 0.10533,
+    "gross_margin": 0.50286,
     "roe": 0.22286,
-    "roa": 0.06928
+    "roa": 0.06928,
+    "roic": null
   },
   "growth": {
     "revenue_growth": 0.136,
@@ -28,12 +31,21 @@
     "debt_to_equity": 43.435,
     "total_cash": 123028996096,
     "total_debt": 178546999296,
-    "free_cashflow": 23793125376
+    "interest_coverage": null
+  },
+  "cash_flow": {
+    "operating_cashflow": 139514003456,
+    "free_cashflow": 23793125376,
+    "fcf_margin": 3.3187793366395497,
+    "capex": 131819000000.0,
+    "capex_as_pct_revenue": 18.38674671234329,
+    "capex_trend": "increasing",
+    "capex_3yr_cagr": 58.111783965145314
   },
   "company_info": {
-    "market_cap": 2133994766336,
     "sector": "Consumer Cyclical",
     "industry": "Internet Retail",
-    "full_time_employees": 1576000
+    "full_time_employees": 1576000,
+    "beta": 1.385
   }
 }
