@@ -80,9 +80,23 @@ class AnalyticsAggregator:
             # Get latest data point
             latest = tech_data['data'][-1]
             
+            # Load raw data to get category
+            raw_data_path = Path("data/raw")
+            safe_symbol = symbol.replace("-", "_").replace("^", "")
+            raw_file = raw_data_path / f"{safe_symbol}.json"
+            
+            category = "Unknown"
+            if raw_file.exists():
+                try:
+                    with open(raw_file, 'r') as f:
+                        raw_data = json.load(f)
+                        category = raw_data.get('category', 'Unknown')
+                except:
+                    pass
+            
             symbol_summary = {
                 "symbol": symbol,
-                "category": tech_data.get('analytics_type', 'Unknown'),
+                "category": category,
                 "price": {
                     "close": latest.get('close'),
                     "open": latest.get('open'),

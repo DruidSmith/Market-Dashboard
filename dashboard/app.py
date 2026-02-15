@@ -870,21 +870,255 @@ def main():
         
         st.divider()
         
-        # Top movers
+        # Top movers (UPDATED TO 5)
         if rankings:
-            st.subheader("🔥 Today's Movers")
+            st.subheader("🔥 Today's Top Movers")
             col1, col2 = st.columns(2)
             
             with col1:
-                st.markdown("**Top Gainers (1D)**")
-                for item in rankings['top_gainers_1d'][:3]:
+                st.markdown("**Top 5 Gainers (1D)**")
+                for item in rankings['top_gainers_1d'][:5]:  # Changed from 3 to 5
                     st.success(f"**{item['symbol']}**: +{item['roc_1d']:.2f}%")
             
             with col2:
-                st.markdown("**Top Losers (1D)**")
-                for item in rankings['top_losers_1d'][:3]:
+                st.markdown("**Top 5 Losers (1D)**")
+                for item in rankings['top_losers_1d'][:5]:  # Changed from 3 to 5
                     st.error(f"**{item['symbol']}**: {item['roc_1d']:.2f}%")
-    
+        
+        st.divider()
+        
+        # === NEW: MACRO ECONOMIC INDICATORS ===
+        st.subheader("🏛️ Economic Indicators (FRED)")
+        
+        # Load FRED data
+        fred_path = Path("data/fred/indicators.json")
+        if fred_path.exists():
+            try:
+                with open(fred_path, 'r') as f:
+                    fred_data = json.load(f)
+                
+                indicators = fred_data.get('data', {})
+                
+                # Key Metrics Row
+                col1, col2, col3, col4 = st.columns(4)
+                
+                with col1:
+                    treasury_10y = indicators.get('treasury_10y')
+                    if treasury_10y:
+                        val = treasury_10y['latest_value']
+                        change = treasury_10y['changes'].get('1m', 0)
+                        st.metric("10Y Treasury", f"{val:.2f}%", 
+                                 delta=f"{change:+.2f}% (1M)")
+                
+                with col2:
+                    unemployment = indicators.get('unemployment')
+                    if unemployment:
+                        val = unemployment['latest_value']
+                        change = unemployment['changes'].get('1m', 0)
+                        st.metric("Unemployment", f"{val:.1f}%",
+                                 delta=f"{change:+.1f}% (1M)",
+                                 delta_color="inverse")
+                
+                with col3:
+                    yield_curve = indicators.get('yield_curve_spread')
+                    if yield_curve:
+                        val = yield_curve['latest_value']
+                        if val < 0:
+                            st.metric("Yield Curve", f"{val:.2f}%",
+                                     delta="⚠️ Inverted",
+                                     delta_color="inverse")
+                        else:
+                            st.metric("Yield Curve", f"{val:.2f}%",
+                                     delta="✅ Normal",
+                                     delta_color="normal")
+                
+                with col4:
+                    fed_funds = indicators.get('fed_funds_rate')
+                    if fed_funds:
+                        val = fed_funds['latest_value']
+                        change = fed_funds['changes'].get('1m', 0)
+                        st.metric("Fed Funds Rate", f"{val:.2f}%",
+                                 delta=f"{change:+.2f}% (1M)")
+                
+                # Yield Curve Chart
+                st.markdown("#### 📈 Yield Curve Trend (10Y-2Y Spread)")
+                
+                treasury_10y_data = indicators.get('treasury_10y', {}).get('data', [])
+                treasury_2y_data = indicators.get('treasury_2y', {}).get('data', [])
+                
+                if treasury_10y_data and treasury_2y_data:
+                    # Calculate spread over time
+                    df_10y = pd.DataFrame(treasury_10y_data)
+                    df_2y = pd.DataFrame(treasury_2y_data)
+                    
+                    # Merge on date
+                    df_spread = pd.merge(df_10y, df_2y, on='date', suffixes=('_10y', '_2y'))
+                    df_spread['spread'] = df_spread['value_10y'] - df_spread['value_2y']
+                    df_spread['date'] = pd.to_datetime(df_spread['date'])
+                    
+                    # Last 90 days
+                    df_spread = df_spread.tail(90)
+                    
+                    # Create chart
+                    fig = go.Figure()
+                    
+                    fig.add_trace(go.Scatter(
+                        x=df_spread['date'],
+                        y=df_spread['spread'],
+                        mode='lines',
+                        name='Yield Curve Spread',
+                        line=dict(color='#1f77b4', width=2),
+                        fill='tozeroy',
+                        fillcolor='rgba(31, 119, 180, 0.2)'
+                    ))
+                    
+                    # Add zero line
+                    fig.add_hline(y=0, line_dash="dash", line_color="red",
+                                 annotation_text="Inversion Line")
+                    
+                    fig.update_layout(
+                        title="Yield Curve Spread - Last 90 Days (Inverted = Recession Risk)",
+                        xaxis_title="Date",
+                        yaxis_title="Spread (%)",
+                        height=300,
+                        hovermode='x unified'
+                    )
+                    
+                    st.plotly_chart(fig, width="stretch")
+                    
+                    # Interpretation
+                    current_spread = df_spread['spread'].iloc[-1]
+                    if current_spread < 0:
+                        st.error("🔴 **Yield curve is inverted** - Historically precedes recessions")
+                    elif current_spread < 0.5:
+                        st.warning("🟡 **Yield curve is flattening** - Monitor for inversion")
+                    else:
+                        st.success("🟢 **Normal yield curve** - Healthy economic conditions")
+                
+                # Additional Economic Charts in Tabs
+                tab1, tab2, tab3 = st.tabs(["📊 Interest Rates", "💼 Employment", "📈 Inflation"])
+                
+                with tab1:
+                    # Interest Rates Chart
+                    st.markdown("##### Treasury Yields")
+                    
+                    if treasury_10y_data and treasury_2y_data:
+                        df_rates = pd.merge(
+                            pd.DataFrame(treasury_10y_data).tail(180),
+                            pd.DataFrame(treasury_2y_data).tail(180),
+                            on='date',
+                            suffixes=('_10y', '_2y')
+                        )
+                        df_rates['date'] = pd.to_datetime(df_rates['date'])
+                        
+                        fig = go.Figure()
+                        
+                        fig.add_trace(go.Scatter(
+                            x=df_rates['date'],
+                            y=df_rates['value_10y'],
+                            name='10-Year',
+                            line=dict(color='#2ca02c', width=2)
+                        ))
+                        
+                        fig.add_trace(go.Scatter(
+                            x=df_rates['date'],
+                            y=df_rates['value_2y'],
+                            name='2-Year',
+                            line=dict(color='#ff7f0e', width=2)
+                        ))
+                        
+                        fig.update_layout(
+                            xaxis_title="Date",
+                            yaxis_title="Yield (%)",
+                            height=300,
+                            hovermode='x unified'
+                        )
+                        
+                        st.plotly_chart(fig, width="stretch")
+                
+                with tab2:
+                    # Unemployment Chart
+                    st.markdown("##### Unemployment Rate")
+                    
+                    unemployment_data = indicators.get('unemployment', {}).get('data', [])
+                    if unemployment_data:
+                        df_unemp = pd.DataFrame(unemployment_data).tail(180)
+                        df_unemp['date'] = pd.to_datetime(df_unemp['date'])
+                        
+                        fig = go.Figure()
+                        
+                        fig.add_trace(go.Scatter(
+                            x=df_unemp['date'],
+                            y=df_unemp['value'],
+                            mode='lines',
+                            name='Unemployment Rate',
+                            line=dict(color='#d62728', width=2),
+                            fill='tozeroy',
+                            fillcolor='rgba(214, 39, 40, 0.2)'
+                        ))
+                        
+                        fig.update_layout(
+                            xaxis_title="Date",
+                            yaxis_title="Unemployment Rate (%)",
+                            height=300,
+                            hovermode='x unified'
+                        )
+                        
+                        st.plotly_chart(fig, width="stretch")
+                
+                with tab3:
+                    # CPI Chart
+                    st.markdown("##### Consumer Price Index (Inflation)")
+                    
+                    cpi_data = indicators.get('cpi', {}).get('data', [])
+                    if cpi_data:
+                        df_cpi = pd.DataFrame(cpi_data).tail(180)
+                        df_cpi['date'] = pd.to_datetime(df_cpi['date'])
+                        
+                        # Calculate YoY change
+                        df_cpi['yoy_change'] = df_cpi['value'].pct_change(12) * 100
+                        
+                        fig = go.Figure()
+                        
+                        fig.add_trace(go.Scatter(
+                            x=df_cpi['date'],
+                            y=df_cpi['yoy_change'],
+                            mode='lines',
+                            name='YoY Inflation',
+                            line=dict(color='#9467bd', width=2),
+                            fill='tozeroy',
+                            fillcolor='rgba(148, 103, 189, 0.2)'
+                        ))
+                        
+                        # Add 2% target line
+                        fig.add_hline(y=2, line_dash="dash", line_color="green",
+                                     annotation_text="Fed 2% Target")
+                        
+                        fig.update_layout(
+                            xaxis_title="Date",
+                            yaxis_title="YoY Change (%)",
+                            height=300,
+                            hovermode='x unified'
+                        )
+                        
+                        st.plotly_chart(fig, width="stretch")
+                
+                # Last update time
+                last_update = fred_data.get('last_updated', 'Unknown')
+                st.caption(f"📅 FRED data last updated: {last_update}")
+                
+            except Exception as e:
+                st.error(f"⚠️ Error loading FRED data: {e}")
+        else:
+            st.info("💡 **FRED economic data not yet available**")
+            st.markdown("""
+            To enable macro indicators:
+            1. Get a free API key at [FRED](https://fred.stlouisfed.org/docs/api/api_key.html)
+            2. Add `FRED_API_KEY` to your `.env` file
+            3. Run `python run_fred.py`
+            """)
+            
+                
     # ==============================================================================
     # TAB 2: AI BUBBLE WATCH
     # ==============================================================================
