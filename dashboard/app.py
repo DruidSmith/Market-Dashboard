@@ -1,12 +1,12 @@
 """
-Market Health Dashboard - Enhanced with Full Indicators
+Market Health Dashboard - Enhanced with Auto-Refresh and Filtering
 """
 
 import streamlit as st
 import json
 import pandas as pd
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timedelta
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
@@ -140,6 +140,48 @@ def get_health_color(rsi, volatility):
         return "🟡", "High Volatility", "warning-metric"
     else:
         return "🟢", "Healthy", "good-metric"
+
+
+def calculate_next_cron_run(cron_schedule: str) -> datetime:
+    """
+    Calculate next run time based on cron schedule.
+    
+    Args:
+        cron_schedule: Cron expression (e.g., '0 */6 * * *')
+    
+    Returns:
+        Next scheduled run time
+    """
+    # Parse the cron expression
+    # Format: minute hour day month day_of_week
+    parts = cron_schedule.split()
+    
+    if len(parts) != 5:
+        return None
+    
+    minute, hour, day, month, day_of_week = parts
+    
+    now = datetime.utcnow()
+    
+    # Handle */N pattern for hours
+    if hour.startswith('*/'):
+        interval = int(hour[2:])
+        current_hour = now.hour
+        next_hour = ((current_hour // interval) + 1) * interval
+        
+        if next_hour >= 24:
+            next_run = now.replace(hour=0, minute=0, second=0, microsecond=0) + timedelta(days=1)
+        else:
+            next_run = now.replace(hour=next_hour, minute=0, second=0, microsecond=0)
+        
+        return next_run
+    
+    # Handle * pattern (every hour)
+    if hour == '*':
+        next_run = now.replace(minute=0, second=0, microsecond=0) + timedelta(hours=1)
+        return next_run
+    
+    return None
 
 
 def display_comprehensive_indicators(symbol):
@@ -391,6 +433,46 @@ def create_price_chart(symbol_data):
     return fig
 
 
+def filter_symbols_by_signals(symbols_list, filter_options):
+    """Filter symbols based on selected signal criteria."""
+    if not filter_options or "All Symbols" in filter_options:
+        return symbols_list
+    
+    filtered = []
+    
+    for symbol in symbols_list:
+        signals = symbol.get('signals', {})
+        
+        # Check each filter
+        matches = False
+        
+        if "Golden Cross" in filter_options and signals.get('golden_cross'):
+            matches = True
+        if "Death Cross" in filter_options and signals.get('death_cross'):
+            matches = True
+        if "RSI Overbought (>70)" in filter_options and signals.get('rsi_overbought'):
+            matches = True
+        if "RSI Oversold (<30)" in filter_options and signals.get('rsi_oversold'):
+            matches = True
+        if "MACD Bullish Cross" in filter_options and signals.get('macd_bullish_cross'):
+            matches = True
+        if "MACD Bearish Cross" in filter_options and signals.get('macd_bearish_cross'):
+            matches = True
+        if "High Volatility" in filter_options and signals.get('high_volatility'):
+            matches = True
+        if "Low Volatility" in filter_options and signals.get('low_volatility'):
+            matches = True
+        if "Above SMA 200" in filter_options and signals.get('price_above_sma_200'):
+            matches = True
+        if "Below SMA 200" in filter_options and not signals.get('price_above_sma_200'):
+            matches = True
+        
+        if matches:
+            filtered.append(symbol)
+    
+    return filtered
+
+
 # ==============================================================================
 # MAIN APP
 # ==============================================================================
@@ -412,12 +494,42 @@ def main():
     st.sidebar.title("Navigation")
     page = st.sidebar.radio(
         "Select View",
-        ["🌍 Market Overview", "🤖 AI Bubble Watch", "📈 Individual Tickers", "⚙️ System Status"]
+        ["🌍 Market Overview", "🤖 AI Bubble Watch", "📈 Individual Symbols", "⚙️ System Status"]
     )
     
-    # Display last update time
-    last_update = latest_values.get('generated_at', 'Unknown')
-    st.sidebar.info(f"📅 Last Updated: {last_update}")
+    # Data Status in Sidebar
+    st.sidebar.divider()
+    st.sidebar.subheader("📊 Data Status")
+    
+    if latest_values:
+        generated_time = datetime.fromisoformat(latest_values['generated_at'].replace('Z', ''))
+        age = datetime.utcnow() - generated_time
+        
+        age_minutes = int(age.total_seconds() / 60)
+        age_hours = int(age.total_seconds() / 3600)
+        
+        # Color code based on age
+        if age_minutes < 60:
+            age_str = f"{age_minutes} min ago"
+            status_emoji = "🟢"
+            status_text = "Fresh"
+        elif age_hours < 3:
+            age_str = f"{age_hours}h ago"
+            status_emoji = "🟡"
+            status_text = "Recent"
+        else:
+            age_str = f"{age_hours}h ago"
+            status_emoji = "🔴"
+            status_text = "Stale"
+        
+        st.sidebar.metric("Last Updated", age_str, delta=f"{status_emoji} {status_text}")
+        
+        if st.sidebar.button("🔄 Refresh Data", use_container_width=True, type="primary"):
+            st.cache_data.clear()
+            st.rerun()
+        
+        st.sidebar.caption("💡 Tip: Run `git pull` first to get latest data")
+        st.sidebar.caption("⚙️ Auto-updates via GitHub Actions")
     
     # ==============================================================================
     # TAB 1: MARKET OVERVIEW
@@ -667,18 +779,20 @@ def main():
                 st.success("✅ No overbought signals in AI stocks")
     
     # ==============================================================================
-    # TAB 3: INDIVIDUAL TICKERS
+    # TAB 3: INDIVIDUAL SYMBOLS
     # ==============================================================================
-    elif page == "📈 Individual Tickers":
-        st.header("Individual Ticker Analysis")
+    elif page == "📈 Individual Symbols":
+        st.header("Individual Symbol Analysis")
         
         # Create searchable table
         symbols_list = latest_values['symbols']
         
         # Filters
-        col1, col2 = st.columns(2)
+        col1, col2, col3 = st.columns(3)
+        
         with col1:
             search = st.text_input("🔍 Search Symbol", "")
+        
         with col2:
             category_filter = st.multiselect(
                 "Filter by Category",
@@ -686,12 +800,42 @@ def main():
                 default=[]
             )
         
+        with col3:
+            signal_filter = st.multiselect(
+                "Filter by Signals",
+                options=[
+                    "All Symbols",
+                    "Golden Cross",
+                    "Death Cross",
+                    "RSI Overbought (>70)",
+                    "RSI Oversold (<30)",
+                    "MACD Bullish Cross",
+                    "MACD Bearish Cross",
+                    "High Volatility",
+                    "Low Volatility",
+                    "Above SMA 200",
+                    "Below SMA 200"
+                ],
+                default=["All Symbols"]
+            )
+        
         # Filter symbols
         filtered = symbols_list
+        
+        # Apply search filter
         if search:
             filtered = [s for s in filtered if search.upper() in s['symbol'].upper()]
+        
+        # Apply category filter
         if category_filter:
             filtered = [s for s in filtered if s['category'] in category_filter]
+        
+        # Apply signal filter
+        if signal_filter and "All Symbols" not in signal_filter:
+            filtered = filter_symbols_by_signals(filtered, signal_filter)
+        
+        # Show count
+        st.caption(f"Showing {len(filtered)} of {len(symbols_list)} symbols")
         
         # Display as cards with full indicators
         for symbol in filtered:
@@ -810,10 +954,24 @@ def main():
                 st.metric("Last Analytics Run", generated_time.strftime("%Y-%m-%d %H:%M UTC"))
             
             with col3:
-                # Calculate expected next run (6 hour intervals)
-                hours_since = age.total_seconds() / 3600
-                hours_until_next = 6 - (hours_since % 6)
-                st.metric("Next Run In", f"~{hours_until_next:.1f}h")
+                # Calculate next run based on cron schedule
+                # Assuming '0 */6 * * *' from your workflow
+                cron_schedule = "0 */6 * * *"
+                next_run = calculate_next_cron_run(cron_schedule)
+                
+                if next_run:
+                    time_until_next = next_run - datetime.utcnow()
+                    hours_until = time_until_next.total_seconds() / 3600
+                    
+                    if hours_until < 1:
+                        time_str = f"{int(time_until_next.total_seconds() / 60)}m"
+                    else:
+                        time_str = f"{hours_until:.1f}h"
+                    
+                    st.metric("Next Scheduled Run", time_str)
+                    st.caption(f"At {next_run.strftime('%H:%M')} UTC")
+                else:
+                    st.metric("Next Run", "Unknown")
         
         st.divider()
         
@@ -927,7 +1085,7 @@ def main():
         
         st.divider()
         
-        # GitHub Actions Status (if we can detect it from file timestamps)
+        # GitHub Actions Status
         st.subheader("⚙️ Automation Status")
         
         col1, col2 = st.columns(2)
@@ -941,7 +1099,12 @@ def main():
                 fetch_age = datetime.utcnow() - last_fetch
                 
                 st.info(f"Last run: {fetch_age.seconds // 3600}h {(fetch_age.seconds % 3600) // 60}m ago")
-                st.caption("Schedule: Every 6 hours")
+                st.caption("Schedule: `0 */6 * * *` (every 6 hours)")
+                
+                # Calculate next run
+                next_fetch = calculate_next_cron_run("0 */6 * * *")
+                if next_fetch:
+                    st.caption(f"Next run: {next_fetch.strftime('%H:%M UTC')}")
                 
                 if fetch_age.total_seconds() < 25200:  # Less than 7 hours
                     st.success("✅ Running on schedule")
@@ -1025,10 +1188,10 @@ def main():
         
         with col2:
             st.markdown("**Data Sources:**")
-            st.markdown("- Alpha Vantage (stocks, crypto)")
-            st.markdown("- Yahoo Finance (indices, fundamentals)")
+            st.markdown("- Yahoo Finance (all symbols)")
             st.markdown("- 45+ calculated indicators")
             st.markdown("- 4 aggregate summary files")
+            st.markdown("- Real-time fundamentals")
         
         # Quick actions
         st.divider()
