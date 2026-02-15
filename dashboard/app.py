@@ -5,10 +5,12 @@ Market Health Dashboard - Enhanced with Auto-Refresh and Filtering
 import streamlit as st
 import json
 import pandas as pd
-from pathlib import Path
+from pathlib import Path  # ← Make sure this is here
 from datetime import datetime, timedelta
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
+import yaml
+import re
 
 # Page config
 st.set_page_config(
@@ -1710,7 +1712,64 @@ def main():
         with col3:
             st.markdown("**Repository:**")
             st.markdown("[View Code →](https://github.com/DruidSmith/Market-Dashboard)")
+        
+    # NEW: Export section
+    st.divider()
+    st.subheader("📥 Export for AI Analysis")
 
+    st.markdown("""
+    Generate a comprehensive report with all market data, indicators, and fundamentals.
+    Perfect for pasting into ChatGPT, Claude, or other AI assistants for personalized
+    trading recommendations.
+    """)
+
+    if st.button("🤖 Generate AI-Ready Report", type="primary", use_container_width=True):
+        with st.spinner("Generating comprehensive export..."):
+            try:
+                # Fix: Add parent directory to path
+                import sys
+                
+                # Add project root to path (Path is already imported at top)
+                project_root = Path(__file__).parent.parent
+                if str(project_root) not in sys.path:
+                    sys.path.insert(0, str(project_root))
+                
+                from src.export_generator import ExportGenerator
+                
+                generator = ExportGenerator()
+                output_path = generator.export_to_file()
+                
+                # Present the file for download
+                with open(output_path, 'r', encoding='utf-8') as f:
+                    report_content = f.read()
+                
+                st.success(f"✅ Report generated! ({output_path.stat().st_size:,} bytes)")
+                
+                # Download button
+                st.download_button(
+                    label="📥 Download Report",
+                    data=report_content,
+                    file_name=output_path.name,
+                    mime="text/plain",
+                    use_container_width=True
+                )
+                
+                # Show preview
+                with st.expander("📄 Preview Report (First 2000 characters)"):
+                    st.text(report_content[:2000] + "\n\n... (truncated)")
+                
+                st.info("""
+                **Next Steps:**
+                1. Download the report
+                2. Open in your preferred AI assistant (ChatGPT, Claude, etc.)
+                3. Paste the entire content
+                4. Ask for specific recommendations based on your goals
+                """)
+                
+            except Exception as e:
+                st.error(f"❌ Error generating report: {e}")
+                import traceback
+                st.code(traceback.format_exc())
 
 if __name__ == "__main__":
     main()
