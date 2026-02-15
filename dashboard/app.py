@@ -892,24 +892,65 @@ def main():
         st.header("AI Bubble Outlook")
         st.markdown("*Monitoring key AI stocks for overvaluation signals*")
         
-        # Get AI category data
+        # Debug: Show what categories we have
+        if categories:
+            available_categories = [c['category'] for c in categories.get('categories', [])]
+            st.caption(f"Available categories: {', '.join(available_categories)}")
+        
+        # Get AI category data - try multiple variations
         ai_category = None
         if categories:
-            ai_category = next((c for c in categories['categories'] if 'AI' in c['category']), None)
+            # Try exact match first
+            ai_category = next((c for c in categories.get('categories', []) if c['category'] == 'AI bubble indicator'), None)
+            
+            # Try partial match if exact fails
+            if not ai_category:
+                ai_category = next((c for c in categories.get('categories', []) if 'AI' in c['category']), None)
         
-        if ai_category:
+        if not ai_category:
+            st.warning("⚠️ No AI bubble indicator category found. Please check your data.")
+            st.info("**Troubleshooting:**")
+            st.write("1. Verify symbols in `config/tickers.csv` have `category=AI bubble indicator`")
+            st.write("2. Run `python run_analytics.py` to regenerate aggregates")
+            st.write("3. Check that symbols have technical data")
+            
+            # Show all available data as fallback
+            if latest_values and latest_values.get('symbols'):
+                st.markdown("### 📊 All Available Symbols")
+                for symbol_data in latest_values['symbols'][:10]:  # Show first 10
+                    st.write(f"- **{symbol_data['symbol']}** ({symbol_data.get('category', 'Unknown')})")
+        else:
             st.subheader("📊 AI Stocks Dashboard")
+            st.caption(f"Monitoring {len(ai_category['symbols'])} AI-related symbols")
             
             # Create metrics grid
             ai_symbols = ai_category['symbols']
             
+            # Summary metrics
+            col1, col2, col3 = st.columns(3)
+            
+            with col1:
+                avg_rsi = sum(s.get('rsi_14', 0) for s in ai_symbols if s.get('rsi_14')) / len([s for s in ai_symbols if s.get('rsi_14')])
+                st.metric("Average RSI", f"{avg_rsi:.1f}")
+            
+            with col2:
+                overbought_count = len([s for s in ai_symbols if s.get('rsi_14', 0) > 70])
+                st.metric("Overbought Stocks", overbought_count)
+            
+            with col3:
+                avg_1d = sum(s.get('roc_1d', 0) for s in ai_symbols if s.get('roc_1d')) / len([s for s in ai_symbols if s.get('roc_1d')])
+                st.metric("Avg 1D Change", f"{avg_1d:.2f}%")
+            
+            st.divider()
+            
+            # Individual symbol analysis
             for symbol_info in ai_symbols:
                 # Get full symbol data from latest_values
                 symbol_data = next((s for s in latest_values['symbols'] if s['symbol'] == symbol_info['symbol']), None)
                 if not symbol_data:
                     continue
                 
-                with st.expander(f"**{symbol_data['symbol']}** - ${symbol_data['price']['close']:.2f}"):
+                with st.expander(f"**{symbol_data['symbol']}** - ${symbol_data['price']['close']:.2f}", expanded=False):
                     col1, col2, col3, col4 = st.columns(4)
                     
                     with col1:
@@ -943,12 +984,66 @@ def main():
             
             overbought = [s for s in ai_symbols if s.get('rsi_14', 0) > 70]
             if overbought:
-                st.warning(f"**{len(overbought)} AI stocks are overbought:**")
+                st.warning(f"**{len(overbought)} AI stocks are overbought (RSI > 70):**")
                 for s in overbought:
                     st.markdown(f"- **{s['symbol']}**: RSI {s['rsi_14']:.1f}")
             else:
                 st.success("✅ No overbought signals in AI stocks")
-    
+            
+            # CapEx warnings (if fundamentals available)
+            st.markdown("### 💰 CapEx Trends (AI Bubble Indicator)")
+            
+            capex_concerns = []
+            for symbol_info in ai_symbols:
+                fund_data = load_symbol_fundamentals(symbol_info['symbol'])
+                if fund_data:
+                    cash_flow = fund_data.get('cash_flow', {})
+                    capex_trend = cash_flow.get('capex_trend')
+                    capex_cagr = cash_flow.get('capex_3yr_cagr')
+                    
+                    if capex_trend == 'increasing' or (capex_cagr and capex_cagr > 20):
+                        capex_concerns.append({
+                            'symbol': symbol_info['symbol'],
+                            'trend': capex_trend,
+                            'cagr': capex_cagr
+                        })
+            
+            if capex_concerns:
+                st.warning(f"**{len(capex_concerns)} companies showing aggressive CapEx growth:**")
+                for concern in capex_concerns:
+                    cagr_str = f", 3Y CAGR: +{concern['cagr']:.1f}%" if concern['cagr'] else ""
+                    st.markdown(f"- **{concern['symbol']}**: {concern['trend']}{cagr_str}")
+                st.info("💡 High CapEx growth in AI companies may indicate overinvestment bubble")
+            else:
+                st.success("✅ No extreme CapEx growth patterns detected")
+            
+            # Valuation concerns
+            st.markdown("### 📊 Valuation Metrics")
+            
+            high_pe_stocks = []
+            for symbol_info in ai_symbols:
+                fund_data = load_symbol_fundamentals(symbol_info['symbol'])
+                if fund_data:
+                    valuation = fund_data.get('valuation', {})
+                    fwd_pe = valuation.get('forward_pe')
+                    peg = valuation.get('peg_ratio')
+                    
+                    if (fwd_pe and fwd_pe > 50) or (peg and peg > 2.5):
+                        high_pe_stocks.append({
+                            'symbol': symbol_info['symbol'],
+                            'fwd_pe': fwd_pe,
+                            'peg': peg
+                        })
+            
+            if high_pe_stocks:
+                st.warning(f"**{len(high_pe_stocks)} stocks showing elevated valuations:**")
+                for stock in high_pe_stocks:
+                    pe_str = f"Forward PE: {stock['fwd_pe']:.1f}" if stock['fwd_pe'] else ""
+                    peg_str = f", PEG: {stock['peg']:.2f}" if stock['peg'] else ""
+                    st.markdown(f"- **{stock['symbol']}**: {pe_str}{peg_str}")
+            else:
+                st.success("✅ Valuations appear reasonable")    
+            
     # ==============================================================================
     # TAB 3: INDIVIDUAL SYMBOLS
     # ==============================================================================
