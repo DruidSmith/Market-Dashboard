@@ -305,12 +305,7 @@ class MarketDataFetcher:
         return [t[0] for t in ticker_priorities]
     
     def fetch_symbol(self, ticker: TickerConfig) -> bool:
-        """
-        Fetch data for a single symbol.
-        
-        Returns:
-            True if successful, False if failed
-        """
+        """Fetch data for a single symbol."""
         # Get last update info
         metadata = self.storage.get_metadata()
         symbol_meta = metadata.get(ticker.symbol)
@@ -326,16 +321,14 @@ class MarketDataFetcher:
         
         try:
             # Route to appropriate API
-            if ticker.api_source == "alpha_vantage":
+            if ticker.api_source == "yahoo_finance":
+                data = self.yahoo_finance.fetch_data(ticker.symbol)
+            elif ticker.api_source == "alpha_vantage":
                 if not self.alpha_vantage:
                     raise Exception("Alpha Vantage API key not configured")
                 data = self.alpha_vantage.fetch_data(ticker.symbol, ticker.type)
-            
-            elif ticker.api_source == "yahoo_finance":
-                data = self.yahoo_finance.fetch_data(ticker.symbol)
-            
             else:
-                print(f"  ⚠️  Skipping {ticker.symbol}: {ticker.api_source} not yet implemented")
+                print(f"  ⚠️  Unknown API source: {ticker.api_source}")
                 return False
             
             # Save to storage
@@ -353,7 +346,7 @@ class MarketDataFetcher:
         except RateLimitError as e:
             print(f"  🛑 Rate limit hit for {ticker.symbol}: {e}")
             self.storage.mark_symbol_failed(ticker.symbol, "rate_limit")
-            raise  # Re-raise to stop processing
+            raise
             
         except Exception as e:
             print(f"  ❌ Error fetching {ticker.symbol}: {e}")

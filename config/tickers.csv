@@ -1,47 +1,48 @@
 symbol,type,category,api_source,enabled
-NVDA,stock,AI bubble indicator,alpha_vantage,TRUE
-AMD,stock,AI bubble indicator,alpha_vantage,TRUE
-INTC,stock,AI bubble indicator,alpha_vantage,TRUE
-MSFT,stock,AI bubble indicator,alpha_vantage,TRUE
-GOOGL,stock,AI bubble indicator,alpha_vantage,TRUE
-META,stock,AI bubble indicator,alpha_vantage,TRUE
-AMZN,stock,AI bubble indicator,alpha_vantage,TRUE
-AVGO,stock,AI bubble indicator,alpha_vantage,TRUE
-ASML,stock,AI bubble indicator,alpha_vantage,TRUE
-LRCX,stock,AI bubble indicator,alpha_vantage,TRUE
-MU,stock,AI bubble indicator,alpha_vantage,TRUE
-TSM,stock,AI bubble indicator,alpha_vantage,TRUE
-PLTR,stock,AI bubble indicator,alpha_vantage,TRUE
-CRWD,stock,AI bubble indicator,alpha_vantage,TRUE
-NFLX,stock,AI bubble indicator,alpha_vantage,TRUE
-AAPL,stock,AI bubble indicator,alpha_vantage,TRUE
-SOXX,etf,AI bubble indicator,alpha_vantage,TRUE
-VGT,etf,AI bubble indicator,alpha_vantage,TRUE
-QUBT,stock,Quantum/Emerging Tech,alpha_vantage,TRUE
-IONQ,stock,Quantum/Emerging Tech,alpha_vantage,TRUE
-SPY,etf,Market bull/bear indicator,alpha_vantage,TRUE
-QQQ,etf,Market bull/bear indicator,alpha_vantage,TRUE
-MGK,etf,Market bull/bear indicator,alpha_vantage,TRUE
-VUG,etf,Market bull/bear indicator,alpha_vantage,TRUE
+NVDA,stock,AI bubble indicator,yahoo_finance,TRUE
+AMD,stock,AI bubble indicator,yahoo_finance,TRUE
+INTC,stock,AI bubble indicator,yahoo_finance,TRUE
+MSFT,stock,AI bubble indicator,yahoo_finance,TRUE
+GOOGL,stock,AI bubble indicator,yahoo_finance,TRUE
+META,stock,AI bubble indicator,yahoo_finance,TRUE
+AMZN,stock,AI bubble indicator,yahoo_finance,TRUE
+AVGO,stock,AI bubble indicator,yahoo_finance,TRUE
+ASML,stock,AI bubble indicator,yahoo_finance,TRUE
+LRCX,stock,AI bubble indicator,yahoo_finance,TRUE
+MU,stock,AI bubble indicator,yahoo_finance,TRUE
+TSM,stock,AI bubble indicator,yahoo_finance,TRUE
+PLTR,stock,AI bubble indicator,yahoo_finance,TRUE
+CRWD,stock,AI bubble indicator,yahoo_finance,TRUE
+NFLX,stock,AI bubble indicator,yahoo_finance,TRUE
+AAPL,stock,AI bubble indicator,yahoo_finance,TRUE
+SOXX,etf,AI bubble indicator,yahoo_finance,TRUE
+VGT,etf,AI bubble indicator,yahoo_finance,TRUE
+QUBT,stock,Quantum/Emerging Tech,yahoo_finance,TRUE
+IONQ,stock,Quantum/Emerging Tech,yahoo_finance,TRUE
+SPY,etf,Market bull/bear indicator,yahoo_finance,TRUE
+QQQ,etf,Market bull/bear indicator,yahoo_finance,TRUE
+QQQM,etf,Market bull/bear indicator,yahoo_finance,TRUE
+MGK,etf,Market bull/bear indicator,yahoo_finance,TRUE
+VUG,etf,Market bull/bear indicator,yahoo_finance,TRUE
 ^VIX,index,Market volatility indicator,yahoo_finance,TRUE
 NQ=F,index,Market bull/bear indicator,yahoo_finance,TRUE
-SPLV,etf,Low Volatility/Defensive,alpha_vantage,TRUE
-SCHD,etf,Dividend Growth,alpha_vantage,TRUE
-DGRO,etf,Dividend Growth,alpha_vantage,TRUE
-VIG,etf,Dividend Growth,alpha_vantage,TRUE
-VYM,etf,Dividend Growth,alpha_vantage,TRUE
-XLE,etf,Energy Sector,alpha_vantage,TRUE
-FENY,etf,Energy Sector,alpha_vantage,TRUE
-VDE,etf,Energy Sector,alpha_vantage,TRUE
-MA,stock,Payments/Fintech,alpha_vantage,TRUE
-V,stock,Payments/Fintech,alpha_vantage,TRUE
-JPM,stock,Financials,alpha_vantage,TRUE
-AXON,stock,Defense/Industrial Tech,alpha_vantage,TRUE
-HWM,stock,Defense/Industrial Tech,alpha_vantage,TRUE
-EME,stock,Defense/Industrial Tech,alpha_vantage,TRUE
-TEM,stock,Defense/Industrial Tech,alpha_vantage,TRUE
-FIX,stock,Defense/Industrial Tech,alpha_vantage,TRUE
-VGK,etf,International Equity,alpha_vantage,TRUE
-BTC-USD,crypto,Crypto indicator,alpha_vantage,TRUE
-ETH-USD,crypto,Crypto indicator,alpha_vantage,TRUE
-GLD,etf,Precious Metals,alpha_vantage,TRUE
+SPLV,etf,Low Volatility/Defensive,yahoo_finance,TRUE
+SCHD,etf,Dividend Growth,yahoo_finance,TRUE
+DGRO,etf,Dividend Growth,yahoo_finance,TRUE
+VIG,etf,Dividend Growth,yahoo_finance,TRUE
+VYM,etf,Dividend Growth,yahoo_finance,TRUE
+XLE,etf,Energy Sector,yahoo_finance,TRUE
+FENY,etf,Energy Sector,yahoo_finance,TRUE
+VDE,etf,Energy Sector,yahoo_finance,TRUE
+MA,stock,Payments/Fintech,yahoo_finance,TRUE
+V,stock,Payments/Fintech,yahoo_finance,TRUE
+JPM,stock,Financials,yahoo_finance,TRUE
+AXON,stock,Defense/Industrial Tech,yahoo_finance,TRUE
+HWM,stock,Defense/Industrial Tech,yahoo_finance,TRUE
+EME,stock,Defense/Industrial Tech,yahoo_finance,TRUE
+TEM,stock,Defense/Industrial Tech,yahoo_finance,TRUE
+FIX,stock,Defense/Industrial Tech,yahoo_finance,TRUE
+VGK,etf,International Equity,yahoo_finance,TRUE
+BTC-USD,crypto,Crypto indicator,yahoo_finance,TRUE
+ETH-USD,crypto,Crypto indicator,yahoo_finance,TRUE
+GLD,etf,Precious Metals,yahoo_finance,TRUE
