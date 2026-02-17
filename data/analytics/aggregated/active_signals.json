@@ -1,17 +1,16 @@
 {
-  "generated_at": "2026-02-17T17:58:31.862988Z",
+  "generated_at": "2026-02-17T19:11:18.465876Z",
   "golden_crosses": [],
   "death_crosses": [],
-  "macd_bullish_crosses": [
-    {
-      "symbol": "CRWD",
-      "macd": -15.445738526226705
-    }
-  ],
+  "macd_bullish_crosses": [],
   "macd_bearish_crosses": [
     {
       "symbol": "NVDA",
       "macd": -0.0017267105152143358
+    },
+    {
+      "symbol": "AAPL",
+      "macd": 0.957613132772849
     }
   ],
   "rsi_overbought": [
@@ -63,7 +62,7 @@
     },
     {
       "symbol": "NFLX",
-      "rsi": 27.36633621927048
+      "rsi": 28.237866171409152
     },
     {
       "symbol": "GOOGL",
@@ -125,7 +124,7 @@
     },
     {
       "symbol": "VGT",
-      "volatility": 1.7607643787622664
+      "volatility": 1.7661138164893728
     },
     {
       "symbol": "META",
@@ -150,10 +149,6 @@
     {
       "symbol": "VYM",
       "volatility": 0.809737587748002
-    },
-    {
-      "symbol": "QQQM",
-      "volatility": 1.1844820332085042
     },
     {
       "symbol": "FENY",
@@ -184,6 +179,10 @@
       "volatility": 3.803139707823893
     },
     {
+      "symbol": "CRWD",
+      "volatility": 3.453578215847961
+    },
+    {
       "symbol": "V",
       "volatility": 1.5911919404128374
     },
@@ -197,7 +196,7 @@
     },
     {
       "symbol": "TSM",
-      "volatility": 2.410886750752196
+      "volatility": 2.4148112146880822
     },
     {
       "symbol": "MA",
@@ -205,11 +204,11 @@
     },
     {
       "symbol": "AAPL",
-      "volatility": 2.0595773296709394
+      "volatility": 2.2168163694401595
     },
     {
       "symbol": "PLTR",
-      "volatility": 4.305190886456118
+      "volatility": 4.340323393895494
     },
     {
       "symbol": "DGRO",
@@ -225,13 +224,17 @@
     },
     {
       "symbol": "MU",
-      "volatility": 4.842100205101894
+      "volatility": 4.620902702317231
     }
   ],
   "low_volatility": [
     {
       "symbol": "QUBT",
-      "volatility": 7.26128402004557
+      "volatility": 7.134300829661357
+    },
+    {
+      "symbol": "IONQ",
+      "volatility": 6.514659584621955
     }
   ]
 }
