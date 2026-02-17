@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-17T16:36:13.584713Z",
+  "generated_at": "2026-02-17T17:58:31.862988Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -8,7 +8,12 @@
       "macd": -15.445738526226705
     }
   ],
-  "macd_bearish_crosses": [],
+  "macd_bearish_crosses": [
+    {
+      "symbol": "NVDA",
+      "macd": -0.0017267105152143358
+    }
+  ],
   "rsi_overbought": [
     {
       "symbol": "XLE",
@@ -59,20 +64,20 @@
     {
       "symbol": "NFLX",
       "rsi": 27.36633621927048
+    },
+    {
+      "symbol": "GOOGL",
+      "rsi": 28.973816541781844
     }
   ],
   "high_volatility": [
     {
       "symbol": "SOXX",
-      "volatility": 2.452883406138774
+      "volatility": 2.4398115554798023
     },
     {
       "symbol": "XLE",
       "volatility": 1.3866985300104846
-    },
-    {
-      "symbol": "NVDA",
-      "volatility": 2.740865610760484
     },
     {
       "symbol": "ITA",
@@ -96,7 +101,7 @@
     },
     {
       "symbol": "AMD",
-      "volatility": 5.3617213865138105
+      "volatility": 5.36429219080204
     },
     {
       "symbol": "VDC",
@@ -104,7 +109,7 @@
     },
     {
       "symbol": "QQQ",
-      "volatility": 1.1898668889934194
+      "volatility": 1.195826068314355
     },
     {
       "symbol": "JPM",
@@ -112,11 +117,11 @@
     },
     {
       "symbol": "ASML",
-      "volatility": 2.3718979583988236
+      "volatility": 2.337559588328507
     },
     {
       "symbol": "LRCX",
-      "volatility": 4.030636764406259
+      "volatility": 4.004433234590418
     },
     {
       "symbol": "VGT",
@@ -136,7 +141,7 @@
     },
     {
       "symbol": "GOOGL",
-      "volatility": 1.3931866472820023
+      "volatility": 1.4267983351402262
     },
     {
       "symbol": "GLD",
@@ -212,7 +217,7 @@
     },
     {
       "symbol": "MSFT",
-      "volatility": 3.0220525122838025
+      "volatility": 3.0124345972804307
     },
     {
       "symbol": "SPLV",
@@ -221,10 +226,6 @@
     {
       "symbol": "MU",
       "volatility": 4.842100205101894
-    },
-    {
-      "symbol": "INTC",
-      "volatility": 6.261006742701221
     }
   ],
   "low_volatility": [
