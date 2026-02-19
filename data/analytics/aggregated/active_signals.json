@@ -1,8 +1,13 @@
 {
-  "generated_at": "2026-02-19T14:32:55.642048Z",
+  "generated_at": "2026-02-19T15:57:27.218198Z",
   "golden_crosses": [],
   "death_crosses": [],
-  "macd_bullish_crosses": [],
+  "macd_bullish_crosses": [
+    {
+      "symbol": "NFLX",
+      "macd": -3.2950526878770887
+    }
+  ],
   "macd_bearish_crosses": [
     {
       "symbol": "VTIP",
@@ -79,11 +84,11 @@
     },
     {
       "symbol": "LRCX",
-      "volatility": 4.0219377991386684
+      "volatility": 4.0361962166604375
     },
     {
       "symbol": "VGT",
-      "volatility": 1.6672488774575724
+      "volatility": 1.6403855914585652
     },
     {
       "symbol": "FIX",
@@ -127,7 +132,7 @@
     },
     {
       "symbol": "CRWD",
-      "volatility": 3.429362154475791
+      "volatility": 3.4321572716533595
     },
     {
       "symbol": "V",
@@ -143,7 +148,7 @@
     },
     {
       "symbol": "TSM",
-      "volatility": 2.1558604847924787
+      "volatility": 2.1598168255540777
     },
     {
       "symbol": "MA",
@@ -151,11 +156,11 @@
     },
     {
       "symbol": "AAPL",
-      "volatility": 2.057374483369635
+      "volatility": 2.0595114409560127
     },
     {
       "symbol": "PLTR",
-      "volatility": 4.3723742689702245
+      "volatility": 4.368161694028036
     },
     {
       "symbol": "TEM",
@@ -167,17 +172,17 @@
     },
     {
       "symbol": "MU",
-      "volatility": 4.672155487400948
+      "volatility": 4.471954784451883
     }
   ],
   "low_volatility": [
     {
       "symbol": "QUBT",
-      "volatility": 7.109834737020739
+      "volatility": 7.109290513255976
     },
     {
       "symbol": "IONQ",
-      "volatility": 6.5417850960279145
+      "volatility": 6.540275562730987
     }
   ]
 }
