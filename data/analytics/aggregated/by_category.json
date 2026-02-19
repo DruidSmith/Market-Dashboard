@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-19T11:43:58.483661Z",
-  "category_count": 14,
+  "generated_at": "2026-02-19T12:28:15.818645Z",
+  "category_count": 15,
   "categories": [
     {
       "category": "Market bull/bear indicator",
@@ -455,6 +455,32 @@
       ]
     },
     {
+      "category": "Fixed Income",
+      "symbol_count": 2,
+      "symbols": [
+        {
+          "symbol": "VTIP",
+          "close": 49.709999084472656,
+          "rsi_14": 58.62069992145079,
+          "roc_1d": 0.04025046954403422,
+          "roc_5d": -0.060318843951967516,
+          "roc_20d": 0.5054589660890008,
+          "volatility_20d": 0.09554588590101205,
+          "price_above_sma_200": false
+        },
+        {
+          "symbol": "BND",
+          "close": 74.79000091552734,
+          "rsi_14": 68.81364276661205,
+          "roc_1d": -0.10685431831153336,
+          "roc_5d": 0.42970281936192123,
+          "roc_20d": 1.4982651993079354,
+          "volatility_20d": 0.18419210381411502,
+          "price_above_sma_200": false
+        }
+      ]
+    },
+    {
       "category": "Crypto indicator",
       "symbol_count": 2,
       "symbols": [
@@ -492,6 +518,42 @@
           "roc_5d": -2.445960692461757,
           "roc_20d": 2.561605712152115,
           "volatility_20d": 1.6594778945355702,
+          "price_above_sma_200": false
+        }
+      ]
+    },
+    {
+      "category": "International Equity",
+      "symbol_count": 3,
+      "symbols": [
+        {
+          "symbol": "VEA",
+          "close": 68.80999755859375,
+          "rsi_14": 68.47732856320472,
+          "roc_1d": 0.33536850597590817,
+          "roc_5d": 0.3939256484679188,
+          "roc_20d": 7.06395075876689,
+          "volatility_20d": 0.9117423412441588,
+          "price_above_sma_200": false
+        },
+        {
+          "symbol": "VWO",
+          "close": 57.95000076293945,
+          "rsi_14": 62.00144463626194,
+          "roc_1d": 0.2768642410059474,
+          "roc_5d": -0.10342623742410906,
+          "roc_20d": 4.339214633931254,
+          "volatility_20d": 0.922282662496843,
+          "price_above_sma_200": false
+        },
+        {
+          "symbol": "VGK",
+          "close": 89.7750015258789,
+          "rsi_14": 64.84243840841094,
+          "roc_1d": 1.0353926444070405,
+          "roc_5d": 0.6220581681039006,
+          "roc_20d": 5.667375816022391,
+          "volatility_20d": 0.9061320119694062,
           "price_above_sma_200": false
         }
       ]
@@ -560,22 +622,6 @@
           "roc_5d": -2.438051673019903,
           "roc_20d": -0.8509729307573433,
           "volatility_20d": 1.6401868806757187,
-          "price_above_sma_200": false
-        }
-      ]
-    },
-    {
-      "category": "International Equity",
-      "symbol_count": 1,
-      "symbols": [
-        {
-          "symbol": "VGK",
-          "close": 89.7750015258789,
-          "rsi_14": 64.84243840841094,
-          "roc_1d": 1.0353926444070405,
-          "roc_5d": 0.6220581681039006,
-          "roc_20d": 5.667375816022391,
-          "volatility_20d": 0.9061320119694062,
           "price_above_sma_200": false
         }
       ]
