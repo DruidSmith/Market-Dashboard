@@ -1,9 +1,17 @@
 {
-  "generated_at": "2026-02-20T15:10:51.510343Z",
+  "generated_at": "2026-02-20T16:04:56.925237Z",
   "top_gainers_1d": [
     {
       "symbol": "FIX",
       "roc_1d": 5.774639887522648
+    },
+    {
+      "symbol": "GOOGL",
+      "roc_1d": 4.5734297467987295
+    },
+    {
+      "symbol": "ASML",
+      "roc_1d": 2.9910577514119074
     },
     {
       "symbol": "^VIX",
@@ -12,24 +20,12 @@
     {
       "symbol": "AMZN",
       "roc_1d": 2.393080091111699
-    },
-    {
-      "symbol": "META",
-      "roc_1d": 1.5754660708748203
-    },
-    {
-      "symbol": "XLE",
-      "roc_1d": 1.4127152420406297
     }
   ],
   "top_losers_1d": [
     {
       "symbol": "IONQ",
       "roc_1d": -4.533569834956975
-    },
-    {
-      "symbol": "INTC",
-      "roc_1d": -3.1709666984440332
     },
     {
       "symbol": "LRCX",
@@ -42,6 +38,10 @@
     {
       "symbol": "MA",
       "roc_1d": -1.9792678560079047
+    },
+    {
+      "symbol": "ETH-USD",
+      "roc_1d": -1.7762656016971023
     }
   ],
   "top_gainers_5d": [
@@ -58,12 +58,12 @@
       "roc_5d": 7.992154926972628
     },
     {
-      "symbol": "ITA",
-      "roc_5d": 5.145703763836895
+      "symbol": "ASML",
+      "roc_5d": 5.560213513503909
     },
     {
-      "symbol": "AMZN",
-      "roc_5d": 4.716933561948111
+      "symbol": "ITA",
+      "roc_5d": 5.145703763836895
     }
   ],
   "top_gainers_20d": [
@@ -112,10 +112,6 @@
   ],
   "most_oversold": [
     {
-      "symbol": "GOOGL",
-      "rsi_14": 31.36904648088523
-    },
-    {
       "symbol": "NFLX",
       "rsi_14": 31.93161245926204
     },
@@ -129,7 +125,11 @@
     },
     {
       "symbol": "MSFT",
-      "rsi_14": 33.880392850019106
+      "rsi_14": 33.69106741694843
+    },
+    {
+      "symbol": "BTC-USD",
+      "rsi_14": 34.34436481783435
     }
   ],
   "highest_volatility": [
@@ -147,7 +147,7 @@
     },
     {
       "symbol": "INTC",
-      "volatility_20d": 5.55370488554573
+      "volatility_20d": 5.550108533230109
     },
     {
       "symbol": "ETH-USD",
