@@ -1,11 +1,11 @@
 """
-Market Health Dashboard - Enhanced with Auto-Refresh and Filtering
+Market Health Dashboard - Enhanced with Early Warning System
 """
 
 import streamlit as st
 import json
 import pandas as pd
-from pathlib import Path  # ← Make sure this is here
+from pathlib import Path
 from datetime import datetime, timedelta
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
@@ -20,9 +20,15 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom CSS
+# Enhanced CSS with better styling
 st.markdown("""
 <style>
+    /* Main container */
+    .main {
+        background-color: #0e1117;
+    }
+    
+    /* Indicator badges */
     .indicator-row {
         display: flex;
         flex-wrap: wrap;
@@ -30,43 +36,123 @@ st.markdown("""
         margin: 10px 0;
     }
     .indicator-badge {
-        padding: 5px 10px;
-        border-radius: 5px;
-        font-weight: bold;
+        padding: 8px 16px;
+        border-radius: 8px;
+        font-weight: 600;
         display: inline-block;
+        font-size: 14px;
+        transition: all 0.3s ease;
     }
+    .indicator-badge:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    
+    /* Status colors */
     .bullish {
-        background-color: #d4edda;
+        background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%);
         color: #155724;
-        border: 1px solid #c3e6cb;
+        border: 2px solid #28a745;
     }
     .bearish {
-        background-color: #f8d7da;
+        background: linear-gradient(135deg, #f8d7da 0%, #f5c6cb 100%);
         color: #721c24;
-        border: 1px solid #f5c6cb;
+        border: 2px solid #dc3545;
     }
     .neutral {
-        background-color: #e2e3e5;
+        background: linear-gradient(135deg, #e2e3e5 0%, #d6d8db 100%);
         color: #383d41;
-        border: 1px solid #d6d8db;
+        border: 2px solid #6c757d;
     }
+    
+    /* Metric cards */
+    .metric-card {
+        background: linear-gradient(135deg, #1e2530 0%, #2d3748 100%);
+        padding: 20px;
+        border-radius: 12px;
+        border: 1px solid #4a5568;
+        margin: 10px 0;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    }
+    
     .good-metric {
-        background-color: #d4edda;
-        border-left: 5px solid #28a745;
-        padding: 10px;
-        border-radius: 5px;
+        background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%);
+        border-left: 6px solid #28a745;
+        padding: 16px;
+        border-radius: 8px;
+        margin: 8px 0;
+        box-shadow: 0 2px 4px rgba(40,167,69,0.2);
     }
     .warning-metric {
-        background-color: #fff3cd;
-        border-left: 5px solid #ffc107;
-        padding: 10px;
-        border-radius: 5px;
+        background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
+        border-left: 6px solid #ffc107;
+        padding: 16px;
+        border-radius: 8px;
+        margin: 8px 0;
+        box-shadow: 0 2px 4px rgba(255,193,7,0.2);
     }
     .bad-metric {
-        background-color: #f8d7da;
-        border-left: 5px solid #dc3545;
-        padding: 10px;
-        border-radius: 5px;
+        background: linear-gradient(135deg, #f8d7da 0%, #f5c6cb 100%);
+        border-left: 6px solid #dc3545;
+        padding: 16px;
+        border-radius: 8px;
+        margin: 8px 0;
+        box-shadow: 0 2px 4px rgba(220,53,69,0.2);
+    }
+    
+    /* Alert box */
+    .alert-critical {
+        background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
+        color: white;
+        padding: 20px;
+        border-radius: 12px;
+        font-weight: bold;
+        font-size: 16px;
+        text-align: center;
+        margin: 20px 0;
+        border: 3px solid #bd2130;
+        box-shadow: 0 4px 12px rgba(220,53,69,0.4);
+    }
+    .alert-warning {
+        background: linear-gradient(135deg, #ffc107 0%, #e0a800 100%);
+        color: #212529;
+        padding: 20px;
+        border-radius: 12px;
+        font-weight: bold;
+        font-size: 16px;
+        text-align: center;
+        margin: 20px 0;
+        border: 3px solid #d39e00;
+        box-shadow: 0 4px 12px rgba(255,193,7,0.4);
+    }
+    .alert-normal {
+        background: linear-gradient(135deg, #28a745 0%, #218838 100%);
+        color: white;
+        padding: 20px;
+        border-radius: 12px;
+        font-weight: bold;
+        font-size: 16px;
+        text-align: center;
+        margin: 20px 0;
+        border: 3px solid #1e7e34;
+        box-shadow: 0 4px 12px rgba(40,167,69,0.4);
+    }
+    
+    /* Signal indicators */
+    .signal-bull {
+        color: #28a745;
+        font-weight: bold;
+    }
+    .signal-bear {
+        color: #dc3545;
+        font-weight: bold;
+    }
+    
+    /* Dividers */
+    hr {
+        margin: 30px 0;
+        border: none;
+        border-top: 2px solid #4a5568;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -112,6 +198,16 @@ def load_category_summary():
     return None
 
 
+@st.cache_data(ttl=300)
+def load_market_health():
+    """Load market health assessment."""
+    file_path = Path("data/analytics/market_health/market_health.json")
+    if file_path.exists():
+        with open(file_path, 'r') as f:
+            return json.load(f)
+    return None
+
+
 def load_symbol_technical(symbol):
     """Load full technical data for a symbol."""
     safe_symbol = symbol.replace("-", "_").replace("^", "")
@@ -144,18 +240,68 @@ def get_health_color(rsi, volatility):
         return "🟢", "Healthy", "good-metric"
 
 
+def parse_cron_from_workflow(workflow_path: Path) -> str:
+    """Parse the cron schedule from a GitHub Actions workflow YAML file."""
+    try:
+        with open(workflow_path, 'r') as f:
+            content = f.read()
+            
+            # Try to parse as YAML first
+            try:
+                workflow = yaml.safe_load(content)
+                if 'on' in workflow and 'schedule' in workflow['on']:
+                    schedules = workflow['on']['schedule']
+                    if schedules and len(schedules) > 0:
+                        return schedules[0].get('cron')
+            except:
+                pass
+            
+            # Fallback: regex search for cron pattern
+            cron_pattern = r"cron:\s*['\"]([^'\"]+)['\"]"
+            match = re.search(cron_pattern, content)
+            if match:
+                return match.group(1)
+            
+        return None
+    except Exception as e:
+        print(f"Error parsing workflow: {e}")
+        return None
+
+
+def get_cron_description(cron_expr: str) -> str:
+    """Convert cron expression to human-readable description."""
+    parts = cron_expr.split()
+    if len(parts) != 5:
+        return "Custom schedule"
+    
+    minute, hour, day, month, day_of_week = parts
+    
+    # Every N minutes
+    if minute.startswith('*/'):
+        interval = int(minute[2:])
+        return f"Every {interval} minutes"
+    
+    # Every N hours
+    if hour.startswith('*/'):
+        interval = int(hour[2:])
+        return f"Every {interval} hours"
+    
+    # Every hour
+    if minute == '0' and hour == '*':
+        return "Every hour"
+    
+    # Daily at specific time
+    if minute.isdigit() and hour.isdigit():
+        return f"Daily at {hour.zfill(2)}:{minute.zfill(2)} UTC"
+    
+    return "Custom schedule"
+
+
 def calculate_next_cron_run(cron_schedule: str) -> datetime:
-    """
-    Calculate next run time based on cron schedule.
+    """Calculate next run time based on cron schedule."""
+    if not cron_schedule:
+        return None
     
-    Args:
-        cron_schedule: Cron expression (e.g., '0 */6 * * *')
-    
-    Returns:
-        Next scheduled run time
-    """
-    # Parse the cron expression
-    # Format: minute hour day month day_of_week
     parts = cron_schedule.split()
     
     if len(parts) != 5:
@@ -164,6 +310,19 @@ def calculate_next_cron_run(cron_schedule: str) -> datetime:
     minute, hour, day, month, day_of_week = parts
     
     now = datetime.utcnow()
+    
+    # Handle */N pattern for minutes
+    if minute.startswith('*/'):
+        interval = int(minute[2:])
+        current_minute = now.minute
+        next_minute = ((current_minute // interval) + 1) * interval
+        
+        if next_minute >= 60:
+            next_run = now.replace(minute=0, second=0, microsecond=0) + timedelta(hours=1)
+        else:
+            next_run = now.replace(minute=next_minute, second=0, microsecond=0)
+        
+        return next_run
     
     # Handle */N pattern for hours
     if hour.startswith('*/'):
@@ -179,8 +338,20 @@ def calculate_next_cron_run(cron_schedule: str) -> datetime:
         return next_run
     
     # Handle * pattern (every hour)
-    if hour == '*':
+    if hour == '*' and minute == '0':
         next_run = now.replace(minute=0, second=0, microsecond=0) + timedelta(hours=1)
+        return next_run
+    
+    # Handle specific time
+    if minute.isdigit() and hour.isdigit():
+        target_hour = int(hour)
+        target_minute = int(minute)
+        
+        next_run = now.replace(hour=target_hour, minute=target_minute, second=0, microsecond=0)
+        
+        if next_run <= now:
+            next_run += timedelta(days=1)
+        
         return next_run
     
     return None
@@ -243,9 +414,9 @@ def display_comprehensive_indicators(symbol):
     rsi = latest.get('rsi_14')
     if rsi:
         if rsi > 70:
-            rsi_badge = f'<span class="indicator-badge bearish">RSI: {rsi:.1f} (Overbought ↓)</span>'
+            rsi_badge = f'<span class="indicator-badge bearish">RSI: {rsi:.1f} (Overbought 📉 BEARISH)</span>'
         elif rsi < 30:
-            rsi_badge = f'<span class="indicator-badge bullish">RSI: {rsi:.1f} (Oversold ↑)</span>'
+            rsi_badge = f'<span class="indicator-badge bullish">RSI: {rsi:.1f} (Oversold 📈 BULLISH)</span>'
         else:
             rsi_badge = f'<span class="indicator-badge neutral">RSI: {rsi:.1f} (Neutral ↔)</span>'
         indicators_html += rsi_badge
@@ -253,21 +424,21 @@ def display_comprehensive_indicators(symbol):
     # SMA Cross
     sma_position = latest.get('sma_position', 'neutral')
     if sma_position == 'golden':
-        sma_badge = '<span class="indicator-badge bullish">SMA: Golden Cross (↑)</span>'
+        sma_badge = '<span class="indicator-badge bullish">SMA: Golden Cross 📈 BULLISH</span>'
     elif sma_position == 'death':
-        sma_badge = '<span class="indicator-badge bearish">SMA: Death Cross (↓)</span>'
+        sma_badge = '<span class="indicator-badge bearish">SMA: Death Cross 📉 BEARISH</span>'
     else:
-        sma_badge = '<span class="indicator-badge neutral">SMA: Neutral (↔)</span>'
+        sma_badge = '<span class="indicator-badge neutral">SMA: Neutral ↔</span>'
     indicators_html += sma_badge
     
     # EMA Trend
     ema_trend = latest.get('ema_trend', 'neutral')
     if ema_trend == 'bullish':
-        ema_badge = '<span class="indicator-badge bullish">EMA: Bullish (↑)</span>'
+        ema_badge = '<span class="indicator-badge bullish">EMA: Bullish 📈</span>'
     elif ema_trend == 'bearish':
-        ema_badge = '<span class="indicator-badge bearish">EMA: Bearish (↓)</span>'
+        ema_badge = '<span class="indicator-badge bearish">EMA: Bearish 📉</span>'
     else:
-        ema_badge = '<span class="indicator-badge neutral">EMA: Neutral (↔)</span>'
+        ema_badge = '<span class="indicator-badge neutral">EMA: Neutral ↔</span>'
     indicators_html += ema_badge
     
     # MACD
@@ -275,9 +446,9 @@ def display_comprehensive_indicators(symbol):
     macd_signal = latest.get('macd_signal')
     if macd is not None and macd_signal is not None:
         if macd > macd_signal:
-            macd_badge = '<span class="indicator-badge bullish">MACD: Bullish (↑)</span>'
+            macd_badge = '<span class="indicator-badge bullish">MACD: Bullish 📈</span>'
         else:
-            macd_badge = '<span class="indicator-badge bearish">MACD: Bearish (↓)</span>'
+            macd_badge = '<span class="indicator-badge bearish">MACD: Bearish 📉</span>'
         indicators_html += macd_badge
     
     indicators_html += '</div>'
@@ -313,9 +484,9 @@ def display_comprehensive_indicators(symbol):
             peg = valuation.get('peg_ratio')
             if peg:
                 if peg < 1:
-                    st.metric("PEG Ratio", f"{peg:.2f}", delta="Undervalued", delta_color="normal")
+                    st.metric("PEG Ratio", f"{peg:.2f}", delta="Undervalued 📈", delta_color="normal")
                 elif peg > 2:
-                    st.metric("PEG Ratio", f"{peg:.2f}", delta="Overvalued", delta_color="inverse")
+                    st.metric("PEG Ratio", f"{peg:.2f}", delta="Overvalued 📉", delta_color="inverse")
                 else:
                     st.metric("PEG Ratio", f"{peg:.2f}")
             else:
@@ -355,9 +526,9 @@ def display_comprehensive_indicators(symbol):
             if roe:
                 roe_pct = roe * 100
                 if roe_pct > 15:
-                    st.metric("ROE", f"{roe_pct:.1f}%", delta="Strong", delta_color="normal")
+                    st.metric("ROE", f"{roe_pct:.1f}%", delta="Strong 📈", delta_color="normal")
                 elif roe_pct < 5:
-                    st.metric("ROE", f"{roe_pct:.1f}%", delta="Weak", delta_color="inverse")
+                    st.metric("ROE", f"{roe_pct:.1f}%", delta="Weak 📉", delta_color="inverse")
                 else:
                     st.metric("ROE", f"{roe_pct:.1f}%")
             else:
@@ -367,9 +538,9 @@ def display_comprehensive_indicators(symbol):
             roic = profitability.get('roic')
             if roic:
                 if roic > 15:
-                    st.metric("ROIC", f"{roic:.1f}%", delta="Strong", delta_color="normal")
+                    st.metric("ROIC", f"{roic:.1f}%", delta="Strong 📈", delta_color="normal")
                 elif roic < 5:
-                    st.metric("ROIC", f"{roic:.1f}%", delta="Weak", delta_color="inverse")
+                    st.metric("ROIC", f"{roic:.1f}%", delta="Weak 📉", delta_color="inverse")
                 else:
                     st.metric("ROIC", f"{roic:.1f}%")
             else:
@@ -422,17 +593,17 @@ def display_comprehensive_indicators(symbol):
             trend_html = '<div class="indicator-row">'
             
             if capex_trend == 'increasing':
-                trend_html += '<span class="indicator-badge bearish">📈 Increasing CapEx (potential concern for AI bubble)</span>'
+                trend_html += '<span class="indicator-badge bearish">📈 Increasing CapEx (AI bubble concern) 📉 BEARISH</span>'
             elif capex_trend == 'decreasing':
-                trend_html += '<span class="indicator-badge bullish">📉 Decreasing CapEx (positive signal)</span>'
+                trend_html += '<span class="indicator-badge bullish">📉 Decreasing CapEx (positive signal) 📈 BULLISH</span>'
             else:
                 trend_html += '<span class="indicator-badge neutral">➡️ Stable CapEx</span>'
             
             if capex_cagr:
                 if capex_cagr > 20:
-                    trend_html += f'<span class="indicator-badge bearish">3Y CAGR: +{capex_cagr:.1f}%</span>'
+                    trend_html += f'<span class="indicator-badge bearish">3Y CAGR: +{capex_cagr:.1f}% 📉 BEARISH</span>'
                 elif capex_cagr < -10:
-                    trend_html += f'<span class="indicator-badge bullish">3Y CAGR: {capex_cagr:.1f}%</span>'
+                    trend_html += f'<span class="indicator-badge bullish">3Y CAGR: {capex_cagr:.1f}% 📈 BULLISH</span>'
                 else:
                     trend_html += f'<span class="indicator-badge neutral">3Y CAGR: {capex_cagr:.1f}%</span>'
             
@@ -451,9 +622,9 @@ def display_comprehensive_indicators(symbol):
             debt_to_equity = financial_health.get('debt_to_equity')
             if debt_to_equity:
                 if debt_to_equity < 50:
-                    st.metric("Debt/Equity", f"{debt_to_equity:.1f}", delta="Low", delta_color="normal")
+                    st.metric("Debt/Equity", f"{debt_to_equity:.1f}", delta="Low 📈", delta_color="normal")
                 elif debt_to_equity > 150:
-                    st.metric("Debt/Equity", f"{debt_to_equity:.1f}", delta="High", delta_color="inverse")
+                    st.metric("Debt/Equity", f"{debt_to_equity:.1f}", delta="High 📉", delta_color="inverse")
                 else:
                     st.metric("Debt/Equity", f"{debt_to_equity:.1f}")
             else:
@@ -463,9 +634,9 @@ def display_comprehensive_indicators(symbol):
             current_ratio = financial_health.get('current_ratio')
             if current_ratio:
                 if current_ratio > 2:
-                    st.metric("Current Ratio", f"{current_ratio:.2f}", delta="Strong", delta_color="normal")
+                    st.metric("Current Ratio", f"{current_ratio:.2f}", delta="Strong 📈", delta_color="normal")
                 elif current_ratio < 1:
-                    st.metric("Current Ratio", f"{current_ratio:.2f}", delta="Weak", delta_color="inverse")
+                    st.metric("Current Ratio", f"{current_ratio:.2f}", delta="Weak 📉", delta_color="inverse")
                 else:
                     st.metric("Current Ratio", f"{current_ratio:.2f}")
             else:
@@ -475,9 +646,9 @@ def display_comprehensive_indicators(symbol):
             interest_coverage = financial_health.get('interest_coverage')
             if interest_coverage:
                 if interest_coverage > 5:
-                    st.metric("Interest Coverage", f"{interest_coverage:.1f}x", delta="Safe", delta_color="normal")
+                    st.metric("Interest Coverage", f"{interest_coverage:.1f}x", delta="Safe 📈", delta_color="normal")
                 elif interest_coverage < 2:
-                    st.metric("Interest Coverage", f"{interest_coverage:.1f}x", delta="Risk", delta_color="inverse")
+                    st.metric("Interest Coverage", f"{interest_coverage:.1f}x", delta="Risk 📉", delta_color="inverse")
                 else:
                     st.metric("Interest Coverage", f"{interest_coverage:.1f}x")
             else:
@@ -519,6 +690,7 @@ def display_comprehensive_indicators(symbol):
                 st.metric("Quarterly Growth", f"{qtr_growth * 100:.1f}%")
             else:
                 st.metric("Quarterly Growth", "N/A")
+
 
 def create_price_chart(symbol_data):
     """Create comprehensive price chart."""
@@ -600,7 +772,8 @@ def create_price_chart(symbol_data):
         title=f"{symbol_data['symbol']} - Technical Analysis",
         xaxis_rangeslider_visible=False,
         height=800,
-        showlegend=True
+        showlegend=True,
+        template="plotly_dark"
     )
     
     return fig
@@ -652,22 +825,44 @@ def filter_symbols_by_signals(symbols_list, filter_options):
 
 def main():
     st.title("📊 Market Health Dashboard")
+    st.caption("Early Warning System for Market Turning Points")
     
     # Load data
     latest_values = load_latest_values()
     rankings = load_performance_rankings()
     signals = load_active_signals()
     categories = load_category_summary()
+    market_health = load_market_health()
+    
+    # Load cron schedules from actual workflow files
+    fetch_workflow_path = Path(".github/workflows/fetch-data.yml")
+    analytics_workflow_path = Path(".github/workflows/calculate-analytics.yml")
+    
+    fetch_cron = parse_cron_from_workflow(fetch_workflow_path) if fetch_workflow_path.exists() else None
+    analytics_cron = parse_cron_from_workflow(analytics_workflow_path) if analytics_workflow_path.exists() else None
     
     if not latest_values:
         st.error("⚠️ No data available. Please run: python run_analytics.py")
         return
     
+    # === MARKET HEALTH WARNING BANNER ===
+    if market_health:
+        risk_score = market_health.get('risk_score', 0)
+        status = market_health.get('overall_status', 'UNKNOWN')
+        recommendation = market_health.get('recommendation', '')
+        
+        if status == "DANGER":
+            st.markdown(f'<div class="alert-critical">🚨 MARKET HEALTH: {status} (Risk: {risk_score}/10)<br>{recommendation}</div>', unsafe_allow_html=True)
+        elif status == "WARNING":
+            st.markdown(f'<div class="alert-warning">⚠️ MARKET HEALTH: {status} (Risk: {risk_score}/10)<br>{recommendation}</div>', unsafe_allow_html=True)
+        else:
+            st.markdown(f'<div class="alert-normal">✅ MARKET HEALTH: {status} (Risk: {risk_score}/10)<br>{recommendation}</div>', unsafe_allow_html=True)
+    
     # Sidebar
     st.sidebar.title("Navigation")
     page = st.sidebar.radio(
         "Select View",
-        ["🌍 Market Overview", "🤖 AI Bubble Watch", "📈 Individual Symbols", "⚙️ System Status"]
+        ["🏥 Market Health", "🌍 Market Overview", "🤖 AI Bubble Watch", "📈 Individual Symbols", "⚙️ System Status"]
     )
     
     # Data Status in Sidebar
@@ -702,12 +897,197 @@ def main():
             st.rerun()
         
         st.sidebar.caption("💡 Tip: Run `git pull` first to get latest data")
-        st.sidebar.caption("⚙️ Auto-updates via GitHub Actions")
+        
+        # Show actual schedule from workflow file
+        if fetch_cron:
+            schedule_desc = get_cron_description(fetch_cron)
+            st.sidebar.caption(f"⚙️ Updates: {schedule_desc}")
+        else:
+            st.sidebar.caption("⚙️ Auto-updates via GitHub Actions")
+    
+    # ==============================================================================
+    # TAB 0: MARKET HEALTH (NEW)
+    # ==============================================================================
+    if page == "🏥 Market Health":
+        st.header("Market Health - Early Warning System")
+        st.markdown("*Monitor critical indicators for market turning points*")
+        
+        if not market_health:
+            st.warning("⚠️ Market health data not available. Run `python run_analytics.py` to generate.")
+            return
+        
+        # Overall Status
+        risk_score = market_health.get('risk_score', 0)
+        status = market_health.get('overall_status', 'UNKNOWN')
+        recommendation = market_health.get('recommendation', '')
+        alerts = market_health.get('alerts', [])
+        
+        col1, col2, col3 = st.columns(3)
+        
+        with col1:
+            st.metric("Risk Score", f"{risk_score}/10", delta=f"{status}")
+        
+        with col2:
+            if status == "DANGER":
+                st.metric("Market Status", "🔴 DANGER", delta="High Risk")
+            elif status == "WARNING":
+                st.metric("Market Status", "🟡 WARNING", delta="Elevated Risk")
+            else:
+                st.metric("Market Status", "🟢 NORMAL", delta="Low Risk")
+        
+        with col3:
+            st.metric("Active Alerts", len(alerts))
+        
+        st.divider()
+        
+        # Recommendation Box
+        if status == "DANGER":
+            st.markdown(f'<div class="alert-critical">📋 RECOMMENDATION:<br>{recommendation}</div>', unsafe_allow_html=True)
+        elif status == "WARNING":
+            st.markdown(f'<div class="alert-warning">📋 RECOMMENDATION:<br>{recommendation}</div>', unsafe_allow_html=True)
+        else:
+            st.markdown(f'<div class="alert-normal">📋 RECOMMENDATION:<br>{recommendation}</div>', unsafe_allow_html=True)
+        
+        st.divider()
+        
+        # Individual Indicators
+        st.subheader("📊 Critical Market Indicators")
+        
+        indicators = market_health.get('indicators', {})
+        
+        # S&P 500 P/E Ratio
+        sp500_pe = indicators.get('sp500_pe')
+        if sp500_pe:
+            st.markdown("### 1. S&P 500 P/E Ratio")
+            col1, col2, col3 = st.columns([1, 2, 1])
+            
+            with col1:
+                pe_val = sp500_pe['value']
+                st.metric("Current P/E", f"{pe_val:.1f}")
+            
+            with col2:
+                # Create gauge chart
+                fig = go.Figure(go.Indicator(
+                    mode = "gauge+number+delta",
+                    value = pe_val,
+                    domain = {'x': [0, 1], 'y': [0, 1]},
+                    title = {'text': "P/E Ratio (Crash Threshold: 30)"},
+                    delta = {'reference': 30},
+                    gauge = {
+                        'axis': {'range': [None, 40]},
+                        'bar': {'color': "darkblue"},
+                        'steps' : [
+                            {'range': [0, 20], 'color': "lightgreen"},
+                            {'range': [20, 25], 'color': "yellow"},
+                            {'range': [25, 30], 'color': "orange"},
+                            {'range': [30, 40], 'color': "red"}
+                        ],
+                        'threshold': {
+                            'line': {'color': "red", 'width': 4},
+                            'thickness': 0.75,
+                            'value': 30
+                        }
+                    }
+                ))
+                fig.update_layout(height=300, template="plotly_dark")
+                st.plotly_chart(fig, use_container_width=True)
+            
+            with col3:
+                st.metric("Threshold", "30.0")
+                if sp500_pe['status'] == 'danger':
+                    st.error("🔴 CRITICAL")
+                elif sp500_pe['status'] == 'warning':
+                    st.warning("🟡 WARNING")
+                else:
+                    st.success("🟢 NORMAL")
+            
+            if sp500_pe['status'] == 'danger':
+                st.markdown(f'<div class="bad-metric">⚠️ {sp500_pe["interpretation"]}<br><strong>Action:</strong> {sp500_pe["signal"]}</div>', unsafe_allow_html=True)
+            elif sp500_pe['status'] == 'warning':
+                st.markdown(f'<div class="warning-metric">⚠️ {sp500_pe["interpretation"]}<br><strong>Action:</strong> {sp500_pe["signal"]}</div>', unsafe_allow_html=True)
+            else:
+                st.markdown(f'<div class="good-metric">✅ {sp500_pe["interpretation"]}</div>', unsafe_allow_html=True)
+            
+            st.divider()
+        
+        # 30-Year Treasury Yield
+        treasury_30y = indicators.get('treasury_30y')
+        if treasury_30y:
+            st.markdown("### 2. 30-Year Treasury Yield")
+            col1, col2, col3 = st.columns([1, 2, 1])
+            
+            with col1:
+                yield_val = treasury_30y['value']
+                st.metric("Current Yield", f"{yield_val:.2f}%")
+            
+            with col2:
+                # Create gauge chart
+                fig = go.Figure(go.Indicator(
+                    mode = "gauge+number+delta",
+                    value = yield_val,
+                    domain = {'x': [0, 1], 'y': [0, 1]},
+                    title = {'text': "30Y Yield (Alert Threshold: 4.5%)"},
+                    delta = {'reference': 4.5},
+                    gauge = {
+                        'axis': {'range': [None, 6]},
+                        'bar': {'color': "darkblue"},
+                        'steps' : [
+                            {'range': [0, 3.5], 'color': "lightgreen"},
+                            {'range': [3.5, 4.0], 'color': "yellow"},
+                            {'range': [4.0, 4.5], 'color': "orange"},
+                            {'range': [4.5, 6], 'color': "red"}
+                        ],
+                        'threshold': {
+                            'line': {'color': "red", 'width': 4},
+                            'thickness': 0.75,
+                            'value': 4.5
+                        }
+                    }
+                ))
+                fig.update_layout(height=300, template="plotly_dark")
+                st.plotly_chart(fig, use_container_width=True)
+            
+            with col3:
+                st.metric("Threshold", "4.5%")
+                if treasury_30y['status'] == 'danger':
+                    st.error("🔴 CRITICAL")
+                elif treasury_30y['status'] == 'warning':
+                    st.warning("🟡 WARNING")
+                else:
+                    st.success("🟢 NORMAL")
+            
+            if treasury_30y['status'] == 'danger':
+                st.markdown(f'<div class="bad-metric">⚠️ {treasury_30y["interpretation"]}<br><strong>Action:</strong> {treasury_30y["signal"]}</div>', unsafe_allow_html=True)
+            elif treasury_30y['status'] == 'warning':
+                st.markdown(f'<div class="warning-metric">⚠️ {treasury_30y["interpretation"]}<br><strong>Action:</strong> {treasury_30y["signal"]}</div>', unsafe_allow_html=True)
+            else:
+                st.markdown(f'<div class="good-metric">✅ {treasury_30y["interpretation"]}</div>', unsafe_allow_html=True)
+            
+            st.divider()
+        
+        # NYSE New Highs (placeholder for future data)
+        nyse_highs = indicators.get('nyse_new_highs')
+        if nyse_highs:
+            st.markdown("### 3. NYSE New Highs (4-Week Moving Total)")
+            st.info(nyse_highs['interpretation'])
+            st.caption("💡 Consider adding Barchart or Bloomberg API for real-time breadth data")
+        
+        # Active Alerts Summary
+        if alerts:
+            st.divider()
+            st.subheader("🚨 Active Alerts")
+            for alert in alerts:
+                if "CRITICAL" in alert:
+                    st.error(alert)
+                elif "WARNING" in alert:
+                    st.warning(alert)
+                else:
+                    st.info(alert)
     
     # ==============================================================================
     # TAB 1: MARKET OVERVIEW
     # ==============================================================================
-    if page == "🌍 Market Overview":
+    elif page == "🌍 Market Overview":
         st.header("Market Health Overview")
         st.markdown("*Quick snapshot of overall market conditions*")
         
@@ -872,7 +1252,7 @@ def main():
         
         st.divider()
         
-        # Top movers (UPDATED TO 5)
+        # Top movers - CHANGED TO 5
         if rankings:
             st.subheader("🔥 Today's Top Movers")
             col1, col2 = st.columns(2)
@@ -880,16 +1260,16 @@ def main():
             with col1:
                 st.markdown("**Top 5 Gainers (1D)**")
                 for item in rankings['top_gainers_1d'][:5]:  # Changed from 3 to 5
-                    st.success(f"**{item['symbol']}**: +{item['roc_1d']:.2f}%")
+                    st.success(f"**{item['symbol']}**: +{item['roc_1d']:.2f}% 📈 BULLISH")
             
             with col2:
                 st.markdown("**Top 5 Losers (1D)**")
                 for item in rankings['top_losers_1d'][:5]:  # Changed from 3 to 5
-                    st.error(f"**{item['symbol']}**: {item['roc_1d']:.2f}%")
+                    st.error(f"**{item['symbol']}**: {item['roc_1d']:.2f}% 📉 BEARISH")
         
         st.divider()
         
-        # === NEW: MACRO ECONOMIC INDICATORS ===
+        # === MACRO ECONOMIC INDICATORS ===
         st.subheader("🏛️ Economic Indicators (FRED)")
         
         # Load FRED data
@@ -927,11 +1307,11 @@ def main():
                         val = yield_curve['latest_value']
                         if val < 0:
                             st.metric("Yield Curve", f"{val:.2f}%",
-                                     delta="⚠️ Inverted",
+                                     delta="⚠️ Inverted 📉 BEARISH",
                                      delta_color="inverse")
                         else:
                             st.metric("Yield Curve", f"{val:.2f}%",
-                                     delta="✅ Normal",
+                                     delta="✅ Normal 📈 BULLISH",
                                      delta_color="normal")
                 
                 with col4:
@@ -983,19 +1363,20 @@ def main():
                         xaxis_title="Date",
                         yaxis_title="Spread (%)",
                         height=300,
-                        hovermode='x unified'
+                        hovermode='x unified',
+                        template="plotly_dark"
                     )
                     
-                    st.plotly_chart(fig, width="stretch")
+                    st.plotly_chart(fig, use_container_width=True)
                     
                     # Interpretation
                     current_spread = df_spread['spread'].iloc[-1]
                     if current_spread < 0:
-                        st.error("🔴 **Yield curve is inverted** - Historically precedes recessions")
+                        st.error("🔴 **Yield curve is inverted** - Historically precedes recessions 📉 BEARISH")
                     elif current_spread < 0.5:
                         st.warning("🟡 **Yield curve is flattening** - Monitor for inversion")
                     else:
-                        st.success("🟢 **Normal yield curve** - Healthy economic conditions")
+                        st.success("🟢 **Normal yield curve** - Healthy economic conditions 📈 BULLISH")
                 
                 # Additional Economic Charts in Tabs
                 tab1, tab2, tab3 = st.tabs(["📊 Interest Rates", "💼 Employment", "📈 Inflation"])
@@ -1033,10 +1414,11 @@ def main():
                             xaxis_title="Date",
                             yaxis_title="Yield (%)",
                             height=300,
-                            hovermode='x unified'
+                            hovermode='x unified',
+                            template="plotly_dark"
                         )
                         
-                        st.plotly_chart(fig, width="stretch")
+                        st.plotly_chart(fig, use_container_width=True)
                 
                 with tab2:
                     # Unemployment Chart
@@ -1063,10 +1445,11 @@ def main():
                             xaxis_title="Date",
                             yaxis_title="Unemployment Rate (%)",
                             height=300,
-                            hovermode='x unified'
+                            hovermode='x unified',
+                            template="plotly_dark"
                         )
                         
-                        st.plotly_chart(fig, width="stretch")
+                        st.plotly_chart(fig, use_container_width=True)
                 
                 with tab3:
                     # CPI Chart
@@ -1100,10 +1483,11 @@ def main():
                             xaxis_title="Date",
                             yaxis_title="YoY Change (%)",
                             height=300,
-                            hovermode='x unified'
+                            hovermode='x unified',
+                            template="plotly_dark"
                         )
                         
-                        st.plotly_chart(fig, width="stretch")
+                        st.plotly_chart(fig, use_container_width=True)
                 
                 # Last update time
                 last_update = fred_data.get('last_updated', 'Unknown')
@@ -1119,23 +1503,21 @@ def main():
             2. Add `FRED_API_KEY` to your `.env` file
             3. Run `python run_fred.py`
             """)
-            
-                
-    # ==============================================================================
+
+
+# ==============================================================================
     # TAB 2: AI BUBBLE WATCH
     # ==============================================================================
     elif page == "🤖 AI Bubble Watch":
         st.header("AI Bubble Outlook")
         st.markdown("*Monitoring key AI stocks for overvaluation signals*")
         
-        # Debug: Show what categories we have
+        # Get AI category data
+        ai_category = None
         if categories:
             available_categories = [c['category'] for c in categories.get('categories', [])]
             st.caption(f"Available categories: {', '.join(available_categories)}")
-        
-        # Get AI category data - try multiple variations
-        ai_category = None
-        if categories:
+            
             # Try exact match first
             ai_category = next((c for c in categories.get('categories', []) if c['category'] == 'AI bubble indicator'), None)
             
@@ -1163,7 +1545,7 @@ def main():
             ai_symbols = ai_category['symbols']
             
             # Summary metrics
-            col1, col2, col3 = st.columns(3)
+            col1, col2, col3, col4 = st.columns(4)
             
             with col1:
                 avg_rsi = sum(s.get('rsi_14', 0) for s in ai_symbols if s.get('rsi_14')) / len([s for s in ai_symbols if s.get('rsi_14')])
@@ -1172,10 +1554,16 @@ def main():
             with col2:
                 overbought_count = len([s for s in ai_symbols if s.get('rsi_14', 0) > 70])
                 st.metric("Overbought Stocks", overbought_count)
+                if overbought_count > 0:
+                    st.caption("📉 BEARISH signal")
             
             with col3:
                 avg_1d = sum(s.get('roc_1d', 0) for s in ai_symbols if s.get('roc_1d')) / len([s for s in ai_symbols if s.get('roc_1d')])
                 st.metric("Avg 1D Change", f"{avg_1d:.2f}%")
+            
+            with col4:
+                above_sma200 = len([s for s in ai_symbols if s.get('price_above_sma_200', False)])
+                st.metric("Above SMA 200", f"{above_sma200}/{len(ai_symbols)}")
             
             st.divider()
             
@@ -1190,17 +1578,35 @@ def main():
                     col1, col2, col3, col4 = st.columns(4)
                     
                     with col1:
-                        st.metric("1D Change", f"{symbol_data['performance']['roc_1d']:.2f}%")
+                        change_1d = symbol_data['performance']['roc_1d']
+                        st.metric("1D Change", f"{change_1d:.2f}%")
+                        if change_1d > 0:
+                            st.caption("📈 BULLISH")
+                        else:
+                            st.caption("📉 BEARISH")
+                    
                     with col2:
-                        st.metric("5D Change", f"{symbol_data['performance']['roc_5d']:.2f}%")
+                        change_5d = symbol_data['performance']['roc_5d']
+                        st.metric("5D Change", f"{change_5d:.2f}%")
+                        if change_5d > 0:
+                            st.caption("📈 BULLISH")
+                        else:
+                            st.caption("📉 BEARISH")
+                    
                     with col3:
-                        st.metric("20D Change", f"{symbol_data['performance']['roc_20d']:.2f}%")
+                        change_20d = symbol_data['performance']['roc_20d']
+                        st.metric("20D Change", f"{change_20d:.2f}%")
+                        if change_20d > 0:
+                            st.caption("📈 BULLISH")
+                        else:
+                            st.caption("📉 BEARISH")
+                    
                     with col4:
                         rsi = symbol_data['momentum']['rsi_14']
                         if rsi > 70:
-                            st.error(f"RSI: {rsi:.1f} (Overbought)")
+                            st.error(f"RSI: {rsi:.1f} (Overbought 📉 BEARISH)")
                         elif rsi < 30:
-                            st.success(f"RSI: {rsi:.1f} (Oversold)")
+                            st.success(f"RSI: {rsi:.1f} (Oversold 📈 BULLISH)")
                         else:
                             st.info(f"RSI: {rsi:.1f} (Neutral)")
                     
@@ -1211,7 +1617,7 @@ def main():
                     full_data = load_symbol_technical(symbol_data['symbol'])
                     if full_data:
                         fig = create_price_chart(full_data)
-                        st.plotly_chart(fig, width="stretch")
+                        st.plotly_chart(fig, use_container_width=True)
             
             st.divider()
             
@@ -1220,11 +1626,11 @@ def main():
             
             overbought = [s for s in ai_symbols if s.get('rsi_14', 0) > 70]
             if overbought:
-                st.warning(f"**{len(overbought)} AI stocks are overbought (RSI > 70):**")
+                st.warning(f"**{len(overbought)} AI stocks are overbought (RSI > 70) - 📉 BEARISH:**")
                 for s in overbought:
                     st.markdown(f"- **{s['symbol']}**: RSI {s['rsi_14']:.1f}")
             else:
-                st.success("✅ No overbought signals in AI stocks")
+                st.success("✅ No overbought signals in AI stocks - 📈 BULLISH")
             
             # CapEx warnings (if fundamentals available)
             st.markdown("### 💰 CapEx Trends (AI Bubble Indicator)")
@@ -1245,13 +1651,13 @@ def main():
                         })
             
             if capex_concerns:
-                st.warning(f"**{len(capex_concerns)} companies showing aggressive CapEx growth:**")
+                st.warning(f"**{len(capex_concerns)} companies showing aggressive CapEx growth - 📉 BEARISH:**")
                 for concern in capex_concerns:
                     cagr_str = f", 3Y CAGR: +{concern['cagr']:.1f}%" if concern['cagr'] else ""
                     st.markdown(f"- **{concern['symbol']}**: {concern['trend']}{cagr_str}")
                 st.info("💡 High CapEx growth in AI companies may indicate overinvestment bubble")
             else:
-                st.success("✅ No extreme CapEx growth patterns detected")
+                st.success("✅ No extreme CapEx growth patterns detected - 📈 BULLISH")
             
             # Valuation concerns
             st.markdown("### 📊 Valuation Metrics")
@@ -1272,14 +1678,14 @@ def main():
                         })
             
             if high_pe_stocks:
-                st.warning(f"**{len(high_pe_stocks)} stocks showing elevated valuations:**")
+                st.warning(f"**{len(high_pe_stocks)} stocks showing elevated valuations - 📉 BEARISH:**")
                 for stock in high_pe_stocks:
                     pe_str = f"Forward PE: {stock['fwd_pe']:.1f}" if stock['fwd_pe'] else ""
                     peg_str = f", PEG: {stock['peg']:.2f}" if stock['peg'] else ""
                     st.markdown(f"- **{stock['symbol']}**: {pe_str}{peg_str}")
             else:
-                st.success("✅ Valuations appear reasonable")    
-            
+                st.success("✅ Valuations appear reasonable - 📈 BULLISH")
+    
     # ==============================================================================
     # TAB 3: INDIVIDUAL SYMBOLS
     # ==============================================================================
@@ -1288,6 +1694,9 @@ def main():
         
         # Create searchable table
         symbols_list = latest_values['symbols']
+        
+        # DEFAULT SORT: Highest to Lowest Performing
+        symbols_list = sorted(symbols_list, key=lambda x: x['performance'].get('roc_1d', -999), reverse=True)
         
         # Filters
         col1, col2, col3 = st.columns(3)
@@ -1316,7 +1725,9 @@ def main():
                     "High Volatility",
                     "Low Volatility",
                     "Above SMA 200",
-                    "Below SMA 200"
+                    "Below SMA 200",
+                    "Bullish Trend (EMA)",
+                    "Bearish Trend (EMA)"
                 ],
                 default=["All Symbols"]
             )
@@ -1334,10 +1745,30 @@ def main():
         
         # Apply signal filter
         if signal_filter and "All Symbols" not in signal_filter:
-            filtered = filter_symbols_by_signals(filtered, signal_filter)
+            # Add EMA trend filters
+            filtered_temp = []
+            for symbol in filtered:
+                tech_data = load_symbol_technical(symbol['symbol'])
+                if tech_data:
+                    latest = tech_data['data'][-1]
+                    ema_trend = latest.get('ema_trend', 'neutral')
+                    
+                    # Check EMA filters
+                    if "Bullish Trend (EMA)" in signal_filter and ema_trend == 'bullish':
+                        filtered_temp.append(symbol)
+                        continue
+                    if "Bearish Trend (EMA)" in signal_filter and ema_trend == 'bearish':
+                        filtered_temp.append(symbol)
+                        continue
+                
+                # Check other filters
+                if filter_symbols_by_signals([symbol], signal_filter):
+                    filtered_temp.append(symbol)
+            
+            filtered = filtered_temp
         
         # Show count
-        st.caption(f"Showing {len(filtered)} of {len(symbols_list)} symbols")
+        st.caption(f"Showing {len(filtered)} of {len(symbols_list)} symbols (sorted by 1D performance)")
         
         # Display as cards with full indicators
         for symbol in filtered:
@@ -1364,12 +1795,31 @@ def main():
                 
                 with col1:
                     st.metric("Price", f"${symbol['price']['close']:.2f}")
+                
                 with col2:
-                    st.metric("1D", f"{symbol['performance']['roc_1d']:.2f}%")
+                    change_1d = symbol['performance']['roc_1d']
+                    st.metric("1D", f"{change_1d:.2f}%")
+                    if change_1d > 0:
+                        st.caption("📈 BULLISH")
+                    else:
+                        st.caption("📉 BEARISH")
+                
                 with col3:
-                    st.metric("5D", f"{symbol['performance']['roc_5d']:.2f}%")
+                    change_5d = symbol['performance']['roc_5d']
+                    st.metric("5D", f"{change_5d:.2f}%")
+                    if change_5d > 0:
+                        st.caption("📈 BULLISH")
+                    else:
+                        st.caption("📉 BEARISH")
+                
                 with col4:
-                    st.metric("RSI", f"{symbol['momentum']['rsi_14']:.1f}")
+                    rsi = symbol['momentum']['rsi_14']
+                    st.metric("RSI", f"{rsi:.1f}")
+                    if rsi > 70:
+                        st.caption("📉 BEARISH")
+                    elif rsi < 30:
+                        st.caption("📈 BULLISH")
+                
                 with col5:
                     emoji, status, _ = get_health_color(
                         symbol['momentum']['rsi_14'],
@@ -1425,9 +1875,9 @@ def main():
                 full_data = load_symbol_technical(symbol['symbol'])
                 if full_data:
                     fig = create_price_chart(full_data)
-                    st.plotly_chart(fig, width="stretch")
-    
-    # ==============================================================================
+                    st.plotly_chart(fig, use_container_width=True)
+                    
+                    # ==============================================================================
     # TAB 4: SYSTEM STATUS
     # ==============================================================================
     elif page == "⚙️ System Status":
@@ -1456,24 +1906,26 @@ def main():
                 st.metric("Last Analytics Run", generated_time.strftime("%Y-%m-%d %H:%M UTC"))
             
             with col3:
-                # Calculate next run based on cron schedule
-                # Assuming '0 */6 * * *' from your workflow
-                cron_schedule = "0 */6 * * *"
-                next_run = calculate_next_cron_run(cron_schedule)
-                
-                if next_run:
-                    time_until_next = next_run - datetime.utcnow()
-                    hours_until = time_until_next.total_seconds() / 3600
+                # Calculate next run based on ACTUAL cron schedule from workflow file
+                if fetch_cron:
+                    next_run = calculate_next_cron_run(fetch_cron)
                     
-                    if hours_until < 1:
-                        time_str = f"{int(time_until_next.total_seconds() / 60)}m"
+                    if next_run:
+                        time_until_next = next_run - datetime.utcnow()
+                        hours_until = time_until_next.total_seconds() / 3600
+                        
+                        if hours_until < 1:
+                            time_str = f"{int(time_until_next.total_seconds() / 60)}m"
+                        else:
+                            time_str = f"{hours_until:.1f}h"
+                        
+                        st.metric("Next Scheduled Run", time_str)
+                        st.caption(f"At {next_run.strftime('%H:%M')} UTC")
                     else:
-                        time_str = f"{hours_until:.1f}h"
-                    
-                    st.metric("Next Scheduled Run", time_str)
-                    st.caption(f"At {next_run.strftime('%H:%M')} UTC")
+                        st.metric("Next Run", "Unknown")
                 else:
                     st.metric("Next Run", "Unknown")
+                    st.caption("Cannot read workflow file")
         
         st.divider()
         
@@ -1495,6 +1947,10 @@ def main():
         # Check aggregates
         agg_path = Path("data/analytics/aggregated")
         agg_files = list(agg_path.glob("*.json")) if agg_path.exists() else []
+        
+        # Check market health
+        health_path = Path("data/analytics/market_health")
+        health_files = list(health_path.glob("*.json")) if health_path.exists() else []
         
         col1, col2 = st.columns(2)
         
@@ -1584,6 +2040,12 @@ def main():
                     st.caption(f"Missing: {', '.join(missing)}")
             else:
                 st.error(f"❌ **Aggregates:** {len(agg_files)}/4 files")
+            
+            # Market health status
+            if health_files:
+                st.success(f"✅ **Market Health:** {len(health_files)} file(s)")
+            else:
+                st.warning("⚠️ **Market Health:** Not generated")
         
         st.divider()
         
@@ -1601,17 +2063,42 @@ def main():
                 fetch_age = datetime.utcnow() - last_fetch
                 
                 st.info(f"Last run: {fetch_age.seconds // 3600}h {(fetch_age.seconds % 3600) // 60}m ago")
-                st.caption("Schedule: `0 */6 * * *` (every 6 hours)")
                 
-                # Calculate next run
-                next_fetch = calculate_next_cron_run("0 */6 * * *")
-                if next_fetch:
-                    st.caption(f"Next run: {next_fetch.strftime('%H:%M UTC')}")
-                
-                if fetch_age.total_seconds() < 25200:  # Less than 7 hours
-                    st.success("✅ Running on schedule")
+                if fetch_cron:
+                    schedule_desc = get_cron_description(fetch_cron)
+                    st.caption(f"Schedule: `{fetch_cron}`")
+                    st.caption(f"({schedule_desc})")
+                    
+                    # Calculate next run
+                    next_fetch = calculate_next_cron_run(fetch_cron)
+                    if next_fetch:
+                        st.caption(f"Next run: {next_fetch.strftime('%H:%M UTC')}")
+                    
+                    # Determine if on schedule based on actual interval
+                    if '*/30' in fetch_cron:  # Every 30 minutes
+                        threshold = 3600  # 1 hour
+                    elif '*/6' in fetch_cron:  # Every 6 hours
+                        threshold = 25200  # 7 hours
+                    elif '*/' in fetch_cron:  # Every N hours/minutes
+                        # Try to extract interval
+                        if 'hour' in schedule_desc.lower():
+                            try:
+                                interval = int(schedule_desc.split()[1])
+                                threshold = (interval + 1) * 3600
+                            except:
+                                threshold = 7200
+                        else:
+                            threshold = 7200
+                    else:
+                        threshold = 7200  # Default 2 hours
+                    
+                    if fetch_age.total_seconds() < threshold:
+                        st.success("✅ Running on schedule")
+                    else:
+                        st.error("🔴 May have failed - check GitHub Actions")
                 else:
-                    st.error("🔴 May have failed - check GitHub Actions")
+                    st.caption("Schedule: Unknown (cannot read workflow)")
+                    st.warning("⚠️ Unable to determine status")
             else:
                 st.warning("⚠️ Unable to determine status")
         
@@ -1625,7 +2112,7 @@ def main():
                 st.info(f"Last run: {analytics_age.seconds // 3600}h {(analytics_age.seconds % 3600) // 60}m ago")
                 st.caption("Triggered after fetch completion")
                 
-                if analytics_age.total_seconds() < 25200:
+                if analytics_age.total_seconds() < 7200:  # 2 hours
                     st.success("✅ Running on schedule")
                 else:
                     st.error("🔴 May have failed - check GitHub Actions")
@@ -1677,7 +2164,7 @@ def main():
         
         # Backend info
         st.subheader("🔧 Backend Information")
-        st.info("Data is automatically updated every 6 hours via GitHub Actions")
+        st.info("Data is automatically updated via GitHub Actions")
         
         col1, col2 = st.columns(2)
         with col1:
@@ -1686,14 +2173,40 @@ def main():
             st.markdown("2. ✅ Calculate technical indicators")
             st.markdown("3. ✅ Fetch fundamentals (stocks only)")
             st.markdown("4. ✅ Generate aggregated views")
-            st.markdown("5. ✅ Commit to Git")
+            st.markdown("5. ✅ Analyze market health")
+            st.markdown("6. ✅ Commit to Git")
         
         with col2:
             st.markdown("**Data Sources:**")
             st.markdown("- Yahoo Finance (all symbols)")
+            st.markdown("- FRED (macro indicators)")
             st.markdown("- 45+ calculated indicators")
+            st.markdown("- Market health scoring")
             st.markdown("- 4 aggregate summary files")
-            st.markdown("- Real-time fundamentals")
+        
+        # Workflow file status
+        st.divider()
+        st.subheader("📄 Workflow Configuration")
+        
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            if fetch_workflow_path.exists():
+                st.success("✅ **fetch-data.yml** found")
+                if fetch_cron:
+                    st.code(f"schedule: {fetch_cron}", language="yaml")
+                    st.caption(get_cron_description(fetch_cron))
+                else:
+                    st.warning("⚠️ Could not parse cron schedule")
+            else:
+                st.error("❌ **fetch-data.yml** not found")
+        
+        with col2:
+            if analytics_workflow_path.exists():
+                st.success("✅ **calculate-analytics.yml** found")
+                st.caption("Triggered by fetch-data workflow")
+            else:
+                st.error("❌ **calculate-analytics.yml** not found")
         
         # Quick actions
         st.divider()
@@ -1713,63 +2226,69 @@ def main():
             st.markdown("**Repository:**")
             st.markdown("[View Code →](https://github.com/DruidSmith/Market-Dashboard)")
         
-    # NEW: Export section
-    st.divider()
-    st.subheader("📥 Export for AI Analysis")
+        # NEW: Export section
+        st.divider()
+        st.subheader("📥 Export for AI Analysis")
+        
+        st.markdown("""
+        Generate a comprehensive report with all market data, indicators, and fundamentals.
+        Perfect for pasting into ChatGPT, Claude, or other AI assistants for personalized
+        trading recommendations.
+        """)
+        
+        if st.button("🤖 Generate AI-Ready Report", type="primary", use_container_width=True):
+            with st.spinner("Generating comprehensive export..."):
+                try:
+                    # Add project root to path
+                    import sys
+                    
+                    project_root = Path(__file__).parent.parent
+                    if str(project_root) not in sys.path:
+                        sys.path.insert(0, str(project_root))
+                    
+                    from src.export_generator import ExportGenerator
+                    
+                    generator = ExportGenerator()
+                    output_path = generator.export_to_file()
+                    
+                    # Present the file for download
+                    with open(output_path, 'r', encoding='utf-8') as f:
+                        report_content = f.read()
+                    
+                    st.success(f"✅ Report generated! ({output_path.stat().st_size:,} bytes)")
+                    
+                    # Download button
+                    st.download_button(
+                        label="📥 Download Report",
+                        data=report_content,
+                        file_name=output_path.name,
+                        mime="text/plain",
+                        use_container_width=True
+                    )
+                    
+                    # Show preview
+                    with st.expander("📄 Preview Report (First 2000 characters)"):
+                        st.text(report_content[:2000] + "\n\n... (truncated)")
+                    
+                    st.info("""
+                    **Next Steps:**
+                    1. Download the report
+                    2. Open in your preferred AI assistant (ChatGPT, Claude, etc.)
+                    3. Paste the entire content
+                    4. Ask for specific recommendations based on your goals
+                    
+                    **Example prompts:**
+                    - "Based on this data, what are your top 3 buy recommendations?"
+                    - "Should I reduce my NVDA position given the AI bubble indicators?"
+                    - "What's the recession probability based on macro indicators?"
+                    - "Recommend stop loss levels for my current positions"
+                    """)
+                    
+                except Exception as e:
+                    st.error(f"❌ Error generating report: {e}")
+                    import traceback
+                    st.code(traceback.format_exc())
 
-    st.markdown("""
-    Generate a comprehensive report with all market data, indicators, and fundamentals.
-    Perfect for pasting into ChatGPT, Claude, or other AI assistants for personalized
-    trading recommendations.
-    """)
-
-    if st.button("🤖 Generate AI-Ready Report", type="primary", use_container_width=True):
-        with st.spinner("Generating comprehensive export..."):
-            try:
-                # Fix: Add parent directory to path
-                import sys
-                
-                # Add project root to path (Path is already imported at top)
-                project_root = Path(__file__).parent.parent
-                if str(project_root) not in sys.path:
-                    sys.path.insert(0, str(project_root))
-                
-                from src.export_generator import ExportGenerator
-                
-                generator = ExportGenerator()
-                output_path = generator.export_to_file()
-                
-                # Present the file for download
-                with open(output_path, 'r', encoding='utf-8') as f:
-                    report_content = f.read()
-                
-                st.success(f"✅ Report generated! ({output_path.stat().st_size:,} bytes)")
-                
-                # Download button
-                st.download_button(
-                    label="📥 Download Report",
-                    data=report_content,
-                    file_name=output_path.name,
-                    mime="text/plain",
-                    use_container_width=True
-                )
-                
-                # Show preview
-                with st.expander("📄 Preview Report (First 2000 characters)"):
-                    st.text(report_content[:2000] + "\n\n... (truncated)")
-                
-                st.info("""
-                **Next Steps:**
-                1. Download the report
-                2. Open in your preferred AI assistant (ChatGPT, Claude, etc.)
-                3. Paste the entire content
-                4. Ask for specific recommendations based on your goals
-                """)
-                
-            except Exception as e:
-                st.error(f"❌ Error generating report: {e}")
-                import traceback
-                st.code(traceback.format_exc())
 
 if __name__ == "__main__":
     main()
