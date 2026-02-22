@@ -4,6 +4,7 @@ Run analytics calculations on fetched market data.
 
 from src.analytics.calculator import AnalyticsCalculator
 from src.analytics.aggregator import AnalyticsAggregator
+from src.analytics.market_health import MarketHealthAnalyzer
 
 
 def main():
@@ -29,9 +30,16 @@ def main():
         print("-"*70)
         
         aggregator = AnalyticsAggregator()
-        aggregator.create_all()  # Changed from create_all_aggregates()
+        aggregator.create_all()
         
         print("\n✅ Aggregated views created!")
+        
+        # Step 3: Analyze market health
+        print("\n🏥 Step 3: Analyzing Market Health")
+        print("-"*70)
+        
+        health_analyzer = MarketHealthAnalyzer()
+        health_analyzer.analyze_and_save()
         
         # Summary
         print("\n" + "="*70)

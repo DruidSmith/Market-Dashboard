@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-02-22T17:52:00.645473Z",
+  "risk_score": 5,
+  "max_score": 10,
+  "overall_status": "WARNING",
+  "recommendation": "MONITOR CLOSELY - Prepare exit strategy",
+  "alerts": [
+    "\ud83d\udfe1 WARNING: S&P 500 P/E elevated",
+    "\ud83d\udd34 CRITICAL: 30Y yield exceeds 4.5%"
+  ],
+  "indicators": {
+    "sp500_pe": {
+      "value": 27.760637,
+      "threshold": 30,
+      "status": "warning",
+      "signal": "MONITOR CLOSELY",
+      "interpretation": "P/E of 27.8 approaching historical crash threshold of 30"
+    },
+    "treasury_30y": {
+      "value": 4.724999904632568,
+      "threshold": 4.5,
+      "status": "danger",
+      "signal": "SHIFT TO FIXED INCOME",
+      "interpretation": "30Y yield at 4.72% EXCEEDS threshold of 4.5%"
+    },
+    "nyse_new_highs": {
+      "value": null,
+      "status": "unavailable",
+      "signal": "DATA UNAVAILABLE",
+      "interpretation": "NYSE new highs data requires premium data feed. Consider adding Barchart API."
+    }
+  }
+}
