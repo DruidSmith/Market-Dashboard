@@ -1,12 +1,8 @@
 {
-  "generated_at": "2026-02-23T17:08:10.512547Z",
+  "generated_at": "2026-02-23T18:37:36.300775Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
-    {
-      "symbol": "PLTR",
-      "macd": -9.67718529084405
-    },
     {
       "symbol": "NQ=F",
       "macd": -187.5820583976274
@@ -17,6 +13,10 @@
     }
   ],
   "macd_bearish_crosses": [
+    {
+      "symbol": "CRWD",
+      "macd": -16.60644608713443
+    },
     {
       "symbol": "MSFT",
       "macd": -17.95706739676052
@@ -54,14 +54,26 @@
   ],
   "rsi_oversold": [
     {
+      "symbol": "CRWD",
+      "rsi": 28.832509102369073
+    },
+    {
       "symbol": "MSFT",
       "rsi": 28.742271997239598
+    },
+    {
+      "symbol": "NFLX",
+      "rsi": 28.69311182881293
     }
   ],
   "high_volatility": [
     {
+      "symbol": "CRWD",
+      "volatility": 5.233521965020732
+    },
+    {
       "symbol": "TSM",
-      "volatility": 2.2050155446014226
+      "volatility": 2.176680839632756
     },
     {
       "symbol": "MA",
@@ -69,11 +81,11 @@
     },
     {
       "symbol": "AAPL",
-      "volatility": 2.061076550334947
+      "volatility": 2.102922344956834
     },
     {
       "symbol": "MU",
-      "volatility": 4.470442383395831
+      "volatility": 4.482164116532179
     },
     {
       "symbol": "QQQ",
@@ -97,7 +109,7 @@
     },
     {
       "symbol": "LRCX",
-      "volatility": 4.006212433174431
+      "volatility": 3.997539877413598
     },
     {
       "symbol": "JPM",
@@ -157,7 +169,7 @@
     },
     {
       "symbol": "VGT",
-      "volatility": 1.647351153910846
+      "volatility": 1.6781976534926197
     }
   ],
   "low_volatility": [
@@ -167,15 +179,11 @@
     },
     {
       "symbol": "QUBT",
-      "volatility": 7.025954821367765
-    },
-    {
-      "symbol": "NFLX",
-      "volatility": 1.8399757469510898
+      "volatility": 6.999857323992572
     },
     {
       "symbol": "IONQ",
-      "volatility": 6.479514861030069
+      "volatility": 6.500332030032433
     },
     {
       "symbol": "ETH-USD",

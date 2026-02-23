@@ -1,31 +1,39 @@
 {
-  "generated_at": "2026-02-23T17:08:10.511445Z",
+  "generated_at": "2026-02-23T18:37:36.299643Z",
   "top_gainers_1d": [
-    {
-      "symbol": "LRCX",
-      "roc_1d": 3.4314768462003986
-    },
     {
       "symbol": "GLD",
       "roc_1d": 3.4138347251279733
     },
     {
-      "symbol": "TSM",
-      "roc_1d": 2.528866443154687
-    },
-    {
-      "symbol": "MU",
-      "roc_1d": 2.1009296368170505
+      "symbol": "AAPL",
+      "roc_1d": 2.267443834111549
     },
     {
       "symbol": "MA",
       "roc_1d": 1.5712672040046671
+    },
+    {
+      "symbol": "V",
+      "roc_1d": 1.5441056742738768
+    },
+    {
+      "symbol": "JPM",
+      "roc_1d": 1.2728456019190926
     }
   ],
   "top_losers_1d": [
     {
+      "symbol": "CRWD",
+      "roc_1d": -17.963655645380825
+    },
+    {
       "symbol": "TEM",
       "roc_1d": -5.3426268396325245
+    },
+    {
+      "symbol": "IONQ",
+      "roc_1d": -5.148888549436592
     },
     {
       "symbol": "ETH-USD",
@@ -34,14 +42,6 @@
     {
       "symbol": "AMD",
       "roc_1d": -4.096120091985833
-    },
-    {
-      "symbol": "MSFT",
-      "roc_1d": -3.507540295061029
-    },
-    {
-      "symbol": "BTC-USD",
-      "roc_1d": -2.3090242513758907
     }
   ],
   "top_gainers_5d": [
@@ -50,12 +50,12 @@
       "roc_5d": 9.817128776173911
     },
     {
-      "symbol": "FIX",
-      "roc_5d": 5.15191570884721
+      "symbol": "AAPL",
+      "roc_5d": 5.315115054181296
     },
     {
-      "symbol": "LRCX",
-      "roc_5d": 4.647844832050718
+      "symbol": "FIX",
+      "roc_5d": 5.15191570884721
     },
     {
       "symbol": "ASML",
@@ -84,8 +84,8 @@
       "roc_20d": 15.98939751468642
     },
     {
-      "symbol": "TSM",
-      "roc_20d": 13.008186619882434
+      "symbol": "XLE",
+      "roc_20d": 12.083418249539847
     }
   ],
   "most_overbought": [
@@ -112,24 +112,24 @@
   ],
   "most_oversold": [
     {
+      "symbol": "NFLX",
+      "rsi_14": 28.69311182881293
+    },
+    {
       "symbol": "MSFT",
       "rsi_14": 28.742271997239598
+    },
+    {
+      "symbol": "CRWD",
+      "rsi_14": 28.832509102369073
     },
     {
       "symbol": "ETH-USD",
       "rsi_14": 31.070613829071235
     },
     {
-      "symbol": "NFLX",
-      "rsi_14": 32.19693281356001
-    },
-    {
       "symbol": "AXON",
       "rsi_14": 32.8941863416497
-    },
-    {
-      "symbol": "BTC-USD",
-      "rsi_14": 33.80091195670066
     }
   ],
   "highest_volatility": [
@@ -139,19 +139,19 @@
     },
     {
       "symbol": "QUBT",
-      "volatility_20d": 7.025954821367765
+      "volatility_20d": 6.999857323992572
     },
     {
       "symbol": "IONQ",
-      "volatility_20d": 6.479514861030069
+      "volatility_20d": 6.500332030032433
+    },
+    {
+      "symbol": "CRWD",
+      "volatility_20d": 5.233521965020732
     },
     {
       "symbol": "ETH-USD",
       "volatility_20d": 5.228475824161482
-    },
-    {
-      "symbol": "AMD",
-      "volatility_20d": 5.006536429982704
     }
   ]
 }
