@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-23T07:59:47.675267Z",
+  "generated_at": "2026-02-23T09:03:21.540193Z",
   "top_gainers_1d": [
     {
       "symbol": "FIX",
@@ -24,6 +24,10 @@
   ],
   "top_losers_1d": [
     {
+      "symbol": "ETH-USD",
+      "roc_1d": -4.91414475282268
+    },
+    {
       "symbol": "IONQ",
       "roc_1d": -1.8569157503457667
     },
@@ -38,10 +42,6 @@
     {
       "symbol": "XLE",
       "roc_1d": -0.8231602324636045
-    },
-    {
-      "symbol": "FENY",
-      "roc_1d": -0.7368759757421461
     }
   ],
   "top_gainers_5d": [
@@ -112,6 +112,10 @@
   ],
   "most_oversold": [
     {
+      "symbol": "ETH-USD",
+      "rsi_14": 31.070613829071235
+    },
+    {
       "symbol": "NFLX",
       "rsi_14": 32.19693281356001
     },
@@ -122,10 +126,6 @@
     {
       "symbol": "MSFT",
       "rsi_14": 33.69106741694843
-    },
-    {
-      "symbol": "ETH-USD",
-      "rsi_14": 35.01071340581514
     },
     {
       "symbol": "IONQ",
@@ -151,7 +151,7 @@
     },
     {
       "symbol": "ETH-USD",
-      "volatility_20d": 5.2313712257412845
+      "volatility_20d": 5.228475824161482
     }
   ]
 }
