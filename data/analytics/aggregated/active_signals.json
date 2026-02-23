@@ -1,12 +1,8 @@
 {
-  "generated_at": "2026-02-23T15:55:12.819033Z",
+  "generated_at": "2026-02-23T17:08:10.512547Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
-    {
-      "symbol": "MSFT",
-      "macd": -17.49808657257546
-    },
     {
       "symbol": "PLTR",
       "macd": -9.67718529084405
@@ -21,6 +17,10 @@
     }
   ],
   "macd_bearish_crosses": [
+    {
+      "symbol": "MSFT",
+      "macd": -17.95706739676052
+    },
     {
       "symbol": "SCHD",
       "macd": 0.7598838300777366
@@ -52,7 +52,12 @@
       "rsi": 76.60453633505554
     }
   ],
-  "rsi_oversold": [],
+  "rsi_oversold": [
+    {
+      "symbol": "MSFT",
+      "rsi": 28.742271997239598
+    }
+  ],
   "high_volatility": [
     {
       "symbol": "TSM",
@@ -72,15 +77,11 @@
     },
     {
       "symbol": "QQQ",
-      "volatility": 1.1481749899140652
+      "volatility": 1.1801974034930043
     },
     {
       "symbol": "SCHD",
       "volatility": 0.7959932273358216
-    },
-    {
-      "symbol": "SOXX",
-      "volatility": 2.375531911827799
     },
     {
       "symbol": "VWO",
@@ -144,7 +145,7 @@
     },
     {
       "symbol": "GOOGL",
-      "volatility": 1.675323036591653
+      "volatility": 1.6706011010930784
     },
     {
       "symbol": "VDE",
@@ -152,7 +153,7 @@
     },
     {
       "symbol": "SPY",
-      "volatility": 0.7562656195641537
+      "volatility": 0.7839949459813733
     },
     {
       "symbol": "VGT",
