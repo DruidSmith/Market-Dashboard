@@ -1,11 +1,15 @@
 {
-  "generated_at": "2026-02-24T19:12:42.020737Z",
+  "generated_at": "2026-02-24T19:59:56.579354Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
     {
       "symbol": "AAPL",
       "macd": 0.9612759658584196
+    },
+    {
+      "symbol": "VWO",
+      "macd": 0.6887511487550171
     },
     {
       "symbol": "VGT",
@@ -44,16 +48,28 @@
       "rsi": 72.14530614930027
     },
     {
+      "symbol": "VDC",
+      "rsi": 70.65073662140617
+    },
+    {
+      "symbol": "XLP",
+      "rsi": 71.94304014159135
+    },
+    {
       "symbol": "BND",
-      "rsi": 70.74007815541688
+      "rsi": 72.40767136027397
     },
     {
       "symbol": "VEA",
-      "rsi": 70.6126451754051
+      "rsi": 70.49164176170632
+    },
+    {
+      "symbol": "FSTA",
+      "rsi": 71.29013637965369
     },
     {
       "symbol": "HWM",
-      "rsi": 76.60453633505554
+      "rsi": 78.24320323819427
     }
   ],
   "rsi_oversold": [
@@ -96,12 +112,12 @@
       "volatility": 0.7904902493165706
     },
     {
-      "symbol": "VWO",
-      "volatility": 0.9947759478902269
-    },
-    {
       "symbol": "XLE",
       "volatility": 1.458143882311387
+    },
+    {
+      "symbol": "ITA",
+      "volatility": 1.3664606145483307
     },
     {
       "symbol": "SPLV",
@@ -113,7 +129,7 @@
     },
     {
       "symbol": "VDC",
-      "volatility": 0.8831014573520959
+      "volatility": 0.9114697105821469
     },
     {
       "symbol": "V",
@@ -121,7 +137,7 @@
     },
     {
       "symbol": "XLP",
-      "volatility": 0.8829454416208109
+      "volatility": 0.9009855899306397
     },
     {
       "symbol": "VGK",
@@ -141,19 +157,19 @@
     },
     {
       "symbol": "EME",
-      "volatility": 2.3711122970443115
+      "volatility": 2.3581791118605553
     },
     {
       "symbol": "VEA",
-      "volatility": 0.9297206119715528
+      "volatility": 0.9310269373622455
     },
     {
       "symbol": "FSTA",
-      "volatility": 0.86871088169529
+      "volatility": 0.9063050754563652
     },
     {
       "symbol": "HWM",
-      "volatility": 2.3979814498248326
+      "volatility": 2.394989132292515
     },
     {
       "symbol": "VIG",
@@ -191,7 +207,7 @@
     },
     {
       "symbol": "BND",
-      "volatility": 0.17772052909558708
+      "volatility": 0.1773924050411771
     }
   ]
 }
