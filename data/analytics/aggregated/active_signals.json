@@ -1,23 +1,19 @@
 {
-  "generated_at": "2026-02-24T14:58:48.122354Z",
+  "generated_at": "2026-02-24T16:09:13.152411Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [],
   "macd_bearish_crosses": [
-    {
-      "symbol": "CRWD",
-      "macd": -16.60644608713443
-    },
-    {
-      "symbol": "MSFT",
-      "macd": -17.95706739676052
-    },
     {
       "symbol": "NQ=F",
       "macd": -187.91223909911787
     }
   ],
   "rsi_overbought": [
+    {
+      "symbol": "TSM",
+      "rsi": 72.1500443606934
+    },
     {
       "symbol": "SCHD",
       "rsi": 73.62139085173605
@@ -41,12 +37,8 @@
   ],
   "rsi_oversold": [
     {
-      "symbol": "CRWD",
-      "rsi": 28.832509102369073
-    },
-    {
       "symbol": "MSFT",
-      "rsi": 28.742271997239598
+      "rsi": 29.701997484222716
     },
     {
       "symbol": "BTC-USD",
@@ -64,11 +56,11 @@
   "high_volatility": [
     {
       "symbol": "CRWD",
-      "volatility": 5.233521965020732
+      "volatility": 5.157194362502313
     },
     {
       "symbol": "TSM",
-      "volatility": 2.176680839632756
+      "volatility": 2.366110650485105
     },
     {
       "symbol": "AMD",
@@ -81,10 +73,6 @@
     {
       "symbol": "AAPL",
       "volatility": 2.102922344956834
-    },
-    {
-      "symbol": "MU",
-      "volatility": 4.482164116532179
     },
     {
       "symbol": "SCHD",
@@ -105,10 +93,6 @@
     {
       "symbol": "SPLV",
       "volatility": 0.4351926173335398
-    },
-    {
-      "symbol": "LRCX",
-      "volatility": 3.997539877413598
     },
     {
       "symbol": "JPM",
@@ -157,10 +141,6 @@
     {
       "symbol": "HWM",
       "volatility": 2.3979814498248326
-    },
-    {
-      "symbol": "GOOGL",
-      "volatility": 1.6706011010930784
     },
     {
       "symbol": "VIG",
