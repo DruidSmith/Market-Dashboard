@@ -1,8 +1,17 @@
 {
-  "generated_at": "2026-02-24T16:09:13.152411Z",
+  "generated_at": "2026-02-24T17:37:10.195632Z",
   "golden_crosses": [],
   "death_crosses": [],
-  "macd_bullish_crosses": [],
+  "macd_bullish_crosses": [
+    {
+      "symbol": "AAPL",
+      "macd": 0.9612759658584196
+    },
+    {
+      "symbol": "VGT",
+      "macd": -4.894361239132422
+    }
+  ],
   "macd_bearish_crosses": [
     {
       "symbol": "NQ=F",
@@ -16,11 +25,11 @@
     },
     {
       "symbol": "SCHD",
-      "rsi": 73.62139085173605
+      "rsi": 73.8511593876514
     },
     {
       "symbol": "SPLV",
-      "rsi": 73.34143176577568
+      "rsi": 72.14530614930027
     },
     {
       "symbol": "BND",
@@ -43,10 +52,6 @@
     {
       "symbol": "BTC-USD",
       "rsi": 28.806298096106858
-    },
-    {
-      "symbol": "NFLX",
-      "rsi": 28.69311182881293
     },
     {
       "symbol": "ETH-USD",
@@ -72,11 +77,11 @@
     },
     {
       "symbol": "AAPL",
-      "volatility": 2.102922344956834
+      "volatility": 2.022077629680962
     },
     {
       "symbol": "SCHD",
-      "volatility": 0.7890423204507334
+      "volatility": 0.7904902493165706
     },
     {
       "symbol": "VWO",
@@ -92,7 +97,7 @@
     },
     {
       "symbol": "SPLV",
-      "volatility": 0.4351926173335398
+      "volatility": 0.436893102165959
     },
     {
       "symbol": "JPM",
@@ -157,20 +162,16 @@
     {
       "symbol": "SPY",
       "volatility": 0.7748026331845568
-    },
-    {
-      "symbol": "VGT",
-      "volatility": 1.6781976534926197
     }
   ],
   "low_volatility": [
     {
       "symbol": "QUBT",
-      "volatility": 6.999857323992572
+      "volatility": 6.9937959867186255
     },
     {
       "symbol": "IONQ",
-      "volatility": 6.500332030032433
+      "volatility": 6.368917826979158
     },
     {
       "symbol": "ETH-USD",
