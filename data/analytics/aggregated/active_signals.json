@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-25T17:38:02.530538Z",
+  "generated_at": "2026-02-25T19:15:53.157612Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -24,6 +24,10 @@
       "macd": -4.854414950835974
     },
     {
+      "symbol": "GLD",
+      "macd": 9.858461088734884
+    },
+    {
       "symbol": "QQQM",
       "macd": -1.2935055776597437
     },
@@ -36,6 +40,10 @@
     {
       "symbol": "^VIX",
       "macd": 0.8766505832717115
+    },
+    {
+      "symbol": "EME",
+      "macd": 32.90438348853661
     }
   ],
   "rsi_overbought": [
@@ -44,28 +52,16 @@
       "rsi": 75.91952935626986
     },
     {
-      "symbol": "VDC",
-      "rsi": 70.65073662140617
-    },
-    {
       "symbol": "VEA",
       "rsi": 74.07905204882016
     },
     {
       "symbol": "FIX",
-      "rsi": 73.87240886467447
+      "rsi": 70.26767456854512
     },
     {
       "symbol": "BND",
       "rsi": 72.63390073936453
-    },
-    {
-      "symbol": "FSTA",
-      "rsi": 71.29013637965369
-    },
-    {
-      "symbol": "XLP",
-      "rsi": 71.94304014159135
     },
     {
       "symbol": "TSM",
@@ -89,7 +85,7 @@
     },
     {
       "symbol": "ITA",
-      "volatility": 1.3664606145483307
+      "volatility": 1.338270629232105
     },
     {
       "symbol": "AMZN",
@@ -109,7 +105,7 @@
     },
     {
       "symbol": "VDC",
-      "volatility": 0.9114697105821469
+      "volatility": 0.9365362213920652
     },
     {
       "symbol": "JPM",
@@ -121,7 +117,7 @@
     },
     {
       "symbol": "FIX",
-      "volatility": 3.5603371295823165
+      "volatility": 3.6065557333022467
     },
     {
       "symbol": "FENY",
@@ -133,7 +129,7 @@
     },
     {
       "symbol": "FSTA",
-      "volatility": 0.9063050754563652
+      "volatility": 0.9374886961511204
     },
     {
       "symbol": "SCHD",
@@ -141,11 +137,11 @@
     },
     {
       "symbol": "EME",
-      "volatility": 2.3581791118605553
+      "volatility": 2.3638931538460852
     },
     {
       "symbol": "XLP",
-      "volatility": 0.9009855899306397
+      "volatility": 0.9370963082195174
     },
     {
       "symbol": "AXON",
@@ -158,10 +154,6 @@
     {
       "symbol": "V",
       "volatility": 2.0087807257031964
-    },
-    {
-      "symbol": "VGK",
-      "volatility": 0.9247093292140699
     },
     {
       "symbol": "TSM",
@@ -200,10 +192,6 @@
     {
       "symbol": "ETH-USD",
       "volatility": 4.063100876121802
-    },
-    {
-      "symbol": "TEM",
-      "volatility": 4.506491156414285
     }
   ]
 }
