@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-02-25T11:25:05.934030Z",
+  "generated_at": "2026-02-25T12:03:35.424536Z",
   "top_gainers_1d": [
     {
       "symbol": "AMD",
       "roc_1d": 7.422006938076664
-    },
-    {
-      "symbol": "^VIX",
-      "roc_1d": 6.555719828856099
     },
     {
       "symbol": "FIX",
@@ -20,9 +16,17 @@
     {
       "symbol": "AXON",
       "roc_1d": 4.311403051411711
+    },
+    {
+      "symbol": "ETH-USD",
+      "roc_1d": 4.2547459464568504
     }
   ],
   "top_losers_1d": [
+    {
+      "symbol": "^VIX",
+      "roc_1d": -8.518690527933003
+    },
     {
       "symbol": "AVGO",
       "roc_1d": -2.994916737802089
@@ -38,10 +42,6 @@
     {
       "symbol": "PLTR",
       "roc_1d": -0.9270982762269786
-    },
-    {
-      "symbol": "GLD",
-      "roc_1d": -0.5609965395907968
     }
   ],
   "top_gainers_5d": [
@@ -72,12 +72,12 @@
       "roc_20d": 31.34405627868255
     },
     {
-      "symbol": "^VIX",
-      "roc_20d": 29.235465857935306
-    },
-    {
       "symbol": "HWM",
       "roc_20d": 21.342493425053345
+    },
+    {
+      "symbol": "^VIX",
+      "roc_20d": 18.22629646916529
     },
     {
       "symbol": "TSM",
@@ -135,7 +135,7 @@
   "highest_volatility": [
     {
       "symbol": "^VIX",
-      "volatility_20d": 7.956108215290859
+      "volatility_20d": 8.267397821320698
     },
     {
       "symbol": "QUBT",
