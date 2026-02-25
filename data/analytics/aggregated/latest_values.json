@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-25T02:44:55.352951Z",
+  "generated_at": "2026-02-25T05:00:13.744346Z",
   "symbol_count": 55,
   "symbols": [
     {
@@ -1821,44 +1821,44 @@
       "symbol": "ETH-USD",
       "category": "Crypto indicator",
       "price": {
-        "close": 1828.7540283203125,
-        "open": 1855.839599609375,
-        "high": 1867.293701171875,
-        "low": 1815.8114013671875,
-        "volume": 20329003008
+        "close": 1906.5628662109375,
+        "open": 1852.074462890625,
+        "high": 1934.8548583984375,
+        "low": 1847.05419921875,
+        "volume": 19668457472
       },
       "moving_averages": {
-        "sma_20": 1990.9655639648438,
-        "sma_50": 2566.311640625,
+        "sma_20": 1995.2095520019532,
+        "sma_50": 2538.523962402344,
         "sma_200": NaN,
-        "ema_12": 1971.4995077366,
-        "ema_26": 2145.7747322398723
+        "ema_12": 1961.5092551941902,
+        "ema_26": 2128.0553347562472
       },
       "momentum": {
-        "rsi_14": 29.192722455914208,
-        "macd": -174.27522450327228,
-        "macd_signal": -194.04448374425908,
-        "macd_histogram": 19.7692592409868,
+        "rsi_14": 35.52359198627538,
+        "macd": -166.546079562057,
+        "macd_signal": -188.54480290781868,
+        "macd_histogram": 21.998723345761675,
         "stochastic_k": null,
         "stochastic_d": null
       },
       "volatility": {
-        "atr_14": 103.88906535784166,
-        "bb_upper": 2152.93359296952,
-        "bb_middle": 1990.9655639648438,
-        "bb_lower": 1828.9975349601675,
-        "volatility_20d": 5.201728132537527
+        "atr_14": 104.04704855214761,
+        "bb_upper": 2143.044086561894,
+        "bb_middle": 1995.2095520019532,
+        "bb_lower": 1847.3750174420127,
+        "volatility_20d": 4.063100876121802
       },
       "trend": {
-        "adx": 55.96508473124062,
+        "adx": 55.3451420882392,
         "plus_di": null,
         "minus_di": null
       },
       "performance": {
-        "roc_1d": -2.7430705388911125,
-        "roc_5d": -7.8500600896848844,
-        "roc_20d": -14.683905417815657,
-        "momentum_10": -257.2557373046875
+        "roc_1d": 4.2547459464568504,
+        "roc_5d": -2.1919841148173913,
+        "roc_20d": 4.659414169642129,
+        "momentum_10": -160.1629638671875
       },
       "signals": {
         "golden_cross": false,
@@ -1866,7 +1866,7 @@
         "macd_bullish_cross": false,
         "macd_bearish_cross": false,
         "rsi_overbought": false,
-        "rsi_oversold": true,
+        "rsi_oversold": false,
         "price_above_sma_200": false,
         "high_volatility": false,
         "low_volatility": true
