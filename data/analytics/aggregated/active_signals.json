@@ -1,27 +1,11 @@
 {
-  "generated_at": "2026-02-26T17:13:19.806503Z",
+  "generated_at": "2026-02-26T18:11:21.704272Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
     {
-      "symbol": "SOXX",
-      "macd": 7.752570138286387
-    },
-    {
-      "symbol": "SPY",
-      "macd": -0.4823849151118793
-    },
-    {
-      "symbol": "QQQ",
-      "macd": -3.205559968694274
-    },
-    {
       "symbol": "VTIP",
       "macd": 0.061587700203588724
-    },
-    {
-      "symbol": "ASML",
-      "macd": 51.976399657971115
     },
     {
       "symbol": "LRCX",
@@ -46,13 +30,21 @@
     {
       "symbol": "VUG",
       "macd": -5.221103829252002
-    },
-    {
-      "symbol": "MSFT",
-      "macd": -16.7495466824426
     }
   ],
   "macd_bearish_crosses": [
+    {
+      "symbol": "SOXX",
+      "macd": 6.802901931721578
+    },
+    {
+      "symbol": "SPY",
+      "macd": -0.5894539849148259
+    },
+    {
+      "symbol": "ASML",
+      "macd": 47.43183577303853
+    },
     {
       "symbol": "AVGO",
       "macd": -3.184095613833165
@@ -87,6 +79,14 @@
   "rsi_oversold": [],
   "high_volatility": [
     {
+      "symbol": "SOXX",
+      "volatility": 2.5592072440817613
+    },
+    {
+      "symbol": "NVDA",
+      "volatility": 2.9843074323233205
+    },
+    {
       "symbol": "ITA",
       "volatility": 1.2936103919098154
     },
@@ -96,7 +96,7 @@
     },
     {
       "symbol": "SPY",
-      "volatility": 0.8388049417526376
+      "volatility": 0.8768929617795628
     },
     {
       "symbol": "VDC",
@@ -104,7 +104,7 @@
     },
     {
       "symbol": "QQQ",
-      "volatility": 1.254556697677716
+      "volatility": 1.304799030296988
     },
     {
       "symbol": "JPM",
@@ -113,6 +113,10 @@
     {
       "symbol": "VEA",
       "volatility": 0.8750418614265782
+    },
+    {
+      "symbol": "ASML",
+      "volatility": 2.6229454803576693
     },
     {
       "symbol": "FIX",
