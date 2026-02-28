@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-28T05:58:32.805559Z",
+  "generated_at": "2026-02-28T06:54:34.714195Z",
   "top_gainers_1d": [
     {
       "symbol": "^VIX",
@@ -24,8 +24,16 @@
   ],
   "top_losers_1d": [
     {
+      "symbol": "ETH-USD",
+      "roc_1d": -8.587021370343773
+    },
+    {
       "symbol": "IONQ",
       "roc_1d": -7.216490979626355
+    },
+    {
+      "symbol": "BTC-USD",
+      "roc_1d": -5.6567439027843
     },
     {
       "symbol": "NVDA",
@@ -34,14 +42,6 @@
     {
       "symbol": "QUBT",
       "roc_1d": -3.503839677856657
-    },
-    {
-      "symbol": "CRWD",
-      "roc_1d": -3.3558390309833985
-    },
-    {
-      "symbol": "JPM",
-      "roc_1d": -3.1086695237358186
     }
   ],
   "top_gainers_5d": [
@@ -112,8 +112,16 @@
   ],
   "most_oversold": [
     {
+      "symbol": "BTC-USD",
+      "rsi_14": 35.66551840085759
+    },
+    {
       "symbol": "MSFT",
       "rsi_14": 36.468274738885135
+    },
+    {
+      "symbol": "ETH-USD",
+      "rsi_14": 36.81661113855743
     },
     {
       "symbol": "CRWD",
@@ -122,14 +130,6 @@
     {
       "symbol": "PLTR",
       "rsi_14": 40.470685710088155
-    },
-    {
-      "symbol": "AMD",
-      "rsi_14": 40.93339085499177
-    },
-    {
-      "symbol": "AMZN",
-      "rsi_14": 41.025166352730444
     }
   ],
   "highest_volatility": [
