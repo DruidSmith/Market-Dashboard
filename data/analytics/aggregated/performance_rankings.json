@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-03-02T14:26:10.452005Z",
+  "generated_at": "2026-03-02T15:09:40.299939Z",
   "top_gainers_1d": [
     {
       "symbol": "^VIX",
       "roc_1d": 12.83292817183539
     },
     {
+      "symbol": "PLTR",
+      "roc_1d": 6.979689653555421
+    },
+    {
       "symbol": "NFLX",
       "roc_1d": 6.80327570817798
     },
     {
+      "symbol": "CRWD",
+      "roc_1d": 3.955355971794572
+    },
+    {
       "symbol": "TEM",
       "roc_1d": 1.796976872550693
-    },
-    {
-      "symbol": "AVGO",
-      "roc_1d": 1.5559299866047427
-    },
-    {
-      "symbol": "VDE",
-      "roc_1d": 1.0608217652413376
     }
   ],
   "top_losers_1d": [
@@ -40,8 +40,8 @@
       "roc_1d": -3.503839677856657
     },
     {
-      "symbol": "CRWD",
-      "roc_1d": -3.3558390309833985
+      "symbol": "JPM",
+      "roc_1d": -3.1086695237358186
     }
   ],
   "top_gainers_5d": [
@@ -62,8 +62,8 @@
       "roc_5d": 17.01840970117967
     },
     {
-      "symbol": "QUBT",
-      "roc_5d": 6.744929972601388
+      "symbol": "PLTR",
+      "roc_5d": 10.788408625920098
     }
   ],
   "top_gainers_20d": [
@@ -80,12 +80,12 @@
       "roc_20d": 19.85557384907155
     },
     {
-      "symbol": "NFLX",
-      "roc_20d": 9.68012874923807
+      "symbol": "TSM",
+      "roc_20d": 12.42437307222537
     },
     {
-      "symbol": "TSM",
-      "roc_20d": 9.636284022090225
+      "symbol": "NFLX",
+      "roc_20d": 9.68012874923807
     }
   ],
   "most_overbought": [
@@ -113,15 +113,11 @@
   "most_oversold": [
     {
       "symbol": "MSFT",
-      "rsi_14": 36.468274738885135
+      "rsi_14": 39.72190111347652
     },
     {
-      "symbol": "CRWD",
-      "rsi_14": 37.161847640747794
-    },
-    {
-      "symbol": "PLTR",
-      "rsi_14": 40.470685710088155
+      "symbol": "GOOGL",
+      "rsi_14": 40.17226398033883
     },
     {
       "symbol": "NQ=F",
@@ -130,6 +126,10 @@
     {
       "symbol": "AMD",
       "rsi_14": 40.93339085499177
+    },
+    {
+      "symbol": "AMZN",
+      "rsi_14": 41.025166352730444
     }
   ],
   "highest_volatility": [
@@ -146,12 +146,12 @@
       "volatility_20d": 7.003186622421781
     },
     {
-      "symbol": "AMD",
-      "volatility_20d": 5.400780785564512
+      "symbol": "CRWD",
+      "volatility_20d": 5.458548623479058
     },
     {
-      "symbol": "CRWD",
-      "volatility_20d": 5.353133477742391
+      "symbol": "AMD",
+      "volatility_20d": 5.400780785564512
     }
   ]
 }
