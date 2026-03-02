@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-02T15:09:40.301030Z",
+  "generated_at": "2026-03-02T16:05:38.620512Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -16,6 +16,10 @@
     {
       "symbol": "TSM",
       "macd": 12.07446508610019
+    },
+    {
+      "symbol": "AAPL",
+      "macd": 1.1423886427729713
     }
   ],
   "rsi_overbought": [
@@ -36,6 +40,10 @@
       "rsi": 73.9185028824427
     },
     {
+      "symbol": "NFLX",
+      "rsi": 74.6204789235739
+    },
+    {
       "symbol": "BND",
       "rsi": 77.23232576498012
     },
@@ -44,12 +52,16 @@
       "rsi": 70.4754936751753
     },
     {
+      "symbol": "SCHD",
+      "rsi": 73.34321412302882
+    },
+    {
       "symbol": "XLP",
       "rsi": 70.48381014160213
     },
     {
       "symbol": "SPLV",
-      "rsi": 78.18970980337649
+      "rsi": 80.39525894252601
     }
   ],
   "rsi_oversold": [],
@@ -80,7 +92,7 @@
     },
     {
       "symbol": "NFLX",
-      "volatility": 2.8282325878892505
+      "volatility": 3.0895450623785643
     },
     {
       "symbol": "FIX",
@@ -119,22 +131,30 @@
       "volatility": 2.033087898229409
     },
     {
+      "symbol": "VUG",
+      "volatility": 1.1651385960213898
+    },
+    {
       "symbol": "TSM",
       "volatility": 2.403153936998463
     },
     {
       "symbol": "MA",
       "volatility": 1.9781935827992436
+    },
+    {
+      "symbol": "AAPL",
+      "volatility": 2.115424204973302
     }
   ],
   "low_volatility": [
     {
       "symbol": "QUBT",
-      "volatility": 7.003186622421781
+      "volatility": 6.726565692126439
     },
     {
       "symbol": "IONQ",
-      "volatility": 8.826049100327355
+      "volatility": 8.665530432490737
     },
     {
       "symbol": "BND",
