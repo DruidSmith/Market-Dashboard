@@ -1,11 +1,15 @@
 {
-  "generated_at": "2026-03-02T16:05:38.620512Z",
+  "generated_at": "2026-03-02T17:26:02.699912Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
     {
       "symbol": "^VIX",
       "macd": 0.9458420962412397
+    },
+    {
+      "symbol": "V",
+      "macd": -4.36956092986145
     }
   ],
   "macd_bearish_crosses": [
@@ -23,6 +27,10 @@
     }
   ],
   "rsi_overbought": [
+    {
+      "symbol": "XLE",
+      "rsi": 71.93001154360006
+    },
     {
       "symbol": "HWM",
       "rsi": 75.30274114367226
@@ -42,6 +50,14 @@
     {
       "symbol": "NFLX",
       "rsi": 74.6204789235739
+    },
+    {
+      "symbol": "FENY",
+      "rsi": 72.24578880802991
+    },
+    {
+      "symbol": "VDE",
+      "rsi": 73.23413517648859
     },
     {
       "symbol": "BND",
@@ -67,6 +83,10 @@
   "rsi_oversold": [],
   "high_volatility": [
     {
+      "symbol": "XLE",
+      "volatility": 1.5437412805637158
+    },
+    {
       "symbol": "NVDA",
       "volatility": 3.0851167986873955
     },
@@ -88,7 +108,7 @@
     },
     {
       "symbol": "JPM",
-      "volatility": 2.031837075443636
+      "volatility": 2.0394320769482253
     },
     {
       "symbol": "NFLX",
@@ -100,11 +120,11 @@
     },
     {
       "symbol": "FENY",
-      "volatility": 1.481688380790155
+      "volatility": 1.5477838742217866
     },
     {
       "symbol": "VDE",
-      "volatility": 1.4588382658735233
+      "volatility": 1.5268682224612107
     },
     {
       "symbol": "FSTA",
@@ -120,7 +140,7 @@
     },
     {
       "symbol": "AXON",
-      "volatility": 5.2690972755124115
+      "volatility": 5.236212270179277
     },
     {
       "symbol": "CRWD",
@@ -128,7 +148,7 @@
     },
     {
       "symbol": "V",
-      "volatility": 2.033087898229409
+      "volatility": 1.9292513037904944
     },
     {
       "symbol": "VUG",
@@ -140,7 +160,7 @@
     },
     {
       "symbol": "MA",
-      "volatility": 1.9781935827992436
+      "volatility": 1.9732055274708034
     },
     {
       "symbol": "AAPL",
