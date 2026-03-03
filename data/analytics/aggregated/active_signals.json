@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-03T16:11:18.473660Z",
+  "generated_at": "2026-03-03T17:24:48.447051Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -26,8 +26,12 @@
       "macd": 1.1775655243612704
     },
     {
-      "symbol": "AAPL",
-      "macd": 1.1423886427729713
+      "symbol": "VGT",
+      "macd": -5.144795314805492
+    },
+    {
+      "symbol": "QQQM",
+      "macd": -1.303534438484803
     }
   ],
   "rsi_overbought": [
@@ -45,7 +49,7 @@
     },
     {
       "symbol": "NFLX",
-      "rsi": 74.6204789235739
+      "rsi": 74.69215375115012
     },
     {
       "symbol": "FENY",
@@ -54,14 +58,6 @@
     {
       "symbol": "VDE",
       "rsi": 73.23413517648859
-    },
-    {
-      "symbol": "SCHD",
-      "rsi": 73.34321412302882
-    },
-    {
-      "symbol": "SPLV",
-      "rsi": 80.39525894252601
     }
   ],
   "rsi_oversold": [],
@@ -120,11 +116,19 @@
     },
     {
       "symbol": "NFLX",
-      "volatility": 3.0895450623785643
+      "volatility": 3.0699203818931604
+    },
+    {
+      "symbol": "VGT",
+      "volatility": 1.6371506119527708
     },
     {
       "symbol": "FIX",
       "volatility": 3.6365558322174256
+    },
+    {
+      "symbol": "MGK",
+      "volatility": 1.1981103651334495
     },
     {
       "symbol": "FENY",
@@ -141,6 +145,10 @@
     {
       "symbol": "FSTA",
       "volatility": 0.9066867430885663
+    },
+    {
+      "symbol": "SCHD",
+      "volatility": 0.8150344268418188
     },
     {
       "symbol": "VWO",
@@ -172,7 +180,7 @@
     },
     {
       "symbol": "VUG",
-      "volatility": 1.1651385960213898
+      "volatility": 1.1633577569922118
     },
     {
       "symbol": "TSM",
@@ -184,17 +192,21 @@
     },
     {
       "symbol": "AAPL",
-      "volatility": 2.115424204973302
+      "volatility": 1.9015519923270332
+    },
+    {
+      "symbol": "SPLV",
+      "volatility": 0.5028733741536158
     }
   ],
   "low_volatility": [
     {
       "symbol": "QUBT",
-      "volatility": 6.726565692126439
+      "volatility": 6.868838047819557
     },
     {
       "symbol": "IONQ",
-      "volatility": 8.665530432490737
+      "volatility": 8.636730808349489
     },
     {
       "symbol": "ETH-USD",
