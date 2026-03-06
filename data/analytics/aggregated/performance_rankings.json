@@ -1,6 +1,10 @@
 {
-  "generated_at": "2026-03-06T09:50:52.712472Z",
+  "generated_at": "2026-03-06T10:44:16.022074Z",
   "top_gainers_1d": [
+    {
+      "symbol": "^VIX",
+      "roc_1d": 14.004682518475597
+    },
     {
       "symbol": "CRWD",
       "roc_1d": 5.5695044049250075
@@ -16,20 +20,12 @@
     {
       "symbol": "VDE",
       "roc_1d": 1.5329739204875459
-    },
-    {
-      "symbol": "XLE",
-      "roc_1d": 1.4359619790507372
     }
   ],
   "top_losers_1d": [
     {
       "symbol": "FIX",
       "roc_1d": -7.635916561521061
-    },
-    {
-      "symbol": "^VIX",
-      "roc_1d": -7.495665285767183
     },
     {
       "symbol": "QUBT",
@@ -42,12 +38,16 @@
     {
       "symbol": "EME",
       "roc_1d": -3.7815881288231545
+    },
+    {
+      "symbol": "ITA",
+      "roc_1d": -3.0994453220806295
     }
   ],
   "top_gainers_5d": [
     {
       "symbol": "^VIX",
-      "roc_5d": 18.74305297570793
+      "roc_5d": 17.86925231100922
     },
     {
       "symbol": "NFLX",
@@ -80,12 +80,12 @@
       "roc_20d": 21.57383549140899
     },
     {
-      "symbol": "FIX",
-      "roc_20d": 18.48527778540847
+      "symbol": "^VIX",
+      "roc_20d": 19.489441088819802
     },
     {
-      "symbol": "PLTR",
-      "roc_20d": 9.409492270713283
+      "symbol": "FIX",
+      "roc_20d": 18.48527778540847
     }
   ],
   "most_overbought": [
@@ -135,7 +135,7 @@
   "highest_volatility": [
     {
       "symbol": "^VIX",
-      "volatility_20d": 8.926848645058989
+      "volatility_20d": 9.281453480401286
     },
     {
       "symbol": "IONQ",
