@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-03-09T13:19:57.997534Z",
+  "generated_at": "2026-03-09T14:32:45.684540Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
     {
       "symbol": "AMD",
       "macd": -6.474731834374154
-    },
-    {
-      "symbol": "TEM",
-      "macd": -2.3696682731098946
     }
   ],
   "macd_bearish_crosses": [
     {
       "symbol": "VGT",
       "macd": -4.709816952761912
+    },
+    {
+      "symbol": "TEM",
+      "macd": -2.4603643648124063
     }
   ],
   "rsi_overbought": [
@@ -32,7 +32,12 @@
       "rsi": 74.49778449014111
     }
   ],
-  "rsi_oversold": [],
+  "rsi_oversold": [
+    {
+      "symbol": "VGK",
+      "rsi": 29.430378929683258
+    }
+  ],
   "high_volatility": [
     {
       "symbol": "NQ=F",
@@ -44,7 +49,7 @@
     },
     {
       "symbol": "ITA",
-      "volatility": 1.5020737372610722
+      "volatility": 1.3259946769816684
     },
     {
       "symbol": "VIG",
@@ -64,7 +69,7 @@
     },
     {
       "symbol": "VDC",
-      "volatility": 1.012717901326989
+      "volatility": 0.952318080519831
     },
     {
       "symbol": "QQQ",
@@ -92,7 +97,7 @@
     },
     {
       "symbol": "FIX",
-      "volatility": 3.781679864226458
+      "volatility": 3.507319844309941
     },
     {
       "symbol": "VYM",
@@ -112,7 +117,7 @@
     },
     {
       "symbol": "FSTA",
-      "volatility": 1.0143626978380784
+      "volatility": 0.9580345747002216
     },
     {
       "symbol": "SCHD",
@@ -124,11 +129,11 @@
     },
     {
       "symbol": "EME",
-      "volatility": 3.2375345482191347
+      "volatility": 2.8544784793078537
     },
     {
       "symbol": "XLP",
-      "volatility": 0.9761020341443303
+      "volatility": 0.9324173215110525
     },
     {
       "symbol": "AXON",
@@ -140,7 +145,7 @@
     },
     {
       "symbol": "VGK",
-      "volatility": 1.2455594542867316
+      "volatility": 1.1693429680722034
     },
     {
       "symbol": "TSM",
@@ -170,7 +175,7 @@
     },
     {
       "symbol": "TEM",
-      "volatility": 4.385163449166743
+      "volatility": 4.357651162437771
     }
   ]
 }
