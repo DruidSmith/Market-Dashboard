@@ -1,13 +1,17 @@
 {
-  "generated_at": "2026-03-09T07:35:36.205728Z",
+  "generated_at": "2026-03-09T08:55:29.046465Z",
   "top_gainers_1d": [
     {
       "symbol": "^VIX",
-      "roc_1d": 14.004682518475597
+      "roc_1d": 37.30483960326523
     },
     {
       "symbol": "PLTR",
       "roc_1d": 2.895132129401179
+    },
+    {
+      "symbol": "ETH-USD",
+      "roc_1d": 2.507396849857546
     },
     {
       "symbol": "AXON",
@@ -16,10 +20,6 @@
     {
       "symbol": "GLD",
       "roc_1d": 1.560111561797628
-    },
-    {
-      "symbol": "QUBT",
-      "roc_1d": 1.3601039109727653
     }
   ],
   "top_losers_1d": [
@@ -47,7 +47,7 @@
   "top_gainers_5d": [
     {
       "symbol": "^VIX",
-      "roc_5d": 17.86925231100922
+      "roc_5d": 43.4334732328578
     },
     {
       "symbol": "PLTR",
@@ -68,6 +68,10 @@
   ],
   "top_gainers_20d": [
     {
+      "symbol": "^VIX",
+      "roc_20d": 92.51150342136143
+    },
+    {
       "symbol": "AXON",
       "roc_20d": 43.390468237321
     },
@@ -80,10 +84,6 @@
       "roc_20d": 20.829169275621197
     },
     {
-      "symbol": "^VIX",
-      "roc_20d": 19.489441088819802
-    },
-    {
       "symbol": "HWM",
       "roc_20d": 19.3403594696983
     }
@@ -92,6 +92,10 @@
     {
       "symbol": "NFLX",
       "rsi_14": 74.49778449014111
+    },
+    {
+      "symbol": "^VIX",
+      "rsi_14": 72.23313341273908
     },
     {
       "symbol": "VTIP",
@@ -104,10 +108,6 @@
     {
       "symbol": "FENY",
       "rsi_14": 69.04517208619208
-    },
-    {
-      "symbol": "XLE",
-      "rsi_14": 68.5816172973612
     }
   ],
   "most_oversold": [
@@ -135,7 +135,7 @@
   "highest_volatility": [
     {
       "symbol": "^VIX",
-      "volatility_20d": 9.281453480401286
+      "volatility_20d": 11.5608770626409
     },
     {
       "symbol": "IONQ",
@@ -150,8 +150,8 @@
       "volatility_20d": 5.231221093598416
     },
     {
-      "symbol": "AXON",
-      "volatility_20d": 4.418371981256458
+      "symbol": "ETH-USD",
+      "volatility_20d": 4.436583180237957
     }
   ]
 }
