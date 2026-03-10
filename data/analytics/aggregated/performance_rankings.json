@@ -1,10 +1,6 @@
 {
-  "generated_at": "2026-03-10T09:55:05.775010Z",
+  "generated_at": "2026-03-10T10:51:38.460671Z",
   "top_gainers_1d": [
-    {
-      "symbol": "^VIX",
-      "roc_1d": 37.30483960326523
-    },
     {
       "symbol": "BTC-USD",
       "roc_1d": 3.141135382588245
@@ -20,9 +16,17 @@
     {
       "symbol": "NQ=F",
       "roc_1d": 2.131229728761874
+    },
+    {
+      "symbol": "HWM",
+      "roc_1d": 1.5078207778534303
     }
   ],
   "top_losers_1d": [
+    {
+      "symbol": "^VIX",
+      "roc_1d": -28.007178982135528
+    },
     {
       "symbol": "QUBT",
       "roc_1d": -4.98402397433696
@@ -38,17 +42,9 @@
     {
       "symbol": "AXON",
       "roc_1d": -2.910688714417864
-    },
-    {
-      "symbol": "AMZN",
-      "roc_1d": -2.7527166857527985
     }
   ],
   "top_gainers_5d": [
-    {
-      "symbol": "^VIX",
-      "roc_5d": 43.4334732328578
-    },
     {
       "symbol": "CRWD",
       "roc_5d": 13.240236133130544
@@ -64,12 +60,16 @@
     {
       "symbol": "MSFT",
       "roc_5d": 1.884158715952533
+    },
+    {
+      "symbol": "NQ=F",
+      "roc_5d": 1.6362396016820657
     }
   ],
   "top_gainers_20d": [
     {
       "symbol": "^VIX",
-      "roc_20d": 92.51150342136143
+      "roc_20d": 35.24450943081461
     },
     {
       "symbol": "AXON",
@@ -90,10 +90,6 @@
   ],
   "most_overbought": [
     {
-      "symbol": "^VIX",
-      "rsi_14": 72.23313341273908
-    },
-    {
       "symbol": "NFLX",
       "rsi_14": 71.14452784864658
     },
@@ -108,6 +104,10 @@
     {
       "symbol": "VDE",
       "rsi_14": 67.62785858240247
+    },
+    {
+      "symbol": "XLE",
+      "rsi_14": 67.16262548978034
     }
   ],
   "most_oversold": [
@@ -135,7 +135,7 @@
   "highest_volatility": [
     {
       "symbol": "^VIX",
-      "volatility_20d": 11.5608770626409
+      "volatility_20d": 13.589894981597872
     },
     {
       "symbol": "IONQ",
