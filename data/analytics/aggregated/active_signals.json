@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-12T18:11:56.094999Z",
+  "generated_at": "2026-03-12T19:26:57.344072Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [],
@@ -7,9 +7,22 @@
     {
       "symbol": "META",
       "macd": -2.3923479166178367
+    },
+    {
+      "symbol": "QQQM",
+      "macd": -1.0771488260839703
     }
   ],
-  "rsi_overbought": [],
+  "rsi_overbought": [
+    {
+      "symbol": "XLE",
+      "rsi": 71.37549856242002
+    },
+    {
+      "symbol": "FENY",
+      "rsi": 71.53313164322574
+    }
+  ],
   "rsi_oversold": [],
   "high_volatility": [
     {
@@ -18,7 +31,7 @@
     },
     {
       "symbol": "XLE",
-      "volatility": 1.2242366976566934
+      "volatility": 1.181939128765863
     },
     {
       "symbol": "ITA",
@@ -26,7 +39,7 @@
     },
     {
       "symbol": "VIG",
-      "volatility": 0.5856415851040249
+      "volatility": 0.5957001382645092
     },
     {
       "symbol": "^VIX",
@@ -70,11 +83,11 @@
     },
     {
       "symbol": "VYM",
-      "volatility": 0.6097442968917046
+      "volatility": 0.5863284046934458
     },
     {
       "symbol": "FENY",
-      "volatility": 1.230976140242296
+      "volatility": 1.1785435267297173
     },
     {
       "symbol": "VDE",
@@ -110,11 +123,11 @@
     },
     {
       "symbol": "DGRO",
-      "volatility": 0.5798796138714348
+      "volatility": 0.5729055509414372
     },
     {
       "symbol": "SPLV",
-      "volatility": 0.5993209851232387
+      "volatility": 0.5985327082417035
     }
   ],
   "low_volatility": [
