@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-16T16:39:54.757628Z",
+  "generated_at": "2026-03-16T18:04:18.584413Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -12,13 +12,13 @@
       "macd": 8.440222094325293
     }
   ],
-  "macd_bearish_crosses": [
+  "macd_bearish_crosses": [],
+  "rsi_overbought": [
     {
-      "symbol": "AXON",
-      "macd": 6.156418285303403
+      "symbol": "VDE",
+      "rsi": 71.60359875734814
     }
   ],
-  "rsi_overbought": [],
   "rsi_oversold": [],
   "high_volatility": [
     {
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "HWM",
-      "volatility": 1.8276761537694164
+      "volatility": 1.757955160014876
     },
     {
       "symbol": "SPY",
@@ -59,11 +59,11 @@
     },
     {
       "symbol": "VTIP",
-      "volatility": 0.10943680636340077
+      "volatility": 0.11090794046071355
     },
     {
       "symbol": "VEA",
-      "volatility": 1.2660117273288078
+      "volatility": 1.3191366079462399
     },
     {
       "symbol": "ASML",
@@ -87,11 +87,11 @@
     },
     {
       "symbol": "VDE",
-      "volatility": 1.0506593003586222
+      "volatility": 1.047437771418499
     },
     {
       "symbol": "BND",
-      "volatility": 0.30275818721999204
+      "volatility": 0.3080690116875297
     },
     {
       "symbol": "FSTA",
@@ -99,7 +99,7 @@
     },
     {
       "symbol": "VWO",
-      "volatility": 1.2061887324225329
+      "volatility": 1.2623270532399806
     },
     {
       "symbol": "XLP",
@@ -142,6 +142,10 @@
     {
       "symbol": "ETH-USD",
       "volatility": 4.324324237883254
+    },
+    {
+      "symbol": "MA",
+      "volatility": 1.7726796265870581
     },
     {
       "symbol": "PLTR",
