@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-17T11:26:22.453560Z",
+  "generated_at": "2026-03-17T12:05:22.610108Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -12,7 +12,12 @@
       "macd": 8.440222094325293
     }
   ],
-  "macd_bearish_crosses": [],
+  "macd_bearish_crosses": [
+    {
+      "symbol": "^VIX",
+      "macd": 1.7034154417309395
+    }
+  ],
   "rsi_overbought": [
     {
       "symbol": "VDE",
@@ -39,7 +44,7 @@
     },
     {
       "symbol": "^VIX",
-      "volatility": 13.173290569587332
+      "volatility": 13.255303130154026
     },
     {
       "symbol": "HWM",
