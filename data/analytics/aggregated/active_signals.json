@@ -1,16 +1,8 @@
 {
-  "generated_at": "2026-03-18T14:01:45.673654Z",
+  "generated_at": "2026-03-18T15:21:27.137774Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
-    {
-      "symbol": "XLE",
-      "macd": 1.5564111829923064
-    },
-    {
-      "symbol": "FENY",
-      "macd": 0.8740942304140695
-    },
     {
       "symbol": "VDE",
       "macd": 4.457335309905375
@@ -20,35 +12,44 @@
     {
       "symbol": "AVGO",
       "macd": -0.9165689074335432
+    },
+    {
+      "symbol": "VUG",
+      "macd": -4.031681856211492
     }
   ],
   "rsi_overbought": [
     {
       "symbol": "XLE",
-      "rsi": 73.56810257165317
+      "rsi": 71.26976708405357
     },
     {
       "symbol": "FENY",
-      "rsi": 73.98085112587174
+      "rsi": 72.08598724794159
     },
     {
       "symbol": "VDE",
       "rsi": 75.38730084428336
     }
   ],
-  "rsi_oversold": [],
-  "high_volatility": [
+  "rsi_oversold": [
     {
-      "symbol": "XLE",
-      "volatility": 1.0845515141769129
+      "symbol": "VIG",
+      "rsi": 29.243212041601964
     },
+    {
+      "symbol": "DGRO",
+      "rsi": 29.159615080547354
+    }
+  ],
+  "high_volatility": [
     {
       "symbol": "ITA",
       "volatility": 1.5073733579139026
     },
     {
       "symbol": "VIG",
-      "volatility": 0.5400829225809761
+      "volatility": 0.5530554216483263
     },
     {
       "symbol": "^VIX",
@@ -75,10 +76,6 @@
       "volatility": 3.5690025308873596
     },
     {
-      "symbol": "FENY",
-      "volatility": 1.0503961364533883
-    },
-    {
       "symbol": "VDE",
       "volatility": 1.0141963104280811
     },
@@ -96,11 +93,11 @@
     },
     {
       "symbol": "DGRO",
-      "volatility": 0.533070855280218
+      "volatility": 0.5499991318209926
     },
     {
       "symbol": "SPLV",
-      "volatility": 0.5848240743950905
+      "volatility": 0.7009016829761869
     }
   ],
   "low_volatility": [
@@ -119,6 +116,10 @@
     {
       "symbol": "IONQ",
       "volatility": 6.613457890838424
+    },
+    {
+      "symbol": "MGK",
+      "volatility": 0.9537830389599888
     },
     {
       "symbol": "GOOGL",
