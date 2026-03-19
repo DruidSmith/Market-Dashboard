@@ -1,9 +1,26 @@
 {
-  "generated_at": "2026-03-19T16:36:21.572368Z",
+  "generated_at": "2026-03-19T17:56:01.339527Z",
   "golden_crosses": [],
   "death_crosses": [],
-  "macd_bullish_crosses": [],
+  "macd_bullish_crosses": [
+    {
+      "symbol": "LRCX",
+      "macd": -0.9159519372278453
+    }
+  ],
   "macd_bearish_crosses": [
+    {
+      "symbol": "IONQ",
+      "macd": -1.3986518438138305
+    },
+    {
+      "symbol": "NFLX",
+      "macd": 2.5610575682087244
+    },
+    {
+      "symbol": "VGT",
+      "macd": -4.817697187172939
+    },
     {
       "symbol": "VUG",
       "macd": -4.031681856211492
@@ -67,6 +84,10 @@
       "volatility": 1.4236258022605275
     },
     {
+      "symbol": "NFLX",
+      "volatility": 2.8206829344574103
+    },
+    {
       "symbol": "FIX",
       "volatility": 3.6247937669711416
     },
@@ -102,11 +123,11 @@
     },
     {
       "symbol": "QUBT",
-      "volatility": 3.5691806431913524
+      "volatility": 3.574843806302886
     },
     {
       "symbol": "IONQ",
-      "volatility": 6.613457890838424
+      "volatility": 6.648142631195947
     },
     {
       "symbol": "MGK",
@@ -126,7 +147,7 @@
     },
     {
       "symbol": "PLTR",
-      "volatility": 2.899661670901536
+      "volatility": 2.9356286608838436
     },
     {
       "symbol": "TEM",
