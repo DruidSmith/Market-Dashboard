@@ -1,6 +1,10 @@
 {
-  "generated_at": "2026-03-19T08:54:23.932223Z",
+  "generated_at": "2026-03-19T09:55:34.226868Z",
   "top_gainers_1d": [
+    {
+      "symbol": "^VIX",
+      "roc_1d": 20.581444710522657
+    },
     {
       "symbol": "MU",
       "roc_1d": 3.3876594173384067
@@ -16,10 +20,6 @@
     {
       "symbol": "FIX",
       "roc_1d": 2.3504038091532564
-    },
-    {
-      "symbol": "AMD",
-      "roc_1d": 1.7803449445534802
     }
   ],
   "top_losers_1d": [
@@ -28,8 +28,8 @@
       "roc_1d": -7.422035302151075
     },
     {
-      "symbol": "^VIX",
-      "roc_1d": -7.353567157918361
+      "symbol": "BTC-USD",
+      "roc_1d": -4.998543543009082
     },
     {
       "symbol": "MA",
@@ -50,12 +50,12 @@
       "roc_5d": 10.629376160593784
     },
     {
-      "symbol": "ETH-USD",
-      "roc_5d": 4.100085346735072
+      "symbol": "^VIX",
+      "roc_5d": 4.603681503619916
     },
     {
-      "symbol": "BTC-USD",
-      "roc_5d": 3.742426881040717
+      "symbol": "ETH-USD",
+      "roc_5d": 4.100085346735072
     },
     {
       "symbol": "FIX",
@@ -67,6 +67,10 @@
     }
   ],
   "top_gainers_20d": [
+    {
+      "symbol": "^VIX",
+      "roc_20d": 34.275438798021376
+    },
     {
       "symbol": "NFLX",
       "roc_20d": 21.79793133298975
@@ -82,10 +86,6 @@
     {
       "symbol": "MU",
       "roc_20d": 10.821381086826598
-    },
-    {
-      "symbol": "BTC-USD",
-      "roc_20d": 8.988187838549155
     }
   ],
   "most_overbought": [
@@ -135,7 +135,7 @@
   "highest_volatility": [
     {
       "symbol": "^VIX",
-      "volatility_20d": 13.172939913955977
+      "volatility_20d": 13.824030702575934
     },
     {
       "symbol": "IONQ",
