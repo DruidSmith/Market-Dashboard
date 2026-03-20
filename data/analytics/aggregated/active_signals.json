@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-20T15:13:56.542892Z",
+  "generated_at": "2026-03-20T16:09:10.764121Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -12,7 +12,12 @@
       "macd": -0.9159519372278453
     }
   ],
-  "macd_bearish_crosses": [],
+  "macd_bearish_crosses": [
+    {
+      "symbol": "VTIP",
+      "macd": 0.08241232531786835
+    }
+  ],
   "rsi_overbought": [
     {
       "symbol": "XLE",
@@ -44,7 +49,7 @@
   "high_volatility": [
     {
       "symbol": "ITA",
-      "volatility": 1.6428587437264655
+      "volatility": 1.6422462309323358
     },
     {
       "symbol": "VIG",
@@ -56,23 +61,19 @@
     },
     {
       "symbol": "HWM",
-      "volatility": 1.9350613849049632
+      "volatility": 1.7550339931530285
     },
     {
       "symbol": "SPY",
       "volatility": 1.2202182508228956
     },
     {
-      "symbol": "VDC",
-      "volatility": 1.125945819544945
-    },
-    {
       "symbol": "VTIP",
-      "volatility": 0.1224698231303952
+      "volatility": 0.1274603695963264
     },
     {
       "symbol": "VEA",
-      "volatility": 1.4236258022605275
+      "volatility": 1.375740560089894
     },
     {
       "symbol": "FIX",
@@ -84,11 +85,15 @@
     },
     {
       "symbol": "BND",
-      "volatility": 0.3216638234152993
+      "volatility": 0.3285102388055042
+    },
+    {
+      "symbol": "FSTA",
+      "volatility": 1.1493710183100334
     },
     {
       "symbol": "VWO",
-      "volatility": 1.3626702619760853
+      "volatility": 1.2721616846831887
     },
     {
       "symbol": "VGK",
