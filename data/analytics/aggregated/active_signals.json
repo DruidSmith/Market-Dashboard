@@ -1,8 +1,12 @@
 {
-  "generated_at": "2026-03-20T14:26:29.120073Z",
+  "generated_at": "2026-03-20T15:13:56.542892Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
+    {
+      "symbol": "JPM",
+      "macd": -5.4114771547704095
+    },
     {
       "symbol": "LRCX",
       "macd": -0.9159519372278453
@@ -12,25 +16,29 @@
   "rsi_overbought": [
     {
       "symbol": "XLE",
-      "rsi": 74.63147650467047
+      "rsi": 76.37452398635193
     },
     {
       "symbol": "FENY",
-      "rsi": 75.966298282395
+      "rsi": 76.38194122938795
     },
     {
       "symbol": "VDE",
-      "rsi": 77.18601580298726
+      "rsi": 79.37445114877706
     }
   ],
   "rsi_oversold": [
     {
       "symbol": "VIG",
-      "rsi": 27.557695859653236
+      "rsi": 24.267958874971754
+    },
+    {
+      "symbol": "VYM",
+      "rsi": 28.42793135927738
     },
     {
       "symbol": "DGRO",
-      "rsi": 27.393884596454583
+      "rsi": 24.51099689353741
     }
   ],
   "high_volatility": [
@@ -40,7 +48,7 @@
     },
     {
       "symbol": "VIG",
-      "volatility": 0.5429239165760427
+      "volatility": 0.5580559816944893
     },
     {
       "symbol": "^VIX",
@@ -72,7 +80,7 @@
     },
     {
       "symbol": "VYM",
-      "volatility": 0.531739485225693
+      "volatility": 0.584076080565258
     },
     {
       "symbol": "BND",
@@ -88,7 +96,7 @@
     },
     {
       "symbol": "DGRO",
-      "volatility": 0.5483520327570741
+      "volatility": 0.5536718027344153
     },
     {
       "symbol": "SPLV",
@@ -126,7 +134,11 @@
     },
     {
       "symbol": "V",
-      "volatility": 1.5994610954890163
+      "volatility": 1.5442908784978704
+    },
+    {
+      "symbol": "MA",
+      "volatility": 1.8145007037790537
     },
     {
       "symbol": "AAPL",
