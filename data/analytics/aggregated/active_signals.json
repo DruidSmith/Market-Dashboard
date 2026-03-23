@@ -1,15 +1,11 @@
 {
-  "generated_at": "2026-03-23T18:29:13.076112Z",
+  "generated_at": "2026-03-23T19:32:09.456353Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
     {
       "symbol": "^VIX",
       "macd": 1.7739602648214543
-    },
-    {
-      "symbol": "JPM",
-      "macd": -5.4114771547704095
     },
     {
       "symbol": "EME",
@@ -33,39 +29,35 @@
   "rsi_overbought": [
     {
       "symbol": "XLE",
-      "rsi": 76.37452398635193
+      "rsi": 70.21360176820576
     },
     {
       "symbol": "FENY",
-      "rsi": 76.38194122938795
+      "rsi": 73.11386819442917
     },
     {
       "symbol": "VDE",
-      "rsi": 79.37445114877706
+      "rsi": 76.01971281376186
     }
   ],
   "rsi_oversold": [
     {
-      "symbol": "VIG",
-      "rsi": 24.267958874971754
-    },
-    {
-      "symbol": "VYM",
-      "rsi": 28.42793135927738
-    },
-    {
       "symbol": "DGRO",
-      "rsi": 24.51099689353741
+      "rsi": 29.56897323663202
     }
   ],
   "high_volatility": [
+    {
+      "symbol": "XLE",
+      "volatility": 1.108256469300935
+    },
     {
       "symbol": "ITA",
       "volatility": 1.668480545679498
     },
     {
       "symbol": "VIG",
-      "volatility": 0.5580559816944893
+      "volatility": 0.5948878125748762
     },
     {
       "symbol": "^VIX",
@@ -97,7 +89,15 @@
     },
     {
       "symbol": "VYM",
-      "volatility": 0.584076080565258
+      "volatility": 0.6122958902773269
+    },
+    {
+      "symbol": "FENY",
+      "volatility": 1.0554830894761718
+    },
+    {
+      "symbol": "VDE",
+      "volatility": 1.0111675665091269
     },
     {
       "symbol": "BND",
@@ -113,7 +113,7 @@
     },
     {
       "symbol": "DGRO",
-      "volatility": 0.5536718027344153
+      "volatility": 0.5782524454558973
     },
     {
       "symbol": "SPLV",
@@ -159,11 +159,7 @@
     },
     {
       "symbol": "V",
-      "volatility": 1.5442908784978704
-    },
-    {
-      "symbol": "MA",
-      "volatility": 1.8145007037790537
+      "volatility": 1.2547162151021716
     },
     {
       "symbol": "AAPL",
