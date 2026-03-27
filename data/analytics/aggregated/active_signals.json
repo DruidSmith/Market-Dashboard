@@ -1,11 +1,15 @@
 {
-  "generated_at": "2026-03-27T12:06:07.083274Z",
+  "generated_at": "2026-03-27T13:52:43.493618Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
     {
       "symbol": "V",
       "macd": -4.729140109010359
+    },
+    {
+      "symbol": "AAPL",
+      "macd": -3.124594439616658
     },
     {
       "symbol": "^VIX",
@@ -16,10 +20,6 @@
     {
       "symbol": "SOXX",
       "macd": -2.457933739647615
-    },
-    {
-      "symbol": "IONQ",
-      "macd": -1.4110913366829294
     }
   ],
   "rsi_overbought": [
@@ -38,6 +38,10 @@
   ],
   "rsi_oversold": [
     {
+      "symbol": "MGK",
+      "rsi": 28.605572942182235
+    },
+    {
       "symbol": "MSFT",
       "rsi": 26.454341446214315
     },
@@ -48,6 +52,10 @@
     {
       "symbol": "META",
       "rsi": 28.908095455890845
+    },
+    {
+      "symbol": "VUG",
+      "rsi": 27.413652132231306
     }
   ],
   "high_volatility": [
@@ -77,7 +85,7 @@
     },
     {
       "symbol": "SPLV",
-      "volatility": 0.6946063549142455
+      "volatility": 0.6921852507217731
     },
     {
       "symbol": "DGRO",
@@ -138,12 +146,8 @@
       "volatility": 2.3215599408063685
     },
     {
-      "symbol": "VGT",
-      "volatility": 0.9871877289002846
-    },
-    {
       "symbol": "QUBT",
-      "volatility": 2.967561602785841
+      "volatility": 3.1629801560380817
     },
     {
       "symbol": "AMZN",
@@ -155,7 +159,7 @@
     },
     {
       "symbol": "IONQ",
-      "volatility": 2.8665058491411717
+      "volatility": 3.0728798763444365
     },
     {
       "symbol": "GOOGL",
@@ -171,7 +175,7 @@
     },
     {
       "symbol": "AAPL",
-      "volatility": 1.0955444025700594
+      "volatility": 1.129579471760251
     },
     {
       "symbol": "MA",
