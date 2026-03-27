@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-27T17:29:12.388144Z",
+  "generated_at": "2026-03-27T18:32:01.374776Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -13,10 +13,6 @@
     }
   ],
   "macd_bearish_crosses": [
-    {
-      "symbol": "SOXX",
-      "macd": -2.457933739647615
-    },
     {
       "symbol": "AMZN",
       "macd": -2.318013337212733
@@ -51,7 +47,7 @@
     },
     {
       "symbol": "MSFT",
-      "rsi": 26.454341446214315
+      "rsi": 23.842815345288187
     },
     {
       "symbol": "TEM",
@@ -59,7 +55,7 @@
     },
     {
       "symbol": "GOOGL",
-      "rsi": 28.76275032514515
+      "rsi": 26.203459381658817
     },
     {
       "symbol": "META",
@@ -74,6 +70,10 @@
     {
       "symbol": "VTIP",
       "volatility": 0.1363895408199562
+    },
+    {
+      "symbol": "SPY",
+      "volatility": 1.2265997526882126
     },
     {
       "symbol": "VIG",
@@ -131,11 +131,11 @@
   "low_volatility": [
     {
       "symbol": "NVDA",
-      "volatility": 2.0436534308197642
+      "volatility": 1.9441276853175478
     },
     {
       "symbol": "MSFT",
-      "volatility": 1.377302015980762
+      "volatility": 1.392200539898836
     },
     {
       "symbol": "AVGO",
@@ -158,8 +158,12 @@
       "volatility": 3.0728798763444365
     },
     {
+      "symbol": "INTC",
+      "volatility": 4.733403102123468
+    },
+    {
       "symbol": "GOOGL",
-      "volatility": 1.4869258223738138
+      "volatility": 1.4880264829787488
     },
     {
       "symbol": "BTC-USD",
@@ -168,6 +172,10 @@
     {
       "symbol": "AAPL",
       "volatility": 1.129579471760251
+    },
+    {
+      "symbol": "AMD",
+      "volatility": 3.511294319945052
     }
   ]
 }
