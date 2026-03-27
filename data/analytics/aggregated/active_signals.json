@@ -1,12 +1,8 @@
 {
-  "generated_at": "2026-03-27T13:52:43.493618Z",
+  "generated_at": "2026-03-27T14:59:16.081025Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
-    {
-      "symbol": "V",
-      "macd": -4.729140109010359
-    },
     {
       "symbol": "AAPL",
       "macd": -3.124594439616658
@@ -20,23 +16,31 @@
     {
       "symbol": "SOXX",
       "macd": -2.457933739647615
+    },
+    {
+      "symbol": "V",
+      "macd": -5.0594417632584054
     }
   ],
   "rsi_overbought": [
     {
       "symbol": "VDE",
-      "rsi": 81.33751227537556
+      "rsi": 83.41404837955112
     },
     {
       "symbol": "FENY",
-      "rsi": 76.64771845404718
+      "rsi": 80.09274749747787
     },
     {
       "symbol": "XLE",
-      "rsi": 74.24866750175627
+      "rsi": 78.09707508518927
     }
   ],
   "rsi_oversold": [
+    {
+      "symbol": "VIG",
+      "rsi": 26.432310872253197
+    },
     {
       "symbol": "MGK",
       "rsi": 28.605572942182235
@@ -69,7 +73,7 @@
     },
     {
       "symbol": "VIG",
-      "volatility": 0.5653712220936015
+      "volatility": 0.6430183660111679
     },
     {
       "symbol": "VEA",
@@ -81,7 +85,7 @@
     },
     {
       "symbol": "VDE",
-      "volatility": 1.0167749487300963
+      "volatility": 1.0288070363991508
     },
     {
       "symbol": "SPLV",
@@ -89,7 +93,7 @@
     },
     {
       "symbol": "DGRO",
-      "volatility": 0.5650560610037032
+      "volatility": 0.5828518465252965
     },
     {
       "symbol": "BND",
@@ -105,7 +109,7 @@
     },
     {
       "symbol": "FENY",
-      "volatility": 1.1355587530752047
+      "volatility": 1.1845273498824662
     },
     {
       "symbol": "^VIX",
@@ -113,7 +117,7 @@
     },
     {
       "symbol": "VYM",
-      "volatility": 0.6228361544305261
+      "volatility": 0.6366564767788627
     },
     {
       "symbol": "FIX",
@@ -121,17 +125,13 @@
     },
     {
       "symbol": "XLE",
-      "volatility": 1.163838794643983
+      "volatility": 1.2244819139596963
     }
   ],
   "low_volatility": [
     {
       "symbol": "NVDA",
       "volatility": 2.0436534308197642
-    },
-    {
-      "symbol": "JPM",
-      "volatility": 1.1341729702425636
     },
     {
       "symbol": "MSFT",
@@ -166,20 +166,12 @@
       "volatility": 1.4869258223738138
     },
     {
-      "symbol": "V",
-      "volatility": 1.0612482412481563
-    },
-    {
       "symbol": "BTC-USD",
       "volatility": 2.1435998734735047
     },
     {
       "symbol": "AAPL",
       "volatility": 1.129579471760251
-    },
-    {
-      "symbol": "MA",
-      "volatility": 1.2240463272624655
     }
   ]
 }
