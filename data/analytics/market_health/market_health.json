@@ -1,19 +1,20 @@
 {
-  "timestamp": "2026-03-30T19:14:15.472732Z",
-  "risk_score": 3,
+  "timestamp": "2026-03-30T20:07:36.722009Z",
+  "risk_score": 5,
   "max_score": 10,
   "overall_status": "WARNING",
   "recommendation": "MONITOR CLOSELY - Prepare exit strategy",
   "alerts": [
+    "\ud83d\udfe1 WARNING: S&P 500 P/E elevated",
     "\ud83d\udd34 CRITICAL: 30Y yield exceeds 4.5%"
   ],
   "indicators": {
     "sp500_pe": {
-      "value": 24.984457,
+      "value": 25.069742,
       "threshold": 30,
-      "status": "normal",
-      "signal": "NORMAL",
-      "interpretation": "P/E of 25.0 below historical crash threshold of 30"
+      "status": "warning",
+      "signal": "MONITOR CLOSELY",
+      "interpretation": "P/E of 25.1 approaching historical crash threshold of 30"
     },
     "treasury_30y": {
       "value": 4.904999732971191,
