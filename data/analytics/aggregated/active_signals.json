@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-03-31T17:07:35.953898Z",
+  "generated_at": "2026-03-31T18:32:33.391681Z",
   "golden_crosses": [],
   "death_crosses": [],
-  "macd_bullish_crosses": [],
-  "macd_bearish_crosses": [
+  "macd_bullish_crosses": [
     {
       "symbol": "QUBT",
-      "macd": -0.4832443124991599
+      "macd": -0.47416207920147535
     },
     {
       "symbol": "AAPL",
-      "macd": -3.485423571955522
+      "macd": -3.2090875140291644
     }
   ],
+  "macd_bearish_crosses": [],
   "rsi_overbought": [
     {
       "symbol": "VDE",
@@ -29,40 +29,16 @@
   ],
   "rsi_oversold": [
     {
-      "symbol": "QQQM",
-      "rsi": 26.261895011291273
-    },
-    {
       "symbol": "VIG",
       "rsi": 23.134441764700668
-    },
-    {
-      "symbol": "MGK",
-      "rsi": 24.338341098023406
     },
     {
       "symbol": "DGRO",
       "rsi": 27.05557649482924
     },
     {
-      "symbol": "VGT",
-      "rsi": 27.201953810336917
-    },
-    {
-      "symbol": "QUBT",
-      "rsi": 28.583034421659193
-    },
-    {
-      "symbol": "IONQ",
-      "rsi": 29.79009566691971
-    },
-    {
       "symbol": "VYM",
       "rsi": 29.95623740992417
-    },
-    {
-      "symbol": "VUG",
-      "rsi": 23.694234022496985
     }
   ],
   "high_volatility": [
@@ -71,8 +47,16 @@
       "volatility": 0.14713332440516935
     },
     {
+      "symbol": "QQQM",
+      "volatility": 1.4116938600040747
+    },
+    {
       "symbol": "VIG",
       "volatility": 0.6461274384877579
+    },
+    {
+      "symbol": "MGK",
+      "volatility": 1.5501041980624775
     },
     {
       "symbol": "VDE",
@@ -80,7 +64,7 @@
     },
     {
       "symbol": "SPLV",
-      "volatility": 0.6738029494091831
+      "volatility": 0.6606371677772472
     },
     {
       "symbol": "DGRO",
@@ -101,6 +85,10 @@
     {
       "symbol": "VYM",
       "volatility": 0.6481152745931074
+    },
+    {
+      "symbol": "VUG",
+      "volatility": 1.5305022210248718
     },
     {
       "symbol": "FIX",
@@ -134,7 +122,7 @@
     },
     {
       "symbol": "QUBT",
-      "volatility": 3.5688623695072206
+      "volatility": 4.036332598224031
     },
     {
       "symbol": "AMZN",
@@ -146,7 +134,7 @@
     },
     {
       "symbol": "IONQ",
-      "volatility": 3.374738909204834
+      "volatility": 4.097143550205376
     },
     {
       "symbol": "INTC",
@@ -159,10 +147,6 @@
     {
       "symbol": "BTC-USD",
       "volatility": 2.1607442181957186
-    },
-    {
-      "symbol": "AAPL",
-      "volatility": 1.2074127956135812
     },
     {
       "symbol": "MA",
