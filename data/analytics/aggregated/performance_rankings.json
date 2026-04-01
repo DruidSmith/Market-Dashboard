@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-04-01T15:14:04.540966Z",
+  "generated_at": "2026-04-01T16:33:49.457603Z",
   "top_gainers_1d": [
     {
       "symbol": "QUBT",
       "roc_1d": 8.878786165431585
     },
     {
+      "symbol": "FIX",
+      "roc_1d": 8.677635815632412
+    },
+    {
       "symbol": "IONQ",
       "roc_1d": 8.654576699782158
     },
     {
+      "symbol": "TEM",
+      "roc_1d": 6.941128197622759
+    },
+    {
       "symbol": "EME",
       "roc_1d": 6.062279498484013
-    },
-    {
-      "symbol": "TSM",
-      "roc_1d": 4.8954579375602325
-    },
-    {
-      "symbol": "PLTR",
-      "roc_1d": 4.856115107913661
     }
   ],
   "top_losers_1d": [
@@ -47,7 +47,7 @@
   "top_gainers_5d": [
     {
       "symbol": "GLD",
-      "roc_5d": 5.273953835399237
+      "roc_5d": 5.869114590472568
     },
     {
       "symbol": "NFLX",
@@ -58,12 +58,12 @@
       "roc_5d": 3.372746706646823
     },
     {
-      "symbol": "VEA",
-      "roc_5d": 1.7716686039600749
+      "symbol": "VGK",
+      "roc_5d": 2.4329183173936286
     },
     {
-      "symbol": "VGK",
-      "roc_5d": 1.6488660168537672
+      "symbol": "VEA",
+      "roc_5d": 1.7716686039600749
     }
   ],
   "top_gainers_20d": [
@@ -112,10 +112,6 @@
   ],
   "most_oversold": [
     {
-      "symbol": "TEM",
-      "rsi_14": 31.685660153346745
-    },
-    {
       "symbol": "MU",
       "rsi_14": 32.28664645490228
     },
@@ -130,6 +126,10 @@
     {
       "symbol": "SPY",
       "rsi_14": 34.40491409797936
+    },
+    {
+      "symbol": "V",
+      "rsi_14": 34.54412294986881
     }
   ],
   "highest_volatility": [
@@ -142,16 +142,16 @@
       "volatility_20d": 4.614254058214894
     },
     {
+      "symbol": "FIX",
+      "volatility_20d": 4.428719547324569
+    },
+    {
       "symbol": "MU",
       "volatility_20d": 4.222629333412896
     },
     {
       "symbol": "IONQ",
       "volatility_20d": 4.097143550205376
-    },
-    {
-      "symbol": "FIX",
-      "volatility_20d": 4.036669137586146
     }
   ]
 }
