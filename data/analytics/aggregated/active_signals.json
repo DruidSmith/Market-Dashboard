@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-01T07:45:05.062551Z",
+  "generated_at": "2026-04-01T09:16:48.157096Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -12,7 +12,12 @@
       "macd": -3.2090875140291644
     }
   ],
-  "macd_bearish_crosses": [],
+  "macd_bearish_crosses": [
+    {
+      "symbol": "^VIX",
+      "macd": 1.6171175841254417
+    }
+  ],
   "rsi_overbought": [],
   "rsi_oversold": [],
   "high_volatility": [
@@ -63,6 +68,10 @@
     {
       "symbol": "FENY",
       "volatility": 1.2356717536303787
+    },
+    {
+      "symbol": "^VIX",
+      "volatility": 14.794574567340826
     },
     {
       "symbol": "VYM",
@@ -124,7 +133,7 @@
     },
     {
       "symbol": "BTC-USD",
-      "volatility": 2.1607442181957186
+      "volatility": 2.2083500584213627
     },
     {
       "symbol": "MA",
