@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-04-02T11:54:40.956480Z",
+  "generated_at": "2026-04-02T13:42:55.252613Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
     {
-      "symbol": "VEA",
-      "macd": -0.86218283600153
-    },
-    {
       "symbol": "DGRO",
       "macd": -0.678112226927766
+    },
+    {
+      "symbol": "BND",
+      "macd": -0.24041659291800954
     },
     {
       "symbol": "AMZN",
@@ -24,19 +24,11 @@
       "macd": -0.35000807568986403
     },
     {
-      "symbol": "VWO",
-      "macd": -0.7410626563621676
-    },
-    {
       "symbol": "VGK",
       "macd": -1.3969770574126983
     }
   ],
   "macd_bearish_crosses": [
-    {
-      "symbol": "VDE",
-      "macd": 5.144478851077082
-    },
     {
       "symbol": "FENY",
       "macd": 1.0003103670659925
@@ -51,7 +43,7 @@
   "high_volatility": [
     {
       "symbol": "VTIP",
-      "volatility": 0.14688932681517383
+      "volatility": 0.14825660250426229
     },
     {
       "symbol": "ITA",
@@ -75,7 +67,7 @@
     },
     {
       "symbol": "VEA",
-      "volatility": 1.5609573483308172
+      "volatility": 1.5976679444508284
     },
     {
       "symbol": "MGK",
@@ -83,7 +75,7 @@
     },
     {
       "symbol": "VDE",
-      "volatility": 1.1580320329634404
+      "volatility": 1.197504157589356
     },
     {
       "symbol": "SPLV",
@@ -99,7 +91,7 @@
     },
     {
       "symbol": "BND",
-      "volatility": 0.33668633977510976
+      "volatility": 0.33436644462239146
     },
     {
       "symbol": "EME",
@@ -111,7 +103,7 @@
     },
     {
       "symbol": "VWO",
-      "volatility": 1.4773854566812081
+      "volatility": 1.5510162747890661
     },
     {
       "symbol": "VGK",
@@ -143,6 +135,10 @@
     }
   ],
   "low_volatility": [
+    {
+      "symbol": "AXON",
+      "volatility": 3.260744818825819
+    },
     {
       "symbol": "NVDA",
       "volatility": 1.9402657028854304
@@ -186,6 +182,10 @@
     {
       "symbol": "AAPL",
       "volatility": 1.378393124533379
+    },
+    {
+      "symbol": "MA",
+      "volatility": 1.487436950879927
     }
   ]
 }
