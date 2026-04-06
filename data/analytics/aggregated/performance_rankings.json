@@ -1,9 +1,13 @@
 {
-  "generated_at": "2026-04-06T09:17:51.433032Z",
+  "generated_at": "2026-04-06T10:39:15.035524Z",
   "top_gainers_1d": [
     {
-      "symbol": "^VIX",
-      "roc_1d": 6.363269949902706
+      "symbol": "ETH-USD",
+      "roc_1d": 5.725648028364727
+    },
+    {
+      "symbol": "BTC-USD",
+      "roc_1d": 4.5031388759501745
     },
     {
       "symbol": "IONQ",
@@ -16,13 +20,13 @@
     {
       "symbol": "NFLX",
       "roc_1d": 2.279977361168606
-    },
-    {
-      "symbol": "VDE",
-      "roc_1d": 2.136049346724489
     }
   ],
   "top_losers_1d": [
+    {
+      "symbol": "^VIX",
+      "roc_1d": -6.058312725157055
+    },
     {
       "symbol": "AXON",
       "roc_1d": -5.520513132204696
@@ -38,10 +42,6 @@
     {
       "symbol": "VEA",
       "roc_1d": -2.6449644660721305
-    },
-    {
-      "symbol": "HWM",
-      "roc_1d": -2.5241901880657003
     }
   ],
   "top_gainers_5d": [
@@ -68,10 +68,6 @@
   ],
   "top_gainers_20d": [
     {
-      "symbol": "^VIX",
-      "roc_20d": 23.70023126713432
-    },
-    {
       "symbol": "FIX",
       "roc_20d": 8.024314146322077
     },
@@ -86,6 +82,10 @@
     {
       "symbol": "AMD",
       "roc_20d": 6.818800633914912
+    },
+    {
+      "symbol": "EME",
+      "roc_20d": 6.168878186605897
     }
   ],
   "most_overbought": [
@@ -135,7 +135,7 @@
   "highest_volatility": [
     {
       "symbol": "^VIX",
-      "volatility_20d": 14.68167167053596
+      "volatility_20d": 14.50706610806147
     },
     {
       "symbol": "INTC",
