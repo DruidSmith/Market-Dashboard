@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-09T14:22:44.074064Z",
+  "generated_at": "2026-04-09T16:05:23.658315Z",
   "top_gainers_1d": [
     {
       "symbol": "INTC",
@@ -24,6 +24,10 @@
   ],
   "top_losers_1d": [
     {
+      "symbol": "AAPL",
+      "roc_1d": 0.0
+    },
+    {
       "symbol": "PLTR",
       "roc_1d": -10.703293745942466
     },
@@ -38,10 +42,6 @@
     {
       "symbol": "XLE",
       "roc_1d": -4.833784944648578
-    },
-    {
-      "symbol": "FENY",
-      "roc_1d": -4.615614035504878
     }
   ],
   "top_gainers_5d": [
@@ -90,12 +90,12 @@
   ],
   "most_overbought": [
     {
-      "symbol": "INTC",
-      "rsi_14": 71.59572498607842
+      "symbol": "NFLX",
+      "rsi_14": 71.82607033270057
     },
     {
-      "symbol": "NFLX",
-      "rsi_14": 67.60966935767169
+      "symbol": "INTC",
+      "rsi_14": 71.59572498607842
     },
     {
       "symbol": "AMD",
@@ -125,11 +125,11 @@
     },
     {
       "symbol": "IONQ",
-      "rsi_14": 42.40212039565575
+      "rsi_14": 42.45274885510874
     },
     {
-      "symbol": "XLP",
-      "rsi_14": 44.13491832748381
+      "symbol": "QUBT",
+      "rsi_14": 43.5498942221017
     }
   ],
   "highest_volatility": [
@@ -147,11 +147,11 @@
     },
     {
       "symbol": "IONQ",
-      "volatility_20d": 4.507238838809682
+      "volatility_20d": 4.486533197614471
     },
     {
       "symbol": "QUBT",
-      "volatility_20d": 3.987460537780007
+      "volatility_20d": 3.985411490065331
     }
   ]
 }
