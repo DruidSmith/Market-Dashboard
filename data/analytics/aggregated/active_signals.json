@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T12:09:36.539977Z",
+  "generated_at": "2026-04-20T14:21:23.729379Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -12,7 +12,12 @@
       "macd": -28.163492649998943
     }
   ],
-  "macd_bearish_crosses": [],
+  "macd_bearish_crosses": [
+    {
+      "symbol": "NFLX",
+      "macd": 2.5097044869956875
+    }
+  ],
   "rsi_overbought": [
     {
       "symbol": "GOOGL",
@@ -56,7 +61,7 @@
     },
     {
       "symbol": "IONQ",
-      "rsi": 73.8283210137457
+      "rsi": 74.6208706881774
     },
     {
       "symbol": "NVDA",
@@ -64,15 +69,15 @@
     },
     {
       "symbol": "MGK",
-      "rsi": 71.85060629290024
+      "rsi": 70.83285711020062
     },
     {
       "symbol": "VUG",
-      "rsi": 71.95176469884085
+      "rsi": 71.09759643211716
     },
     {
       "symbol": "QQQM",
-      "rsi": 72.07671378126801
+      "rsi": 71.6262815163201
     },
     {
       "symbol": "MSFT",
@@ -111,19 +116,11 @@
     },
     {
       "symbol": "NFLX",
-      "volatility": 2.7388207512519527
-    },
-    {
-      "symbol": "MGK",
-      "volatility": 1.8236253564958773
+      "volatility": 2.778839273574747
     },
     {
       "symbol": "VDE",
       "volatility": 2.036245293458217
-    },
-    {
-      "symbol": "VUG",
-      "volatility": 1.811496745479306
     },
     {
       "symbol": "FENY",
@@ -141,7 +138,7 @@
     },
     {
       "symbol": "SCHD",
-      "volatility": 0.589602812999212
+      "volatility": 0.5546147869242564
     },
     {
       "symbol": "^VIX",
