@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-21T15:23:23.255118Z",
+  "generated_at": "2026-04-21T16:39:47.364887Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [],
@@ -7,6 +7,18 @@
     {
       "symbol": "NFLX",
       "macd": 2.5097044869956875
+    },
+    {
+      "symbol": "MGK",
+      "macd": -18.046936257919413
+    },
+    {
+      "symbol": "VUG",
+      "macd": -22.828533125217177
+    },
+    {
+      "symbol": "VGT",
+      "macd": -35.32571499695803
     }
   ],
   "rsi_overbought": [
@@ -40,34 +52,35 @@
     },
     {
       "symbol": "QUBT",
-      "rsi": 74.01867615200067
+      "rsi": 70.69283520238298
     },
     {
       "symbol": "IONQ",
-      "rsi": 74.6208706881774
+      "rsi": 75.4567350427348
     },
     {
       "symbol": "NVDA",
       "rsi": 71.23791639893497
     },
     {
+      "symbol": "QQQM",
+      "rsi": 71.12762221159815
+    }
+  ],
+  "rsi_oversold": [
+    {
       "symbol": "MGK",
-      "rsi": 70.83285711020062
+      "rsi": 10.90839562738752
     },
     {
       "symbol": "VUG",
-      "rsi": 71.09759643211716
-    },
-    {
-      "symbol": "QQQM",
-      "rsi": 71.6262815163201
+      "rsi": 10.417259209174404
     },
     {
       "symbol": "VGT",
-      "rsi": 75.19725682872442
+      "rsi": 11.57633749511939
     }
   ],
-  "rsi_oversold": [],
   "high_volatility": [
     {
       "symbol": "XLE",
@@ -82,12 +95,24 @@
       "volatility": 2.778839273574747
     },
     {
+      "symbol": "MGK",
+      "volatility": 18.097127489308736
+    },
+    {
       "symbol": "VDE",
       "volatility": 2.094328241243144
     },
     {
+      "symbol": "VUG",
+      "volatility": 18.839488141359485
+    },
+    {
       "symbol": "FENY",
       "volatility": 2.1721372965721164
+    },
+    {
+      "symbol": "VGT",
+      "volatility": 19.788549894114364
     }
   ],
   "low_volatility": [
@@ -128,6 +153,10 @@
       "volatility": 0.695320427904764
     },
     {
+      "symbol": "PLTR",
+      "volatility": 3.8386545727039763
+    },
+    {
       "symbol": "META",
       "volatility": 3.5428019850840293
     },
@@ -161,7 +190,7 @@
     },
     {
       "symbol": "TSM",
-      "volatility": 2.6469784297152033
+      "volatility": 2.5672778591849603
     },
     {
       "symbol": "VDC",
@@ -170,6 +199,10 @@
     {
       "symbol": "AXON",
       "volatility": 4.634167222540199
+    },
+    {
+      "symbol": "QQQM",
+      "volatility": 1.6008175319505873
     },
     {
       "symbol": "MA",
