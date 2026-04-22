@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-04-22T03:25:33.278256Z",
+  "generated_at": "2026-04-22T05:39:55.438724Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [],
   "macd_bearish_crosses": [
-    {
-      "symbol": "MGK",
-      "macd": -18.046936257919413
-    },
     {
       "symbol": "VUG",
       "macd": -22.828533125217177
@@ -15,59 +11,59 @@
     {
       "symbol": "VGT",
       "macd": -35.32571499695803
+    },
+    {
+      "symbol": "MGK",
+      "macd": -18.046936257919413
     }
   ],
   "rsi_overbought": [
     {
-      "symbol": "AVGO",
-      "rsi": 74.70074473739676
-    },
-    {
-      "symbol": "AMD",
-      "rsi": 77.13071837706585
-    },
-    {
-      "symbol": "AMZN",
-      "rsi": 70.7443135363786
+      "symbol": "IONQ",
+      "rsi": 75.4567350427348
     },
     {
       "symbol": "QQQ",
       "rsi": 71.42698708028931
     },
     {
-      "symbol": "SOXX",
-      "rsi": 77.71070053722703
-    },
-    {
-      "symbol": "INTC",
-      "rsi": 71.53933216780534
-    },
-    {
       "symbol": "NQ=F",
       "rsi": 73.55289562483738
     },
     {
-      "symbol": "QUBT",
-      "rsi": 70.69283520238298
-    },
-    {
-      "symbol": "IONQ",
-      "rsi": 75.4567350427348
+      "symbol": "AMD",
+      "rsi": 77.13071837706585
     },
     {
       "symbol": "NVDA",
       "rsi": 71.23791639893497
     },
     {
+      "symbol": "SOXX",
+      "rsi": 77.71070053722703
+    },
+    {
+      "symbol": "QUBT",
+      "rsi": 70.69283520238298
+    },
+    {
+      "symbol": "AMZN",
+      "rsi": 70.7443135363786
+    },
+    {
       "symbol": "QQQM",
       "rsi": 71.12762221159815
+    },
+    {
+      "symbol": "INTC",
+      "rsi": 71.53933216780534
+    },
+    {
+      "symbol": "AVGO",
+      "rsi": 74.70074473739676
     }
   ],
   "rsi_oversold": [
-    {
-      "symbol": "MGK",
-      "rsi": 10.90839562738752
-    },
     {
       "symbol": "VUG",
       "rsi": 10.417259209174404
@@ -75,150 +71,154 @@
     {
       "symbol": "VGT",
       "rsi": 11.57633749511939
+    },
+    {
+      "symbol": "MGK",
+      "rsi": 10.90839562738752
     }
   ],
   "high_volatility": [
+    {
+      "symbol": "VUG",
+      "volatility": 18.839488141359485
+    },
     {
       "symbol": "ITA",
       "volatility": 2.135899441767661
     },
     {
-      "symbol": "XLE",
-      "volatility": 2.229081276241807
-    },
-    {
-      "symbol": "AMZN",
-      "volatility": 2.344052975558385
+      "symbol": "VGT",
+      "volatility": 19.788549894114364
     },
     {
       "symbol": "HWM",
       "volatility": 2.7013268038200735
     },
     {
-      "symbol": "NFLX",
-      "volatility": 2.7927155921780757
+      "symbol": "VDE",
+      "volatility": 2.112450933398836
     },
     {
       "symbol": "MGK",
       "volatility": 18.097127489308736
     },
     {
-      "symbol": "VDE",
-      "volatility": 2.112450933398836
+      "symbol": "NFLX",
+      "volatility": 2.7927155921780757
     },
     {
-      "symbol": "VUG",
-      "volatility": 18.839488141359485
+      "symbol": "AMZN",
+      "volatility": 2.344052975558385
+    },
+    {
+      "symbol": "XLE",
+      "volatility": 2.229081276241807
     },
     {
       "symbol": "FENY",
       "volatility": 2.1757097676147534
-    },
-    {
-      "symbol": "VGT",
-      "volatility": 19.788549894114364
     }
   ],
   "low_volatility": [
     {
-      "symbol": "GOOGL",
-      "volatility": 2.4878669436934353
-    },
-    {
-      "symbol": "AVGO",
-      "volatility": 2.6799346748940223
-    },
-    {
-      "symbol": "V",
-      "volatility": 1.2615466183359827
-    },
-    {
-      "symbol": "QQQ",
-      "volatility": 1.5372220587662253
-    },
-    {
-      "symbol": "SCHD",
-      "volatility": 0.5467801791039404
-    },
-    {
-      "symbol": "^VIX",
-      "volatility": 8.635591722036875
-    },
-    {
-      "symbol": "ETH-USD",
-      "volatility": 3.0975290745198776
-    },
-    {
       "symbol": "FSTA",
       "volatility": 0.727499329406328
-    },
-    {
-      "symbol": "XLP",
-      "volatility": 0.7107383376356756
-    },
-    {
-      "symbol": "PLTR",
-      "volatility": 3.8386545727039763
-    },
-    {
-      "symbol": "META",
-      "volatility": 3.5428019850840293
-    },
-    {
-      "symbol": "BTC-USD",
-      "volatility": 2.1055106429668853
-    },
-    {
-      "symbol": "NQ=F",
-      "volatility": 1.3625107485785555
-    },
-    {
-      "symbol": "JPM",
-      "volatility": 1.6514496073173315
     },
     {
       "symbol": "VYM",
       "volatility": 0.78537397196888
     },
     {
-      "symbol": "GLD",
-      "volatility": 1.7179465477642675
+      "symbol": "XLP",
+      "volatility": 0.7107383376356756
     },
     {
-      "symbol": "EME",
-      "volatility": 2.5708722215865407
+      "symbol": "META",
+      "volatility": 3.5428019850840293
     },
     {
-      "symbol": "NVDA",
-      "volatility": 1.9227605639782752
-    },
-    {
-      "symbol": "TSM",
-      "volatility": 2.5672778591849603
-    },
-    {
-      "symbol": "VDC",
-      "volatility": 0.745773807797762
-    },
-    {
-      "symbol": "AXON",
-      "volatility": 4.5309930215043375
-    },
-    {
-      "symbol": "FIX",
-      "volatility": 3.6946766307002052
-    },
-    {
-      "symbol": "QQQM",
-      "volatility": 1.6008175319505873
+      "symbol": "GOOGL",
+      "volatility": 2.4878669436934353
     },
     {
       "symbol": "MA",
       "volatility": 1.5115840444223212
     },
     {
+      "symbol": "QQQ",
+      "volatility": 1.5372220587662253
+    },
+    {
+      "symbol": "NQ=F",
+      "volatility": 1.3625107485785555
+    },
+    {
+      "symbol": "AXON",
+      "volatility": 4.5309930215043375
+    },
+    {
+      "symbol": "NVDA",
+      "volatility": 1.9227605639782752
+    },
+    {
+      "symbol": "FIX",
+      "volatility": 3.6946766307002052
+    },
+    {
+      "symbol": "SCHD",
+      "volatility": 0.5467801791039404
+    },
+    {
+      "symbol": "VDC",
+      "volatility": 0.745773807797762
+    },
+    {
+      "symbol": "PLTR",
+      "volatility": 3.8386545727039763
+    },
+    {
+      "symbol": "EME",
+      "volatility": 2.5708722215865407
+    },
+    {
+      "symbol": "ETH-USD",
+      "volatility": 3.0975290745198776
+    },
+    {
+      "symbol": "GLD",
+      "volatility": 1.7179465477642675
+    },
+    {
+      "symbol": "TSM",
+      "volatility": 2.5672778591849603
+    },
+    {
+      "symbol": "JPM",
+      "volatility": 1.6514496073173315
+    },
+    {
       "symbol": "LRCX",
       "volatility": 3.868544315416715
+    },
+    {
+      "symbol": "QQQM",
+      "volatility": 1.6008175319505873
+    },
+    {
+      "symbol": "V",
+      "volatility": 1.2615466183359827
+    },
+    {
+      "symbol": "AVGO",
+      "volatility": 2.6799346748940223
+    },
+    {
+      "symbol": "^VIX",
+      "volatility": 8.635591722036875
+    },
+    {
+      "symbol": "BTC-USD",
+      "volatility": 2.1055106429668853
     }
   ]
 }
