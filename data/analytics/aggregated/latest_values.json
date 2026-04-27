@@ -1,7 +1,777 @@
 {
-  "generated_at": "2026-04-27T21:10:32.762134Z",
+  "generated_at": "2026-04-27T22:28:35.401661Z",
   "symbol_count": 55,
   "symbols": [
+    {
+      "symbol": "GOOGL",
+      "category": "AI bubble indicator",
+      "price": {
+        "close": 350.3399963378906,
+        "open": 345.9800109863281,
+        "high": 353.17999267578125,
+        "low": 342.7300109863281,
+        "volume": 28218240
+      },
+      "moving_averages": {
+        "sma_20": 321.06089782714844,
+        "sma_50": 309.98805966796874,
+        "sma_200": NaN,
+        "ema_12": 334.72679388755375,
+        "ema_26": 323.3639256259468
+      },
+      "momentum": {
+        "rsi_14": 73.98042721168872,
+        "macd": 11.362868261606934,
+        "macd_signal": 8.650212891141575,
+        "macd_histogram": 2.7126553704653595,
+        "stochastic_k": null,
+        "stochastic_d": null
+      },
+      "volatility": {
+        "atr_14": 7.246004983719447,
+        "bb_upper": 363.5783545806337,
+        "bb_middle": 321.06089782714844,
+        "bb_lower": 278.5434410736632,
+        "volatility_20d": 1.9876257309744045
+      },
+      "trend": {
+        "adx": 33.47330783914965,
+        "plus_di": null,
+        "minus_di": null
+      },
+      "performance": {
+        "roc_1d": 1.8548683106493602,
+        "roc_5d": 3.8290505589477553,
+        "roc_20d": 27.100557872458573,
+        "momentum_10": 32.274993896484375
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "macd_bullish_cross": false,
+        "macd_bearish_cross": false,
+        "rsi_overbought": true,
+        "rsi_oversold": false,
+        "price_above_sma_200": false,
+        "high_volatility": false,
+        "low_volatility": false
+      }
+    },
+    {
+      "symbol": "AAPL",
+      "category": "AI bubble indicator",
+      "price": {
+        "close": 267.6099853515625,
+        "open": 266.0899963378906,
+        "high": 268.3599853515625,
+        "low": 265.07000732421875,
+        "volume": 41213866
+      },
+      "moving_averages": {
+        "sma_20": 261.5010612487793,
+        "sma_50": 260.3555334472656,
+        "sma_200": NaN,
+        "ema_12": 266.51854305494163,
+        "ema_26": 262.8642795399253
+      },
+      "momentum": {
+        "rsi_14": 55.35053944866993,
+        "macd": 3.654263515016339,
+        "macd_signal": 2.4490824744694226,
+        "macd_histogram": 1.2051810405469165,
+        "stochastic_k": null,
+        "stochastic_d": null
+      },
+      "volatility": {
+        "atr_14": 5.520544589834863,
+        "bb_upper": 276.8049334385281,
+        "bb_middle": 261.5010612487793,
+        "bb_lower": 246.1971890590305,
+        "volatility_20d": 2.0001337168238997
+      },
+      "trend": {
+        "adx": 13.6819763468758,
+        "plus_di": null,
+        "minus_di": null
+      },
+      "performance": {
+        "roc_1d": -1.2727854490168666,
+        "roc_5d": -1.9923100840901542,
+        "roc_20d": 4.998623015046255,
+        "momentum_10": 10.089996337890625
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "macd_bullish_cross": false,
+        "macd_bearish_cross": false,
+        "rsi_overbought": false,
+        "rsi_oversold": false,
+        "price_above_sma_200": false,
+        "high_volatility": false,
+        "low_volatility": false
+      }
+    },
+    {
+      "symbol": "AVGO",
+      "category": "AI bubble indicator",
+      "price": {
+        "close": 417.239990234375,
+        "open": 420.3949890136719,
+        "high": 422.75,
+        "low": 414.6300048828125,
+        "volume": 9654245
+      },
+      "moving_averages": {
+        "sma_20": 368.3838195800781,
+        "sma_50": 342.2203735351562,
+        "sma_200": NaN,
+        "ema_12": 396.71474485260376,
+        "ema_26": 371.8705441241072
+      },
+      "momentum": {
+        "rsi_14": 76.77154999961023,
+        "macd": 24.84420072849656,
+        "macd_signal": 19.88394923668431,
+        "macd_histogram": 4.960251491812251,
+        "stochastic_k": null,
+        "stochastic_d": null
+      },
+      "volatility": {
+        "atr_14": 11.903788098634838,
+        "bb_upper": 453.27760081215695,
+        "bb_middle": 368.3838195800781,
+        "bb_lower": 283.4900383479993,
+        "volatility_20d": 2.4631116448916117
+      },
+      "trend": {
+        "adx": 34.97639096048619,
+        "plus_di": null,
+        "minus_di": null
+      },
+      "performance": {
+        "roc_1d": -0.9672126991485341,
+        "roc_5d": 5.167112089681103,
+        "roc_20d": 39.16116843056039,
+        "momentum_10": 37.489990234375
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "macd_bullish_cross": false,
+        "macd_bearish_cross": false,
+        "rsi_overbought": true,
+        "rsi_oversold": false,
+        "price_above_sma_200": false,
+        "high_volatility": false,
+        "low_volatility": false
+      }
+    },
+    {
+      "symbol": "ITA",
+      "category": "Defense/Industrial Tech",
+      "price": {
+        "close": 215.6300048828125,
+        "open": 215.1699981689453,
+        "high": 217.46749877929688,
+        "low": 214.78500366210938,
+        "volume": 324607
+      },
+      "moving_averages": {
+        "sma_20": 225.1972557067871,
+        "sma_50": 231.48616790771484,
+        "sma_200": NaN,
+        "ema_12": 223.1421122613587,
+        "ema_26": 225.99083882260996
+      },
+      "momentum": {
+        "rsi_14": 37.92280358630198,
+        "macd": -2.8487265612512545,
+        "macd_signal": -1.480149382115728,
+        "macd_histogram": -1.3685771791355263,
+        "stochastic_k": null,
+        "stochastic_d": null
+      },
+      "volatility": {
+        "atr_14": 5.339210282998748,
+        "bb_upper": 239.47218181362223,
+        "bb_middle": 225.1972557067871,
+        "bb_lower": 210.92232959995198,
+        "volatility_20d": 2.0249117645869927
+      },
+      "trend": {
+        "adx": 22.642162005734946,
+        "plus_di": null,
+        "minus_di": null
+      },
+      "performance": {
+        "roc_1d": 0.26504572244470115,
+        "roc_5d": -6.556591256798294,
+        "roc_20d": -0.8157635490108062,
+        "momentum_10": -16.719894409179688
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "macd_bullish_cross": false,
+        "macd_bearish_cross": false,
+        "rsi_overbought": false,
+        "rsi_oversold": false,
+        "price_above_sma_200": false,
+        "high_volatility": true,
+        "low_volatility": false
+      }
+    },
+    {
+      "symbol": "XLE",
+      "category": "Energy Sector",
+      "price": {
+        "close": 57.4093017578125,
+        "open": 57.099998474121094,
+        "high": 57.68000030517578,
+        "low": 57.080101013183594,
+        "volume": 9133506
+      },
+      "moving_averages": {
+        "sma_20": 57.53575496673584,
+        "sma_50": 57.29420204162598,
+        "sma_200": NaN,
+        "ema_12": 56.758687276085574,
+        "ema_26": 57.14856954042681
+      },
+      "momentum": {
+        "rsi_14": 51.188447023892046,
+        "macd": -0.38988226434123874,
+        "macd_signal": -0.2993724522243171,
+        "macd_histogram": -0.09050981211692166,
+        "stochastic_k": null,
+        "stochastic_d": null
+      },
+      "volatility": {
+        "atr_14": 1.3806416475448808,
+        "bb_upper": 61.58114489687776,
+        "bb_middle": 57.53575496673584,
+        "bb_lower": 53.490365036593914,
+        "volatility_20d": 2.148283465866517
+      },
+      "trend": {
+        "adx": 18.747931518141154,
+        "plus_di": null,
+        "minus_di": null
+      },
+      "performance": {
+        "roc_1d": 1.528523506685442,
+        "roc_5d": 3.5241184063281583,
+        "roc_20d": -8.25521205296793,
+        "momentum_10": 0.19930267333984375
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "macd_bullish_cross": false,
+        "macd_bearish_cross": false,
+        "rsi_overbought": false,
+        "rsi_oversold": false,
+        "price_above_sma_200": false,
+        "high_volatility": false,
+        "low_volatility": false
+      }
+    },
+    {
+      "symbol": "AMD",
+      "category": "AI bubble indicator",
+      "price": {
+        "close": 335.7300109863281,
+        "open": 346.55999755859375,
+        "high": 349.0899963378906,
+        "low": 328.80999755859375,
+        "volume": 43713778
+      },
+      "moving_averages": {
+        "sma_20": 256.0909149169922,
+        "sma_50": 223.25387406005862,
+        "sma_200": NaN,
+        "ema_12": 288.6935068064005,
+        "ema_26": 259.0119983247194
+      },
+      "momentum": {
+        "rsi_14": 80.66794841228545,
+        "macd": 29.681508481681078,
+        "macd_signal": 20.60371911747611,
+        "macd_histogram": 9.077789364204968,
+        "stochastic_k": null,
+        "stochastic_d": null
+      },
+      "volatility": {
+        "atr_14": 13.697149295309739,
+        "bb_upper": 339.70717450825487,
+        "bb_middle": 256.0909149169922,
+        "bb_lower": 172.4746553257295,
+        "volatility_20d": 4.071310048398845
+      },
+      "trend": {
+        "adx": 45.056047155933356,
+        "plus_di": null,
+        "minus_di": null
+      },
+      "performance": {
+        "roc_1d": -3.0893418722857002,
+        "roc_5d": 22.105835999574673,
+        "roc_20d": 66.74034269584243,
+        "momentum_10": 92.79450988769531
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "macd_bullish_cross": false,
+        "macd_bearish_cross": false,
+        "rsi_overbought": true,
+        "rsi_oversold": false,
+        "price_above_sma_200": false,
+        "high_volatility": true,
+        "low_volatility": false
+      }
+    },
+    {
+      "symbol": "V",
+      "category": "Payments/Fintech",
+      "price": {
+        "close": 309.2799987792969,
+        "open": 307.510009765625,
+        "high": 310.635009765625,
+        "low": 306.05999755859375,
+        "volume": 1170166
+      },
+      "moving_averages": {
+        "sma_20": 307.35997772216797,
+        "sma_50": 309.7324346923828,
+        "sma_200": NaN,
+        "ema_12": 309.6225738828325,
+        "ema_26": 309.17525484180527
+      },
+      "momentum": {
+        "rsi_14": 50.06709231796612,
+        "macd": 0.4473190410272423,
+        "macd_signal": 0.16439876825034117,
+        "macd_histogram": 0.2829202727769011,
+        "stochastic_k": null,
+        "stochastic_d": null
+      },
+      "volatility": {
+        "atr_14": 5.424241794788534,
+        "bb_upper": 319.3780031538804,
+        "bb_middle": 307.35997772216797,
+        "bb_lower": 295.34195229045554,
+        "volatility_20d": 1.194078423484457
+      },
+      "trend": {
+        "adx": 14.874862813040854,
+        "plus_di": null,
+        "minus_di": null
+      },
+      "performance": {
+        "roc_1d": 0.8362820442533891,
+        "roc_5d": -1.5596136007110184,
+        "roc_20d": 3.844479308081028,
+        "momentum_10": 1.45001220703125
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "macd_bullish_cross": false,
+        "macd_bearish_cross": false,
+        "rsi_overbought": false,
+        "rsi_oversold": false,
+        "price_above_sma_200": false,
+        "high_volatility": false,
+        "low_volatility": true
+      }
+    },
+    {
+      "symbol": "AMZN",
+      "category": "AI bubble indicator",
+      "price": {
+        "close": 260.9200134277344,
+        "open": 263.42498779296875,
+        "high": 264.1499938964844,
+        "low": 260.3399963378906,
+        "volume": 35285838
+      },
+      "moving_averages": {
+        "sma_20": 236.01539993286133,
+        "sma_50": 219.61420240478517,
+        "sma_200": NaN,
+        "ema_12": 249.05610214258104,
+        "ema_26": 236.763888295246
+      },
+      "momentum": {
+        "rsi_14": 72.21901175587075,
+        "macd": 12.292213847335034,
+        "macd_signal": 10.013718714024598,
+        "macd_histogram": 2.278495133310436,
+        "stochastic_k": null,
+        "stochastic_d": null
+      },
+      "volatility": {
+        "atr_14": 6.135860046197992,
+        "bb_upper": 275.59713809179334,
+        "bb_middle": 236.01539993286133,
+        "bb_lower": 196.43366177392932,
+        "volatility_20d": 2.0444235641919235
+      },
+      "trend": {
+        "adx": 30.057940253816405,
+        "plus_di": null,
+        "minus_di": null
+      },
+      "performance": {
+        "roc_1d": -1.0204362783301502,
+        "roc_5d": 5.220287127975687,
+        "roc_20d": 29.798033967846017,
+        "momentum_10": 21.030014038085938
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "macd_bullish_cross": false,
+        "macd_bearish_cross": false,
+        "rsi_overbought": true,
+        "rsi_oversold": false,
+        "price_above_sma_200": false,
+        "high_volatility": false,
+        "low_volatility": false
+      }
+    },
+    {
+      "symbol": "QQQ",
+      "category": "Market bull/bear indicator",
+      "price": {
+        "close": 663.5999755859375,
+        "open": 663.385009765625,
+        "high": 664.375,
+        "low": 660.6900024414062,
+        "volume": 28852020
+      },
+      "moving_averages": {
+        "sma_20": 619.4137573242188,
+        "sma_50": 607.1090396484375,
+        "sma_200": NaN,
+        "ema_12": 642.207167631583,
+        "ema_26": 624.62786079664
+      },
+      "momentum": {
+        "rsi_14": 75.70372799235618,
+        "macd": 17.579306834943054,
+        "macd_signal": 12.469239462969666,
+        "macd_histogram": 5.110067371973388,
+        "stochastic_k": null,
+        "stochastic_d": null
+      },
+      "volatility": {
+        "atr_14": 8.497042871233537,
+        "bb_upper": 683.8514917441898,
+        "bb_middle": 619.4137573242188,
+        "bb_lower": 554.9760229042477,
+        "volatility_20d": 1.2687814428562612
+      },
+      "trend": {
+        "adx": 28.408511947241923,
+        "plus_di": null,
+        "minus_di": null
+      },
+      "performance": {
+        "roc_1d": 0.009042041260598488,
+        "roc_5d": 2.667242809747572,
+        "roc_20d": 17.693997308687837,
+        "momentum_10": 52.8299560546875
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "macd_bullish_cross": false,
+        "macd_bearish_cross": false,
+        "rsi_overbought": true,
+        "rsi_oversold": false,
+        "price_above_sma_200": false,
+        "high_volatility": false,
+        "low_volatility": true
+      }
+    },
+    {
+      "symbol": "DGRO",
+      "category": "Dividend Growth",
+      "price": {
+        "close": 72.81999969482422,
+        "open": 72.56999969482422,
+        "high": 73.0,
+        "low": 72.56999969482422,
+        "volume": 277508
+      },
+      "moving_averages": {
+        "sma_20": 71.8005199432373,
+        "sma_50": 71.83763610839844,
+        "sma_200": NaN,
+        "ema_12": 72.50392106779377,
+        "ema_26": 71.98948969798468
+      },
+      "momentum": {
+        "rsi_14": 60.1119237320662,
+        "macd": 0.5144313698090883,
+        "macd_signal": 0.3842507004794246,
+        "macd_histogram": 0.1301806693296637,
+        "stochastic_k": null,
+        "stochastic_d": null
+      },
+      "volatility": {
+        "atr_14": 0.6270572101350266,
+        "bb_upper": 74.29689675407984,
+        "bb_middle": 71.8005199432373,
+        "bb_lower": 69.30414313239477,
+        "volatility_20d": 0.7923992385960165
+      },
+      "trend": {
+        "adx": 23.483855873200117,
+        "plus_di": null,
+        "minus_di": null
+      },
+      "performance": {
+        "roc_1d": -0.02059365667189672,
+        "roc_5d": -0.7091665163467931,
+        "roc_20d": 4.82977547513892,
+        "momentum_10": 1.0550003051757812
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "macd_bullish_cross": false,
+        "macd_bearish_cross": false,
+        "rsi_overbought": false,
+        "rsi_oversold": false,
+        "price_above_sma_200": false,
+        "high_volatility": false,
+        "low_volatility": true
+      }
+    },
+    {
+      "symbol": "SCHD",
+      "category": "Dividend Growth",
+      "price": {
+        "close": 31.295000076293945,
+        "open": 31.299999237060547,
+        "high": 31.520000457763672,
+        "low": 31.270000457763672,
+        "volume": 4584434
+      },
+      "moving_averages": {
+        "sma_20": 30.80867509841919,
+        "sma_50": 31.00386016845703,
+        "sma_200": NaN,
+        "ema_12": 31.033685690791245,
+        "ema_26": 30.901915163158616
+      },
+      "momentum": {
+        "rsi_14": 61.39034794449165,
+        "macd": 0.13177052763262864,
+        "macd_signal": 0.057776271457831596,
+        "macd_histogram": 0.07399425617479705,
+        "stochastic_k": null,
+        "stochastic_d": null
+      },
+      "volatility": {
+        "atr_14": 0.28848777550002336,
+        "bb_upper": 31.39063295172865,
+        "bb_middle": 30.80867509841919,
+        "bb_lower": 30.22671724510973,
+        "volatility_20d": 0.4832535757674489
+      },
+      "trend": {
+        "adx": 23.088701610737683,
+        "plus_di": null,
+        "minus_di": null
+      },
+      "performance": {
+        "roc_1d": -0.10693352885454699,
+        "roc_5d": 0.44936410387705905,
+        "roc_20d": 2.1590666334844855,
+        "momentum_10": 0.75
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "macd_bullish_cross": false,
+        "macd_bearish_cross": false,
+        "rsi_overbought": false,
+        "rsi_oversold": false,
+        "price_above_sma_200": false,
+        "high_volatility": false,
+        "low_volatility": true
+      }
+    },
+    {
+      "symbol": "^VIX",
+      "category": "Market volatility indicator",
+      "price": {
+        "close": 18.360000610351562,
+        "open": 19.209999084472656,
+        "high": 19.270000457763672,
+        "low": 18.360000610351562,
+        "volume": 0
+      },
+      "moving_averages": {
+        "sma_20": 21.48650016784668,
+        "sma_50": 22.853799934387208,
+        "sma_200": NaN,
+        "ema_12": 19.7358062780005,
+        "ema_26": 21.223794150828734
+      },
+      "momentum": {
+        "rsi_14": 41.96494388669612,
+        "macd": -1.487987872828235,
+        "macd_signal": -1.255383597692808,
+        "macd_histogram": -0.23260427513542692,
+        "stochastic_k": null,
+        "stochastic_d": null
+      },
+      "volatility": {
+        "atr_14": 1.8249705880538094,
+        "bb_upper": 28.76566827456513,
+        "bb_middle": 21.48650016784668,
+        "bb_lower": 14.207332061128227,
+        "volatility_20d": 7.494897214947982
+      },
+      "trend": {
+        "adx": 13.544880330721577,
+        "plus_di": null,
+        "minus_di": null
+      },
+      "performance": {
+        "roc_1d": -4.821152208588986,
+        "roc_5d": -5.555555010474233,
+        "roc_20d": -38.32717390649725,
+        "momentum_10": -2.989999771118164
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "macd_bullish_cross": false,
+        "macd_bearish_cross": false,
+        "rsi_overbought": false,
+        "rsi_oversold": false,
+        "price_above_sma_200": false,
+        "high_volatility": false,
+        "low_volatility": true
+      }
+    },
+    {
+      "symbol": "SPLV",
+      "category": "Low Volatility/Defensive",
+      "price": {
+        "close": 73.5999984741211,
+        "open": 73.68000030517578,
+        "high": 74.18000030517578,
+        "low": 73.59500122070312,
+        "volume": 1573707
+      },
+      "moving_averages": {
+        "sma_20": 73.91193923950195,
+        "sma_50": 74.63485565185547,
+        "sma_200": NaN,
+        "ema_12": 73.91996402157893,
+        "ema_26": 74.01692730996159
+      },
+      "momentum": {
+        "rsi_14": 46.47919441641331,
+        "macd": -0.09696328838265345,
+        "macd_signal": -0.08579833952585017,
+        "macd_histogram": -0.011164948856803275,
+        "stochastic_k": null,
+        "stochastic_d": null
+      },
+      "volatility": {
+        "atr_14": 0.7388059969114938,
+        "bb_upper": 75.14087098802767,
+        "bb_middle": 73.91193923950195,
+        "bb_lower": 72.68300749097622,
+        "volatility_20d": 0.7207974302575744
+      },
+      "trend": {
+        "adx": 16.67003976830396,
+        "plus_di": null,
+        "minus_di": null
+      },
+      "performance": {
+        "roc_1d": -0.5674117643784782,
+        "roc_5d": -1.696008716303754,
+        "roc_20d": 1.4472713689814842,
+        "momentum_10": -0.1699981689453125
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "macd_bullish_cross": false,
+        "macd_bearish_cross": true,
+        "rsi_overbought": false,
+        "rsi_oversold": false,
+        "price_above_sma_200": false,
+        "high_volatility": false,
+        "low_volatility": false
+      }
+    },
+    {
+      "symbol": "ETH-USD",
+      "category": "Crypto indicator",
+      "price": {
+        "close": 2317.77001953125,
+        "open": 2370.31689453125,
+        "high": 2399.44287109375,
+        "low": 2318.7255859375,
+        "volume": 14777177088
+      },
+      "moving_averages": {
+        "sma_20": 2299.6638671875,
+        "sma_50": 2180.002331542969,
+        "sma_200": NaN,
+        "ema_12": 2314.9987355058665,
+        "ema_26": 2265.9545843886517
+      },
+      "momentum": {
+        "rsi_14": 54.89542771768533,
+        "macd": 49.044151117214824,
+        "macd_signal": 55.193099071245214,
+        "macd_histogram": -6.14894795403039,
+        "stochastic_k": null,
+        "stochastic_d": null
+      },
+      "volatility": {
+        "atr_14": 62.72405137023666,
+        "bb_upper": 2426.764540868736,
+        "bb_middle": 2299.6638671875,
+        "bb_lower": 2172.563193506264,
+        "volatility_20d": 2.814366099230856
+      },
+      "trend": {
+        "adx": 20.537769186674836,
+        "plus_di": null,
+        "minus_di": null
+      },
+      "performance": {
+        "roc_1d": -0.6821781074055955,
+        "roc_5d": -3.062734440349224,
+        "roc_20d": 8.790517325250047,
+        "momentum_10": -16.199951171875
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "macd_bullish_cross": false,
+        "macd_bearish_cross": false,
+        "rsi_overbought": false,
+        "rsi_oversold": false,
+        "price_above_sma_200": false,
+        "high_volatility": false,
+        "low_volatility": true
+      }
+    },
     {
       "symbol": "FSTA",
       "category": "Consumer Staples",
@@ -44,116 +814,6 @@
         "roc_5d": 0.21760015475329464,
         "roc_20d": 1.5433288104499843,
         "momentum_10": 0.8149986267089844
-      },
-      "signals": {
-        "golden_cross": false,
-        "death_cross": false,
-        "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
-        "rsi_overbought": false,
-        "rsi_oversold": false,
-        "price_above_sma_200": false,
-        "high_volatility": false,
-        "low_volatility": true
-      }
-    },
-    {
-      "symbol": "VUG",
-      "category": "Market bull/bear indicator",
-      "price": {
-        "close": 82.37000274658203,
-        "open": 82.37999725341797,
-        "high": 82.52999877929688,
-        "low": 82.22450256347656,
-        "volume": 772484
-      },
-      "moving_averages": {
-        "sma_20": 382.31835594177244,
-        "sma_50": 427.34948043823243,
-        "sma_200": NaN,
-        "ema_12": 281.6335243611717,
-        "ema_26": 361.6180037501797
-      },
-      "momentum": {
-        "rsi_14": 10.802631998065664,
-        "macd": -79.98447938900802,
-        "macd_signal": -33.80526330785743,
-        "macd_histogram": -46.179216081150585,
-        "stochastic_k": null,
-        "stochastic_d": null
-      },
-      "volatility": {
-        "atr_14": 29.494112399123793,
-        "bb_upper": 685.1361155106413,
-        "bb_middle": 382.31835594177244,
-        "bb_lower": 79.5005963729036,
-        "volatility_20d": 18.868524343335633
-      },
-      "trend": {
-        "adx": 40.082015165620774,
-        "plus_di": null,
-        "minus_di": null
-      },
-      "performance": {
-        "roc_1d": 0.9312610348566341,
-        "roc_5d": -83.2836118221041,
-        "roc_20d": -81.24843380911726,
-        "momentum_10": -378.08251190185547
-      },
-      "signals": {
-        "golden_cross": false,
-        "death_cross": false,
-        "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
-        "rsi_overbought": false,
-        "rsi_oversold": true,
-        "price_above_sma_200": false,
-        "high_volatility": true,
-        "low_volatility": false
-      }
-    },
-    {
-      "symbol": "VYM",
-      "category": "Dividend Growth",
-      "price": {
-        "close": 155.14999389648438,
-        "open": 154.8000030517578,
-        "high": 155.69000244140625,
-        "low": 154.8000030517578,
-        "volume": 175794
-      },
-      "moving_averages": {
-        "sma_20": 152.01258010864257,
-        "sma_50": 151.68611572265624,
-        "sma_200": NaN,
-        "ema_12": 153.9287978493012,
-        "ema_26": 152.44954216914866
-      },
-      "momentum": {
-        "rsi_14": 63.286020509740055,
-        "macd": 1.4792556801525336,
-        "macd_signal": 1.1057136001243153,
-        "macd_histogram": 0.3735420800282183,
-        "stochastic_k": null,
-        "stochastic_d": null
-      },
-      "volatility": {
-        "atr_14": 1.3183943919088112,
-        "bb_upper": 158.15910702162358,
-        "bb_middle": 152.01258010864257,
-        "bb_lower": 145.86605319566155,
-        "volatility_20d": 0.7744697255709151
-      },
-      "trend": {
-        "adx": 25.190622813556537,
-        "plus_di": null,
-        "minus_di": null
-      },
-      "performance": {
-        "roc_1d": 0.20907298296903853,
-        "roc_5d": -0.10302212647258502,
-        "roc_20d": 5.637638084409469,
-        "momentum_10": 2.989990234375
       },
       "signals": {
         "golden_cross": false,
@@ -223,776 +883,6 @@
       }
     },
     {
-      "symbol": "META",
-      "category": "AI bubble indicator",
-      "price": {
-        "close": 678.9600219726562,
-        "open": 670.9949951171875,
-        "high": 682.5,
-        "low": 670.8400268554688,
-        "volume": 9657362
-      },
-      "moving_averages": {
-        "sma_20": 631.5512481689453,
-        "sma_50": 629.7483125976563,
-        "sma_200": NaN,
-        "ema_12": 660.3088155475875,
-        "ema_26": 642.1116868681694
-      },
-      "momentum": {
-        "rsi_14": 61.86248695211069,
-        "macd": 18.197128679418142,
-        "macd_signal": 12.672005608397638,
-        "macd_histogram": 5.525123071020504,
-        "stochastic_k": null,
-        "stochastic_d": null
-      },
-      "volatility": {
-        "atr_14": 18.131296212928138,
-        "bb_upper": 727.2387494570381,
-        "bb_middle": 631.5512481689453,
-        "bb_lower": 535.8637468808525,
-        "volatility_20d": 2.690234876225399
-      },
-      "trend": {
-        "adx": 24.472680454678688,
-        "plus_di": null,
-        "minus_di": null
-      },
-      "performance": {
-        "roc_1d": 0.23029192535726217,
-        "roc_5d": 0.9748577702691552,
-        "roc_20d": 29.47122609079935,
-        "momentum_10": 49.4000244140625
-      },
-      "signals": {
-        "golden_cross": false,
-        "death_cross": false,
-        "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
-        "rsi_overbought": false,
-        "rsi_oversold": false,
-        "price_above_sma_200": false,
-        "high_volatility": false,
-        "low_volatility": true
-      }
-    },
-    {
-      "symbol": "IONQ",
-      "category": "Quantum/Emerging Tech",
-      "price": {
-        "close": 42.410099029541016,
-        "open": 44.380001068115234,
-        "high": 44.3849983215332,
-        "low": 42.400001525878906,
-        "volume": 3837808
-      },
-      "moving_averages": {
-        "sma_20": 35.28176479339599,
-        "sma_50": 34.59846382141113,
-        "sma_200": NaN,
-        "ema_12": 40.78338206332179,
-        "ema_26": 37.47056053614326
-      },
-      "momentum": {
-        "rsi_14": 61.336729237125724,
-        "macd": 3.312821527178528,
-        "macd_signal": 2.0127166431061245,
-        "macd_histogram": 1.3001048840724034,
-        "stochastic_k": null,
-        "stochastic_d": null
-      },
-      "volatility": {
-        "atr_14": 2.8800582106338863,
-        "bb_upper": 50.993106886291216,
-        "bb_middle": 35.28176479339599,
-        "bb_lower": 19.57042270050077,
-        "volatility_20d": 7.767116249033344
-      },
-      "trend": {
-        "adx": 29.990723491700756,
-        "plus_di": null,
-        "minus_di": null
-      },
-      "performance": {
-        "roc_1d": -0.8182864960871283,
-        "roc_5d": -6.472383089984623,
-        "roc_20d": 34.72077397154949,
-        "momentum_10": 13.795099258422852
-      },
-      "signals": {
-        "golden_cross": false,
-        "death_cross": false,
-        "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
-        "rsi_overbought": false,
-        "rsi_oversold": false,
-        "price_above_sma_200": false,
-        "high_volatility": false,
-        "low_volatility": false
-      }
-    },
-    {
-      "symbol": "ITA",
-      "category": "Defense/Industrial Tech",
-      "price": {
-        "close": 215.6300048828125,
-        "open": 215.1699981689453,
-        "high": 217.46749877929688,
-        "low": 214.78500366210938,
-        "volume": 324607
-      },
-      "moving_averages": {
-        "sma_20": 225.1972557067871,
-        "sma_50": 231.48616790771484,
-        "sma_200": NaN,
-        "ema_12": 223.1421122613587,
-        "ema_26": 225.99083882260996
-      },
-      "momentum": {
-        "rsi_14": 37.92280358630198,
-        "macd": -2.8487265612512545,
-        "macd_signal": -1.480149382115728,
-        "macd_histogram": -1.3685771791355263,
-        "stochastic_k": null,
-        "stochastic_d": null
-      },
-      "volatility": {
-        "atr_14": 5.339210282998748,
-        "bb_upper": 239.47218181362223,
-        "bb_middle": 225.1972557067871,
-        "bb_lower": 210.92232959995198,
-        "volatility_20d": 2.0249117645869927
-      },
-      "trend": {
-        "adx": 22.642162005734946,
-        "plus_di": null,
-        "minus_di": null
-      },
-      "performance": {
-        "roc_1d": 0.26504572244470115,
-        "roc_5d": -6.556591256798294,
-        "roc_20d": -0.8157635490108062,
-        "momentum_10": -16.719894409179688
-      },
-      "signals": {
-        "golden_cross": false,
-        "death_cross": false,
-        "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
-        "rsi_overbought": false,
-        "rsi_oversold": false,
-        "price_above_sma_200": false,
-        "high_volatility": true,
-        "low_volatility": false
-      }
-    },
-    {
-      "symbol": "VGT",
-      "category": "AI bubble indicator",
-      "price": {
-        "close": 104.31999969482422,
-        "open": 103.86000061035156,
-        "high": 104.32499694824219,
-        "low": 103.04000091552734,
-        "volume": 4166619
-      },
-      "moving_averages": {
-        "sma_20": 582.0856731414794,
-        "sma_50": 668.9378007507324,
-        "sma_200": NaN,
-        "ema_12": 389.7064963712821,
-        "ema_26": 539.8240781732568
-      },
-      "momentum": {
-        "rsi_14": 12.020858107928419,
-        "macd": -150.11758180197467,
-        "macd_signal": -73.473166564035,
-        "macd_histogram": -76.64441523793967,
-        "stochastic_k": null,
-        "stochastic_d": null
-      },
-      "volatility": {
-        "atr_14": 48.04397844479984,
-        "bb_upper": 1139.6436847945852,
-        "bb_middle": 582.0856731414794,
-        "bb_lower": 24.527661488373838,
-        "volatility_20d": 19.849814169499123
-      },
-      "trend": {
-        "adx": 40.31882625988707,
-        "plus_di": null,
-        "minus_di": null
-      },
-      "performance": {
-        "roc_1d": 0.13438221274557627,
-        "roc_5d": -87.10713988292487,
-        "roc_20d": -84.85921629973524,
-        "momentum_10": -646.0850296020508
-      },
-      "signals": {
-        "golden_cross": false,
-        "death_cross": false,
-        "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
-        "rsi_overbought": false,
-        "rsi_oversold": true,
-        "price_above_sma_200": false,
-        "high_volatility": true,
-        "low_volatility": false
-      }
-    },
-    {
-      "symbol": "GOOGL",
-      "category": "AI bubble indicator",
-      "price": {
-        "close": 350.3399963378906,
-        "open": 345.9800109863281,
-        "high": 353.17999267578125,
-        "low": 342.7300109863281,
-        "volume": 28218240
-      },
-      "moving_averages": {
-        "sma_20": 321.06089782714844,
-        "sma_50": 309.98805966796874,
-        "sma_200": NaN,
-        "ema_12": 334.72679388755375,
-        "ema_26": 323.3639256259468
-      },
-      "momentum": {
-        "rsi_14": 73.98042721168872,
-        "macd": 11.362868261606934,
-        "macd_signal": 8.650212891141575,
-        "macd_histogram": 2.7126553704653595,
-        "stochastic_k": null,
-        "stochastic_d": null
-      },
-      "volatility": {
-        "atr_14": 7.246004983719447,
-        "bb_upper": 363.5783545806337,
-        "bb_middle": 321.06089782714844,
-        "bb_lower": 278.5434410736632,
-        "volatility_20d": 1.9876257309744045
-      },
-      "trend": {
-        "adx": 33.47330783914965,
-        "plus_di": null,
-        "minus_di": null
-      },
-      "performance": {
-        "roc_1d": 1.8548683106493602,
-        "roc_5d": 3.8290505589477553,
-        "roc_20d": 27.100557872458573,
-        "momentum_10": 32.274993896484375
-      },
-      "signals": {
-        "golden_cross": false,
-        "death_cross": false,
-        "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
-        "rsi_overbought": true,
-        "rsi_oversold": false,
-        "price_above_sma_200": false,
-        "high_volatility": false,
-        "low_volatility": false
-      }
-    },
-    {
-      "symbol": "MSFT",
-      "category": "AI bubble indicator",
-      "price": {
-        "close": 425.9700012207031,
-        "open": 422.375,
-        "high": 427.0799865722656,
-        "low": 417.0700988769531,
-        "volume": 21465395
-      },
-      "moving_averages": {
-        "sma_20": 394.47277984619143,
-        "sma_50": 394.21980515136715,
-        "sma_200": NaN,
-        "ema_12": 412.30197850190564,
-        "ema_26": 401.9813027428062
-      },
-      "momentum": {
-        "rsi_14": 63.99107142182875,
-        "macd": 10.320675759099458,
-        "macd_signal": 5.563281542311852,
-        "macd_histogram": 4.757394216787606,
-        "stochastic_k": null,
-        "stochastic_d": null
-      },
-      "volatility": {
-        "atr_14": 9.89422528179195,
-        "bb_upper": 445.0755360634062,
-        "bb_middle": 394.47277984619143,
-        "bb_lower": 343.87002362897664,
-        "volatility_20d": 1.976622071368923
-      },
-      "trend": {
-        "adx": 31.536745490185844,
-        "plus_di": null,
-        "minus_di": null
-      },
-      "performance": {
-        "roc_1d": 0.7831347962699242,
-        "roc_5d": 1.8896342139075761,
-        "roc_20d": 18.68765908744021,
-        "momentum_10": 52.3699951171875
-      },
-      "signals": {
-        "golden_cross": false,
-        "death_cross": false,
-        "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
-        "rsi_overbought": false,
-        "rsi_oversold": false,
-        "price_above_sma_200": false,
-        "high_volatility": false,
-        "low_volatility": false
-      }
-    },
-    {
-      "symbol": "MA",
-      "category": "Payments/Fintech",
-      "price": {
-        "close": 505.1400146484375,
-        "open": 500.760009765625,
-        "high": 509.0450134277344,
-        "low": 500.760009765625,
-        "volume": 329696
-      },
-      "moving_averages": {
-        "sma_20": 505.44794921875,
-        "sma_50": 507.4085394287109,
-        "sma_200": NaN,
-        "ema_12": 507.94135235603244,
-        "ema_26": 507.531348587073
-      },
-      "momentum": {
-        "rsi_14": 48.328685840089804,
-        "macd": 0.41000376895942736,
-        "macd_signal": 0.5679924131626297,
-        "macd_histogram": -0.15798864420320236,
-        "stochastic_k": null,
-        "stochastic_d": null
-      },
-      "volatility": {
-        "atr_14": 9.727148466396917,
-        "bb_upper": 525.260111495995,
-        "bb_middle": 505.44794921875,
-        "bb_lower": 485.63578694150493,
-        "volatility_20d": 1.4189908828523883
-      },
-      "trend": {
-        "adx": 14.233482583260685,
-        "plus_di": null,
-        "minus_di": null
-      },
-      "performance": {
-        "roc_1d": 1.0118437474083253,
-        "roc_5d": -2.575720227681577,
-        "roc_20d": 3.4826073441742933,
-        "momentum_10": -0.029998779296875
-      },
-      "signals": {
-        "golden_cross": false,
-        "death_cross": false,
-        "macd_bullish_cross": false,
-        "macd_bearish_cross": true,
-        "rsi_overbought": false,
-        "rsi_oversold": false,
-        "price_above_sma_200": false,
-        "high_volatility": false,
-        "low_volatility": true
-      }
-    },
-    {
-      "symbol": "QQQ",
-      "category": "Market bull/bear indicator",
-      "price": {
-        "close": 663.5999755859375,
-        "open": 663.385009765625,
-        "high": 664.375,
-        "low": 660.6900024414062,
-        "volume": 28852020
-      },
-      "moving_averages": {
-        "sma_20": 619.4137573242188,
-        "sma_50": 607.1090396484375,
-        "sma_200": NaN,
-        "ema_12": 642.207167631583,
-        "ema_26": 624.62786079664
-      },
-      "momentum": {
-        "rsi_14": 75.70372799235618,
-        "macd": 17.579306834943054,
-        "macd_signal": 12.469239462969666,
-        "macd_histogram": 5.110067371973388,
-        "stochastic_k": null,
-        "stochastic_d": null
-      },
-      "volatility": {
-        "atr_14": 8.497042871233537,
-        "bb_upper": 683.8514917441898,
-        "bb_middle": 619.4137573242188,
-        "bb_lower": 554.9760229042477,
-        "volatility_20d": 1.2687814428562612
-      },
-      "trend": {
-        "adx": 28.408511947241923,
-        "plus_di": null,
-        "minus_di": null
-      },
-      "performance": {
-        "roc_1d": 0.009042041260598488,
-        "roc_5d": 2.667242809747572,
-        "roc_20d": 17.693997308687837,
-        "momentum_10": 52.8299560546875
-      },
-      "signals": {
-        "golden_cross": false,
-        "death_cross": false,
-        "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
-        "rsi_overbought": true,
-        "rsi_oversold": false,
-        "price_above_sma_200": false,
-        "high_volatility": false,
-        "low_volatility": true
-      }
-    },
-    {
-      "symbol": "VIG",
-      "category": "Dividend Growth",
-      "price": {
-        "close": 226.52499389648438,
-        "open": 226.25,
-        "high": 227.07000732421875,
-        "low": 226.25,
-        "volume": 119330
-      },
-      "moving_averages": {
-        "sma_20": 221.9227294921875,
-        "sma_50": 221.90557891845702,
-        "sma_200": NaN,
-        "ema_12": 225.0419773118063,
-        "ema_26": 222.92214071861613
-      },
-      "momentum": {
-        "rsi_14": 62.05160976143661,
-        "macd": 2.119836593190172,
-        "macd_signal": 1.4894439774380837,
-        "macd_histogram": 0.6303926157520883,
-        "stochastic_k": null,
-        "stochastic_d": null
-      },
-      "volatility": {
-        "atr_14": 2.0454815745291466,
-        "bb_upper": 232.1689214327,
-        "bb_middle": 221.9227294921875,
-        "bb_lower": 211.676537551675,
-        "volatility_20d": 0.9367598055584487
-      },
-      "trend": {
-        "adx": 24.68800395492259,
-        "plus_di": null,
-        "minus_di": null
-      },
-      "performance": {
-        "roc_1d": -0.08821797404205967,
-        "roc_5d": -0.5771604909333261,
-        "roc_20d": 6.630103225951034,
-        "momentum_10": 4.7549896240234375
-      },
-      "signals": {
-        "golden_cross": false,
-        "death_cross": false,
-        "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
-        "rsi_overbought": false,
-        "rsi_oversold": false,
-        "price_above_sma_200": false,
-        "high_volatility": false,
-        "low_volatility": true
-      }
-    },
-    {
-      "symbol": "HWM",
-      "category": "Defense/Industrial Tech",
-      "price": {
-        "close": 241.19000244140625,
-        "open": 241.92999267578125,
-        "high": 242.4600067138672,
-        "low": 238.00999450683594,
-        "volume": 582953
-      },
-      "moving_averages": {
-        "sma_20": 244.79599990844727,
-        "sma_50": 247.10490020751953,
-        "sma_200": NaN,
-        "ema_12": 245.90903310488187,
-        "ema_26": 244.97074443926115
-      },
-      "momentum": {
-        "rsi_14": 47.24465554020566,
-        "macd": 0.9382886656207177,
-        "macd_signal": 1.9826688281089344,
-        "macd_histogram": -1.0443801624882167,
-        "stochastic_k": null,
-        "stochastic_d": null
-      },
-      "volatility": {
-        "atr_14": 8.24307889231355,
-        "bb_upper": 264.2155876269237,
-        "bb_middle": 244.79599990844727,
-        "bb_lower": 225.37641218997086,
-        "volatility_20d": 2.7048255235284615
-      },
-      "trend": {
-        "adx": 18.448811157690564,
-        "plus_di": null,
-        "minus_di": null
-      },
-      "performance": {
-        "roc_1d": -0.4046726410987467,
-        "roc_5d": -5.515729069376474,
-        "roc_20d": 5.318548634001541,
-        "momentum_10": -10.80999755859375
-      },
-      "signals": {
-        "golden_cross": false,
-        "death_cross": false,
-        "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
-        "rsi_overbought": false,
-        "rsi_oversold": false,
-        "price_above_sma_200": false,
-        "high_volatility": true,
-        "low_volatility": false
-      }
-    },
-    {
-      "symbol": "NQ=F",
-      "category": "Market bull/bear indicator",
-      "price": {
-        "close": 27452.5,
-        "open": 27403.25,
-        "high": 27542.5,
-        "low": 27344.25,
-        "volume": 73608
-      },
-      "moving_averages": {
-        "sma_20": 25801.025,
-        "sma_50": 25019.345,
-        "sma_200": NaN,
-        "ema_12": 26573.15037777833,
-        "ema_26": 25844.90727290173
-      },
-      "momentum": {
-        "rsi_14": 78.4101142572363,
-        "macd": 728.2431048765975,
-        "macd_signal": 555.8812082191164,
-        "macd_histogram": 172.3618966574811,
-        "stochastic_k": null,
-        "stochastic_d": null
-      },
-      "volatility": {
-        "atr_14": 331.6680747501423,
-        "bb_upper": 27987.089076714125,
-        "bb_middle": 25801.025,
-        "bb_lower": 23614.96092328588,
-        "volatility_20d": 0.9856075278690622
-      },
-      "trend": {
-        "adx": 29.458256582527433,
-        "plus_di": null,
-        "minus_di": null
-      },
-      "performance": {
-        "roc_1d": 0.34817096016594995,
-        "roc_5d": 2.7962142984188754,
-        "roc_20d": 15.077077853347731,
-        "momentum_10": 1840.5
-      },
-      "signals": {
-        "golden_cross": false,
-        "death_cross": false,
-        "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
-        "rsi_overbought": true,
-        "rsi_oversold": false,
-        "price_above_sma_200": false,
-        "high_volatility": false,
-        "low_volatility": true
-      }
-    },
-    {
-      "symbol": "AXON",
-      "category": "Defense/Industrial Tech",
-      "price": {
-        "close": 404.4700012207031,
-        "open": 395.5199890136719,
-        "high": 407.2099914550781,
-        "low": 395.2049865722656,
-        "volume": 266356
-      },
-      "moving_averages": {
-        "sma_20": 395.05550384521484,
-        "sma_50": 456.0295391845703,
-        "sma_200": NaN,
-        "ema_12": 398.12336410789226,
-        "ema_26": 415.9821973962116
-      },
-      "momentum": {
-        "rsi_14": 45.79351066475764,
-        "macd": -17.858833288319317,
-        "macd_signal": -23.12416320172663,
-        "macd_histogram": 5.265329913407314,
-        "stochastic_k": null,
-        "stochastic_d": null
-      },
-      "volatility": {
-        "atr_14": 20.62172004937616,
-        "bb_upper": 436.3144963763,
-        "bb_middle": 395.05550384521484,
-        "bb_lower": 353.7965113141297,
-        "volatility_20d": 4.215742371492674
-      },
-      "trend": {
-        "adx": 33.26983205539657,
-        "plus_di": null,
-        "minus_di": null
-      },
-      "performance": {
-        "roc_1d": 4.1643095380048845,
-        "roc_5d": 0.5394018129702527,
-        "roc_20d": -8.13763060768311,
-        "momentum_10": 41.470001220703125
-      },
-      "signals": {
-        "golden_cross": false,
-        "death_cross": false,
-        "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
-        "rsi_overbought": false,
-        "rsi_oversold": false,
-        "price_above_sma_200": false,
-        "high_volatility": false,
-        "low_volatility": true
-      }
-    },
-    {
-      "symbol": "AMD",
-      "category": "AI bubble indicator",
-      "price": {
-        "close": 335.7300109863281,
-        "open": 346.55999755859375,
-        "high": 349.0899963378906,
-        "low": 328.80999755859375,
-        "volume": 43713778
-      },
-      "moving_averages": {
-        "sma_20": 256.0909149169922,
-        "sma_50": 223.25387406005862,
-        "sma_200": NaN,
-        "ema_12": 288.6935068064005,
-        "ema_26": 259.0119983247194
-      },
-      "momentum": {
-        "rsi_14": 80.66794841228545,
-        "macd": 29.681508481681078,
-        "macd_signal": 20.60371911747611,
-        "macd_histogram": 9.077789364204968,
-        "stochastic_k": null,
-        "stochastic_d": null
-      },
-      "volatility": {
-        "atr_14": 13.697149295309739,
-        "bb_upper": 339.70717450825487,
-        "bb_middle": 256.0909149169922,
-        "bb_lower": 172.4746553257295,
-        "volatility_20d": 4.071310048398845
-      },
-      "trend": {
-        "adx": 45.056047155933356,
-        "plus_di": null,
-        "minus_di": null
-      },
-      "performance": {
-        "roc_1d": -3.0893418722857002,
-        "roc_5d": 22.105835999574673,
-        "roc_20d": 66.74034269584243,
-        "momentum_10": 92.79450988769531
-      },
-      "signals": {
-        "golden_cross": false,
-        "death_cross": false,
-        "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
-        "rsi_overbought": true,
-        "rsi_oversold": false,
-        "price_above_sma_200": false,
-        "high_volatility": true,
-        "low_volatility": false
-      }
-    },
-    {
-      "symbol": "NVDA",
-      "category": "AI bubble indicator",
-      "price": {
-        "close": 215.6300048828125,
-        "open": 209.64500427246094,
-        "high": 216.3800048828125,
-        "low": 207.3800048828125,
-        "volume": 156114894
-      },
-      "moving_averages": {
-        "sma_20": 190.4554801940918,
-        "sma_50": 185.58076604003907,
-        "sma_200": NaN,
-        "ema_12": 200.3166420345152,
-        "ema_26": 192.62902872224936
-      },
-      "momentum": {
-        "rsi_14": 80.66330301191178,
-        "macd": 7.687613312265853,
-        "macd_signal": 5.208318009332595,
-        "macd_histogram": 2.4792953029332576,
-        "stochastic_k": null,
-        "stochastic_d": null
-      },
-      "volatility": {
-        "atr_14": 5.105040181838057,
-        "bb_upper": 217.55990856606786,
-        "bb_middle": 190.4554801940918,
-        "bb_lower": 163.35105182211572,
-        "volatility_20d": 1.543827923421955
-      },
-      "trend": {
-        "adx": 28.044592277608277,
-        "plus_di": null,
-        "minus_di": null
-      },
-      "performance": {
-        "roc_1d": 3.5587376902640244,
-        "roc_5d": 6.715830688003299,
-        "roc_20d": 28.362653867517352,
-        "momentum_10": 28.090011596679688
-      },
-      "signals": {
-        "golden_cross": false,
-        "death_cross": false,
-        "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
-        "rsi_overbought": true,
-        "rsi_oversold": false,
-        "price_above_sma_200": false,
-        "high_volatility": false,
-        "low_volatility": false
-      }
-    },
-    {
       "symbol": "SOXX",
       "category": "AI bubble indicator",
       "price": {
@@ -1048,102 +938,47 @@
       }
     },
     {
-      "symbol": "DGRO",
-      "category": "Dividend Growth",
+      "symbol": "INTC",
+      "category": "AI bubble indicator",
       "price": {
-        "close": 72.81999969482422,
-        "open": 72.56999969482422,
-        "high": 73.0,
-        "low": 72.56999969482422,
-        "volume": 277508
+        "close": 84.2699966430664,
+        "open": 83.61000061035156,
+        "high": 87.0999984741211,
+        "low": 82.61000061035156,
+        "volume": 153985312
       },
       "moving_averages": {
-        "sma_20": 71.8005199432373,
-        "sma_50": 71.83763610839844,
+        "sma_20": 61.284749794006345,
+        "sma_50": 51.64892187194824,
         "sma_200": NaN,
-        "ema_12": 72.50392106779377,
-        "ema_26": 71.98948969798468
+        "ema_12": 68.77905384708498,
+        "ema_26": 61.24780800793328
       },
       "momentum": {
-        "rsi_14": 60.1119237320662,
-        "macd": 0.5144313698090883,
-        "macd_signal": 0.3842507004794246,
-        "macd_histogram": 0.1301806693296637,
+        "rsi_14": 82.03797500176738,
+        "macd": 7.531245839151701,
+        "macd_signal": 5.693956932182614,
+        "macd_histogram": 1.8372889069690874,
         "stochastic_k": null,
         "stochastic_d": null
       },
       "volatility": {
-        "atr_14": 0.6270572101350266,
-        "bb_upper": 74.29689675407984,
-        "bb_middle": 71.8005199432373,
-        "bb_lower": 69.30414313239477,
-        "volatility_20d": 0.7923992385960165
+        "atr_14": 4.332303686962705,
+        "bb_upper": 83.22071325470387,
+        "bb_middle": 61.284749794006345,
+        "bb_lower": 39.34878633330882,
+        "volatility_20d": 6.0712589169346876
       },
       "trend": {
-        "adx": 23.483855873200117,
+        "adx": 42.552535439082185,
         "plus_di": null,
         "minus_di": null
       },
       "performance": {
-        "roc_1d": -0.02059365667189672,
-        "roc_5d": -0.7091665163467931,
-        "roc_20d": 4.82977547513892,
-        "momentum_10": 1.0550003051757812
-      },
-      "signals": {
-        "golden_cross": false,
-        "death_cross": false,
-        "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
-        "rsi_overbought": false,
-        "rsi_oversold": false,
-        "price_above_sma_200": false,
-        "high_volatility": false,
-        "low_volatility": true
-      }
-    },
-    {
-      "symbol": "FIX",
-      "category": "Defense/Industrial Tech",
-      "price": {
-        "close": 1798.889892578125,
-        "open": 1744.5999755859375,
-        "high": 1804.999755859375,
-        "low": 1685.0,
-        "volume": 282665
-      },
-      "moving_averages": {
-        "sma_20": 1577.3646057128906,
-        "sma_50": 1467.823046875,
-        "sma_200": NaN,
-        "ema_12": 1668.4240802639438,
-        "ema_26": 1576.1112846689045
-      },
-      "momentum": {
-        "rsi_14": 70.41542575294824,
-        "macd": 92.31279559503923,
-        "macd_signal": 77.4139878963944,
-        "macd_histogram": 14.89880769864483,
-        "stochastic_k": null,
-        "stochastic_d": null
-      },
-      "volatility": {
-        "atr_14": 76.35280663327255,
-        "bb_upper": 1852.2840868110118,
-        "bb_middle": 1577.3646057128906,
-        "bb_lower": 1302.4451246147694,
-        "volatility_20d": 3.2625404415061765
-      },
-      "trend": {
-        "adx": 26.366593010064456,
-        "plus_di": null,
-        "minus_di": null
-      },
-      "performance": {
-        "roc_1d": 5.122011105627866,
-        "roc_5d": 7.961032211517827,
-        "roc_20d": 32.75744023327607,
-        "momentum_10": 164.599853515625
+        "roc_1d": 4.127018812919769,
+        "roc_5d": 28.26484103104827,
+        "roc_20d": 95.79459770100681,
+        "momentum_10": 20.23999786376953
       },
       "signals": {
         "golden_cross": false,
@@ -1155,721 +990,6 @@
         "price_above_sma_200": false,
         "high_volatility": true,
         "low_volatility": false
-      }
-    },
-    {
-      "symbol": "BND",
-      "category": "Fixed Income",
-      "price": {
-        "close": 73.7750015258789,
-        "open": 73.80999755859375,
-        "high": 73.84500122070312,
-        "low": 73.72000122070312,
-        "volume": 2759908
-      },
-      "moving_averages": {
-        "sma_20": 73.73314933776855,
-        "sma_50": 74.02655151367188,
-        "sma_200": NaN,
-        "ema_12": 73.8079689533943,
-        "ema_26": 73.803499666667
-      },
-      "momentum": {
-        "rsi_14": 49.22399946338015,
-        "macd": 0.004469286727299959,
-        "macd_signal": -0.02031818957352608,
-        "macd_histogram": 0.02478747630082604,
-        "stochastic_k": null,
-        "stochastic_d": null
-      },
-      "volatility": {
-        "atr_14": 0.24132120558023676,
-        "bb_upper": 74.10900825651781,
-        "bb_middle": 73.73314933776855,
-        "bb_lower": 73.3572904190193,
-        "volatility_20d": 0.24536947905891737
-      },
-      "trend": {
-        "adx": 16.48361045207105,
-        "plus_di": null,
-        "minus_di": null
-      },
-      "performance": {
-        "roc_1d": -0.06772153664744707,
-        "roc_5d": -0.27035748883746935,
-        "roc_20d": 0.859373899928495,
-        "momentum_10": 0.0251007080078125
-      },
-      "signals": {
-        "golden_cross": false,
-        "death_cross": false,
-        "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
-        "rsi_overbought": false,
-        "rsi_oversold": false,
-        "price_above_sma_200": false,
-        "high_volatility": false,
-        "low_volatility": false
-      }
-    },
-    {
-      "symbol": "SCHD",
-      "category": "Dividend Growth",
-      "price": {
-        "close": 31.295000076293945,
-        "open": 31.299999237060547,
-        "high": 31.520000457763672,
-        "low": 31.270000457763672,
-        "volume": 4584434
-      },
-      "moving_averages": {
-        "sma_20": 30.80867509841919,
-        "sma_50": 31.00386016845703,
-        "sma_200": NaN,
-        "ema_12": 31.033685690791245,
-        "ema_26": 30.901915163158616
-      },
-      "momentum": {
-        "rsi_14": 61.39034794449165,
-        "macd": 0.13177052763262864,
-        "macd_signal": 0.057776271457831596,
-        "macd_histogram": 0.07399425617479705,
-        "stochastic_k": null,
-        "stochastic_d": null
-      },
-      "volatility": {
-        "atr_14": 0.28848777550002336,
-        "bb_upper": 31.39063295172865,
-        "bb_middle": 30.80867509841919,
-        "bb_lower": 30.22671724510973,
-        "volatility_20d": 0.4832535757674489
-      },
-      "trend": {
-        "adx": 23.088701610737683,
-        "plus_di": null,
-        "minus_di": null
-      },
-      "performance": {
-        "roc_1d": -0.10693352885454699,
-        "roc_5d": 0.44936410387705905,
-        "roc_20d": 2.1590666334844855,
-        "momentum_10": 0.75
-      },
-      "signals": {
-        "golden_cross": false,
-        "death_cross": false,
-        "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
-        "rsi_overbought": false,
-        "rsi_oversold": false,
-        "price_above_sma_200": false,
-        "high_volatility": false,
-        "low_volatility": true
-      }
-    },
-    {
-      "symbol": "VDE",
-      "category": "Energy Sector",
-      "price": {
-        "close": 161.8000030517578,
-        "open": 162.47000122070312,
-        "high": 164.11000061035156,
-        "low": 161.6652069091797,
-        "volume": 260310
-      },
-      "moving_averages": {
-        "sma_20": 163.4635154724121,
-        "sma_50": 162.08715576171875,
-        "sma_200": NaN,
-        "ema_12": 161.10764086171469,
-        "ema_26": 162.12133376261752
-      },
-      "momentum": {
-        "rsi_14": 49.50519225892633,
-        "macd": -1.0136929009028393,
-        "macd_signal": -0.6107431556945755,
-        "macd_histogram": -0.40294974520826377,
-        "stochastic_k": null,
-        "stochastic_d": null
-      },
-      "volatility": {
-        "atr_14": 3.83709936029238,
-        "bb_upper": 174.75754913752115,
-        "bb_middle": 163.4635154724121,
-        "bb_lower": 152.16948180730304,
-        "volatility_20d": 2.044665121829847
-      },
-      "trend": {
-        "adx": 19.398847584352733,
-        "plus_di": null,
-        "minus_di": null
-      },
-      "performance": {
-        "roc_1d": 0.7911320514036646,
-        "roc_5d": 2.8150270521845266,
-        "roc_20d": -8.556572386542182,
-        "momentum_10": 0.2700042724609375
-      },
-      "signals": {
-        "golden_cross": false,
-        "death_cross": false,
-        "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
-        "rsi_overbought": false,
-        "rsi_oversold": false,
-        "price_above_sma_200": false,
-        "high_volatility": false,
-        "low_volatility": false
-      }
-    },
-    {
-      "symbol": "QUBT",
-      "category": "Quantum/Emerging Tech",
-      "price": {
-        "close": 9.100000381469727,
-        "open": 8.789999961853027,
-        "high": 9.119999885559082,
-        "low": 8.708499908447266,
-        "volume": 7390306
-      },
-      "moving_averages": {
-        "sma_20": 8.026875042915345,
-        "sma_50": 7.88080002784729,
-        "sma_200": NaN,
-        "ema_12": 8.847083675658265,
-        "ema_26": 8.34854431235571
-      },
-      "momentum": {
-        "rsi_14": 59.66779512018051,
-        "macd": 0.4985393633025552,
-        "macd_signal": 0.33870351527801246,
-        "macd_histogram": 0.15983584802454276,
-        "stochastic_k": null,
-        "stochastic_d": null
-      },
-      "volatility": {
-        "atr_14": 0.5903594817927902,
-        "bb_upper": 10.589633632688706,
-        "bb_middle": 8.026875042915345,
-        "bb_lower": 5.464116453141983,
-        "volatility_20d": 5.517967252623778
-      },
-      "trend": {
-        "adx": 27.802109993105223,
-        "plus_di": null,
-        "minus_di": null
-      },
-      "performance": {
-        "roc_1d": 1.7897182169617665,
-        "roc_5d": -7.4262415859827176,
-        "roc_20d": 32.419501246128355,
-        "momentum_10": 2.020000457763672
-      },
-      "signals": {
-        "golden_cross": false,
-        "death_cross": false,
-        "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
-        "rsi_overbought": false,
-        "rsi_oversold": false,
-        "price_above_sma_200": false,
-        "high_volatility": false,
-        "low_volatility": false
-      }
-    },
-    {
-      "symbol": "MGK",
-      "category": "Market bull/bear indicator",
-      "price": {
-        "close": 83.3499984741211,
-        "open": 83.2699966430664,
-        "high": 83.48999786376953,
-        "low": 83.12000274658203,
-        "volume": 370547
-      },
-      "moving_averages": {
-        "sma_20": 324.4640403747559,
-        "sma_50": 360.46321380615234,
-        "sma_200": NaN,
-        "ema_12": 243.80102917663314,
-        "ema_26": 307.9499612984526
-      },
-      "momentum": {
-        "rsi_14": 11.433617009024559,
-        "macd": -64.14893212181946,
-        "macd_signal": -26.997500496658116,
-        "macd_histogram": -37.15143162516134,
-        "stochastic_k": null,
-        "stochastic_d": null
-      },
-      "volatility": {
-        "atr_14": 24.15806641150016,
-        "bb_upper": 568.1733880391537,
-        "bb_middle": 324.4640403747559,
-        "bb_lower": 80.75469271035814,
-        "volatility_20d": 18.12934826260178
-      },
-      "trend": {
-        "adx": 39.83874466631288,
-        "plus_di": null,
-        "minus_di": null
-      },
-      "performance": {
-        "roc_1d": 1.018053952421094,
-        "roc_5d": -79.90936933133057,
-        "roc_20d": -77.44950808914206,
-        "momentum_10": -303.61011505126953
-      },
-      "signals": {
-        "golden_cross": false,
-        "death_cross": false,
-        "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
-        "rsi_overbought": false,
-        "rsi_oversold": true,
-        "price_above_sma_200": false,
-        "high_volatility": true,
-        "low_volatility": false
-      }
-    },
-    {
-      "symbol": "VDC",
-      "category": "Consumer Staples",
-      "price": {
-        "close": 227.4199981689453,
-        "open": 228.4600067138672,
-        "high": 229.44500732421875,
-        "low": 227.39999389648438,
-        "volume": 136839
-      },
-      "moving_averages": {
-        "sma_20": 225.6333251953125,
-        "sma_50": 230.0926138305664,
-        "sma_200": NaN,
-        "ema_12": 226.70155567548272,
-        "ema_26": 226.73873156174486
-      },
-      "momentum": {
-        "rsi_14": 51.632347123909135,
-        "macd": -0.03717588626213342,
-        "macd_signal": -0.7313325837614328,
-        "macd_histogram": 0.6941566974992994,
-        "stochastic_k": null,
-        "stochastic_d": null
-      },
-      "volatility": {
-        "atr_14": 2.428966094636085,
-        "bb_upper": 229.80127004633235,
-        "bb_middle": 225.6333251953125,
-        "bb_lower": 221.46538034429264,
-        "volatility_20d": 0.7883177645808401
-      },
-      "trend": {
-        "adx": 15.542946692228744,
-        "plus_di": null,
-        "minus_di": null
-      },
-      "performance": {
-        "roc_1d": -0.7982559786498089,
-        "roc_5d": 0.24243093559979112,
-        "roc_20d": 1.6038941645545535,
-        "momentum_10": 3.6699981689453125
-      },
-      "signals": {
-        "golden_cross": false,
-        "death_cross": false,
-        "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
-        "rsi_overbought": false,
-        "rsi_oversold": false,
-        "price_above_sma_200": false,
-        "high_volatility": false,
-        "low_volatility": true
-      }
-    },
-    {
-      "symbol": "PLTR",
-      "category": "AI bubble indicator",
-      "price": {
-        "close": 143.10000610351562,
-        "open": 141.30999755859375,
-        "high": 145.07000732421875,
-        "low": 141.00999450683594,
-        "volume": 31135928
-      },
-      "moving_averages": {
-        "sma_20": 142.91863937377929,
-        "sma_50": 144.61705718994142,
-        "sma_200": NaN,
-        "ema_12": 144.16156445034886,
-        "ema_26": 144.80088249259708
-      },
-      "momentum": {
-        "rsi_14": 48.129496213127375,
-        "macd": -0.6393180422482203,
-        "macd_signal": -1.1715846826227831,
-        "macd_histogram": 0.5322666403745628,
-        "stochastic_k": null,
-        "stochastic_d": null
-      },
-      "volatility": {
-        "atr_14": 6.463551030331938,
-        "bb_upper": 155.4249497943388,
-        "bb_middle": 142.91863937377929,
-        "bb_lower": 130.41232895321977,
-        "volatility_20d": 3.641230525366588
-      },
-      "trend": {
-        "adx": 11.919789360259424,
-        "plus_di": null,
-        "minus_di": null
-      },
-      "performance": {
-        "roc_1d": 0.0069954335601307704,
-        "roc_5d": -1.9123951592330823,
-        "roc_20d": 0.07700363654368214,
-        "momentum_10": 9.94000244140625
-      },
-      "signals": {
-        "golden_cross": false,
-        "death_cross": false,
-        "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
-        "rsi_overbought": false,
-        "rsi_oversold": false,
-        "price_above_sma_200": false,
-        "high_volatility": false,
-        "low_volatility": true
-      }
-    },
-    {
-      "symbol": "EME",
-      "category": "Defense/Industrial Tech",
-      "price": {
-        "close": 870.22998046875,
-        "open": 870.4400024414062,
-        "high": 874.4650268554688,
-        "low": 848.2000122070312,
-        "volume": 103824
-      },
-      "moving_averages": {
-        "sma_20": 801.1178741455078,
-        "sma_50": 771.2384777832032,
-        "sma_200": NaN,
-        "ema_12": 832.9334624072151,
-        "ema_26": 802.4706751080296
-      },
-      "momentum": {
-        "rsi_14": 70.61385654134341,
-        "macd": 30.462787299185493,
-        "macd_signal": 23.25114487314923,
-        "macd_histogram": 7.2116424260362635,
-        "stochastic_k": null,
-        "stochastic_d": null
-      },
-      "volatility": {
-        "atr_14": 24.3380128837485,
-        "bb_upper": 891.9328247154419,
-        "bb_middle": 801.1178741455078,
-        "bb_lower": 710.3029235755737,
-        "volatility_20d": 2.341438172837662
-      },
-      "trend": {
-        "adx": 22.785278908495723,
-        "plus_di": null,
-        "minus_di": null
-      },
-      "performance": {
-        "roc_1d": 0.11158579622068121,
-        "roc_5d": 6.125607374237796,
-        "roc_20d": 17.3291042397667,
-        "momentum_10": 59.2449951171875
-      },
-      "signals": {
-        "golden_cross": false,
-        "death_cross": false,
-        "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
-        "rsi_overbought": true,
-        "rsi_oversold": false,
-        "price_above_sma_200": false,
-        "high_volatility": false,
-        "low_volatility": true
-      }
-    },
-    {
-      "symbol": "ETH-USD",
-      "category": "Crypto indicator",
-      "price": {
-        "close": 2317.77001953125,
-        "open": 2370.31689453125,
-        "high": 2399.44287109375,
-        "low": 2318.7255859375,
-        "volume": 14777177088
-      },
-      "moving_averages": {
-        "sma_20": 2299.6638671875,
-        "sma_50": 2180.002331542969,
-        "sma_200": NaN,
-        "ema_12": 2314.9987355058665,
-        "ema_26": 2265.9545843886517
-      },
-      "momentum": {
-        "rsi_14": 54.89542771768533,
-        "macd": 49.044151117214824,
-        "macd_signal": 55.193099071245214,
-        "macd_histogram": -6.14894795403039,
-        "stochastic_k": null,
-        "stochastic_d": null
-      },
-      "volatility": {
-        "atr_14": 62.72405137023666,
-        "bb_upper": 2426.764540868736,
-        "bb_middle": 2299.6638671875,
-        "bb_lower": 2172.563193506264,
-        "volatility_20d": 2.814366099230856
-      },
-      "trend": {
-        "adx": 20.537769186674836,
-        "plus_di": null,
-        "minus_di": null
-      },
-      "performance": {
-        "roc_1d": -0.6821781074055955,
-        "roc_5d": -3.062734440349224,
-        "roc_20d": 8.790517325250047,
-        "momentum_10": -16.199951171875
-      },
-      "signals": {
-        "golden_cross": false,
-        "death_cross": false,
-        "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
-        "rsi_overbought": false,
-        "rsi_oversold": false,
-        "price_above_sma_200": false,
-        "high_volatility": false,
-        "low_volatility": true
-      }
-    },
-    {
-      "symbol": "SPLV",
-      "category": "Low Volatility/Defensive",
-      "price": {
-        "close": 74.0199966430664,
-        "open": 74.08000183105469,
-        "high": 74.08000183105469,
-        "low": 73.625,
-        "volume": 262631
-      },
-      "moving_averages": {
-        "sma_20": 73.85943946838378,
-        "sma_50": 74.66665573120117,
-        "sma_200": NaN,
-        "ema_12": 73.97813957566218,
-        "ema_26": 74.05028161682883
-      },
-      "momentum": {
-        "rsi_14": 49.7013994528211,
-        "macd": -0.07214204116664291,
-        "macd_signal": -0.08300710231164934,
-        "macd_histogram": 0.010865061145006433,
-        "stochastic_k": null,
-        "stochastic_d": null
-      },
-      "volatility": {
-        "atr_14": 0.7506372978683276,
-        "bb_upper": 75.21986622728731,
-        "bb_middle": 73.85943946838378,
-        "bb_lower": 72.49901270948025,
-        "volatility_20d": 0.7231740569149816
-      },
-      "trend": {
-        "adx": 17.405711888898278,
-        "plus_di": null,
-        "minus_di": null
-      },
-      "performance": {
-        "roc_1d": 0.2980942848394008,
-        "roc_5d": -0.9302010692487483,
-        "roc_20d": 1.3972556754334287,
-        "momentum_10": -0.24970245361328125
-      },
-      "signals": {
-        "golden_cross": false,
-        "death_cross": false,
-        "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
-        "rsi_overbought": false,
-        "rsi_oversold": false,
-        "price_above_sma_200": false,
-        "high_volatility": false,
-        "low_volatility": false
-      }
-    },
-    {
-      "symbol": "AAPL",
-      "category": "AI bubble indicator",
-      "price": {
-        "close": 267.6099853515625,
-        "open": 266.0899963378906,
-        "high": 268.3599853515625,
-        "low": 265.07000732421875,
-        "volume": 41213866
-      },
-      "moving_averages": {
-        "sma_20": 261.5010612487793,
-        "sma_50": 260.3555334472656,
-        "sma_200": NaN,
-        "ema_12": 266.51854305494163,
-        "ema_26": 262.8642795399253
-      },
-      "momentum": {
-        "rsi_14": 55.35053944866993,
-        "macd": 3.654263515016339,
-        "macd_signal": 2.4490824744694226,
-        "macd_histogram": 1.2051810405469165,
-        "stochastic_k": null,
-        "stochastic_d": null
-      },
-      "volatility": {
-        "atr_14": 5.520544589834863,
-        "bb_upper": 276.8049334385281,
-        "bb_middle": 261.5010612487793,
-        "bb_lower": 246.1971890590305,
-        "volatility_20d": 2.0001337168238997
-      },
-      "trend": {
-        "adx": 13.6819763468758,
-        "plus_di": null,
-        "minus_di": null
-      },
-      "performance": {
-        "roc_1d": -1.2727854490168666,
-        "roc_5d": -1.9923100840901542,
-        "roc_20d": 4.998623015046255,
-        "momentum_10": 10.089996337890625
-      },
-      "signals": {
-        "golden_cross": false,
-        "death_cross": false,
-        "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
-        "rsi_overbought": false,
-        "rsi_oversold": false,
-        "price_above_sma_200": false,
-        "high_volatility": false,
-        "low_volatility": false
-      }
-    },
-    {
-      "symbol": "VEA",
-      "category": "International Equity",
-      "price": {
-        "close": 68.17500305175781,
-        "open": 68.30999755859375,
-        "high": 68.43499755859375,
-        "low": 68.01000213623047,
-        "volume": 3301585
-      },
-      "moving_averages": {
-        "sma_20": 67.01582469940186,
-        "sma_50": 66.63973197937011,
-        "sma_200": NaN,
-        "ema_12": 67.84599791096464,
-        "ema_26": 67.07149155734781
-      },
-      "momentum": {
-        "rsi_14": 55.84290434700194,
-        "macd": 0.7745063536168288,
-        "macd_signal": 0.7321431380344319,
-        "macd_histogram": 0.042363215582396974,
-        "stochastic_k": null,
-        "stochastic_d": null
-      },
-      "volatility": {
-        "atr_14": 1.055407616852825,
-        "bb_upper": 71.13773174248153,
-        "bb_middle": 67.01582469940186,
-        "bb_lower": 62.893917656322195,
-        "volatility_20d": 1.7646632817047605
-      },
-      "trend": {
-        "adx": 17.15626594014141,
-        "plus_di": null,
-        "minus_di": null
-      },
-      "performance": {
-        "roc_1d": 0.4243840688185063,
-        "roc_5d": -1.3559067946134595,
-        "roc_20d": 9.412442676322641,
-        "momentum_10": 0.17000579833984375
-      },
-      "signals": {
-        "golden_cross": false,
-        "death_cross": false,
-        "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
-        "rsi_overbought": false,
-        "rsi_oversold": false,
-        "price_above_sma_200": false,
-        "high_volatility": false,
-        "low_volatility": false
-      }
-    },
-    {
-      "symbol": "GLD",
-      "category": "Precious Metals",
-      "price": {
-        "close": 429.94000244140625,
-        "open": 431.6600036621094,
-        "high": 431.79998779296875,
-        "low": 428.5400085449219,
-        "volume": 3676115
-      },
-      "moving_averages": {
-        "sma_20": 434.50533294677734,
-        "sma_50": 447.0676788330078,
-        "sma_200": NaN,
-        "ema_12": 435.18636569984756,
-        "ema_26": 436.8893777524813
-      },
-      "momentum": {
-        "rsi_14": 44.56299817910606,
-        "macd": -1.7030120526337669,
-        "macd_signal": -1.9549356357355094,
-        "macd_histogram": 0.25192358310174257,
-        "stochastic_k": null,
-        "stochastic_d": null
-      },
-      "volatility": {
-        "atr_14": 8.18929843762702,
-        "bb_upper": 448.3927769666825,
-        "bb_middle": 434.50533294677734,
-        "bb_lower": 420.6178889268722,
-        "volatility_20d": 1.2950043899136088
-      },
-      "trend": {
-        "adx": 15.139065914643995,
-        "plus_di": null,
-        "minus_di": null
-      },
-      "performance": {
-        "roc_1d": -0.8418076817528708,
-        "roc_5d": -2.768101324600114,
-        "roc_20d": 4.29867574795717,
-        "momentum_10": -5.769989013671875
-      },
-      "signals": {
-        "golden_cross": false,
-        "death_cross": false,
-        "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
-        "rsi_overbought": false,
-        "rsi_oversold": false,
-        "price_above_sma_200": false,
-        "high_volatility": false,
-        "low_volatility": true
       }
     },
     {
@@ -1928,47 +1048,47 @@
       }
     },
     {
-      "symbol": "NFLX",
+      "symbol": "PLTR",
       "category": "AI bubble indicator",
       "price": {
-        "close": 91.9999008178711,
-        "open": 92.05000305175781,
-        "high": 92.56999969482422,
-        "low": 91.30000305175781,
-        "volume": 5498867
+        "close": 143.10000610351562,
+        "open": 141.30999755859375,
+        "high": 145.07000732421875,
+        "low": 141.00999450683594,
+        "volume": 31135928
       },
       "moving_averages": {
-        "sma_20": 98.1406192779541,
-        "sma_50": 93.26567993164062,
+        "sma_20": 142.91863937377929,
+        "sma_50": 144.61705718994142,
         "sma_200": NaN,
-        "ema_12": 96.00984234598928,
-        "ema_26": 96.17954433376369
+        "ema_12": 144.16156445034886,
+        "ema_26": 144.80088249259708
       },
       "momentum": {
-        "rsi_14": 40.1548701943214,
-        "macd": -0.1697019877744026,
-        "macd_signal": 1.281341568689766,
-        "macd_histogram": -1.4510435564641686,
+        "rsi_14": 48.129496213127375,
+        "macd": -0.6393180422482203,
+        "macd_signal": -1.1715846826227831,
+        "macd_histogram": 0.5322666403745628,
         "stochastic_k": null,
         "stochastic_d": null
       },
       "volatility": {
-        "atr_14": 2.774459169396277,
-        "bb_upper": 107.71612308624653,
-        "bb_middle": 98.1406192779541,
-        "bb_lower": 88.56511546966168,
-        "volatility_20d": 2.7827422084075097
+        "atr_14": 6.463551030331938,
+        "bb_upper": 155.4249497943388,
+        "bb_middle": 142.91863937377929,
+        "bb_lower": 130.41232895321977,
+        "volatility_20d": 3.641230525366588
       },
       "trend": {
-        "adx": 25.207930205928132,
+        "adx": 11.919789360259424,
         "plus_di": null,
         "minus_di": null
       },
       "performance": {
-        "roc_1d": -1.1391540603202577,
-        "roc_5d": -3.79095339307598,
-        "roc_20d": -1.319427753695368,
-        "momentum_10": -10.765098571777344
+        "roc_1d": 0.0069954335601307704,
+        "roc_5d": -1.9123951592330823,
+        "roc_20d": 0.07700363654368214,
+        "momentum_10": 9.94000244140625
       },
       "signals": {
         "golden_cross": false,
@@ -1976,116 +1096,6 @@
         "macd_bullish_cross": false,
         "macd_bearish_cross": false,
         "rsi_overbought": false,
-        "rsi_oversold": false,
-        "price_above_sma_200": false,
-        "high_volatility": false,
-        "low_volatility": false
-      }
-    },
-    {
-      "symbol": "TSM",
-      "category": "AI bubble indicator",
-      "price": {
-        "close": 404.9800109863281,
-        "open": 413.75,
-        "high": 414.5,
-        "low": 400.3999938964844,
-        "volume": 16467526
-      },
-      "moving_averages": {
-        "sma_20": 364.2644348144531,
-        "sma_50": 357.6889715576172,
-        "sma_200": NaN,
-        "ema_12": 379.4114882981297,
-        "ema_26": 366.77252906066906
-      },
-      "momentum": {
-        "rsi_14": 70.07303144009336,
-        "macd": 12.638959237460654,
-        "macd_signal": 8.395716806514935,
-        "macd_histogram": 4.243242430945719,
-        "stochastic_k": null,
-        "stochastic_d": null
-      },
-      "volatility": {
-        "atr_14": 12.50573472719671,
-        "bb_upper": 409.3992276060679,
-        "bb_middle": 364.2644348144531,
-        "bb_lower": 319.12964202283837,
-        "volatility_20d": 2.6026661622355944
-      },
-      "trend": {
-        "adx": 19.42843822072553,
-        "plus_di": null,
-        "minus_di": null
-      },
-      "performance": {
-        "roc_1d": 0.6161517978454878,
-        "roc_5d": 10.577769163646344,
-        "roc_20d": 24.14321913767028,
-        "momentum_10": 33.77001953125
-      },
-      "signals": {
-        "golden_cross": false,
-        "death_cross": false,
-        "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
-        "rsi_overbought": true,
-        "rsi_oversold": false,
-        "price_above_sma_200": false,
-        "high_volatility": false,
-        "low_volatility": false
-      }
-    },
-    {
-      "symbol": "SPY",
-      "category": "Market bull/bear indicator",
-      "price": {
-        "close": 715.0700073242188,
-        "open": 713.1699829101562,
-        "high": 715.2849731445312,
-        "low": 712.2949829101562,
-        "volume": 25637384
-      },
-      "moving_averages": {
-        "sma_20": 684.4253082275391,
-        "sma_50": 677.2321008300781,
-        "sma_200": NaN,
-        "ema_12": 701.6053287737957,
-        "ema_26": 688.6284340634053
-      },
-      "momentum": {
-        "rsi_14": 71.51071307664529,
-        "macd": 12.976894710390411,
-        "macd_signal": 9.442248931171328,
-        "macd_histogram": 3.5346457792190833,
-        "stochastic_k": null,
-        "stochastic_d": null
-      },
-      "volatility": {
-        "atr_14": 7.035082120201508,
-        "bb_upper": 736.2359556794851,
-        "bb_middle": 684.4253082275391,
-        "bb_lower": 632.614660775593,
-        "volatility_20d": 1.030671452387837
-      },
-      "trend": {
-        "adx": 26.462195141442724,
-        "plus_di": null,
-        "minus_di": null
-      },
-      "performance": {
-        "roc_1d": 0.21442797096036248,
-        "roc_5d": 0.9556297700056726,
-        "roc_20d": 12.454492993783184,
-        "momentum_10": 36.3599853515625
-      },
-      "signals": {
-        "golden_cross": false,
-        "death_cross": false,
-        "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
-        "rsi_overbought": true,
         "rsi_oversold": false,
         "price_above_sma_200": false,
         "high_volatility": false,
@@ -2134,6 +1144,116 @@
         "roc_5d": 5.074913849999452,
         "roc_20d": 21.362873658128322,
         "momentum_10": 51.05010986328125
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "macd_bullish_cross": false,
+        "macd_bearish_cross": false,
+        "rsi_overbought": false,
+        "rsi_oversold": false,
+        "price_above_sma_200": false,
+        "high_volatility": false,
+        "low_volatility": false
+      }
+    },
+    {
+      "symbol": "HWM",
+      "category": "Defense/Industrial Tech",
+      "price": {
+        "close": 241.19000244140625,
+        "open": 241.92999267578125,
+        "high": 242.4600067138672,
+        "low": 238.00999450683594,
+        "volume": 582953
+      },
+      "moving_averages": {
+        "sma_20": 244.79599990844727,
+        "sma_50": 247.10490020751953,
+        "sma_200": NaN,
+        "ema_12": 245.90903310488187,
+        "ema_26": 244.97074443926115
+      },
+      "momentum": {
+        "rsi_14": 47.24465554020566,
+        "macd": 0.9382886656207177,
+        "macd_signal": 1.9826688281089344,
+        "macd_histogram": -1.0443801624882167,
+        "stochastic_k": null,
+        "stochastic_d": null
+      },
+      "volatility": {
+        "atr_14": 8.24307889231355,
+        "bb_upper": 264.2155876269237,
+        "bb_middle": 244.79599990844727,
+        "bb_lower": 225.37641218997086,
+        "volatility_20d": 2.7048255235284615
+      },
+      "trend": {
+        "adx": 18.448811157690564,
+        "plus_di": null,
+        "minus_di": null
+      },
+      "performance": {
+        "roc_1d": -0.4046726410987467,
+        "roc_5d": -5.515729069376474,
+        "roc_20d": 5.318548634001541,
+        "momentum_10": -10.80999755859375
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "macd_bullish_cross": false,
+        "macd_bearish_cross": false,
+        "rsi_overbought": false,
+        "rsi_oversold": false,
+        "price_above_sma_200": false,
+        "high_volatility": true,
+        "low_volatility": false
+      }
+    },
+    {
+      "symbol": "VEA",
+      "category": "International Equity",
+      "price": {
+        "close": 68.17500305175781,
+        "open": 68.30999755859375,
+        "high": 68.43499755859375,
+        "low": 68.01000213623047,
+        "volume": 3301585
+      },
+      "moving_averages": {
+        "sma_20": 67.01582469940186,
+        "sma_50": 66.63973197937011,
+        "sma_200": NaN,
+        "ema_12": 67.84599791096464,
+        "ema_26": 67.07149155734781
+      },
+      "momentum": {
+        "rsi_14": 55.84290434700194,
+        "macd": 0.7745063536168288,
+        "macd_signal": 0.7321431380344319,
+        "macd_histogram": 0.042363215582396974,
+        "stochastic_k": null,
+        "stochastic_d": null
+      },
+      "volatility": {
+        "atr_14": 1.055407616852825,
+        "bb_upper": 71.13773174248153,
+        "bb_middle": 67.01582469940186,
+        "bb_lower": 62.893917656322195,
+        "volatility_20d": 1.7646632817047605
+      },
+      "trend": {
+        "adx": 17.15626594014141,
+        "plus_di": null,
+        "minus_di": null
+      },
+      "performance": {
+        "roc_1d": 0.4243840688185063,
+        "roc_5d": -1.3559067946134595,
+        "roc_20d": 9.412442676322641,
+        "momentum_10": 0.17000579833984375
       },
       "signals": {
         "golden_cross": false,
@@ -2203,47 +1323,157 @@
       }
     },
     {
-      "symbol": "AMZN",
+      "symbol": "META",
       "category": "AI bubble indicator",
       "price": {
-        "close": 260.9200134277344,
-        "open": 263.42498779296875,
-        "high": 264.1499938964844,
-        "low": 260.3399963378906,
-        "volume": 35285838
+        "close": 678.9600219726562,
+        "open": 670.9949951171875,
+        "high": 682.5,
+        "low": 670.8400268554688,
+        "volume": 9657362
       },
       "moving_averages": {
-        "sma_20": 236.01539993286133,
-        "sma_50": 219.61420240478517,
+        "sma_20": 631.5512481689453,
+        "sma_50": 629.7483125976563,
         "sma_200": NaN,
-        "ema_12": 249.05610214258104,
-        "ema_26": 236.763888295246
+        "ema_12": 660.3088155475875,
+        "ema_26": 642.1116868681694
       },
       "momentum": {
-        "rsi_14": 72.21901175587075,
-        "macd": 12.292213847335034,
-        "macd_signal": 10.013718714024598,
-        "macd_histogram": 2.278495133310436,
+        "rsi_14": 61.86248695211069,
+        "macd": 18.197128679418142,
+        "macd_signal": 12.672005608397638,
+        "macd_histogram": 5.525123071020504,
         "stochastic_k": null,
         "stochastic_d": null
       },
       "volatility": {
-        "atr_14": 6.135860046197992,
-        "bb_upper": 275.59713809179334,
-        "bb_middle": 236.01539993286133,
-        "bb_lower": 196.43366177392932,
-        "volatility_20d": 2.0444235641919235
+        "atr_14": 18.131296212928138,
+        "bb_upper": 727.2387494570381,
+        "bb_middle": 631.5512481689453,
+        "bb_lower": 535.8637468808525,
+        "volatility_20d": 2.690234876225399
       },
       "trend": {
-        "adx": 30.057940253816405,
+        "adx": 24.472680454678688,
         "plus_di": null,
         "minus_di": null
       },
       "performance": {
-        "roc_1d": -1.0204362783301502,
-        "roc_5d": 5.220287127975687,
-        "roc_20d": 29.798033967846017,
-        "momentum_10": 21.030014038085938
+        "roc_1d": 0.23029192535726217,
+        "roc_5d": 0.9748577702691552,
+        "roc_20d": 29.47122609079935,
+        "momentum_10": 49.4000244140625
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "macd_bullish_cross": false,
+        "macd_bearish_cross": false,
+        "rsi_overbought": false,
+        "rsi_oversold": false,
+        "price_above_sma_200": false,
+        "high_volatility": false,
+        "low_volatility": true
+      }
+    },
+    {
+      "symbol": "BTC-USD",
+      "category": "Crypto indicator",
+      "price": {
+        "close": 77660.546875,
+        "open": 78670.8515625,
+        "high": 79420.2734375,
+        "low": 77602.2578125,
+        "volume": 29859592192
+      },
+      "moving_averages": {
+        "sma_20": 74923.75234375,
+        "sma_50": 71689.63046875,
+        "sma_200": NaN,
+        "ema_12": 76438.16195531616,
+        "ema_26": 74369.25461595714
+      },
+      "momentum": {
+        "rsi_14": 63.69753201679694,
+        "macd": 2068.9073393590224,
+        "macd_signal": 1846.8827626879572,
+        "macd_histogram": 222.02457667106523,
+        "stochastic_k": null,
+        "stochastic_d": null
+      },
+      "volatility": {
+        "atr_14": 1498.612924332947,
+        "bb_upper": 79889.93981229245,
+        "bb_middle": 74923.75234375,
+        "bb_lower": 69957.56487520756,
+        "volatility_20d": 1.8271003802490495
+      },
+      "trend": {
+        "adx": 21.477027728863785,
+        "plus_di": null,
+        "minus_di": null
+      },
+      "performance": {
+        "roc_1d": -0.6113265024231374,
+        "roc_5d": -0.5117655842598712,
+        "roc_20d": 12.978409815712165,
+        "momentum_10": 2586.546875
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "macd_bullish_cross": false,
+        "macd_bearish_cross": false,
+        "rsi_overbought": false,
+        "rsi_oversold": false,
+        "price_above_sma_200": false,
+        "high_volatility": false,
+        "low_volatility": true
+      }
+    },
+    {
+      "symbol": "SPY",
+      "category": "Market bull/bear indicator",
+      "price": {
+        "close": 715.0700073242188,
+        "open": 713.1699829101562,
+        "high": 715.2849731445312,
+        "low": 712.2949829101562,
+        "volume": 25637384
+      },
+      "moving_averages": {
+        "sma_20": 684.4253082275391,
+        "sma_50": 677.2321008300781,
+        "sma_200": NaN,
+        "ema_12": 701.6053287737957,
+        "ema_26": 688.6284340634053
+      },
+      "momentum": {
+        "rsi_14": 71.51071307664529,
+        "macd": 12.976894710390411,
+        "macd_signal": 9.442248931171328,
+        "macd_histogram": 3.5346457792190833,
+        "stochastic_k": null,
+        "stochastic_d": null
+      },
+      "volatility": {
+        "atr_14": 7.035082120201508,
+        "bb_upper": 736.2359556794851,
+        "bb_middle": 684.4253082275391,
+        "bb_lower": 632.614660775593,
+        "volatility_20d": 1.030671452387837
+      },
+      "trend": {
+        "adx": 26.462195141442724,
+        "plus_di": null,
+        "minus_di": null
+      },
+      "performance": {
+        "roc_1d": 0.21442797096036248,
+        "roc_5d": 0.9556297700056726,
+        "roc_20d": 12.454492993783184,
+        "momentum_10": 36.3599853515625
       },
       "signals": {
         "golden_cross": false,
@@ -2254,51 +1484,106 @@
         "rsi_oversold": false,
         "price_above_sma_200": false,
         "high_volatility": false,
-        "low_volatility": false
+        "low_volatility": true
       }
     },
     {
-      "symbol": "XLE",
-      "category": "Energy Sector",
+      "symbol": "NQ=F",
+      "category": "Market bull/bear indicator",
       "price": {
-        "close": 57.4093017578125,
-        "open": 57.099998474121094,
-        "high": 57.68000030517578,
-        "low": 57.080101013183594,
-        "volume": 9133506
+        "close": 27452.5,
+        "open": 27403.25,
+        "high": 27542.5,
+        "low": 27344.25,
+        "volume": 73608
       },
       "moving_averages": {
-        "sma_20": 57.53575496673584,
-        "sma_50": 57.29420204162598,
+        "sma_20": 25801.025,
+        "sma_50": 25019.345,
         "sma_200": NaN,
-        "ema_12": 56.758687276085574,
-        "ema_26": 57.14856954042681
+        "ema_12": 26573.15037777833,
+        "ema_26": 25844.90727290173
       },
       "momentum": {
-        "rsi_14": 51.188447023892046,
-        "macd": -0.38988226434123874,
-        "macd_signal": -0.2993724522243171,
-        "macd_histogram": -0.09050981211692166,
+        "rsi_14": 78.4101142572363,
+        "macd": 728.2431048765975,
+        "macd_signal": 555.8812082191164,
+        "macd_histogram": 172.3618966574811,
         "stochastic_k": null,
         "stochastic_d": null
       },
       "volatility": {
-        "atr_14": 1.3806416475448808,
-        "bb_upper": 61.58114489687776,
-        "bb_middle": 57.53575496673584,
-        "bb_lower": 53.490365036593914,
-        "volatility_20d": 2.148283465866517
+        "atr_14": 331.6680747501423,
+        "bb_upper": 27987.089076714125,
+        "bb_middle": 25801.025,
+        "bb_lower": 23614.96092328588,
+        "volatility_20d": 0.9856075278690622
       },
       "trend": {
-        "adx": 18.747931518141154,
+        "adx": 29.458256582527433,
         "plus_di": null,
         "minus_di": null
       },
       "performance": {
-        "roc_1d": 1.528523506685442,
-        "roc_5d": 3.5241184063281583,
-        "roc_20d": -8.25521205296793,
-        "momentum_10": 0.19930267333984375
+        "roc_1d": 0.34817096016594995,
+        "roc_5d": 2.7962142984188754,
+        "roc_20d": 15.077077853347731,
+        "momentum_10": 1840.5
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "macd_bullish_cross": false,
+        "macd_bearish_cross": false,
+        "rsi_overbought": true,
+        "rsi_oversold": false,
+        "price_above_sma_200": false,
+        "high_volatility": false,
+        "low_volatility": true
+      }
+    },
+    {
+      "symbol": "QUBT",
+      "category": "Quantum/Emerging Tech",
+      "price": {
+        "close": 9.100000381469727,
+        "open": 8.789999961853027,
+        "high": 9.119999885559082,
+        "low": 8.708499908447266,
+        "volume": 7390306
+      },
+      "moving_averages": {
+        "sma_20": 8.026875042915345,
+        "sma_50": 7.88080002784729,
+        "sma_200": NaN,
+        "ema_12": 8.847083675658265,
+        "ema_26": 8.34854431235571
+      },
+      "momentum": {
+        "rsi_14": 59.66779512018051,
+        "macd": 0.4985393633025552,
+        "macd_signal": 0.33870351527801246,
+        "macd_histogram": 0.15983584802454276,
+        "stochastic_k": null,
+        "stochastic_d": null
+      },
+      "volatility": {
+        "atr_14": 0.5903594817927902,
+        "bb_upper": 10.589633632688706,
+        "bb_middle": 8.026875042915345,
+        "bb_lower": 5.464116453141983,
+        "volatility_20d": 5.517967252623778
+      },
+      "trend": {
+        "adx": 27.802109993105223,
+        "plus_di": null,
+        "minus_di": null
+      },
+      "performance": {
+        "roc_1d": 1.7897182169617665,
+        "roc_5d": -7.4262415859827176,
+        "roc_20d": 32.419501246128355,
+        "momentum_10": 2.020000457763672
       },
       "signals": {
         "golden_cross": false,
@@ -2368,47 +1653,47 @@
       }
     },
     {
-      "symbol": "LRCX",
-      "category": "AI bubble indicator",
+      "symbol": "VYM",
+      "category": "Dividend Growth",
       "price": {
-        "close": 259.4700012207031,
-        "open": 267.760009765625,
-        "high": 268.8299865722656,
-        "low": 256.30999755859375,
-        "volume": 7797512
+        "close": 155.14999389648438,
+        "open": 154.8000030517578,
+        "high": 155.69000244140625,
+        "low": 154.8000030517578,
+        "volume": 175794
       },
       "moving_averages": {
-        "sma_20": 248.43788299560546,
-        "sma_50": 235.6310891723633,
+        "sma_20": 152.01258010864257,
+        "sma_50": 151.68611572265624,
         "sma_200": NaN,
-        "ema_12": 259.32980478568845,
-        "ema_26": 248.8248200773078
+        "ema_12": 153.9287978493012,
+        "ema_26": 152.44954216914866
       },
       "momentum": {
-        "rsi_14": 56.63474660239901,
-        "macd": 10.504984708380647,
-        "macd_signal": 10.141230254485539,
-        "macd_histogram": 0.3637544538951083,
+        "rsi_14": 63.286020509740055,
+        "macd": 1.4792556801525336,
+        "macd_signal": 1.1057136001243153,
+        "macd_histogram": 0.3735420800282183,
         "stochastic_k": null,
         "stochastic_d": null
       },
       "volatility": {
-        "atr_14": 10.863529909742823,
-        "bb_upper": 293.22603070466187,
-        "bb_middle": 248.43788299560546,
-        "bb_lower": 203.64973528654906,
-        "volatility_20d": 3.581289602984428
+        "atr_14": 1.3183943919088112,
+        "bb_upper": 158.15910702162358,
+        "bb_middle": 152.01258010864257,
+        "bb_lower": 145.86605319566155,
+        "volatility_20d": 0.7744697255709151
       },
       "trend": {
-        "adx": 20.525995541424827,
+        "adx": 25.190622813556537,
         "plus_di": null,
         "minus_di": null
       },
       "performance": {
-        "roc_1d": -4.314640862806629,
-        "roc_5d": -1.4021896907039588,
-        "roc_20d": 23.39262066148027,
-        "momentum_10": -3.410003662109375
+        "roc_1d": 0.20907298296903853,
+        "roc_5d": -0.10302212647258502,
+        "roc_20d": 5.637638084409469,
+        "momentum_10": 2.989990234375
       },
       "signals": {
         "golden_cross": false,
@@ -2416,6 +1701,226 @@
         "macd_bullish_cross": false,
         "macd_bearish_cross": false,
         "rsi_overbought": false,
+        "rsi_oversold": false,
+        "price_above_sma_200": false,
+        "high_volatility": false,
+        "low_volatility": true
+      }
+    },
+    {
+      "symbol": "IONQ",
+      "category": "Quantum/Emerging Tech",
+      "price": {
+        "close": 43.84000015258789,
+        "open": 42.18000030517578,
+        "high": 44.06999969482422,
+        "low": 41.11000061035156,
+        "volume": 22803468
+      },
+      "moving_averages": {
+        "sma_20": 36.040764808654785,
+        "sma_50": 34.84926383972168,
+        "sma_200": NaN,
+        "ema_12": 41.25363100013196,
+        "ema_26": 37.942370878102125
+      },
+      "momentum": {
+        "rsi_14": 63.67164435946654,
+        "macd": 3.311260122029836,
+        "macd_signal": 2.272425338890867,
+        "macd_histogram": 1.0388347831389688,
+        "stochastic_k": null,
+        "stochastic_d": null
+      },
+      "volatility": {
+        "atr_14": 2.8857682730509415,
+        "bb_upper": 51.86546292773504,
+        "bb_middle": 36.040764808654785,
+        "bb_lower": 20.21606668957453,
+        "volatility_20d": 7.348557003433334
+      },
+      "trend": {
+        "adx": 29.31112001011206,
+        "plus_di": null,
+        "minus_di": null
+      },
+      "performance": {
+        "roc_1d": 3.3716052444274336,
+        "roc_5d": -4.881753075615181,
+        "roc_20d": 52.96580734820373,
+        "momentum_10": 14.780000686645508
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "macd_bullish_cross": false,
+        "macd_bearish_cross": false,
+        "rsi_overbought": false,
+        "rsi_oversold": false,
+        "price_above_sma_200": false,
+        "high_volatility": false,
+        "low_volatility": false
+      }
+    },
+    {
+      "symbol": "GLD",
+      "category": "Precious Metals",
+      "price": {
+        "close": 429.94000244140625,
+        "open": 431.6600036621094,
+        "high": 431.79998779296875,
+        "low": 428.5400085449219,
+        "volume": 3676115
+      },
+      "moving_averages": {
+        "sma_20": 434.50533294677734,
+        "sma_50": 447.0676788330078,
+        "sma_200": NaN,
+        "ema_12": 435.18636569984756,
+        "ema_26": 436.8893777524813
+      },
+      "momentum": {
+        "rsi_14": 44.56299817910606,
+        "macd": -1.7030120526337669,
+        "macd_signal": -1.9549356357355094,
+        "macd_histogram": 0.25192358310174257,
+        "stochastic_k": null,
+        "stochastic_d": null
+      },
+      "volatility": {
+        "atr_14": 8.18929843762702,
+        "bb_upper": 448.3927769666825,
+        "bb_middle": 434.50533294677734,
+        "bb_lower": 420.6178889268722,
+        "volatility_20d": 1.2950043899136088
+      },
+      "trend": {
+        "adx": 15.139065914643995,
+        "plus_di": null,
+        "minus_di": null
+      },
+      "performance": {
+        "roc_1d": -0.8418076817528708,
+        "roc_5d": -2.768101324600114,
+        "roc_20d": 4.29867574795717,
+        "momentum_10": -5.769989013671875
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "macd_bullish_cross": false,
+        "macd_bearish_cross": false,
+        "rsi_overbought": false,
+        "rsi_oversold": false,
+        "price_above_sma_200": false,
+        "high_volatility": false,
+        "low_volatility": true
+      }
+    },
+    {
+      "symbol": "NFLX",
+      "category": "AI bubble indicator",
+      "price": {
+        "close": 91.9999008178711,
+        "open": 92.05000305175781,
+        "high": 92.56999969482422,
+        "low": 91.30000305175781,
+        "volume": 5498867
+      },
+      "moving_averages": {
+        "sma_20": 98.1406192779541,
+        "sma_50": 93.26567993164062,
+        "sma_200": NaN,
+        "ema_12": 96.00984234598928,
+        "ema_26": 96.17954433376369
+      },
+      "momentum": {
+        "rsi_14": 40.1548701943214,
+        "macd": -0.1697019877744026,
+        "macd_signal": 1.281341568689766,
+        "macd_histogram": -1.4510435564641686,
+        "stochastic_k": null,
+        "stochastic_d": null
+      },
+      "volatility": {
+        "atr_14": 2.774459169396277,
+        "bb_upper": 107.71612308624653,
+        "bb_middle": 98.1406192779541,
+        "bb_lower": 88.56511546966168,
+        "volatility_20d": 2.7827422084075097
+      },
+      "trend": {
+        "adx": 25.207930205928132,
+        "plus_di": null,
+        "minus_di": null
+      },
+      "performance": {
+        "roc_1d": -1.1391540603202577,
+        "roc_5d": -3.79095339307598,
+        "roc_20d": -1.319427753695368,
+        "momentum_10": -10.765098571777344
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "macd_bullish_cross": false,
+        "macd_bearish_cross": false,
+        "rsi_overbought": false,
+        "rsi_oversold": false,
+        "price_above_sma_200": false,
+        "high_volatility": false,
+        "low_volatility": false
+      }
+    },
+    {
+      "symbol": "EME",
+      "category": "Defense/Industrial Tech",
+      "price": {
+        "close": 870.22998046875,
+        "open": 870.4400024414062,
+        "high": 874.4650268554688,
+        "low": 848.2000122070312,
+        "volume": 103824
+      },
+      "moving_averages": {
+        "sma_20": 801.1178741455078,
+        "sma_50": 771.2384777832032,
+        "sma_200": NaN,
+        "ema_12": 832.9334624072151,
+        "ema_26": 802.4706751080296
+      },
+      "momentum": {
+        "rsi_14": 70.61385654134341,
+        "macd": 30.462787299185493,
+        "macd_signal": 23.25114487314923,
+        "macd_histogram": 7.2116424260362635,
+        "stochastic_k": null,
+        "stochastic_d": null
+      },
+      "volatility": {
+        "atr_14": 24.3380128837485,
+        "bb_upper": 891.9328247154419,
+        "bb_middle": 801.1178741455078,
+        "bb_lower": 710.3029235755737,
+        "volatility_20d": 2.341438172837662
+      },
+      "trend": {
+        "adx": 22.785278908495723,
+        "plus_di": null,
+        "minus_di": null
+      },
+      "performance": {
+        "roc_1d": 0.11158579622068121,
+        "roc_5d": 6.125607374237796,
+        "roc_20d": 17.3291042397667,
+        "momentum_10": 59.2449951171875
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "macd_bullish_cross": false,
+        "macd_bearish_cross": false,
+        "rsi_overbought": true,
         "rsi_oversold": false,
         "price_above_sma_200": false,
         "high_volatility": false,
@@ -2470,6 +1975,776 @@
         "death_cross": false,
         "macd_bullish_cross": false,
         "macd_bearish_cross": true,
+        "rsi_overbought": false,
+        "rsi_oversold": false,
+        "price_above_sma_200": false,
+        "high_volatility": false,
+        "low_volatility": false
+      }
+    },
+    {
+      "symbol": "NVDA",
+      "category": "AI bubble indicator",
+      "price": {
+        "close": 215.6300048828125,
+        "open": 209.64500427246094,
+        "high": 216.3800048828125,
+        "low": 207.3800048828125,
+        "volume": 156114894
+      },
+      "moving_averages": {
+        "sma_20": 190.4554801940918,
+        "sma_50": 185.58076604003907,
+        "sma_200": NaN,
+        "ema_12": 200.3166420345152,
+        "ema_26": 192.62902872224936
+      },
+      "momentum": {
+        "rsi_14": 80.66330301191178,
+        "macd": 7.687613312265853,
+        "macd_signal": 5.208318009332595,
+        "macd_histogram": 2.4792953029332576,
+        "stochastic_k": null,
+        "stochastic_d": null
+      },
+      "volatility": {
+        "atr_14": 5.105040181838057,
+        "bb_upper": 217.55990856606786,
+        "bb_middle": 190.4554801940918,
+        "bb_lower": 163.35105182211572,
+        "volatility_20d": 1.543827923421955
+      },
+      "trend": {
+        "adx": 28.044592277608277,
+        "plus_di": null,
+        "minus_di": null
+      },
+      "performance": {
+        "roc_1d": 3.5587376902640244,
+        "roc_5d": 6.715830688003299,
+        "roc_20d": 28.362653867517352,
+        "momentum_10": 28.090011596679688
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "macd_bullish_cross": false,
+        "macd_bearish_cross": false,
+        "rsi_overbought": true,
+        "rsi_oversold": false,
+        "price_above_sma_200": false,
+        "high_volatility": false,
+        "low_volatility": false
+      }
+    },
+    {
+      "symbol": "MGK",
+      "category": "Market bull/bear indicator",
+      "price": {
+        "close": 84.44999694824219,
+        "open": 83.94000244140625,
+        "high": 84.54000091552734,
+        "low": 83.63999938964844,
+        "volume": 1615606
+      },
+      "moving_averages": {
+        "sma_20": 310.6577896118164,
+        "sma_50": 354.41561401367187,
+        "sma_200": NaN,
+        "ema_12": 219.2854857568807,
+        "ema_26": 291.3944083836222
+      },
+      "momentum": {
+        "rsi_14": 11.763340739594256,
+        "macd": -72.1089226267415,
+        "macd_signal": -36.019784922674795,
+        "macd_histogram": -36.08913770406671,
+        "stochastic_k": null,
+        "stochastic_d": null
+      },
+      "volatility": {
+        "atr_14": 22.517490413636313,
+        "bb_upper": 575.0293910548311,
+        "bb_middle": 310.6577896118164,
+        "bb_lower": 46.28618816880169,
+        "volatility_20d": 18.15904852656168
+      },
+      "trend": {
+        "adx": 42.534390992498736,
+        "plus_di": null,
+        "minus_di": null
+      },
+      "performance": {
+        "roc_1d": 1.3197342462611061,
+        "roc_5d": -79.59898672354532,
+        "roc_20d": -76.57907672765923,
+        "momentum_10": -306.4499969482422
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "macd_bullish_cross": false,
+        "macd_bearish_cross": false,
+        "rsi_overbought": false,
+        "rsi_oversold": true,
+        "price_above_sma_200": false,
+        "high_volatility": true,
+        "low_volatility": false
+      }
+    },
+    {
+      "symbol": "VDE",
+      "category": "Energy Sector",
+      "price": {
+        "close": 161.8000030517578,
+        "open": 162.47000122070312,
+        "high": 164.11000061035156,
+        "low": 161.6652069091797,
+        "volume": 260310
+      },
+      "moving_averages": {
+        "sma_20": 163.4635154724121,
+        "sma_50": 162.08715576171875,
+        "sma_200": NaN,
+        "ema_12": 161.10764086171469,
+        "ema_26": 162.12133376261752
+      },
+      "momentum": {
+        "rsi_14": 49.50519225892633,
+        "macd": -1.0136929009028393,
+        "macd_signal": -0.6107431556945755,
+        "macd_histogram": -0.40294974520826377,
+        "stochastic_k": null,
+        "stochastic_d": null
+      },
+      "volatility": {
+        "atr_14": 3.83709936029238,
+        "bb_upper": 174.75754913752115,
+        "bb_middle": 163.4635154724121,
+        "bb_lower": 152.16948180730304,
+        "volatility_20d": 2.044665121829847
+      },
+      "trend": {
+        "adx": 19.398847584352733,
+        "plus_di": null,
+        "minus_di": null
+      },
+      "performance": {
+        "roc_1d": 0.7911320514036646,
+        "roc_5d": 2.8150270521845266,
+        "roc_20d": -8.556572386542182,
+        "momentum_10": 0.2700042724609375
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "macd_bullish_cross": false,
+        "macd_bearish_cross": false,
+        "rsi_overbought": false,
+        "rsi_oversold": false,
+        "price_above_sma_200": false,
+        "high_volatility": false,
+        "low_volatility": false
+      }
+    },
+    {
+      "symbol": "TEM",
+      "category": "Defense/Industrial Tech",
+      "price": {
+        "close": 53.23740005493164,
+        "open": 51.630001068115234,
+        "high": 53.59859848022461,
+        "low": 51.529998779296875,
+        "volume": 1752496
+      },
+      "moving_averages": {
+        "sma_20": 49.758165168762204,
+        "sma_50": 50.89474395751953,
+        "sma_200": NaN,
+        "ema_12": 52.22034345428497,
+        "ema_26": 51.1034935528488
+      },
+      "momentum": {
+        "rsi_14": 55.1166332380052,
+        "macd": 1.1168499014361686,
+        "macd_signal": 0.5849004186403199,
+        "macd_histogram": 0.5319494827958486,
+        "stochastic_k": null,
+        "stochastic_d": null
+      },
+      "volatility": {
+        "atr_14": 3.1384246730443643,
+        "bb_upper": 58.83169766719579,
+        "bb_middle": 49.758165168762204,
+        "bb_lower": 40.68463267032862,
+        "volatility_20d": 4.72536952450918
+      },
+      "trend": {
+        "adx": 17.083589117177745,
+        "plus_di": null,
+        "minus_di": null
+      },
+      "performance": {
+        "roc_1d": 3.2132573963560507,
+        "roc_5d": -4.703484372305978,
+        "roc_20d": 25.323447807478484,
+        "momentum_10": 7.407398223876953
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "macd_bullish_cross": false,
+        "macd_bearish_cross": false,
+        "rsi_overbought": false,
+        "rsi_oversold": false,
+        "price_above_sma_200": false,
+        "high_volatility": false,
+        "low_volatility": false
+      }
+    },
+    {
+      "symbol": "VIG",
+      "category": "Dividend Growth",
+      "price": {
+        "close": 226.52499389648438,
+        "open": 226.25,
+        "high": 227.07000732421875,
+        "low": 226.25,
+        "volume": 119330
+      },
+      "moving_averages": {
+        "sma_20": 221.9227294921875,
+        "sma_50": 221.90557891845702,
+        "sma_200": NaN,
+        "ema_12": 225.0419773118063,
+        "ema_26": 222.92214071861613
+      },
+      "momentum": {
+        "rsi_14": 62.05160976143661,
+        "macd": 2.119836593190172,
+        "macd_signal": 1.4894439774380837,
+        "macd_histogram": 0.6303926157520883,
+        "stochastic_k": null,
+        "stochastic_d": null
+      },
+      "volatility": {
+        "atr_14": 2.0454815745291466,
+        "bb_upper": 232.1689214327,
+        "bb_middle": 221.9227294921875,
+        "bb_lower": 211.676537551675,
+        "volatility_20d": 0.9367598055584487
+      },
+      "trend": {
+        "adx": 24.68800395492259,
+        "plus_di": null,
+        "minus_di": null
+      },
+      "performance": {
+        "roc_1d": -0.08821797404205967,
+        "roc_5d": -0.5771604909333261,
+        "roc_20d": 6.630103225951034,
+        "momentum_10": 4.7549896240234375
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "macd_bullish_cross": false,
+        "macd_bearish_cross": false,
+        "rsi_overbought": false,
+        "rsi_oversold": false,
+        "price_above_sma_200": false,
+        "high_volatility": false,
+        "low_volatility": true
+      }
+    },
+    {
+      "symbol": "TSM",
+      "category": "AI bubble indicator",
+      "price": {
+        "close": 404.9800109863281,
+        "open": 413.75,
+        "high": 414.5,
+        "low": 400.3999938964844,
+        "volume": 16467526
+      },
+      "moving_averages": {
+        "sma_20": 364.2644348144531,
+        "sma_50": 357.6889715576172,
+        "sma_200": NaN,
+        "ema_12": 379.4114882981297,
+        "ema_26": 366.77252906066906
+      },
+      "momentum": {
+        "rsi_14": 70.07303144009336,
+        "macd": 12.638959237460654,
+        "macd_signal": 8.395716806514935,
+        "macd_histogram": 4.243242430945719,
+        "stochastic_k": null,
+        "stochastic_d": null
+      },
+      "volatility": {
+        "atr_14": 12.50573472719671,
+        "bb_upper": 409.3992276060679,
+        "bb_middle": 364.2644348144531,
+        "bb_lower": 319.12964202283837,
+        "volatility_20d": 2.6026661622355944
+      },
+      "trend": {
+        "adx": 19.42843822072553,
+        "plus_di": null,
+        "minus_di": null
+      },
+      "performance": {
+        "roc_1d": 0.6161517978454878,
+        "roc_5d": 10.577769163646344,
+        "roc_20d": 24.14321913767028,
+        "momentum_10": 33.77001953125
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "macd_bullish_cross": false,
+        "macd_bearish_cross": false,
+        "rsi_overbought": true,
+        "rsi_oversold": false,
+        "price_above_sma_200": false,
+        "high_volatility": false,
+        "low_volatility": false
+      }
+    },
+    {
+      "symbol": "MU",
+      "category": "AI bubble indicator",
+      "price": {
+        "close": 524.5599975585938,
+        "open": 510.55999755859375,
+        "high": 531.3599853515625,
+        "low": 510.01849365234375,
+        "volume": 38228158
+      },
+      "moving_averages": {
+        "sma_20": 425.2761566162109,
+        "sma_50": 416.6347100830078,
+        "sma_200": NaN,
+        "ema_12": 465.5522709960482,
+        "ema_26": 438.13289661586066
+      },
+      "momentum": {
+        "rsi_14": 74.61752358610873,
+        "macd": 27.41937438018755,
+        "macd_signal": 17.1161344357797,
+        "macd_histogram": 10.30323994440785,
+        "stochastic_k": null,
+        "stochastic_d": null
+      },
+      "volatility": {
+        "atr_14": 25.256685922400134,
+        "bb_upper": 534.2918090663578,
+        "bb_middle": 425.2761566162109,
+        "bb_lower": 316.26050416606404,
+        "volatility_20d": 4.688213957098383
+      },
+      "trend": {
+        "adx": 24.762268183449546,
+        "plus_di": null,
+        "minus_di": null
+      },
+      "performance": {
+        "roc_1d": 5.356601282511764,
+        "roc_5d": 16.979613275697346,
+        "roc_20d": 46.94792160820123,
+        "momentum_10": 105.8599853515625
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "macd_bullish_cross": false,
+        "macd_bearish_cross": false,
+        "rsi_overbought": true,
+        "rsi_oversold": false,
+        "price_above_sma_200": false,
+        "high_volatility": false,
+        "low_volatility": false
+      }
+    },
+    {
+      "symbol": "VDC",
+      "category": "Consumer Staples",
+      "price": {
+        "close": 227.4199981689453,
+        "open": 228.4600067138672,
+        "high": 229.44500732421875,
+        "low": 227.39999389648438,
+        "volume": 136839
+      },
+      "moving_averages": {
+        "sma_20": 225.6333251953125,
+        "sma_50": 230.0926138305664,
+        "sma_200": NaN,
+        "ema_12": 226.70155567548272,
+        "ema_26": 226.73873156174486
+      },
+      "momentum": {
+        "rsi_14": 51.632347123909135,
+        "macd": -0.03717588626213342,
+        "macd_signal": -0.7313325837614328,
+        "macd_histogram": 0.6941566974992994,
+        "stochastic_k": null,
+        "stochastic_d": null
+      },
+      "volatility": {
+        "atr_14": 2.428966094636085,
+        "bb_upper": 229.80127004633235,
+        "bb_middle": 225.6333251953125,
+        "bb_lower": 221.46538034429264,
+        "volatility_20d": 0.7883177645808401
+      },
+      "trend": {
+        "adx": 15.542946692228744,
+        "plus_di": null,
+        "minus_di": null
+      },
+      "performance": {
+        "roc_1d": -0.7982559786498089,
+        "roc_5d": 0.24243093559979112,
+        "roc_20d": 1.6038941645545535,
+        "momentum_10": 3.6699981689453125
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "macd_bullish_cross": false,
+        "macd_bearish_cross": false,
+        "rsi_overbought": false,
+        "rsi_oversold": false,
+        "price_above_sma_200": false,
+        "high_volatility": false,
+        "low_volatility": true
+      }
+    },
+    {
+      "symbol": "AXON",
+      "category": "Defense/Industrial Tech",
+      "price": {
+        "close": 404.4700012207031,
+        "open": 395.5199890136719,
+        "high": 407.2099914550781,
+        "low": 395.2049865722656,
+        "volume": 266356
+      },
+      "moving_averages": {
+        "sma_20": 395.05550384521484,
+        "sma_50": 456.0295391845703,
+        "sma_200": NaN,
+        "ema_12": 398.12336410789226,
+        "ema_26": 415.9821973962116
+      },
+      "momentum": {
+        "rsi_14": 45.79351066475764,
+        "macd": -17.858833288319317,
+        "macd_signal": -23.12416320172663,
+        "macd_histogram": 5.265329913407314,
+        "stochastic_k": null,
+        "stochastic_d": null
+      },
+      "volatility": {
+        "atr_14": 20.62172004937616,
+        "bb_upper": 436.3144963763,
+        "bb_middle": 395.05550384521484,
+        "bb_lower": 353.7965113141297,
+        "volatility_20d": 4.215742371492674
+      },
+      "trend": {
+        "adx": 33.26983205539657,
+        "plus_di": null,
+        "minus_di": null
+      },
+      "performance": {
+        "roc_1d": 4.1643095380048845,
+        "roc_5d": 0.5394018129702527,
+        "roc_20d": -8.13763060768311,
+        "momentum_10": 41.470001220703125
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "macd_bullish_cross": false,
+        "macd_bearish_cross": false,
+        "rsi_overbought": false,
+        "rsi_oversold": false,
+        "price_above_sma_200": false,
+        "high_volatility": false,
+        "low_volatility": true
+      }
+    },
+    {
+      "symbol": "VUG",
+      "category": "Market bull/bear indicator",
+      "price": {
+        "close": 83.48999786376953,
+        "open": 83.01000213623047,
+        "high": 83.54000091552734,
+        "low": 82.68000030517578,
+        "volume": 6199098
+      },
+      "moving_averages": {
+        "sma_20": 365.12735137939455,
+        "sma_50": 419.81628051757815,
+        "sma_200": NaN,
+        "ema_12": 251.14990490003288,
+        "ema_26": 341.01592924007525
+      },
+      "momentum": {
+        "rsi_14": 11.079189037959125,
+        "macd": -89.86602434004237,
+        "macd_signal": -45.01741551429443,
+        "macd_histogram": -44.848608825747945,
+        "stochastic_k": null,
+        "stochastic_d": null
+      },
+      "volatility": {
+        "atr_14": 27.47096138268247,
+        "bb_upper": 693.7172162055231,
+        "bb_middle": 365.12735137939455,
+        "bb_lower": 36.537486553266035,
+        "volatility_20d": 18.900019208972406
+      },
+      "trend": {
+        "adx": 42.86415369411743,
+        "plus_di": null,
+        "minus_di": null
+      },
+      "performance": {
+        "roc_1d": 1.3597123708169123,
+        "roc_5d": -83.02531324027308,
+        "roc_20d": -80.46149623160017,
+        "momentum_10": -380.88500213623047
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "macd_bullish_cross": false,
+        "macd_bearish_cross": false,
+        "rsi_overbought": false,
+        "rsi_oversold": true,
+        "price_above_sma_200": false,
+        "high_volatility": true,
+        "low_volatility": false
+      }
+    },
+    {
+      "symbol": "FIX",
+      "category": "Defense/Industrial Tech",
+      "price": {
+        "close": 1798.889892578125,
+        "open": 1744.5999755859375,
+        "high": 1804.999755859375,
+        "low": 1685.0,
+        "volume": 282665
+      },
+      "moving_averages": {
+        "sma_20": 1577.3646057128906,
+        "sma_50": 1467.823046875,
+        "sma_200": NaN,
+        "ema_12": 1668.4240802639438,
+        "ema_26": 1576.1112846689045
+      },
+      "momentum": {
+        "rsi_14": 70.41542575294824,
+        "macd": 92.31279559503923,
+        "macd_signal": 77.4139878963944,
+        "macd_histogram": 14.89880769864483,
+        "stochastic_k": null,
+        "stochastic_d": null
+      },
+      "volatility": {
+        "atr_14": 76.35280663327255,
+        "bb_upper": 1852.2840868110118,
+        "bb_middle": 1577.3646057128906,
+        "bb_lower": 1302.4451246147694,
+        "volatility_20d": 3.2625404415061765
+      },
+      "trend": {
+        "adx": 26.366593010064456,
+        "plus_di": null,
+        "minus_di": null
+      },
+      "performance": {
+        "roc_1d": 5.122011105627866,
+        "roc_5d": 7.961032211517827,
+        "roc_20d": 32.75744023327607,
+        "momentum_10": 164.599853515625
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "macd_bullish_cross": false,
+        "macd_bearish_cross": false,
+        "rsi_overbought": true,
+        "rsi_oversold": false,
+        "price_above_sma_200": false,
+        "high_volatility": true,
+        "low_volatility": false
+      }
+    },
+    {
+      "symbol": "VTIP",
+      "category": "Fixed Income",
+      "price": {
+        "close": 50.36989974975586,
+        "open": 50.34000015258789,
+        "high": 50.38999938964844,
+        "low": 50.33000183105469,
+        "volume": 1308396
+      },
+      "moving_averages": {
+        "sma_20": 50.097190284729,
+        "sma_50": 49.95716201782226,
+        "sma_200": NaN,
+        "ema_12": 50.18839048406305,
+        "ema_26": 50.08574727886727
+      },
+      "momentum": {
+        "rsi_14": 76.08464864701176,
+        "macd": 0.10264320519578263,
+        "macd_signal": 0.0811571415633385,
+        "macd_histogram": 0.021486063632444125,
+        "stochastic_k": null,
+        "stochastic_d": null
+      },
+      "volatility": {
+        "atr_14": 0.06280863180984217,
+        "bb_upper": 50.346623234300004,
+        "bb_middle": 50.097190284729,
+        "bb_lower": 49.847757335158,
+        "volatility_20d": 0.08771564531721993
+      },
+      "trend": {
+        "adx": 28.758688494864128,
+        "plus_di": null,
+        "minus_di": null
+      },
+      "performance": {
+        "roc_1d": 0.11905858642382583,
+        "roc_5d": 0.37843651539493095,
+        "roc_20d": 1.144378557080783,
+        "momentum_10": 0.24570083618164062
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "macd_bullish_cross": false,
+        "macd_bearish_cross": false,
+        "rsi_overbought": true,
+        "rsi_oversold": false,
+        "price_above_sma_200": false,
+        "high_volatility": false,
+        "low_volatility": false
+      }
+    },
+    {
+      "symbol": "QQQM",
+      "category": "Market bull/bear indicator",
+      "price": {
+        "close": 273.510009765625,
+        "open": 273.1300048828125,
+        "high": 273.55999755859375,
+        "low": 272.0199890136719,
+        "volume": 2542494
+      },
+      "moving_averages": {
+        "sma_20": 254.73296585083008,
+        "sma_50": 250.1334942626953,
+        "sma_200": NaN,
+        "ema_12": 263.82819148422607,
+        "ema_26": 256.93561837446293
+      },
+      "momentum": {
+        "rsi_14": 73.91701186604757,
+        "macd": 6.892573109763134,
+        "macd_signal": 4.8481490589693195,
+        "macd_histogram": 2.0444240507938147,
+        "stochastic_k": null,
+        "stochastic_d": null
+      },
+      "volatility": {
+        "atr_14": 3.803854164030048,
+        "bb_upper": 280.47558679184164,
+        "bb_middle": 254.73296585083008,
+        "bb_lower": 228.99034490981853,
+        "volatility_20d": 1.4225853567784816
+      },
+      "trend": {
+        "adx": 29.2217552660016,
+        "plus_di": null,
+        "minus_di": null
+      },
+      "performance": {
+        "roc_1d": 0.9187590778876098,
+        "roc_5d": 2.7344771358893682,
+        "roc_20d": 16.879627445841926,
+        "momentum_10": 20.875015258789062
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "macd_bullish_cross": false,
+        "macd_bearish_cross": false,
+        "rsi_overbought": true,
+        "rsi_oversold": false,
+        "price_above_sma_200": false,
+        "high_volatility": false,
+        "low_volatility": false
+      }
+    },
+    {
+      "symbol": "MSFT",
+      "category": "AI bubble indicator",
+      "price": {
+        "close": 425.9700012207031,
+        "open": 422.375,
+        "high": 427.0799865722656,
+        "low": 417.0700988769531,
+        "volume": 21465395
+      },
+      "moving_averages": {
+        "sma_20": 394.47277984619143,
+        "sma_50": 394.21980515136715,
+        "sma_200": NaN,
+        "ema_12": 412.30197850190564,
+        "ema_26": 401.9813027428062
+      },
+      "momentum": {
+        "rsi_14": 63.99107142182875,
+        "macd": 10.320675759099458,
+        "macd_signal": 5.563281542311852,
+        "macd_histogram": 4.757394216787606,
+        "stochastic_k": null,
+        "stochastic_d": null
+      },
+      "volatility": {
+        "atr_14": 9.89422528179195,
+        "bb_upper": 445.0755360634062,
+        "bb_middle": 394.47277984619143,
+        "bb_lower": 343.87002362897664,
+        "volatility_20d": 1.976622071368923
+      },
+      "trend": {
+        "adx": 31.536745490185844,
+        "plus_di": null,
+        "minus_di": null
+      },
+      "performance": {
+        "roc_1d": 0.7831347962699242,
+        "roc_5d": 1.8896342139075761,
+        "roc_20d": 18.68765908744021,
+        "momentum_10": 52.3699951171875
+      },
+      "signals": {
+        "golden_cross": false,
+        "death_cross": false,
+        "macd_bullish_cross": false,
+        "macd_bearish_cross": false,
         "rsi_overbought": false,
         "rsi_oversold": false,
         "price_above_sma_200": false,
@@ -2533,157 +2808,47 @@
       }
     },
     {
-      "symbol": "QQQM",
-      "category": "Market bull/bear indicator",
+      "symbol": "BND",
+      "category": "Fixed Income",
       "price": {
-        "close": 271.0199890136719,
-        "open": 271.135009765625,
-        "high": 271.6000061035156,
-        "low": 270.80999755859375,
-        "volume": 810675
+        "close": 73.7750015258789,
+        "open": 73.80999755859375,
+        "high": 73.84500122070312,
+        "low": 73.72000122070312,
+        "volume": 2759908
       },
       "moving_averages": {
-        "sma_20": 252.75796508789062,
-        "sma_50": 249.6096942138672,
+        "sma_20": 73.73314933776855,
+        "sma_50": 74.02655151367188,
         "sma_200": NaN,
-        "ema_12": 262.0678608876081,
-        "ema_26": 255.60966706316995
+        "ema_12": 73.8079689533943,
+        "ema_26": 73.803499666667
       },
       "momentum": {
-        "rsi_14": 72.0854100784592,
-        "macd": 6.458193824438155,
-        "macd_signal": 4.337043046270866,
-        "macd_histogram": 2.121150778167289,
+        "rsi_14": 49.22399946338015,
+        "macd": 0.004469286727299959,
+        "macd_signal": -0.02031818957352608,
+        "macd_histogram": 0.02478747630082604,
         "stochastic_k": null,
         "stochastic_d": null
       },
       "volatility": {
-        "atr_14": 3.9010730578076,
-        "bb_upper": 278.49612456923927,
-        "bb_middle": 252.75796508789062,
-        "bb_lower": 227.01980560654195,
-        "volatility_20d": 1.5729722346471218
+        "atr_14": 0.24132120558023676,
+        "bb_upper": 74.10900825651781,
+        "bb_middle": 73.73314933776855,
+        "bb_lower": 73.3572904190193,
+        "volatility_20d": 0.24536947905891737
       },
       "trend": {
-        "adx": 28.093993701839427,
+        "adx": 16.48361045207105,
         "plus_di": null,
         "minus_di": null
       },
       "performance": {
-        "roc_1d": 1.4714114080145002,
-        "roc_5d": 1.7075046992626408,
-        "roc_20d": 13.245855222838765,
-        "momentum_10": 19.8699951171875
-      },
-      "signals": {
-        "golden_cross": false,
-        "death_cross": false,
-        "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
-        "rsi_overbought": true,
-        "rsi_oversold": false,
-        "price_above_sma_200": false,
-        "high_volatility": false,
-        "low_volatility": false
-      }
-    },
-    {
-      "symbol": "V",
-      "category": "Payments/Fintech",
-      "price": {
-        "close": 309.2799987792969,
-        "open": 307.510009765625,
-        "high": 310.635009765625,
-        "low": 306.05999755859375,
-        "volume": 1170166
-      },
-      "moving_averages": {
-        "sma_20": 307.35997772216797,
-        "sma_50": 309.7324346923828,
-        "sma_200": NaN,
-        "ema_12": 309.6225738828325,
-        "ema_26": 309.17525484180527
-      },
-      "momentum": {
-        "rsi_14": 50.06709231796612,
-        "macd": 0.4473190410272423,
-        "macd_signal": 0.16439876825034117,
-        "macd_histogram": 0.2829202727769011,
-        "stochastic_k": null,
-        "stochastic_d": null
-      },
-      "volatility": {
-        "atr_14": 5.424241794788534,
-        "bb_upper": 319.3780031538804,
-        "bb_middle": 307.35997772216797,
-        "bb_lower": 295.34195229045554,
-        "volatility_20d": 1.194078423484457
-      },
-      "trend": {
-        "adx": 14.874862813040854,
-        "plus_di": null,
-        "minus_di": null
-      },
-      "performance": {
-        "roc_1d": 0.8362820442533891,
-        "roc_5d": -1.5596136007110184,
-        "roc_20d": 3.844479308081028,
-        "momentum_10": 1.45001220703125
-      },
-      "signals": {
-        "golden_cross": false,
-        "death_cross": false,
-        "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
-        "rsi_overbought": false,
-        "rsi_oversold": false,
-        "price_above_sma_200": false,
-        "high_volatility": false,
-        "low_volatility": true
-      }
-    },
-    {
-      "symbol": "TEM",
-      "category": "Defense/Industrial Tech",
-      "price": {
-        "close": 53.23740005493164,
-        "open": 51.630001068115234,
-        "high": 53.59859848022461,
-        "low": 51.529998779296875,
-        "volume": 1752496
-      },
-      "moving_averages": {
-        "sma_20": 49.758165168762204,
-        "sma_50": 50.89474395751953,
-        "sma_200": NaN,
-        "ema_12": 52.22034345428497,
-        "ema_26": 51.1034935528488
-      },
-      "momentum": {
-        "rsi_14": 55.1166332380052,
-        "macd": 1.1168499014361686,
-        "macd_signal": 0.5849004186403199,
-        "macd_histogram": 0.5319494827958486,
-        "stochastic_k": null,
-        "stochastic_d": null
-      },
-      "volatility": {
-        "atr_14": 3.1384246730443643,
-        "bb_upper": 58.83169766719579,
-        "bb_middle": 49.758165168762204,
-        "bb_lower": 40.68463267032862,
-        "volatility_20d": 4.72536952450918
-      },
-      "trend": {
-        "adx": 17.083589117177745,
-        "plus_di": null,
-        "minus_di": null
-      },
-      "performance": {
-        "roc_1d": 3.2132573963560507,
-        "roc_5d": -4.703484372305978,
-        "roc_20d": 25.323447807478484,
-        "momentum_10": 7.407398223876953
+        "roc_1d": -0.06772153664744707,
+        "roc_5d": -0.27035748883746935,
+        "roc_20d": 0.859373899928495,
+        "momentum_10": 0.0251007080078125
       },
       "signals": {
         "golden_cross": false,
@@ -2698,218 +2863,108 @@
       }
     },
     {
-      "symbol": "INTC",
+      "symbol": "VGT",
       "category": "AI bubble indicator",
       "price": {
-        "close": 84.2699966430664,
-        "open": 83.61000061035156,
-        "high": 87.0999984741211,
-        "low": 82.61000061035156,
-        "volume": 153985312
+        "close": 104.31999969482422,
+        "open": 103.86000061035156,
+        "high": 104.32499694824219,
+        "low": 103.04000091552734,
+        "volume": 4166619
       },
       "moving_averages": {
-        "sma_20": 61.284749794006345,
-        "sma_50": 51.64892187194824,
+        "sma_20": 582.0856731414794,
+        "sma_50": 668.9378007507324,
         "sma_200": NaN,
-        "ema_12": 68.77905384708498,
-        "ema_26": 61.24780800793328
+        "ema_12": 389.7064963712821,
+        "ema_26": 539.8240781732568
       },
       "momentum": {
-        "rsi_14": 82.03797500176738,
-        "macd": 7.531245839151701,
-        "macd_signal": 5.693956932182614,
-        "macd_histogram": 1.8372889069690874,
+        "rsi_14": 12.020858107928419,
+        "macd": -150.11758180197467,
+        "macd_signal": -73.473166564035,
+        "macd_histogram": -76.64441523793967,
         "stochastic_k": null,
         "stochastic_d": null
       },
       "volatility": {
-        "atr_14": 4.332303686962705,
-        "bb_upper": 83.22071325470387,
-        "bb_middle": 61.284749794006345,
-        "bb_lower": 39.34878633330882,
-        "volatility_20d": 6.0712589169346876
+        "atr_14": 48.04397844479984,
+        "bb_upper": 1139.6436847945852,
+        "bb_middle": 582.0856731414794,
+        "bb_lower": 24.527661488373838,
+        "volatility_20d": 19.849814169499123
       },
       "trend": {
-        "adx": 42.552535439082185,
+        "adx": 40.31882625988707,
         "plus_di": null,
         "minus_di": null
       },
       "performance": {
-        "roc_1d": 4.127018812919769,
-        "roc_5d": 28.26484103104827,
-        "roc_20d": 95.79459770100681,
-        "momentum_10": 20.23999786376953
+        "roc_1d": 0.13438221274557627,
+        "roc_5d": -87.10713988292487,
+        "roc_20d": -84.85921629973524,
+        "momentum_10": -646.0850296020508
       },
       "signals": {
         "golden_cross": false,
         "death_cross": false,
         "macd_bullish_cross": false,
         "macd_bearish_cross": false,
-        "rsi_overbought": true,
-        "rsi_oversold": false,
+        "rsi_overbought": false,
+        "rsi_oversold": true,
         "price_above_sma_200": false,
         "high_volatility": true,
         "low_volatility": false
       }
     },
     {
-      "symbol": "AVGO",
-      "category": "AI bubble indicator",
+      "symbol": "MA",
+      "category": "Payments/Fintech",
       "price": {
-        "close": 417.239990234375,
-        "open": 420.3949890136719,
-        "high": 422.75,
-        "low": 414.6300048828125,
-        "volume": 9654245
+        "close": 505.1400146484375,
+        "open": 500.760009765625,
+        "high": 509.0450134277344,
+        "low": 500.760009765625,
+        "volume": 329696
       },
       "moving_averages": {
-        "sma_20": 368.3838195800781,
-        "sma_50": 342.2203735351562,
+        "sma_20": 505.44794921875,
+        "sma_50": 507.4085394287109,
         "sma_200": NaN,
-        "ema_12": 396.71474485260376,
-        "ema_26": 371.8705441241072
+        "ema_12": 507.94135235603244,
+        "ema_26": 507.531348587073
       },
       "momentum": {
-        "rsi_14": 76.77154999961023,
-        "macd": 24.84420072849656,
-        "macd_signal": 19.88394923668431,
-        "macd_histogram": 4.960251491812251,
+        "rsi_14": 48.328685840089804,
+        "macd": 0.41000376895942736,
+        "macd_signal": 0.5679924131626297,
+        "macd_histogram": -0.15798864420320236,
         "stochastic_k": null,
         "stochastic_d": null
       },
       "volatility": {
-        "atr_14": 11.903788098634838,
-        "bb_upper": 453.27760081215695,
-        "bb_middle": 368.3838195800781,
-        "bb_lower": 283.4900383479993,
-        "volatility_20d": 2.4631116448916117
+        "atr_14": 9.727148466396917,
+        "bb_upper": 525.260111495995,
+        "bb_middle": 505.44794921875,
+        "bb_lower": 485.63578694150493,
+        "volatility_20d": 1.4189908828523883
       },
       "trend": {
-        "adx": 34.97639096048619,
+        "adx": 14.233482583260685,
         "plus_di": null,
         "minus_di": null
       },
       "performance": {
-        "roc_1d": -0.9672126991485341,
-        "roc_5d": 5.167112089681103,
-        "roc_20d": 39.16116843056039,
-        "momentum_10": 37.489990234375
+        "roc_1d": 1.0118437474083253,
+        "roc_5d": -2.575720227681577,
+        "roc_20d": 3.4826073441742933,
+        "momentum_10": -0.029998779296875
       },
       "signals": {
         "golden_cross": false,
         "death_cross": false,
         "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
-        "rsi_overbought": true,
-        "rsi_oversold": false,
-        "price_above_sma_200": false,
-        "high_volatility": false,
-        "low_volatility": false
-      }
-    },
-    {
-      "symbol": "VTIP",
-      "category": "Fixed Income",
-      "price": {
-        "close": 50.36989974975586,
-        "open": 50.34000015258789,
-        "high": 50.38999938964844,
-        "low": 50.33000183105469,
-        "volume": 1308396
-      },
-      "moving_averages": {
-        "sma_20": 50.097190284729,
-        "sma_50": 49.95716201782226,
-        "sma_200": NaN,
-        "ema_12": 50.18839048406305,
-        "ema_26": 50.08574727886727
-      },
-      "momentum": {
-        "rsi_14": 76.08464864701176,
-        "macd": 0.10264320519578263,
-        "macd_signal": 0.0811571415633385,
-        "macd_histogram": 0.021486063632444125,
-        "stochastic_k": null,
-        "stochastic_d": null
-      },
-      "volatility": {
-        "atr_14": 0.06280863180984217,
-        "bb_upper": 50.346623234300004,
-        "bb_middle": 50.097190284729,
-        "bb_lower": 49.847757335158,
-        "volatility_20d": 0.08771564531721993
-      },
-      "trend": {
-        "adx": 28.758688494864128,
-        "plus_di": null,
-        "minus_di": null
-      },
-      "performance": {
-        "roc_1d": 0.11905858642382583,
-        "roc_5d": 0.37843651539493095,
-        "roc_20d": 1.144378557080783,
-        "momentum_10": 0.24570083618164062
-      },
-      "signals": {
-        "golden_cross": false,
-        "death_cross": false,
-        "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
-        "rsi_overbought": true,
-        "rsi_oversold": false,
-        "price_above_sma_200": false,
-        "high_volatility": false,
-        "low_volatility": false
-      }
-    },
-    {
-      "symbol": "^VIX",
-      "category": "Market volatility indicator",
-      "price": {
-        "close": 18.360000610351562,
-        "open": 19.209999084472656,
-        "high": 19.270000457763672,
-        "low": 18.360000610351562,
-        "volume": 0
-      },
-      "moving_averages": {
-        "sma_20": 21.48650016784668,
-        "sma_50": 22.853799934387208,
-        "sma_200": NaN,
-        "ema_12": 19.7358062780005,
-        "ema_26": 21.223794150828734
-      },
-      "momentum": {
-        "rsi_14": 41.96494388669612,
-        "macd": -1.487987872828235,
-        "macd_signal": -1.255383597692808,
-        "macd_histogram": -0.23260427513542692,
-        "stochastic_k": null,
-        "stochastic_d": null
-      },
-      "volatility": {
-        "atr_14": 1.8249705880538094,
-        "bb_upper": 28.76566827456513,
-        "bb_middle": 21.48650016784668,
-        "bb_lower": 14.207332061128227,
-        "volatility_20d": 7.494897214947982
-      },
-      "trend": {
-        "adx": 13.544880330721577,
-        "plus_di": null,
-        "minus_di": null
-      },
-      "performance": {
-        "roc_1d": -4.821152208588986,
-        "roc_5d": -5.555555010474233,
-        "roc_20d": -38.32717390649725,
-        "momentum_10": -2.989999771118164
-      },
-      "signals": {
-        "golden_cross": false,
-        "death_cross": false,
-        "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
+        "macd_bearish_cross": true,
         "rsi_overbought": false,
         "rsi_oversold": false,
         "price_above_sma_200": false,
@@ -2918,102 +2973,47 @@
       }
     },
     {
-      "symbol": "MU",
+      "symbol": "LRCX",
       "category": "AI bubble indicator",
       "price": {
-        "close": 524.5599975585938,
-        "open": 510.55999755859375,
-        "high": 531.3599853515625,
-        "low": 510.01849365234375,
-        "volume": 38228158
+        "close": 259.4700012207031,
+        "open": 267.760009765625,
+        "high": 268.8299865722656,
+        "low": 256.30999755859375,
+        "volume": 7797512
       },
       "moving_averages": {
-        "sma_20": 425.2761566162109,
-        "sma_50": 416.6347100830078,
+        "sma_20": 248.43788299560546,
+        "sma_50": 235.6310891723633,
         "sma_200": NaN,
-        "ema_12": 465.5522709960482,
-        "ema_26": 438.13289661586066
+        "ema_12": 259.32980478568845,
+        "ema_26": 248.8248200773078
       },
       "momentum": {
-        "rsi_14": 74.61752358610873,
-        "macd": 27.41937438018755,
-        "macd_signal": 17.1161344357797,
-        "macd_histogram": 10.30323994440785,
+        "rsi_14": 56.63474660239901,
+        "macd": 10.504984708380647,
+        "macd_signal": 10.141230254485539,
+        "macd_histogram": 0.3637544538951083,
         "stochastic_k": null,
         "stochastic_d": null
       },
       "volatility": {
-        "atr_14": 25.256685922400134,
-        "bb_upper": 534.2918090663578,
-        "bb_middle": 425.2761566162109,
-        "bb_lower": 316.26050416606404,
-        "volatility_20d": 4.688213957098383
+        "atr_14": 10.863529909742823,
+        "bb_upper": 293.22603070466187,
+        "bb_middle": 248.43788299560546,
+        "bb_lower": 203.64973528654906,
+        "volatility_20d": 3.581289602984428
       },
       "trend": {
-        "adx": 24.762268183449546,
+        "adx": 20.525995541424827,
         "plus_di": null,
         "minus_di": null
       },
       "performance": {
-        "roc_1d": 5.356601282511764,
-        "roc_5d": 16.979613275697346,
-        "roc_20d": 46.94792160820123,
-        "momentum_10": 105.8599853515625
-      },
-      "signals": {
-        "golden_cross": false,
-        "death_cross": false,
-        "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
-        "rsi_overbought": true,
-        "rsi_oversold": false,
-        "price_above_sma_200": false,
-        "high_volatility": false,
-        "low_volatility": false
-      }
-    },
-    {
-      "symbol": "BTC-USD",
-      "category": "Crypto indicator",
-      "price": {
-        "close": 77660.546875,
-        "open": 78670.8515625,
-        "high": 79420.2734375,
-        "low": 77602.2578125,
-        "volume": 29859592192
-      },
-      "moving_averages": {
-        "sma_20": 74923.75234375,
-        "sma_50": 71689.63046875,
-        "sma_200": NaN,
-        "ema_12": 76438.16195531616,
-        "ema_26": 74369.25461595714
-      },
-      "momentum": {
-        "rsi_14": 63.69753201679694,
-        "macd": 2068.9073393590224,
-        "macd_signal": 1846.8827626879572,
-        "macd_histogram": 222.02457667106523,
-        "stochastic_k": null,
-        "stochastic_d": null
-      },
-      "volatility": {
-        "atr_14": 1498.612924332947,
-        "bb_upper": 79889.93981229245,
-        "bb_middle": 74923.75234375,
-        "bb_lower": 69957.56487520756,
-        "volatility_20d": 1.8271003802490495
-      },
-      "trend": {
-        "adx": 21.477027728863785,
-        "plus_di": null,
-        "minus_di": null
-      },
-      "performance": {
-        "roc_1d": -0.6113265024231374,
-        "roc_5d": -0.5117655842598712,
-        "roc_20d": 12.978409815712165,
-        "momentum_10": 2586.546875
+        "roc_1d": -4.314640862806629,
+        "roc_5d": -1.4021896907039588,
+        "roc_20d": 23.39262066148027,
+        "momentum_10": -3.410003662109375
       },
       "signals": {
         "golden_cross": false,
