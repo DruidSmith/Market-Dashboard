@@ -1,19 +1,15 @@
 {
-  "generated_at": "2026-04-29T21:14:00.637609Z",
+  "generated_at": "2026-04-29T22:34:19.673262Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
-    {
-      "symbol": "XLE",
-      "macd": -0.2851139751454781
-    },
     {
       "symbol": "VDE",
       "macd": -0.24004782943325154
     },
     {
-      "symbol": "FENY",
-      "macd": -0.1009140169143663
+      "symbol": "MA",
+      "macd": 1.7108694447265975
     }
   ],
   "macd_bearish_crosses": [
@@ -42,6 +38,10 @@
     {
       "symbol": "AMD",
       "rsi": 76.5596370381145
+    },
+    {
+      "symbol": "V",
+      "rsi": 71.40009735708733
     },
     {
       "symbol": "AMZN",
@@ -88,6 +88,10 @@
       "volatility": 4.097750922569312
     },
     {
+      "symbol": "V",
+      "volatility": 2.16912924267268
+    },
+    {
       "symbol": "SOXX",
       "volatility": 2.5298785755088864
     },
@@ -117,10 +121,6 @@
     }
   ],
   "low_volatility": [
-    {
-      "symbol": "V",
-      "volatility": 1.1909138630264218
-    },
     {
       "symbol": "QQQ",
       "volatility": 1.3020821158329847
@@ -183,7 +183,7 @@
     },
     {
       "symbol": "VYM",
-      "volatility": 0.7236814170591862
+      "volatility": 0.6212452679959037
     },
     {
       "symbol": "GLD",
@@ -208,10 +208,6 @@
     {
       "symbol": "QQQM",
       "volatility": 1.1744591064394159
-    },
-    {
-      "symbol": "MA",
-      "volatility": 1.4007584412297847
     }
   ]
 }
