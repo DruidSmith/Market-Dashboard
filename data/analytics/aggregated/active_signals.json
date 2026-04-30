@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T15:29:57.873232Z",
+  "generated_at": "2026-04-30T17:03:48.052368Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -16,6 +16,10 @@
     {
       "symbol": "PLTR",
       "macd": -1.2671440998741161
+    },
+    {
+      "symbol": "META",
+      "macd": 11.433897308976384
     },
     {
       "symbol": "BTC-USD",
@@ -41,27 +45,23 @@
     },
     {
       "symbol": "AMD",
-      "rsi": 76.5596370381145
+      "rsi": 79.21467809963923
     },
     {
       "symbol": "V",
       "rsi": 71.40009735708733
     },
     {
-      "symbol": "AMZN",
-      "rsi": 72.37203218285569
-    },
-    {
       "symbol": "QQQ",
-      "rsi": 71.43955228103957
+      "rsi": 73.05279937847617
     },
     {
       "symbol": "SOXX",
-      "rsi": 72.39529597272835
+      "rsi": 75.12569560396575
     },
     {
       "symbol": "INTC",
-      "rsi": 85.63168534793894
+      "rsi": 85.79449272429456
     },
     {
       "symbol": "NQ=F",
@@ -89,19 +89,27 @@
   "high_volatility": [
     {
       "symbol": "AMD",
-      "volatility": 4.097750922569312
+      "volatility": 4.003000616813641
     },
     {
       "symbol": "V",
       "volatility": 2.16912924267268
     },
     {
+      "symbol": "AMZN",
+      "volatility": 2.102885046803957
+    },
+    {
       "symbol": "SOXX",
-      "volatility": 2.5298785755088864
+      "volatility": 2.394834718043283
     },
     {
       "symbol": "INTC",
-      "volatility": 6.085703166408174
+      "volatility": 5.686204397274222
+    },
+    {
+      "symbol": "META",
+      "volatility": 3.3409895327300516
     },
     {
       "symbol": "MGK",
@@ -120,6 +128,10 @@
       "volatility": 3.02021046375049
     },
     {
+      "symbol": "MSFT",
+      "volatility": 2.4601479042804004
+    },
+    {
       "symbol": "VGT",
       "volatility": 19.806983957413223
     }
@@ -127,7 +139,7 @@
   "low_volatility": [
     {
       "symbol": "QQQ",
-      "volatility": 1.3020821158329847
+      "volatility": 1.124056846705953
     },
     {
       "symbol": "DGRO",
@@ -139,7 +151,7 @@
     },
     {
       "symbol": "^VIX",
-      "volatility": 7.199332711693365
+      "volatility": 6.983386765897253
     },
     {
       "symbol": "ETH-USD",
@@ -166,16 +178,12 @@
       "volatility": 1.635797516483641
     },
     {
-      "symbol": "META",
-      "volatility": 2.6530190462028993
-    },
-    {
       "symbol": "BTC-USD",
       "volatility": 1.7470988047526232
     },
     {
       "symbol": "SPY",
-      "volatility": 1.0615837046495291
+      "volatility": 0.9311778954302946
     },
     {
       "symbol": "NQ=F",
