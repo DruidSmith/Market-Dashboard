@@ -1,13 +1,22 @@
 {
-  "generated_at": "2026-05-01T14:02:35.697722Z",
+  "generated_at": "2026-05-01T15:34:59.603097Z",
   "golden_crosses": [],
   "death_crosses": [],
-  "macd_bullish_crosses": [],
+  "macd_bullish_crosses": [
+    {
+      "symbol": "PLTR",
+      "macd": -1.170487894811174
+    },
+    {
+      "symbol": "QUBT",
+      "macd": 0.35741548431511205
+    }
+  ],
   "macd_bearish_crosses": [],
   "rsi_overbought": [
     {
       "symbol": "GOOGL",
-      "rsi": 83.79223874434639
+      "rsi": 84.53746791061553
     },
     {
       "symbol": "AMD",
@@ -39,11 +48,15 @@
     },
     {
       "symbol": "NQ=F",
-      "rsi": 72.53516767353122
+      "rsi": 78.07863154026923
     },
     {
       "symbol": "EME",
       "rsi": 71.11586136346284
+    },
+    {
+      "symbol": "MU",
+      "rsi": 71.32177984138266
     },
     {
       "symbol": "VTIP",
@@ -65,13 +78,17 @@
     },
     {
       "symbol": "VGT",
-      "rsi": 12.079811366962446
+      "rsi": 12.384611153587414
     }
   ],
   "high_volatility": [
     {
       "symbol": "GOOGL",
-      "volatility": 2.4540009037916866
+      "volatility": 2.375080997880723
+    },
+    {
+      "symbol": "AAPL",
+      "volatility": 1.9217836138724866
     },
     {
       "symbol": "AMD",
@@ -103,7 +120,7 @@
     },
     {
       "symbol": "MU",
-      "volatility": 3.6868331111786943
+      "volatility": 3.629548209749812
     },
     {
       "symbol": "VUG",
@@ -119,7 +136,7 @@
     },
     {
       "symbol": "VGT",
-      "volatility": 19.790538868823116
+      "volatility": 19.801996222972466
     },
     {
       "symbol": "MA",
@@ -153,7 +170,7 @@
     },
     {
       "symbol": "PLTR",
-      "volatility": 3.48978864749127
+      "volatility": 3.5622902283640423
     },
     {
       "symbol": "VEA",
@@ -173,7 +190,7 @@
     },
     {
       "symbol": "NQ=F",
-      "volatility": 1.03792667231627
+      "volatility": 1.0818777993378013
     },
     {
       "symbol": "JPM",
