@@ -1,11 +1,19 @@
 {
-  "generated_at": "2026-05-06T17:48:27.465552Z",
+  "generated_at": "2026-05-06T19:55:17.542593Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
     {
+      "symbol": "ASML",
+      "macd": 16.704708652002864
+    },
+    {
       "symbol": "HWM",
       "macd": 0.42548365585349757
+    },
+    {
+      "symbol": "LRCX",
+      "macd": 9.53666840540626
     }
   ],
   "macd_bearish_crosses": [
@@ -29,11 +37,11 @@
   "rsi_overbought": [
     {
       "symbol": "GOOGL",
-      "rsi": 82.85173755275449
+      "rsi": 84.85022961523322
     },
     {
       "symbol": "AMD",
-      "rsi": 74.39720303670236
+      "rsi": 82.52988738559313
     },
     {
       "symbol": "AMZN",
@@ -45,11 +53,11 @@
     },
     {
       "symbol": "SOXX",
-      "rsi": 79.26352191352585
+      "rsi": 82.63648080310777
     },
     {
       "symbol": "INTC",
-      "rsi": 86.55829926244061
+      "rsi": 87.71706311820753
     },
     {
       "symbol": "BTC-USD",
@@ -69,7 +77,7 @@
     },
     {
       "symbol": "MU",
-      "rsi": 82.61871681480936
+      "rsi": 83.98571395754279
     },
     {
       "symbol": "FIX",
@@ -78,6 +86,10 @@
     {
       "symbol": "QQQM",
       "rsi": 75.55009830602836
+    },
+    {
+      "symbol": "LRCX",
+      "rsi": 70.08140416267213
     }
   ],
   "rsi_oversold": [
@@ -97,7 +109,7 @@
   "high_volatility": [
     {
       "symbol": "GOOGL",
-      "volatility": 2.41603473743651
+      "volatility": 2.2901016385000976
     },
     {
       "symbol": "AAPL",
@@ -109,7 +121,7 @@
     },
     {
       "symbol": "AMD",
-      "volatility": 4.223318705091012
+      "volatility": 5.387601659684033
     },
     {
       "symbol": "V",
@@ -121,11 +133,15 @@
     },
     {
       "symbol": "SOXX",
-      "volatility": 2.408000637954032
+      "volatility": 2.089869140412462
     },
     {
       "symbol": "INTC",
-      "volatility": 6.210882719341065
+      "volatility": 5.850201101622413
+    },
+    {
+      "symbol": "ASML",
+      "volatility": 2.882040235150392
     },
     {
       "symbol": "IONQ",
@@ -134,6 +150,10 @@
     {
       "symbol": "EME",
       "volatility": 1.523153650937228
+    },
+    {
+      "symbol": "NVDA",
+      "volatility": 2.226211969106289
     },
     {
       "symbol": "MGK",
@@ -145,7 +165,7 @@
     },
     {
       "symbol": "MU",
-      "volatility": 4.284318385275378
+      "volatility": 4.120591193083787
     },
     {
       "symbol": "VUG",
@@ -157,7 +177,7 @@
     },
     {
       "symbol": "MSFT",
-      "volatility": 2.538900634980675
+      "volatility": 2.536697500535455
     },
     {
       "symbol": "VGT",
@@ -165,7 +185,7 @@
     },
     {
       "symbol": "LRCX",
-      "volatility": 3.5407427875051445
+      "volatility": 3.140188189724206
     }
   ],
   "low_volatility": [
