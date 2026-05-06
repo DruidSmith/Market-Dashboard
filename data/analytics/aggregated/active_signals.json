@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-05-06T15:44:12.975847Z",
+  "generated_at": "2026-05-06T17:48:27.465552Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
-    {
-      "symbol": "AVGO",
-      "macd": 21.392857268600494
-    },
     {
       "symbol": "HWM",
       "macd": 0.42548365585349757
     }
   ],
   "macd_bearish_crosses": [
+    {
+      "symbol": "AVGO",
+      "macd": 20.78080680486198
+    },
     {
       "symbol": "SPLV",
       "macd": -0.05050862469055062
@@ -32,20 +32,16 @@
       "rsi": 82.85173755275449
     },
     {
-      "symbol": "AVGO",
-      "rsi": 71.552821723718
-    },
-    {
       "symbol": "AMD",
       "rsi": 74.39720303670236
     },
     {
       "symbol": "AMZN",
-      "rsi": 74.64756842697692
+      "rsi": 76.01266002607495
     },
     {
       "symbol": "QQQ",
-      "rsi": 77.71802918509897
+      "rsi": 80.34980422197083
     },
     {
       "symbol": "SOXX",
@@ -58,6 +54,10 @@
     {
       "symbol": "BTC-USD",
       "rsi": 70.8838641435965
+    },
+    {
+      "symbol": "SPY",
+      "rsi": 72.6072754756805
     },
     {
       "symbol": "NQ=F",
@@ -104,6 +104,10 @@
       "volatility": 1.8350131971908528
     },
     {
+      "symbol": "AVGO",
+      "volatility": 2.478594984800677
+    },
+    {
       "symbol": "AMD",
       "volatility": 4.223318705091012
     },
@@ -113,7 +117,7 @@
     },
     {
       "symbol": "AMZN",
-      "volatility": 2.120461169524194
+      "volatility": 2.0282589252971372
     },
     {
       "symbol": "SOXX",
@@ -171,11 +175,11 @@
     },
     {
       "symbol": "QQQ",
-      "volatility": 1.109219995559649
+      "volatility": 0.9057391879857069
     },
     {
       "symbol": "^VIX",
-      "volatility": 6.888048184047013
+      "volatility": 5.962122107044477
     },
     {
       "symbol": "ETH-USD",
@@ -211,7 +215,7 @@
     },
     {
       "symbol": "SPY",
-      "volatility": 0.9615419202215584
+      "volatility": 0.7651744984747517
     },
     {
       "symbol": "NQ=F",
@@ -227,7 +231,7 @@
     },
     {
       "symbol": "GLD",
-      "volatility": 1.0403642677946427
+      "volatility": 1.1879936502639232
     },
     {
       "symbol": "VIG",
