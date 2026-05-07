@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-05-07T13:00:45.083038Z",
+  "generated_at": "2026-05-07T15:33:15.192919Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
     {
-      "symbol": "ASML",
-      "macd": 16.704708652002864
+      "symbol": "ITA",
+      "macd": -2.420428408388574
     },
     {
-      "symbol": "HWM",
-      "macd": 0.42548365585349757
+      "symbol": "ASML",
+      "macd": 16.704708652002864
     },
     {
       "symbol": "VEA",
@@ -26,8 +26,12 @@
       "macd": 20.78080680486198
     },
     {
-      "symbol": "TEM",
-      "macd": 0.8614048172397162
+      "symbol": "VDE",
+      "macd": 0.316847987878333
+    },
+    {
+      "symbol": "VTIP",
+      "macd": 0.10326844564739446
     }
   ],
   "rsi_overbought": [
@@ -56,6 +60,10 @@
       "rsi": 87.71706311820753
     },
     {
+      "symbol": "HWM",
+      "rsi": 70.1066548170104
+    },
+    {
       "symbol": "SPY",
       "rsi": 72.6072754756805
     },
@@ -69,15 +77,11 @@
     },
     {
       "symbol": "EME",
-      "rsi": 77.87143554055399
+      "rsi": 71.9987660743175
     },
     {
       "symbol": "MU",
       "rsi": 83.98571395754279
-    },
-    {
-      "symbol": "FIX",
-      "rsi": 74.46253740173827
     },
     {
       "symbol": "QQQM",
@@ -144,6 +148,10 @@
       "volatility": 2.882040235150392
     },
     {
+      "symbol": "HWM",
+      "volatility": 3.003502536187195
+    },
+    {
       "symbol": "QUBT",
       "volatility": 5.666074113162613
     },
@@ -153,7 +161,7 @@
     },
     {
       "symbol": "EME",
-      "volatility": 1.523153650937228
+      "volatility": 1.6090919422921564
     },
     {
       "symbol": "NVDA",
@@ -165,7 +173,7 @@
     },
     {
       "symbol": "VDE",
-      "volatility": 1.829498146880819
+      "volatility": 1.920745201309496
     },
     {
       "symbol": "TSM",
@@ -181,7 +189,7 @@
     },
     {
       "symbol": "FIX",
-      "volatility": 2.782869135627523
+      "volatility": 2.9048645240005593
     },
     {
       "symbol": "MSFT",
@@ -203,7 +211,7 @@
   "low_volatility": [
     {
       "symbol": "ITA",
-      "volatility": 1.598935683513061
+      "volatility": 1.6203656673643538
     },
     {
       "symbol": "QQQ",
@@ -223,11 +231,11 @@
     },
     {
       "symbol": "FSTA",
-      "volatility": 0.8420891146907235
+      "volatility": 0.7841186071048842
     },
     {
       "symbol": "XLP",
-      "volatility": 0.8500071102704426
+      "volatility": 0.8018978125526864
     },
     {
       "symbol": "PLTR",
@@ -271,11 +279,15 @@
     },
     {
       "symbol": "VDC",
-      "volatility": 0.8394004246793667
+      "volatility": 0.7842080217945809
     },
     {
       "symbol": "AXON",
       "volatility": 3.7570732477195157
+    },
+    {
+      "symbol": "VTIP",
+      "volatility": 0.08207917236095445
     }
   ]
 }
