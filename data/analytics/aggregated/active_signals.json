@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T21:10:44.916037Z",
+  "generated_at": "2026-05-07T22:36:58.193902Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -22,12 +22,24 @@
   ],
   "macd_bearish_crosses": [
     {
+      "symbol": "XLE",
+      "macd": 0.06601715565341237
+    },
+    {
+      "symbol": "VYM",
+      "macd": 1.35392318928956
+    },
+    {
       "symbol": "VDE",
       "macd": 0.316847987878333
     },
     {
       "symbol": "VTIP",
       "macd": 0.10326844564739446
+    },
+    {
+      "symbol": "FENY",
+      "macd": 0.08535650879325374
     }
   ],
   "rsi_overbought": [
@@ -105,15 +117,11 @@
     },
     {
       "symbol": "XLE",
-      "volatility": 1.973277662578466
+      "volatility": 2.010941584245814
     },
     {
       "symbol": "AMD",
       "volatility": 5.520962036571818
-    },
-    {
-      "symbol": "V",
-      "volatility": 2.1195598044325847
     },
     {
       "symbol": "AMZN",
@@ -181,7 +189,7 @@
     },
     {
       "symbol": "FENY",
-      "volatility": 1.9315769849760365
+      "volatility": 1.9747909176299205
     },
     {
       "symbol": "VGT",
@@ -203,7 +211,7 @@
     },
     {
       "symbol": "DGRO",
-      "volatility": 0.627932995649792
+      "volatility": 0.6181257340423993
     },
     {
       "symbol": "^VIX",
@@ -230,10 +238,6 @@
       "volatility": 3.030715198993937
     },
     {
-      "symbol": "CRWD",
-      "volatility": 3.50856495963887
-    },
-    {
       "symbol": "VWO",
       "volatility": 1.0708782170535096
     },
@@ -255,7 +259,7 @@
     },
     {
       "symbol": "VYM",
-      "volatility": 0.6415565751507465
+      "volatility": 0.6728133685825738
     },
     {
       "symbol": "GLD",
@@ -263,7 +267,7 @@
     },
     {
       "symbol": "VIG",
-      "volatility": 0.6503581999036312
+      "volatility": 0.6591742966388776
     },
     {
       "symbol": "VDC",
