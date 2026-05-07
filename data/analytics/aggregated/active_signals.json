@@ -1,11 +1,15 @@
 {
-  "generated_at": "2026-05-07T15:33:15.192919Z",
+  "generated_at": "2026-05-07T17:54:44.155063Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
     {
       "symbol": "ITA",
       "macd": -2.420428408388574
+    },
+    {
+      "symbol": "^VIX",
+      "macd": -1.4574813911104023
     },
     {
       "symbol": "ASML",
@@ -16,15 +20,15 @@
       "macd": 0.8072961189149623
     },
     {
+      "symbol": "GLD",
+      "macd": -3.6800881821632174
+    },
+    {
       "symbol": "LRCX",
       "macd": 9.53666840540626
     }
   ],
   "macd_bearish_crosses": [
-    {
-      "symbol": "AVGO",
-      "macd": 20.78080680486198
-    },
     {
       "symbol": "VDE",
       "macd": 0.316847987878333
@@ -44,12 +48,8 @@
       "rsi": 82.52988738559313
     },
     {
-      "symbol": "AMZN",
-      "rsi": 76.01266002607495
-    },
-    {
       "symbol": "QQQ",
-      "rsi": 80.34980422197083
+      "rsi": 80.4908928175
     },
     {
       "symbol": "SOXX",
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "SPY",
-      "rsi": 72.6072754756805
+      "rsi": 70.92447979548005
     },
     {
       "symbol": "NQ=F",
@@ -117,7 +117,7 @@
     },
     {
       "symbol": "AVGO",
-      "volatility": 2.478594984800677
+      "volatility": 2.547999922048979
     },
     {
       "symbol": "XLE",
@@ -133,7 +133,7 @@
     },
     {
       "symbol": "AMZN",
-      "volatility": 2.0282589252971372
+      "volatility": 1.8362524191553338
     },
     {
       "symbol": "SOXX",
@@ -215,7 +215,7 @@
     },
     {
       "symbol": "QQQ",
-      "volatility": 0.9057391879857069
+      "volatility": 0.915276111163265
     },
     {
       "symbol": "DGRO",
@@ -223,7 +223,7 @@
     },
     {
       "symbol": "^VIX",
-      "volatility": 5.962122107044477
+      "volatility": 5.87909674216462
     },
     {
       "symbol": "ETH-USD",
@@ -255,7 +255,7 @@
     },
     {
       "symbol": "SPY",
-      "volatility": 0.7651744984747517
+      "volatility": 0.7764015662645979
     },
     {
       "symbol": "NQ=F",
@@ -271,7 +271,7 @@
     },
     {
       "symbol": "GLD",
-      "volatility": 1.1879936502639232
+      "volatility": 1.1611810844825863
     },
     {
       "symbol": "VIG",
