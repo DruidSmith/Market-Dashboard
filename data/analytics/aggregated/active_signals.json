@@ -1,8 +1,16 @@
 {
-  "generated_at": "2026-05-11T18:20:05.413574Z",
+  "generated_at": "2026-05-11T20:19:34.341412Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
+    {
+      "symbol": "MGK",
+      "macd": -69.75168487007711
+    },
+    {
+      "symbol": "VUG",
+      "macd": -87.0428208380376
+    },
     {
       "symbol": "VGT",
       "macd": -146.28724959851613
@@ -14,8 +22,8 @@
       "macd": 12.233487309578038
     },
     {
-      "symbol": "DGRO",
-      "macd": 0.45145046411252565
+      "symbol": "VIG",
+      "macd": 1.9118619469259954
     }
   ],
   "rsi_overbought": [
@@ -45,7 +53,7 @@
     },
     {
       "symbol": "CRWD",
-      "rsi": 73.34857725511971
+      "rsi": 75.44768736736475
     },
     {
       "symbol": "SPY",
@@ -54,6 +62,10 @@
     {
       "symbol": "NQ=F",
       "rsi": 86.74993414884203
+    },
+    {
+      "symbol": "IONQ",
+      "rsi": 71.86372548774517
     },
     {
       "symbol": "EME",
@@ -69,17 +81,21 @@
     },
     {
       "symbol": "QQQM",
-      "rsi": 81.79745738571833
+      "rsi": 82.52144571629086
     }
   ],
   "rsi_oversold": [
     {
+      "symbol": "NFLX",
+      "rsi": 29.691041031454333
+    },
+    {
       "symbol": "MGK",
-      "rsi": 13.928678892779232
+      "rsi": 13.943505312636006
     },
     {
       "symbol": "VUG",
-      "rsi": 12.728489517137632
+      "rsi": 12.763102745512356
     },
     {
       "symbol": "VGT",
@@ -117,7 +133,7 @@
     },
     {
       "symbol": "CRWD",
-      "volatility": 3.0007124444823186
+      "volatility": 2.8641151576811823
     },
     {
       "symbol": "HWM",
@@ -129,7 +145,7 @@
     },
     {
       "symbol": "IONQ",
-      "volatility": 7.3276651026795845
+      "volatility": 7.991945149148884
     },
     {
       "symbol": "NVDA",
@@ -167,7 +183,7 @@
     },
     {
       "symbol": "DGRO",
-      "volatility": 0.573131672660893
+      "volatility": 0.573085789573721
     },
     {
       "symbol": "^VIX",
@@ -175,7 +191,7 @@
     },
     {
       "symbol": "SPLV",
-      "volatility": 0.6762405053752077
+      "volatility": 0.6628224689243756
     },
     {
       "symbol": "ETH-USD",
@@ -223,11 +239,11 @@
     },
     {
       "symbol": "NFLX",
-      "volatility": 2.6834744056275546
+      "volatility": 2.680827826926127
     },
     {
       "symbol": "VIG",
-      "volatility": 0.6177309250232428
+      "volatility": 0.6178629815507841
     },
     {
       "symbol": "VDC",
