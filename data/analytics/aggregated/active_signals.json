@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T17:35:44.429171Z",
+  "generated_at": "2026-05-12T20:02:47.483147Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -14,10 +14,6 @@
     {
       "symbol": "VUG",
       "macd": -87.0428208380376
-    },
-    {
-      "symbol": "VGT",
-      "macd": -146.28724959851613
     }
   ],
   "macd_bearish_crosses": [
@@ -28,12 +24,20 @@
     {
       "symbol": "VIG",
       "macd": 1.9118619469259954
+    },
+    {
+      "symbol": "TSM",
+      "macd": 12.36285244989375
     }
   ],
   "rsi_overbought": [
     {
       "symbol": "GOOGL",
-      "rsi": 78.03916784432948
+      "rsi": 72.0964623324506
+    },
+    {
+      "symbol": "AAPL",
+      "rsi": 70.42723686278293
     },
     {
       "symbol": "AMD",
@@ -56,6 +60,10 @@
       "rsi": 82.71110256286423
     },
     {
+      "symbol": "QUBT",
+      "rsi": 70.98825024215358
+    },
+    {
       "symbol": "IONQ",
       "rsi": 71.86372548774517
     },
@@ -65,7 +73,7 @@
     },
     {
       "symbol": "MU",
-      "rsi": 87.96768208326928
+      "rsi": 79.40521985647698
     },
     {
       "symbol": "QQQM",
@@ -87,17 +95,17 @@
     },
     {
       "symbol": "VGT",
-      "rsi": 14.61218472571339
+      "rsi": 14.531235590234104
     }
   ],
   "high_volatility": [
     {
       "symbol": "GOOGL",
-      "volatility": 2.2802425201733545
+      "volatility": 2.180871092816184
     },
     {
       "symbol": "AAPL",
-      "volatility": 1.6601405317540994
+      "volatility": 1.6595533178201254
     },
     {
       "symbol": "AVGO",
@@ -121,7 +129,7 @@
     },
     {
       "symbol": "ASML",
-      "volatility": 2.928732234530058
+      "volatility": 2.934727947585263
     },
     {
       "symbol": "CRWD",
@@ -133,7 +141,7 @@
     },
     {
       "symbol": "QUBT",
-      "volatility": 6.221871094738232
+      "volatility": 6.33289071067368
     },
     {
       "symbol": "IONQ",
@@ -145,11 +153,11 @@
     },
     {
       "symbol": "TSM",
-      "volatility": 2.5266540734073635
+      "volatility": 2.51201718078582
     },
     {
       "symbol": "MU",
-      "volatility": 5.031872439430219
+      "volatility": 5.197318442482059
     },
     {
       "symbol": "FIX",
@@ -161,7 +169,7 @@
     },
     {
       "symbol": "LRCX",
-      "volatility": 3.1918123319551666
+      "volatility": 3.197055470469476
     }
   ],
   "low_volatility": [
@@ -187,7 +195,7 @@
     },
     {
       "symbol": "PLTR",
-      "volatility": 2.901859003769087
+      "volatility": 2.8543726538919407
     },
     {
       "symbol": "VEA",
