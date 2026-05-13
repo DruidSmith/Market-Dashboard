@@ -1,9 +1,13 @@
 {
-  "generated_at": "2026-05-13T13:38:29.780371Z",
+  "generated_at": "2026-05-13T16:26:48.654837Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [],
   "macd_bearish_crosses": [
+    {
+      "symbol": "VWO",
+      "macd": 0.9803204131969565
+    },
     {
       "symbol": "BTC-USD",
       "macd": 1829.8740460474219
@@ -49,6 +53,10 @@
     {
       "symbol": "QUBT",
       "rsi": 70.98825024215358
+    },
+    {
+      "symbol": "EME",
+      "rsi": 70.23706125049144
     },
     {
       "symbol": "MU",
@@ -112,7 +120,7 @@
     },
     {
       "symbol": "HWM",
-      "volatility": 2.9956371598676728
+      "volatility": 2.9841297098845687
     },
     {
       "symbol": "QUBT",
@@ -121,10 +129,6 @@
     {
       "symbol": "IONQ",
       "volatility": 6.809670632259597
-    },
-    {
-      "symbol": "EME",
-      "volatility": 1.642468867674623
     },
     {
       "symbol": "NVDA",
@@ -158,7 +162,7 @@
   "low_volatility": [
     {
       "symbol": "ITA",
-      "volatility": 1.5344298979743425
+      "volatility": 1.513907805630908
     },
     {
       "symbol": "DGRO",
@@ -181,8 +185,12 @@
       "volatility": 2.8543726538919407
     },
     {
+      "symbol": "VEA",
+      "volatility": 1.3270030041644265
+    },
+    {
       "symbol": "VWO",
-      "volatility": 1.1462187631014575
+      "volatility": 1.1640165853893634
     },
     {
       "symbol": "META",
@@ -219,6 +227,10 @@
     {
       "symbol": "VIG",
       "volatility": 0.6008612536634494
+    },
+    {
+      "symbol": "VTIP",
+      "volatility": 0.08096042583146627
     }
   ]
 }
