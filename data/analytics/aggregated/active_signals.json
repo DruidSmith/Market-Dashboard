@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T18:21:51.117526Z",
+  "generated_at": "2026-05-18T20:16:44.297847Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -10,6 +10,10 @@
     {
       "symbol": "VDE",
       "macd": 0.2997944344607788
+    },
+    {
+      "symbol": "SCHD",
+      "macd": 0.23206699755246873
     },
     {
       "symbol": "FENY",
@@ -28,10 +32,6 @@
     {
       "symbol": "NQ=F",
       "macd": 862.2873389442611
-    },
-    {
-      "symbol": "SCHD",
-      "macd": 0.21562929772149175
     },
     {
       "symbol": "SOXX",
@@ -56,26 +56,26 @@
     {
       "symbol": "SPY",
       "macd": 13.931784941133287
+    },
+    {
+      "symbol": "IONQ",
+      "macd": 4.161558544961302
     }
   ],
   "rsi_overbought": [
-    {
-      "symbol": "QQQM",
-      "rsi": 71.0626958308016
-    },
     {
       "symbol": "GOOGL",
       "rsi": 72.18874976526982
     },
     {
       "symbol": "CRWD",
-      "rsi": 81.10007361072897
+      "rsi": 84.17747250598826
     }
   ],
   "rsi_oversold": [
     {
       "symbol": "MGK",
-      "rsi": 15.10654586768328
+      "rsi": 15.062704556624752
     },
     {
       "symbol": "VGT",
@@ -83,7 +83,7 @@
     },
     {
       "symbol": "VUG",
-      "rsi": 13.768631162224594
+      "rsi": 13.731116077046579
     }
   ],
   "high_volatility": [
@@ -113,7 +113,7 @@
     },
     {
       "symbol": "QQQM",
-      "volatility": 1.0294333809917464
+      "volatility": 1.04182842549139
     },
     {
       "symbol": "AAPL",
@@ -153,11 +153,11 @@
     },
     {
       "symbol": "IONQ",
-      "volatility": 6.400408683652469
+      "volatility": 6.53309615395552
     },
     {
       "symbol": "CRWD",
-      "volatility": 2.8893548367746904
+      "volatility": 3.0039671532825194
     }
   ],
   "low_volatility": [
@@ -170,24 +170,12 @@
       "volatility": 1.6288113360685699
     },
     {
-      "symbol": "NFLX",
-      "volatility": 1.485319618689268
-    },
-    {
       "symbol": "META",
       "volatility": 2.433575740935021
     },
     {
       "symbol": "VIG",
-      "volatility": 0.64074326587108
-    },
-    {
-      "symbol": "SPLV",
-      "volatility": 0.6405798090322682
-    },
-    {
-      "symbol": "SCHD",
-      "volatility": 0.6490761885885848
+      "volatility": 0.6428276919072978
     },
     {
       "symbol": "VGK",
@@ -223,7 +211,7 @@
     },
     {
       "symbol": "DGRO",
-      "volatility": 0.6076245022706988
+      "volatility": 0.6165352478559863
     }
   ]
 }
