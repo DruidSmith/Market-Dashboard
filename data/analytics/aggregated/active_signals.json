@@ -1,11 +1,15 @@
 {
-  "generated_at": "2026-05-19T10:25:56.285523Z",
+  "generated_at": "2026-05-19T13:43:12.005642Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
     {
-      "symbol": "SCHD",
-      "macd": 0.23206699755246873
+      "symbol": "MA",
+      "macd": -1.6704724769218728
+    },
+    {
+      "symbol": "NFLX",
+      "macd": -1.904791491558754
     }
   ],
   "macd_bearish_crosses": [
@@ -53,7 +57,7 @@
     },
     {
       "symbol": "CRWD",
-      "rsi": 84.17747250598826
+      "rsi": 84.5588476962372
     }
   ],
   "rsi_oversold": [
@@ -145,7 +149,7 @@
     },
     {
       "symbol": "CRWD",
-      "volatility": 3.0039671532825194
+      "volatility": 2.9147997927131355
     }
   ],
   "low_volatility": [
@@ -158,12 +162,20 @@
       "volatility": 2.8057572082435343
     },
     {
+      "symbol": "MA",
+      "volatility": 1.6769882424372227
+    },
+    {
+      "symbol": "NFLX",
+      "volatility": 1.567624731950739
+    },
+    {
       "symbol": "META",
       "volatility": 2.433575740935021
     },
     {
       "symbol": "VIG",
-      "volatility": 0.6428276919072978
+      "volatility": 0.641662742066734
     },
     {
       "symbol": "VGK",
@@ -199,7 +211,7 @@
     },
     {
       "symbol": "DGRO",
-      "volatility": 0.6165352478559863
+      "volatility": 0.6133483771163137
     }
   ]
 }
