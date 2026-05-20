@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T22:47:27.613016Z",
+  "generated_at": "2026-05-20T00:14:05.852685Z",
   "top_gainers_1d": [
     {
       "symbol": "INTC",
@@ -14,22 +14,18 @@
       "roc_1d": 3.8514450855425375
     },
     {
-      "symbol": "SPLV",
-      "roc_1d": 1.3408919958640464
-    },
-    {
       "symbol": "PLTR",
       "roc_1d": 1.3145496871551199
+    },
+    {
+      "symbol": "SOXX",
+      "roc_1d": 1.1618288980863145
     }
   ],
   "top_losers_1d": [
     {
       "symbol": "FENY",
       "roc_1d": 0.0
-    },
-    {
-      "symbol": "IONQ",
-      "roc_1d": -5.0818081826319865
     },
     {
       "symbol": "AXON",
@@ -42,6 +38,10 @@
     {
       "symbol": "GOOGL",
       "roc_1d": -2.7299655365933373
+    },
+    {
+      "symbol": "EME",
+      "roc_1d": -2.386027270890989
     }
   ],
   "top_gainers_5d": [
@@ -94,16 +94,16 @@
       "rsi_14": 84.5588476962372
     },
     {
-      "symbol": "QQQM",
-      "rsi_14": 68.72994623421528
-    },
-    {
       "symbol": "AAPL",
       "rsi_14": 68.39407552196892
     },
     {
       "symbol": "NQ=F",
       "rsi_14": 67.49165704153164
+    },
+    {
+      "symbol": "QQQM",
+      "rsi_14": 65.44326720621484
     },
     {
       "symbol": "QQQ",
@@ -113,11 +113,11 @@
   "most_oversold": [
     {
       "symbol": "VUG",
-      "rsi_14": 13.731116077046579
+      "rsi_14": 13.63696590323282
     },
     {
       "symbol": "MGK",
-      "rsi_14": 15.062704556624752
+      "rsi_14": 14.938206284349079
     },
     {
       "symbol": "VGT",
@@ -134,14 +134,6 @@
   ],
   "highest_volatility": [
     {
-      "symbol": "VUG",
-      "volatility_20d": 18.74124642739499
-    },
-    {
-      "symbol": "MGK",
-      "volatility_20d": 18.00246731608536
-    },
-    {
       "symbol": "INTC",
       "volatility_20d": 7.377212315455137
     },
@@ -151,7 +143,15 @@
     },
     {
       "symbol": "IONQ",
-      "volatility_20d": 6.53309615395552
+      "volatility_20d": 6.546672917583142
+    },
+    {
+      "symbol": "AMD",
+      "volatility_20d": 6.253679579492503
+    },
+    {
+      "symbol": "MU",
+      "volatility_20d": 6.064641448020539
     }
   ]
 }
