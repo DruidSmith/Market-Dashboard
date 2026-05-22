@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T20:22:03.488327Z",
+  "generated_at": "2026-05-22T21:45:30.330446Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -28,7 +28,16 @@
       "macd": 4.539228685491324
     }
   ],
-  "macd_bearish_crosses": [],
+  "macd_bearish_crosses": [
+    {
+      "symbol": "VDC",
+      "macd": 1.0082182369496593
+    },
+    {
+      "symbol": "FSTA",
+      "macd": 0.23713787000347253
+    }
+  ],
   "rsi_overbought": [
     {
       "symbol": "NQ=F",
@@ -84,11 +93,11 @@
     },
     {
       "symbol": "XLP",
-      "volatility": 0.7972544555961277
+      "volatility": 0.7947216741496972
     },
     {
       "symbol": "VDC",
-      "volatility": 0.8353515711061704
+      "volatility": 0.8352181629944484
     },
     {
       "symbol": "AMD",
@@ -97,10 +106,6 @@
     {
       "symbol": "MU",
       "volatility": 5.851471716233549
-    },
-    {
-      "symbol": "FSTA",
-      "volatility": 0.8272453960653834
     },
     {
       "symbol": "SOXX",
@@ -120,7 +125,7 @@
     },
     {
       "symbol": "FIX",
-      "volatility": 3.521229720039342
+      "volatility": 3.4346969758967836
     },
     {
       "symbol": "GOOGL",
@@ -145,10 +150,6 @@
     {
       "symbol": "IONQ",
       "volatility": 6.857464930711898
-    },
-    {
-      "symbol": "EME",
-      "volatility": 1.6275206975736862
     },
     {
       "symbol": "CRWD",
@@ -185,6 +186,10 @@
       "volatility": 0.5956029968399416
     },
     {
+      "symbol": "TEM",
+      "volatility": 3.772110067303321
+    },
+    {
       "symbol": "ETH-USD",
       "volatility": 1.3010657687622347
     },
@@ -202,7 +207,7 @@
     },
     {
       "symbol": "ITA",
-      "volatility": 1.346714587561165
+      "volatility": 1.274960797797388
     },
     {
       "symbol": "^VIX",
