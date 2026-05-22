@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T11:14:04.762183Z",
+  "generated_at": "2026-05-22T13:56:21.635227Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -20,16 +20,15 @@
       "macd": 0.4348674979797096
     }
   ],
-  "macd_bearish_crosses": [
-    {
-      "symbol": "NVDA",
-      "macd": 7.791713769003877
-    }
-  ],
+  "macd_bearish_crosses": [],
   "rsi_overbought": [
     {
       "symbol": "NQ=F",
       "rsi": 72.00394173535418
+    },
+    {
+      "symbol": "AMD",
+      "rsi": 71.8399127059561
     },
     {
       "symbol": "QQQM",
@@ -38,6 +37,10 @@
     {
       "symbol": "AAPL",
       "rsi": 72.2498371139236
+    },
+    {
+      "symbol": "QQQ",
+      "rsi": 70.51165590080458
     },
     {
       "symbol": "CRWD",
@@ -68,10 +71,6 @@
       "volatility": 2.6516626388006013
     },
     {
-      "symbol": "AMZN",
-      "volatility": 1.843771837910812
-    },
-    {
       "symbol": "XLP",
       "volatility": 0.7972544555961277
     },
@@ -81,7 +80,7 @@
     },
     {
       "symbol": "AMD",
-      "volatility": 6.3233325368322415
+      "volatility": 5.638925413189929
     },
     {
       "symbol": "MU",
@@ -92,12 +91,8 @@
       "volatility": 0.8272453960653834
     },
     {
-      "symbol": "MSFT",
-      "volatility": 1.847154330146198
-    },
-    {
       "symbol": "SOXX",
-      "volatility": 3.2540111630475432
+      "volatility": 3.1255173348698877
     },
     {
       "symbol": "BND",
@@ -121,7 +116,7 @@
     },
     {
       "symbol": "INTC",
-      "volatility": 7.348186164717181
+      "volatility": 6.031927605948974
     },
     {
       "symbol": "QUBT",
@@ -129,7 +124,7 @@
     },
     {
       "symbol": "NVDA",
-      "volatility": 2.851361916254315
+      "volatility": 2.812803786684057
     },
     {
       "symbol": "TSM",
@@ -138,10 +133,6 @@
     {
       "symbol": "IONQ",
       "volatility": 6.766325502582583
-    },
-    {
-      "symbol": "QQQ",
-      "volatility": 1.1696464027447242
     },
     {
       "symbol": "EME",
@@ -167,7 +158,7 @@
     },
     {
       "symbol": "META",
-      "volatility": 2.4100759166702295
+      "volatility": 2.3273806311319616
     },
     {
       "symbol": "VIG",
@@ -195,7 +186,7 @@
     },
     {
       "symbol": "^VIX",
-      "volatility": 3.439260440084521
+      "volatility": 3.4314472992391862
     },
     {
       "symbol": "GLD",
