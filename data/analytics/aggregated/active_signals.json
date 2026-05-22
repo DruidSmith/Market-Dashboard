@@ -1,8 +1,12 @@
 {
-  "generated_at": "2026-05-22T16:31:08.389395Z",
+  "generated_at": "2026-05-22T18:20:45.585571Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
+    {
+      "symbol": "VIG",
+      "macd": 1.983888808340481
+    },
     {
       "symbol": "LRCX",
       "macd": 11.664642362503912
@@ -16,8 +20,8 @@
       "macd": 0.7199778252247171
     },
     {
-      "symbol": "DGRO",
-      "macd": 0.4348674979797096
+      "symbol": "IONQ",
+      "macd": 4.539228685491324
     }
   ],
   "macd_bearish_crosses": [],
@@ -31,8 +35,12 @@
       "rsi": 71.8399127059561
     },
     {
+      "symbol": "SCHD",
+      "rsi": 73.78504302302895
+    },
+    {
       "symbol": "QQQM",
-      "rsi": 70.15417635412038
+      "rsi": 72.04342111599325
     },
     {
       "symbol": "AAPL",
@@ -44,13 +52,13 @@
     },
     {
       "symbol": "CRWD",
-      "rsi": 85.75149701713102
+      "rsi": 86.86830905868604
     }
   ],
   "rsi_oversold": [
     {
       "symbol": "MGK",
-      "rsi": 16.220293874661053
+      "rsi": 16.644063082315895
     },
     {
       "symbol": "VGT",
@@ -58,7 +66,7 @@
     },
     {
       "symbol": "VUG",
-      "rsi": 14.590866434799736
+      "rsi": 14.852274663507515
     }
   ],
   "high_volatility": [
@@ -100,7 +108,7 @@
     },
     {
       "symbol": "QQQM",
-      "volatility": 1.0113255139823643
+      "volatility": 0.9878360507542508
     },
     {
       "symbol": "LRCX",
@@ -132,7 +140,7 @@
     },
     {
       "symbol": "IONQ",
-      "volatility": 6.766325502582583
+      "volatility": 6.857464930711898
     },
     {
       "symbol": "EME",
@@ -140,7 +148,7 @@
     },
     {
       "symbol": "CRWD",
-      "volatility": 2.4329122462029518
+      "volatility": 2.419560099994226
     }
   ],
   "low_volatility": [
@@ -153,6 +161,10 @@
       "volatility": 2.41443971518589
     },
     {
+      "symbol": "NFLX",
+      "volatility": 1.6716133324759472
+    },
+    {
       "symbol": "VWO",
       "volatility": 1.124237407271229
     },
@@ -162,7 +174,11 @@
     },
     {
       "symbol": "VIG",
-      "volatility": 0.6516087521704046
+      "volatility": 0.682302771720052
+    },
+    {
+      "symbol": "SPLV",
+      "volatility": 0.5956029968399416
     },
     {
       "symbol": "ETH-USD",
@@ -191,10 +207,6 @@
     {
       "symbol": "GLD",
       "volatility": 1.30028511097961
-    },
-    {
-      "symbol": "DGRO",
-      "volatility": 0.626562305220394
     }
   ]
 }
