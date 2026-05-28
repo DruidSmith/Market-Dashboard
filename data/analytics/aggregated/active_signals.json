@@ -1,8 +1,13 @@
 {
-  "generated_at": "2026-05-28T16:59:39.692455Z",
+  "generated_at": "2026-05-28T19:42:48.068018Z",
   "golden_crosses": [],
   "death_crosses": [],
-  "macd_bullish_crosses": [],
+  "macd_bullish_crosses": [
+    {
+      "symbol": "QQQ",
+      "macd": 21.426050777024557
+    }
+  ],
   "macd_bearish_crosses": [
     {
       "symbol": "FENY",
@@ -28,11 +33,11 @@
     },
     {
       "symbol": "NQ=F",
-      "rsi": 78.3926901087641
+      "rsi": 79.18981644479793
     },
     {
       "symbol": "QQQ",
-      "rsi": 73.60521553895157
+      "rsi": 75.45414197655906
     },
     {
       "symbol": "CRWD",
@@ -56,11 +61,11 @@
     },
     {
       "symbol": "SOXX",
-      "rsi": 72.20071130736295
+      "rsi": 73.32146586599433
     },
     {
       "symbol": "AMD",
-      "rsi": 75.46644296756914
+      "rsi": 78.11411420628367
     }
   ],
   "rsi_oversold": [
@@ -88,7 +93,7 @@
     },
     {
       "symbol": "INTC",
-      "volatility": 6.004338638004812
+      "volatility": 5.628133895177201
     },
     {
       "symbol": "VDC",
@@ -104,7 +109,7 @@
     },
     {
       "symbol": "LRCX",
-      "volatility": 3.5759248574901834
+      "volatility": 3.5007260488898737
     },
     {
       "symbol": "AVGO",
@@ -112,7 +117,7 @@
     },
     {
       "symbol": "NVDA",
-      "volatility": 2.75027803135175
+      "volatility": 2.6853833301965233
     },
     {
       "symbol": "CRWD",
@@ -128,11 +133,11 @@
     },
     {
       "symbol": "ASML",
-      "volatility": 3.335169645372303
+      "volatility": 3.3337273377239405
     },
     {
       "symbol": "SOXX",
-      "volatility": 3.1271089603508004
+      "volatility": 3.1269927668782134
     },
     {
       "symbol": "QUBT",
@@ -140,7 +145,7 @@
     },
     {
       "symbol": "AMD",
-      "volatility": 5.52559279290004
+      "volatility": 5.552515865246552
     }
   ],
   "low_volatility": [
