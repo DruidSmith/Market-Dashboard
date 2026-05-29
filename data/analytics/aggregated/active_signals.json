@@ -1,8 +1,12 @@
 {
-  "generated_at": "2026-05-29T11:50:02.815535Z",
+  "generated_at": "2026-05-29T15:56:55.547696Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
+    {
+      "symbol": "MSFT",
+      "macd": 5.353707569817402
+    },
     {
       "symbol": "QQQ",
       "macd": 21.426050777024557
@@ -20,11 +24,11 @@
   "rsi_overbought": [
     {
       "symbol": "MU",
-      "rsi": 75.81275846145755
+      "rsi": 77.56879521112508
     },
     {
       "symbol": "NQ=F",
-      "rsi": 79.18981644479793
+      "rsi": 79.66945930321364
     },
     {
       "symbol": "QQQ",
@@ -48,7 +52,7 @@
     },
     {
       "symbol": "AAPL",
-      "rsi": 74.86492857460973
+      "rsi": 72.32317469397796
     },
     {
       "symbol": "SOXX",
@@ -66,7 +70,7 @@
     },
     {
       "symbol": "VGT",
-      "rsi": 19.391225913059387
+      "rsi": 20.507204168281845
     },
     {
       "symbol": "VUG",
@@ -76,7 +80,7 @@
   "high_volatility": [
     {
       "symbol": "MU",
-      "volatility": 6.817268628333612
+      "volatility": 6.7704846260379785
     },
     {
       "symbol": "FIX",
@@ -89,6 +93,10 @@
     {
       "symbol": "VDC",
       "volatility": 0.8895774291237151
+    },
+    {
+      "symbol": "MSFT",
+      "volatility": 1.6650845455063175
     },
     {
       "symbol": "FSTA",
@@ -104,7 +112,7 @@
     },
     {
       "symbol": "LRCX",
-      "volatility": 3.5007260488898737
+      "volatility": 3.459889439808317
     },
     {
       "symbol": "AVGO",
@@ -124,7 +132,7 @@
     },
     {
       "symbol": "ASML",
-      "volatility": 3.3337273377239405
+      "volatility": 3.283539896206828
     },
     {
       "symbol": "SOXX",
@@ -132,7 +140,7 @@
     },
     {
       "symbol": "QUBT",
-      "volatility": 9.164217585645723
+      "volatility": 8.995239041804655
     },
     {
       "symbol": "AMD",
@@ -182,7 +190,7 @@
     },
     {
       "symbol": "VGT",
-      "volatility": 1.3169803494066648
+      "volatility": 1.3247798722549855
     },
     {
       "symbol": "VUG",
@@ -195,10 +203,6 @@
     {
       "symbol": "SPY",
       "volatility": 0.7173423008813482
-    },
-    {
-      "symbol": "PLTR",
-      "volatility": 3.0560778815614444
     },
     {
       "symbol": "ITA",
