@@ -1,11 +1,19 @@
 {
-  "generated_at": "2026-06-01T19:10:37.518383Z",
+  "generated_at": "2026-06-01T22:22:48.820509Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
     {
       "symbol": "MSFT",
       "macd": 5.353707569817402
+    },
+    {
+      "symbol": "AVGO",
+      "macd": 12.44912538371068
+    },
+    {
+      "symbol": "SPY",
+      "macd": 12.903507133396715
     },
     {
       "symbol": "QQQM",
@@ -29,7 +37,7 @@
     },
     {
       "symbol": "QQQ",
-      "rsi": 76.13639958486797
+      "rsi": 77.36884057730975
     },
     {
       "symbol": "CRWD",
@@ -37,7 +45,7 @@
     },
     {
       "symbol": "SPY",
-      "rsi": 72.50931026919706
+      "rsi": 73.49112992406044
     },
     {
       "symbol": "IONQ",
@@ -53,11 +61,11 @@
     },
     {
       "symbol": "SOXX",
-      "rsi": 72.44505019358193
+      "rsi": 72.94881901114957
     },
     {
       "symbol": "AMD",
-      "rsi": 77.06088082049843
+      "rsi": 74.69768114103128
     }
   ],
   "rsi_oversold": [
@@ -85,11 +93,15 @@
     },
     {
       "symbol": "INTC",
-      "volatility": 5.810126348537646
+      "volatility": 5.89583558054001
     },
     {
       "symbol": "VDC",
       "volatility": 0.9512571569448465
+    },
+    {
+      "symbol": "AMZN",
+      "volatility": 1.7545931460784505
     },
     {
       "symbol": "MSFT",
@@ -113,11 +125,11 @@
     },
     {
       "symbol": "AVGO",
-      "volatility": 2.535510765839302
+      "volatility": 2.566280402933236
     },
     {
       "symbol": "NVDA",
-      "volatility": 2.528060911902182
+      "volatility": 2.854684030882473
     },
     {
       "symbol": "CRWD",
@@ -133,7 +145,7 @@
     },
     {
       "symbol": "SOXX",
-      "volatility": 3.1289921829275027
+      "volatility": 3.1321600205676714
     },
     {
       "symbol": "QUBT",
@@ -141,7 +153,7 @@
     },
     {
       "symbol": "AMD",
-      "volatility": 5.556861088526633
+      "volatility": 5.603713132457676
     }
   ],
   "low_volatility": [
@@ -159,7 +171,7 @@
     },
     {
       "symbol": "META",
-      "volatility": 1.3415027588453305
+      "volatility": 1.7787689953123105
     },
     {
       "symbol": "FENY",
@@ -175,7 +187,7 @@
     },
     {
       "symbol": "^VIX",
-      "volatility": 3.030461206285184
+      "volatility": 2.846891064274987
     },
     {
       "symbol": "GLD",
@@ -215,7 +227,7 @@
     },
     {
       "symbol": "SPY",
-      "volatility": 0.7126459508434113
+      "volatility": 0.6706325456963951
     },
     {
       "symbol": "XLE",
