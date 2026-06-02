@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T20:58:21.681342Z",
+  "generated_at": "2026-06-02T23:07:24.198612Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -10,18 +10,17 @@
     {
       "symbol": "VWO",
       "macd": 0.5234977790183635
-    }
-  ],
-  "macd_bearish_crosses": [
+    },
     {
       "symbol": "AAPL",
-      "macd": 9.745919283009698
+      "macd": 9.887104331889361
     }
   ],
+  "macd_bearish_crosses": [],
   "rsi_overbought": [
     {
       "symbol": "MU",
-      "rsi": 80.88776690346728
+      "rsi": 81.95290697571157
     },
     {
       "symbol": "NQ=F",
@@ -49,11 +48,15 @@
     },
     {
       "symbol": "IONQ",
-      "rsi": 72.82868639998014
+      "rsi": 74.53739757380849
     },
     {
       "symbol": "QQQM",
-      "rsi": 78.21248156252076
+      "rsi": 79.14606280022588
+    },
+    {
+      "symbol": "AAPL",
+      "rsi": 70.90844013303332
     },
     {
       "symbol": "SOXX",
@@ -67,7 +70,7 @@
   "rsi_oversold": [
     {
       "symbol": "MGK",
-      "rsi": 20.446085814346148
+      "rsi": 20.33900458956778
     },
     {
       "symbol": "ETH-USD",
@@ -75,11 +78,11 @@
     },
     {
       "symbol": "VGT",
-      "rsi": 22.691620255102137
+      "rsi": 23.731271222734605
     },
     {
       "symbol": "VUG",
-      "rsi": 17.679001761655456
+      "rsi": 17.60892958019896
     },
     {
       "symbol": "BTC-USD",
@@ -93,7 +96,7 @@
     },
     {
       "symbol": "MU",
-      "volatility": 6.850984962438932
+      "volatility": 6.754096271952267
     },
     {
       "symbol": "FIX",
@@ -161,7 +164,7 @@
     },
     {
       "symbol": "IONQ",
-      "volatility": 6.794766520493094
+      "volatility": 6.7645484754529
     },
     {
       "symbol": "ASML",
@@ -173,7 +176,7 @@
     },
     {
       "symbol": "QUBT",
-      "volatility": 9.002466134410968
+      "volatility": 9.010050986009986
     },
     {
       "symbol": "AMD",
@@ -183,7 +186,7 @@
   "low_volatility": [
     {
       "symbol": "MGK",
-      "volatility": 0.8085928608962936
+      "volatility": 0.803816586163637
     },
     {
       "symbol": "VEA",
@@ -214,6 +217,10 @@
       "volatility": 0.7296273789163178
     },
     {
+      "symbol": "SPLV",
+      "volatility": 0.6518558332157294
+    },
+    {
       "symbol": "MA",
       "volatility": 1.0549705527095918
     },
@@ -223,11 +230,11 @@
     },
     {
       "symbol": "VGT",
-      "volatility": 1.3924380029442418
+      "volatility": 1.383578488582318
     },
     {
       "symbol": "VUG",
-      "volatility": 0.7619053567205019
+      "volatility": 0.7550322867210897
     },
     {
       "symbol": "VGK",
