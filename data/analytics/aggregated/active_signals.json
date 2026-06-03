@@ -1,19 +1,11 @@
 {
-  "generated_at": "2026-06-03T17:29:29.775938Z",
+  "generated_at": "2026-06-03T20:40:55.474306Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
     {
       "symbol": "^VIX",
       "macd": -0.8689730838317189
-    },
-    {
-      "symbol": "NQ=F",
-      "macd": 778.0082442352177
-    },
-    {
-      "symbol": "AAPL",
-      "macd": 9.887104331889361
     }
   ],
   "macd_bearish_crosses": [
@@ -22,12 +14,20 @@
       "macd": -1.9072246539902267
     },
     {
+      "symbol": "NQ=F",
+      "macd": 761.6448926541998
+    },
+    {
       "symbol": "SCHD",
       "macd": 0.31806275012350227
     },
     {
       "symbol": "SPY",
       "macd": 12.38018185449323
+    },
+    {
+      "symbol": "AAPL",
+      "macd": 9.490971576205538
     }
   ],
   "rsi_overbought": [
@@ -37,11 +37,11 @@
     },
     {
       "symbol": "MU",
-      "rsi": 81.95290697571157
+      "rsi": 82.5203680633405
     },
     {
       "symbol": "NQ=F",
-      "rsi": 82.5233028681148
+      "rsi": 76.73501995460346
     },
     {
       "symbol": "AXON",
@@ -49,7 +49,7 @@
     },
     {
       "symbol": "LRCX",
-      "rsi": 71.2581953334237
+      "rsi": 73.76689808158604
     },
     {
       "symbol": "AVGO",
@@ -76,10 +76,6 @@
       "rsi": 79.14606280022588
     },
     {
-      "symbol": "AAPL",
-      "rsi": 70.90844013303332
-    },
-    {
       "symbol": "SOXX",
       "rsi": 78.97574447466687
     },
@@ -99,7 +95,7 @@
     },
     {
       "symbol": "VGT",
-      "rsi": 23.731271222734605
+      "rsi": 23.333456759192032
     },
     {
       "symbol": "VUG",
@@ -113,7 +109,7 @@
   "high_volatility": [
     {
       "symbol": "MU",
-      "volatility": 6.754096271952267
+      "volatility": 6.525782683965773
     },
     {
       "symbol": "FIX",
@@ -125,7 +121,7 @@
     },
     {
       "symbol": "GOOGL",
-      "volatility": 1.7689992820244
+      "volatility": 1.730961796297031
     },
     {
       "symbol": "VDC",
@@ -137,7 +133,7 @@
     },
     {
       "symbol": "MSFT",
-      "volatility": 2.03110311818592
+      "volatility": 2.1714103938090004
     },
     {
       "symbol": "FSTA",
@@ -153,7 +149,7 @@
     },
     {
       "symbol": "LRCX",
-      "volatility": 3.608454944499758
+      "volatility": 3.4092593672089015
     },
     {
       "symbol": "AVGO",
@@ -184,12 +180,16 @@
       "volatility": 4.235852243872298
     },
     {
+      "symbol": "PLTR",
+      "volatility": 3.8543980286123456
+    },
+    {
       "symbol": "IONQ",
       "volatility": 6.7645484754529
     },
     {
       "symbol": "ASML",
-      "volatility": 3.2473569396433097
+      "volatility": 3.1740888097597195
     },
     {
       "symbol": "V",
@@ -201,7 +201,7 @@
     },
     {
       "symbol": "QUBT",
-      "volatility": 9.010050986009986
+      "volatility": 9.29557508459294
     },
     {
       "symbol": "AMD",
@@ -251,7 +251,7 @@
     },
     {
       "symbol": "VGT",
-      "volatility": 1.383578488582318
+      "volatility": 1.4664410898257556
     },
     {
       "symbol": "VUG",
