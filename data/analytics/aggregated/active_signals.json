@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T23:07:24.198612Z",
+  "generated_at": "2026-06-03T02:10:58.387693Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -16,8 +16,21 @@
       "macd": 9.887104331889361
     }
   ],
-  "macd_bearish_crosses": [],
+  "macd_bearish_crosses": [
+    {
+      "symbol": "NFLX",
+      "macd": -1.9072246539902267
+    },
+    {
+      "symbol": "SCHD",
+      "macd": 0.31806275012350227
+    }
+  ],
   "rsi_overbought": [
+    {
+      "symbol": "VIG",
+      "rsi": 70.34467451439355
+    },
     {
       "symbol": "MU",
       "rsi": 81.95290697571157
@@ -40,7 +53,11 @@
     },
     {
       "symbol": "CRWD",
-      "rsi": 87.7445085335063
+      "rsi": 83.48864069875141
+    },
+    {
+      "symbol": "TSM",
+      "rsi": 70.1138356085374
     },
     {
       "symbol": "SPY",
@@ -148,11 +165,11 @@
     },
     {
       "symbol": "CRWD",
-      "volatility": 3.0731862771645155
+      "volatility": 3.230244265624272
     },
     {
       "symbol": "TSM",
-      "volatility": 2.4862534963433367
+      "volatility": 2.529288819799974
     },
     {
       "symbol": "BTC-USD",
@@ -194,15 +211,19 @@
     },
     {
       "symbol": "NFLX",
-      "volatility": 1.620235426330361
+      "volatility": 1.6766913304459747
     },
     {
       "symbol": "META",
       "volatility": 1.7930677854807755
     },
     {
+      "symbol": "FENY",
+      "volatility": 1.644086487424579
+    },
+    {
       "symbol": "VIG",
-      "volatility": 0.6102491562425787
+      "volatility": 0.5764653741892883
     },
     {
       "symbol": "^VIX",
@@ -213,20 +234,12 @@
       "volatility": 1.2247014460745083
     },
     {
-      "symbol": "VYM",
-      "volatility": 0.7296273789163178
-    },
-    {
       "symbol": "SPLV",
       "volatility": 0.6518558332157294
     },
     {
-      "symbol": "MA",
-      "volatility": 1.0549705527095918
-    },
-    {
       "symbol": "DGRO",
-      "volatility": 0.6094194382341521
+      "volatility": 0.5745769417346278
     },
     {
       "symbol": "VGT",
@@ -243,6 +256,10 @@
     {
       "symbol": "SPY",
       "volatility": 0.6197263810365847
+    },
+    {
+      "symbol": "XLE",
+      "volatility": 1.6986569197402575
     },
     {
       "symbol": "VWO",
