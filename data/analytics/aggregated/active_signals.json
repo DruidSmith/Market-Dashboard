@@ -1,15 +1,11 @@
 {
-  "generated_at": "2026-06-03T02:10:58.387693Z",
+  "generated_at": "2026-06-03T07:24:27.004788Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
     {
       "symbol": "NQ=F",
       "macd": 778.0082442352177
-    },
-    {
-      "symbol": "VWO",
-      "macd": 0.5234977790183635
     },
     {
       "symbol": "AAPL",
@@ -38,6 +34,10 @@
     {
       "symbol": "NQ=F",
       "rsi": 82.5233028681148
+    },
+    {
+      "symbol": "AXON",
+      "rsi": 70.82599847051883
     },
     {
       "symbol": "LRCX",
@@ -108,10 +108,6 @@
   ],
   "high_volatility": [
     {
-      "symbol": "BND",
-      "volatility": 0.3406564758736783
-    },
-    {
       "symbol": "MU",
       "volatility": 6.754096271952267
     },
@@ -145,7 +141,7 @@
     },
     {
       "symbol": "AXON",
-      "volatility": 4.964574643776232
+      "volatility": 4.961943601526341
     },
     {
       "symbol": "XLP",
@@ -177,7 +173,7 @@
     },
     {
       "symbol": "EME",
-      "volatility": 1.5661579912431873
+      "volatility": 1.5547022078470816
     },
     {
       "symbol": "IONQ",
@@ -186,6 +182,10 @@
     {
       "symbol": "ASML",
       "volatility": 3.2473569396433097
+    },
+    {
+      "symbol": "V",
+      "volatility": 1.1039482054883978
     },
     {
       "symbol": "SOXX",
@@ -207,7 +207,7 @@
     },
     {
       "symbol": "VEA",
-      "volatility": 1.2102281573234595
+      "volatility": 1.178849384639672
     },
     {
       "symbol": "NFLX",
@@ -263,11 +263,15 @@
     },
     {
       "symbol": "VWO",
-      "volatility": 1.1565701062127711
+      "volatility": 1.1785689513407125
     },
     {
       "symbol": "JPM",
-      "volatility": 1.3490647018349884
+      "volatility": 1.357542406380129
+    },
+    {
+      "symbol": "VDE",
+      "volatility": 1.8657741664656173
     }
   ]
 }
