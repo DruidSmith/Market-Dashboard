@@ -1,14 +1,13 @@
 {
-  "generated_at": "2026-06-05T10:53:17.115081Z",
+  "generated_at": "2026-06-05T13:55:38.250963Z",
   "golden_crosses": [],
   "death_crosses": [],
-  "macd_bullish_crosses": [
-    {
-      "symbol": "JPM",
-      "macd": -0.6349124271580422
-    }
-  ],
+  "macd_bullish_crosses": [],
   "macd_bearish_crosses": [
+    {
+      "symbol": "VEA",
+      "macd": 0.8099962954845097
+    },
     {
       "symbol": "VTIP",
       "macd": 0.046949157486800175
@@ -22,6 +21,10 @@
       "macd": 8.761800274455766
     },
     {
+      "symbol": "VWO",
+      "macd": 0.4686655476304722
+    },
+    {
       "symbol": "QUBT",
       "macd": 0.6593233111813639
     },
@@ -32,16 +35,8 @@
   ],
   "rsi_overbought": [
     {
-      "symbol": "VIG",
-      "rsi": 70.77198424917668
-    },
-    {
       "symbol": "MU",
       "rsi": 73.2839379461182
-    },
-    {
-      "symbol": "AXON",
-      "rsi": 72.55025204478618
     },
     {
       "symbol": "QQQM",
@@ -113,7 +108,7 @@
     },
     {
       "symbol": "AXON",
-      "volatility": 4.992671724105125
+      "volatility": 4.588847906255449
     },
     {
       "symbol": "SCHD",
@@ -173,7 +168,7 @@
     },
     {
       "symbol": "V",
-      "volatility": 1.2167485121366957
+      "volatility": 1.2291567695338002
     },
     {
       "symbol": "SOXX",
@@ -195,7 +190,7 @@
     },
     {
       "symbol": "VEA",
-      "volatility": 0.9875874166979182
+      "volatility": 0.9835100030426773
     },
     {
       "symbol": "NFLX",
@@ -203,11 +198,11 @@
     },
     {
       "symbol": "FENY",
-      "volatility": 1.4508515592466502
+      "volatility": 1.4038706791587143
     },
     {
       "symbol": "VIG",
-      "volatility": 0.5624479324054732
+      "volatility": 0.5427395004928289
     },
     {
       "symbol": "^VIX",
@@ -219,7 +214,7 @@
     },
     {
       "symbol": "VYM",
-      "volatility": 0.750693276606102
+      "volatility": 0.7156189414332936
     },
     {
       "symbol": "VTIP",
@@ -251,11 +246,7 @@
     },
     {
       "symbol": "XLE",
-      "volatility": 1.4945020575471657
-    },
-    {
-      "symbol": "VWO",
-      "volatility": 1.0905380175402388
+      "volatility": 1.450087434330692
     },
     {
       "symbol": "VDE",
