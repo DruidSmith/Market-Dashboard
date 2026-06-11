@@ -1,23 +1,14 @@
 {
-  "generated_at": "2026-06-11T17:08:13.420327Z",
+  "generated_at": "2026-06-11T20:00:18.159811Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
     {
       "symbol": "MA",
       "macd": -4.196760060657027
-    },
-    {
-      "symbol": "SPLV",
-      "macd": -0.1748350558705738
     }
   ],
-  "macd_bearish_crosses": [
-    {
-      "symbol": "TSM",
-      "macd": 9.162208528112046
-    }
-  ],
+  "macd_bearish_crosses": [],
   "rsi_overbought": [],
   "rsi_oversold": [
     {
@@ -27,6 +18,10 @@
     {
       "symbol": "VGT",
       "rsi": 22.62112559655627
+    },
+    {
+      "symbol": "NFLX",
+      "rsi": 29.907833828371494
     },
     {
       "symbol": "MGK",
@@ -91,6 +86,10 @@
       "volatility": 3.574383795741537
     },
     {
+      "symbol": "VYM",
+      "volatility": 0.782162419551063
+    },
+    {
       "symbol": "INTC",
       "volatility": 4.698890204287679
     },
@@ -129,16 +128,8 @@
       "volatility": 0.9385851275261926
     },
     {
-      "symbol": "XLE",
-      "volatility": 1.439232963988647
-    },
-    {
       "symbol": "MGK",
       "volatility": 1.2792525347848889
-    },
-    {
-      "symbol": "FENY",
-      "volatility": 1.402513095731313
     }
   ]
 }
