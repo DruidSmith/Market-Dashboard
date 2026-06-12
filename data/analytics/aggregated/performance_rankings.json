@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T09:45:44.090173Z",
+  "generated_at": "2026-06-12T13:32:24.003117Z",
   "top_gainers_1d": [
     {
       "symbol": "HWM",
@@ -10,15 +10,15 @@
       "roc_1d": NaN
     },
     {
+      "symbol": "LRCX",
+      "roc_1d": 7.312934264957893
+    },
+    {
       "symbol": "ITA",
       "roc_1d": NaN
     },
     {
       "symbol": "XLP",
-      "roc_1d": NaN
-    },
-    {
-      "symbol": "GLD",
       "roc_1d": NaN
     }
   ],
@@ -26,6 +26,10 @@
     {
       "symbol": "VDE",
       "roc_1d": NaN
+    },
+    {
+      "symbol": "^VIX",
+      "roc_1d": -12.7170302786904
     },
     {
       "symbol": "MSFT",
@@ -36,12 +40,8 @@
       "roc_1d": -1.8277517582115266
     },
     {
-      "symbol": "META",
-      "roc_1d": -1.5662986783070099
-    },
-    {
-      "symbol": "IONQ",
-      "roc_1d": -1.1301419346233743
+      "symbol": "TSM",
+      "roc_1d": 0.17423112803238716
     }
   ],
   "top_gainers_5d": [
@@ -68,16 +68,16 @@
   ],
   "top_gainers_20d": [
     {
-      "symbol": "CRWD",
-      "roc_20d": 25.005649310023227
-    },
-    {
       "symbol": "ASML",
       "roc_20d": 20.10015511369254
     },
     {
       "symbol": "AXON",
       "roc_20d": 19.280892239891845
+    },
+    {
+      "symbol": "CRWD",
+      "roc_20d": 18.89757341621021
     },
     {
       "symbol": "LRCX",
@@ -98,38 +98,38 @@
       "rsi_14": 64.0173219650433
     },
     {
+      "symbol": "SCHD",
+      "rsi_14": 62.146834120596246
+    },
+    {
       "symbol": "CRWD",
-      "rsi_14": 62.96190557652372
+      "rsi_14": 62.03531639176471
     },
     {
       "symbol": "DGRO",
       "rsi_14": 61.72244176469141
-    },
-    {
-      "symbol": "SCHD",
-      "rsi_14": 61.109512151630355
     }
   ],
   "most_oversold": [
     {
       "symbol": "VUG",
-      "rsi_14": 16.53500658696335
-    },
-    {
-      "symbol": "MGK",
-      "rsi_14": 18.664487375500883
+      "rsi_14": 20.07846650322378
     },
     {
       "symbol": "VGT",
       "rsi_14": 22.62112559655627
     },
     {
-      "symbol": "NFLX",
-      "rsi_14": 29.907833828371494
+      "symbol": "MGK",
+      "rsi_14": 22.656827274675933
     },
     {
       "symbol": "GLD",
       "rsi_14": 30.145923581651587
+    },
+    {
+      "symbol": "NFLX",
+      "rsi_14": 30.789512391064008
     }
   ],
   "highest_volatility": [
@@ -143,7 +143,7 @@
     },
     {
       "symbol": "QUBT",
-      "volatility_20d": 8.650008613240242
+      "volatility_20d": 8.60471026344412
     },
     {
       "symbol": "AMD",
