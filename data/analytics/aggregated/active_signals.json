@@ -1,8 +1,16 @@
 {
-  "generated_at": "2026-06-17T07:37:03.343187Z",
+  "generated_at": "2026-06-17T12:22:39.166350Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
+    {
+      "symbol": "V",
+      "macd": 1.1147721312801764
+    },
+    {
+      "symbol": "VEA",
+      "macd": 0.5608096116120578
+    },
     {
       "symbol": "VWO",
       "macd": 0.29086652471120544
@@ -13,7 +21,12 @@
     }
   ],
   "macd_bearish_crosses": [],
-  "rsi_overbought": [],
+  "rsi_overbought": [
+    {
+      "symbol": "JPM",
+      "rsi": 73.505408628552
+    }
+  ],
   "rsi_oversold": [
     {
       "symbol": "VUG",
@@ -63,7 +76,7 @@
     },
     {
       "symbol": "AXON",
-      "volatility": 4.510606970471225
+      "volatility": 4.542301474297549
     },
     {
       "symbol": "IONQ",
@@ -76,6 +89,10 @@
     {
       "symbol": "ASML",
       "volatility": 3.499922466315671
+    },
+    {
+      "symbol": "JPM",
+      "volatility": 1.4228532068289772
     },
     {
       "symbol": "ETH-USD",
@@ -106,10 +123,6 @@
     {
       "symbol": "VGT",
       "volatility": 2.391412560687559
-    },
-    {
-      "symbol": "MA",
-      "volatility": 1.2803395624244267
     }
   ]
 }
