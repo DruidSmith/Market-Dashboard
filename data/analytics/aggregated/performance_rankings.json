@@ -1,6 +1,10 @@
 {
-  "generated_at": "2026-06-16T23:08:03.587203Z",
+  "generated_at": "2026-06-17T02:04:54.052356Z",
   "top_gainers_1d": [
+    {
+      "symbol": "HWM",
+      "roc_1d": 2.332564823818606
+    },
     {
       "symbol": "VUG",
       "roc_1d": NaN
@@ -10,52 +14,44 @@
       "roc_1d": NaN
     },
     {
-      "symbol": "QUBT",
-      "roc_1d": 10.72320003835625
+      "symbol": "SCHD",
+      "roc_1d": NaN
     },
     {
-      "symbol": "LRCX",
-      "roc_1d": 6.027648105640515
-    },
-    {
-      "symbol": "QQQM",
-      "roc_1d": 3.8964513447799387
+      "symbol": "AXON",
+      "roc_1d": 1.9141222235164346
     }
   ],
   "top_losers_1d": [
     {
+      "symbol": "QUBT",
+      "roc_1d": -8.828832993074954
+    },
+    {
       "symbol": "INTC",
       "roc_1d": -8.454557724848444
+    },
+    {
+      "symbol": "IONQ",
+      "roc_1d": -8.36874616924711
     },
     {
       "symbol": "AMD",
       "roc_1d": -7.3036583173364145
     },
     {
-      "symbol": "SOXX",
-      "roc_1d": -5.920919922012525
-    },
-    {
-      "symbol": "ASML",
-      "roc_1d": -4.690225287592364
-    },
-    {
-      "symbol": "AVGO",
-      "roc_1d": -4.373765263630691
+      "symbol": "MU",
+      "roc_1d": -6.179282996369051
     }
   ],
   "top_gainers_5d": [
     {
+      "symbol": "LRCX",
+      "roc_5d": 12.89277179472852
+    },
+    {
       "symbol": "HWM",
       "roc_5d": 11.292636491134678
-    },
-    {
-      "symbol": "VUG",
-      "roc_5d": NaN
-    },
-    {
-      "symbol": "LRCX",
-      "roc_5d": 21.139373294593966
     },
     {
       "symbol": "AMD",
@@ -63,40 +59,36 @@
     },
     {
       "symbol": "QUBT",
-      "roc_5d": 5.966586894885695
+      "roc_5d": 6.47027631471353
+    },
+    {
+      "symbol": "SCHD",
+      "roc_5d": NaN
     }
   ],
   "top_gainers_20d": [
     {
-      "symbol": "HWM",
-      "roc_20d": 8.547024075863252
-    },
-    {
-      "symbol": "VUG",
-      "roc_20d": NaN
-    },
-    {
       "symbol": "LRCX",
-      "roc_20d": 36.597362939128296
+      "roc_20d": 34.79561910141993
+    },
+    {
+      "symbol": "AMD",
+      "roc_20d": 22.54861543311368
     },
     {
       "symbol": "SCHD",
       "roc_20d": NaN
     },
     {
-      "symbol": "SOXX",
-      "roc_20d": 20.406892752032512
+      "symbol": "NFLX",
+      "roc_20d": NaN
+    },
+    {
+      "symbol": "TEM",
+      "roc_20d": 15.910138953106067
     }
   ],
   "most_overbought": [
-    {
-      "symbol": "LRCX",
-      "rsi_14": 73.1169850302572
-    },
-    {
-      "symbol": "MU",
-      "rsi_14": 67.49586187073697
-    },
     {
       "symbol": "JPM",
       "rsi_14": 66.90450082473279
@@ -106,8 +98,16 @@
       "rsi_14": 66.80866382350072
     },
     {
+      "symbol": "LRCX",
+      "rsi_14": 64.97781859947034
+    },
+    {
       "symbol": "CRWD",
       "rsi_14": 62.786887914318264
+    },
+    {
+      "symbol": "SCHD",
+      "rsi_14": 62.146834120596246
     }
   ],
   "most_oversold": [
@@ -121,7 +121,7 @@
     },
     {
       "symbol": "VGT",
-      "rsi_14": 29.743714802542257
+      "rsi_14": 28.627793986012392
     },
     {
       "symbol": "NFLX",
@@ -151,7 +151,7 @@
     },
     {
       "symbol": "QUBT",
-      "volatility_20d": 8.610963601138202
+      "volatility_20d": 8.569455478224949
     }
   ]
 }
