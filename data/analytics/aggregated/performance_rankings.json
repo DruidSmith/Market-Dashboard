@@ -1,9 +1,13 @@
 {
-  "generated_at": "2026-06-17T02:04:54.052356Z",
+  "generated_at": "2026-06-17T07:37:03.342165Z",
   "top_gainers_1d": [
     {
       "symbol": "HWM",
       "roc_1d": 2.332564823818606
+    },
+    {
+      "symbol": "META",
+      "roc_1d": 1.1339963815781395
     },
     {
       "symbol": "VUG",
@@ -14,18 +18,18 @@
       "roc_1d": NaN
     },
     {
-      "symbol": "SCHD",
-      "roc_1d": NaN
-    },
-    {
-      "symbol": "AXON",
-      "roc_1d": 1.9141222235164346
+      "symbol": "VEA",
+      "roc_1d": 1.2004987159130787
     }
   ],
   "top_losers_1d": [
     {
-      "symbol": "QUBT",
-      "roc_1d": -8.828832993074954
+      "symbol": "VDE",
+      "roc_1d": -1.1042045138631051
+    },
+    {
+      "symbol": "FENY",
+      "roc_1d": NaN
     },
     {
       "symbol": "INTC",
@@ -38,10 +42,6 @@
     {
       "symbol": "AMD",
       "roc_1d": -7.3036583173364145
-    },
-    {
-      "symbol": "MU",
-      "roc_1d": -6.179282996369051
     }
   ],
   "top_gainers_5d": [
@@ -54,15 +54,15 @@
       "roc_5d": 11.292636491134678
     },
     {
-      "symbol": "AMD",
-      "roc_5d": 6.684472999383617
-    },
-    {
-      "symbol": "QUBT",
-      "roc_5d": 6.47027631471353
+      "symbol": "DGRO",
+      "roc_5d": NaN
     },
     {
       "symbol": "SCHD",
+      "roc_5d": NaN
+    },
+    {
+      "symbol": "CRWD",
       "roc_5d": NaN
     }
   ],
@@ -76,26 +76,22 @@
       "roc_20d": 22.54861543311368
     },
     {
-      "symbol": "SCHD",
+      "symbol": "DGRO",
       "roc_20d": NaN
     },
     {
-      "symbol": "NFLX",
+      "symbol": "CRWD",
       "roc_20d": NaN
     },
     {
-      "symbol": "TEM",
-      "roc_20d": 15.910138953106067
+      "symbol": "MU",
+      "roc_20d": 52.53893136942378
     }
   ],
   "most_overbought": [
     {
       "symbol": "JPM",
       "rsi_14": 66.90450082473279
-    },
-    {
-      "symbol": "TSM",
-      "rsi_14": 66.80866382350072
     },
     {
       "symbol": "LRCX",
@@ -107,7 +103,11 @@
     },
     {
       "symbol": "SCHD",
-      "rsi_14": 62.146834120596246
+      "rsi_14": 62.14683412059625
+    },
+    {
+      "symbol": "DGRO",
+      "rsi_14": 62.02286603257781
     }
   ],
   "most_oversold": [
