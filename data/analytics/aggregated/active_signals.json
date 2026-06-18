@@ -1,11 +1,15 @@
 {
-  "generated_at": "2026-06-18T21:07:51.544576Z",
+  "generated_at": "2026-06-18T23:20:46.511451Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
     {
       "symbol": "SOXX",
       "macd": 30.787266172927502
+    },
+    {
+      "symbol": "VWO",
+      "macd": 0.33841080370525845
     },
     {
       "symbol": "EME",
@@ -20,18 +24,8 @@
       "macd": 10.288779627726456
     }
   ],
-  "macd_bearish_crosses": [
-    {
-      "symbol": "VWO",
-      "macd": 0.27635130551590237
-    }
-  ],
-  "rsi_overbought": [
-    {
-      "symbol": "JPM",
-      "rsi": 74.76540246532872
-    }
-  ],
+  "macd_bearish_crosses": [],
+  "rsi_overbought": [],
   "rsi_oversold": [
     {
       "symbol": "VUG",
@@ -40,10 +34,6 @@
     {
       "symbol": "NFLX",
       "rsi": 28.789308467739545
-    },
-    {
-      "symbol": "VTIP",
-      "rsi": 26.73397815818025
     },
     {
       "symbol": "MGK",
@@ -89,7 +79,7 @@
     },
     {
       "symbol": "AXON",
-      "volatility": 4.527687576530269
+      "volatility": 4.489292148319207
     },
     {
       "symbol": "IONQ",
@@ -105,7 +95,7 @@
     },
     {
       "symbol": "JPM",
-      "volatility": 1.397071219692815
+      "volatility": 1.5452436775085616
     },
     {
       "symbol": "INTC",
