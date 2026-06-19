@@ -1,8 +1,12 @@
 {
-  "generated_at": "2026-06-19T07:41:42.308583Z",
+  "generated_at": "2026-06-19T12:14:37.880662Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
+    {
+      "symbol": "NQ=F",
+      "macd": 371.5903593405819
+    },
     {
       "symbol": "SOXX",
       "macd": 30.787266172927502
@@ -20,7 +24,12 @@
       "macd": 10.288779627726456
     }
   ],
-  "macd_bearish_crosses": [],
+  "macd_bearish_crosses": [
+    {
+      "symbol": "^VIX",
+      "macd": -0.11943432434807022
+    }
+  ],
   "rsi_overbought": [],
   "rsi_oversold": [
     {
