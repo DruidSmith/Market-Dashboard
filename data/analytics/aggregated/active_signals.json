@@ -1,8 +1,13 @@
 {
-  "generated_at": "2026-06-23T18:24:16.514148Z",
+  "generated_at": "2026-06-23T20:36:38.393820Z",
   "golden_crosses": [],
   "death_crosses": [],
-  "macd_bullish_crosses": [],
+  "macd_bullish_crosses": [
+    {
+      "symbol": "^VIX",
+      "macd": 0.023303911504669372
+    }
+  ],
   "macd_bearish_crosses": [
     {
       "symbol": "NQ=F",
@@ -35,7 +40,7 @@
     },
     {
       "symbol": "AMD",
-      "volatility": 4.633153402210009
+      "volatility": 4.837428894715722
     },
     {
       "symbol": "QQQM",
@@ -51,11 +56,11 @@
     },
     {
       "symbol": "GOOGL",
-      "volatility": 1.8340336367822556
+      "volatility": 1.8376600086824995
     },
     {
       "symbol": "SOXX",
-      "volatility": 4.116121954543396
+      "volatility": 4.581682596081208
     },
     {
       "symbol": "IONQ",
@@ -63,11 +68,11 @@
     },
     {
       "symbol": "QQQ",
-      "volatility": 1.5620940543274806
+      "volatility": 1.737567294225689
     },
     {
       "symbol": "ASML",
-      "volatility": 3.34997790298879
+      "volatility": 3.8299811031179476
     },
     {
       "symbol": "JPM",
@@ -75,7 +80,7 @@
     },
     {
       "symbol": "INTC",
-      "volatility": 5.641484302420087
+      "volatility": 5.864550784706074
     },
     {
       "symbol": "AAPL",
@@ -84,10 +89,6 @@
     {
       "symbol": "MU",
       "volatility": 7.413616913835035
-    },
-    {
-      "symbol": "MSFT",
-      "volatility": 2.531765845674203
     }
   ],
   "low_volatility": [
