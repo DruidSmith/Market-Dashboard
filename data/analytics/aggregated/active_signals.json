@@ -1,8 +1,12 @@
 {
-  "generated_at": "2026-06-25T15:26:58.016366Z",
+  "generated_at": "2026-06-25T17:33:11.397882Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
+    {
+      "symbol": "MU",
+      "macd": 98.51786209612692
+    },
     {
       "symbol": "FSTA",
       "macd": -0.014234152914895049
@@ -12,14 +16,6 @@
     {
       "symbol": "VWO",
       "macd": 0.24257498581779657
-    },
-    {
-      "symbol": "ASML",
-      "macd": 74.72470261677881
-    },
-    {
-      "symbol": "MU",
-      "macd": 90.1026363894523
     }
   ],
   "rsi_overbought": [],
@@ -29,8 +25,12 @@
       "rsi": 22.183353536423795
     },
     {
+      "symbol": "PLTR",
+      "rsi": 27.021528141890585
+    },
+    {
       "symbol": "VGT",
-      "rsi": 29.90792213081754
+      "rsi": 29.59277657278841
     },
     {
       "symbol": "GLD",
@@ -56,7 +56,7 @@
     },
     {
       "symbol": "LRCX",
-      "volatility": 4.351142903685201
+      "volatility": 4.504330565153496
     },
     {
       "symbol": "AMD",
@@ -72,7 +72,7 @@
     },
     {
       "symbol": "GOOGL",
-      "volatility": 1.8852582044214172
+      "volatility": 1.9472211395417756
     },
     {
       "symbol": "SOXX",
@@ -92,7 +92,7 @@
     },
     {
       "symbol": "ASML",
-      "volatility": 3.847883310437344
+      "volatility": 3.908459486493106
     },
     {
       "symbol": "JPM",
@@ -104,11 +104,15 @@
     },
     {
       "symbol": "AAPL",
-      "volatility": 2.0270807548705236
+      "volatility": 2.3808123587819776
     },
     {
       "symbol": "MU",
-      "volatility": 6.919294047644023
+      "volatility": 7.591949740546609
+    },
+    {
+      "symbol": "MSFT",
+      "volatility": 2.9564208469378572
     },
     {
       "symbol": "BTC-USD",
@@ -118,7 +122,7 @@
   "low_volatility": [
     {
       "symbol": "VGT",
-      "volatility": 2.5568282717836412
+      "volatility": 2.5568263326061333
     }
   ]
 }
