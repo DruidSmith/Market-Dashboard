@@ -1,14 +1,23 @@
 {
-  "generated_at": "2026-06-26T16:23:03.456032Z",
+  "generated_at": "2026-06-26T18:12:32.643785Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
+    {
+      "symbol": "XLP",
+      "macd": 0.10840508941889482
+    },
     {
       "symbol": "MU",
       "macd": 98.51786209612692
     }
   ],
-  "macd_bearish_crosses": [],
+  "macd_bearish_crosses": [
+    {
+      "symbol": "ITA",
+      "macd": 3.1275259827610284
+    }
+  ],
   "rsi_overbought": [],
   "rsi_oversold": [
     {
@@ -22,10 +31,6 @@
     {
       "symbol": "VGT",
       "rsi": 29.59277657278841
-    },
-    {
-      "symbol": "GLD",
-      "rsi": 29.965719020702366
     },
     {
       "symbol": "NFLX",
