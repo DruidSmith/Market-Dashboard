@@ -1,8 +1,16 @@
 {
-  "generated_at": "2026-07-01T19:22:50.810226Z",
+  "generated_at": "2026-07-01T21:09:53.053148Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
+    {
+      "symbol": "META",
+      "macd": -10.11568718458625
+    },
+    {
+      "symbol": "AMZN",
+      "macd": -4.9058464348752295
+    },
     {
       "symbol": "DGRO",
       "macd": 0.4572553644583053
@@ -16,7 +24,12 @@
       "macd": -74.9528641618715
     }
   ],
-  "macd_bearish_crosses": [],
+  "macd_bearish_crosses": [
+    {
+      "symbol": "FIX",
+      "macd": 26.600819901346085
+    }
+  ],
   "rsi_overbought": [
     {
       "symbol": "V",
@@ -47,8 +60,12 @@
   ],
   "high_volatility": [
     {
+      "symbol": "META",
+      "volatility": 3.268781630367759
+    },
+    {
       "symbol": "AMZN",
-      "volatility": 2.2430391230904223
+      "volatility": 2.252300649176898
     },
     {
       "symbol": "V",
@@ -68,7 +85,7 @@
     },
     {
       "symbol": "SPY",
-      "volatility": 0.9567529136960219
+      "volatility": 0.9560793095509493
     },
     {
       "symbol": "GOOGL",
