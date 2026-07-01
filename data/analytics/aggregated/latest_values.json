@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T08:38:10.907780Z",
+  "generated_at": "2026-07-01T12:13:13.315949Z",
   "symbol_count": 55,
   "symbols": [
     {
@@ -281,24 +281,24 @@
       "symbol": "NQ=F",
       "category": "Market bull/bear indicator",
       "price": {
-        "close": 30533.5,
-        "open": 30007.25,
-        "high": 30562.75,
-        "low": 29934.75,
-        "volume": 365197
+        "close": 30355.75,
+        "open": 30505.75,
+        "high": 30553.75,
+        "low": 30299.0,
+        "volume": 84260
       },
       "moving_averages": {
         "sma_20": NaN,
         "sma_50": NaN,
         "sma_200": NaN,
-        "ema_12": 30029.67998380034,
-        "ema_26": 29849.07214454199
+        "ema_12": 30079.844601677207,
+        "ema_26": 29886.60383753888
       },
       "momentum": {
-        "rsi_14": 54.83221829097899,
-        "macd": 180.60783925834767,
-        "macd_signal": 250.74956870598632,
-        "macd_histogram": -70.14172944763865,
+        "rsi_14": 52.50496227716312,
+        "macd": 193.24076413832518,
+        "macd_signal": 239.2478077924541,
+        "macd_histogram": -46.00704365412892,
         "stochastic_k": null,
         "stochastic_d": null
       },
@@ -315,10 +315,10 @@
         "minus_di": null
       },
       "performance": {
-        "roc_1d": 2.7821725519237894,
-        "roc_5d": 1.3871479209383697,
-        "roc_20d": -0.1006077361623503,
-        "momentum_10": -254.5
+        "roc_1d": -0.5821474773609281,
+        "roc_5d": 2.039564355104373,
+        "roc_20d": 0.33134471418418965,
+        "momentum_10": 214.0
       },
       "signals": {
         "golden_cross": false,
@@ -1711,50 +1711,50 @@
       "symbol": "^VIX",
       "category": "Market volatility indicator",
       "price": {
-        "close": 16.56999969482422,
-        "open": 17.540000915527344,
-        "high": 17.75,
-        "low": 16.56999969482422,
+        "close": 16.760000228881836,
+        "open": 17.110000610351562,
+        "high": 17.190000534057617,
+        "low": 16.639999389648438,
         "volume": 0
       },
       "moving_averages": {
-        "sma_20": 18.32650022506714,
-        "sma_50": 17.854600219726564,
+        "sma_20": 18.350500202178956,
+        "sma_50": 17.809400215148926,
         "sma_200": NaN,
-        "ema_12": 18.18506179604959,
-        "ema_26": 18.13634855479628
+        "ema_12": 17.96582155494686,
+        "ema_26": 18.03439682695077
       },
       "momentum": {
-        "rsi_14": 44.192301048739715,
-        "macd": 0.04871324125331,
-        "macd_signal": 0.08168134709645261,
-        "macd_histogram": -0.03296810584314261,
+        "rsi_14": 44.96467539272994,
+        "macd": -0.06857527200390834,
+        "macd_signal": 0.05163002327638042,
+        "macd_histogram": -0.12020529528028875,
         "stochastic_k": null,
         "stochastic_d": null
       },
       "volatility": {
-        "atr_14": 1.5177979483605646,
-        "bb_upper": 21.482188736697765,
-        "bb_middle": 18.32650022506714,
-        "bb_lower": 15.170811713436514,
-        "volatility_20d": 9.358271574739604
+        "atr_14": 1.4536695834229099,
+        "bb_upper": 21.45037412901691,
+        "bb_middle": 18.350500202178956,
+        "bb_lower": 15.250626275341002,
+        "volatility_20d": 9.356762652438801
       },
       "trend": {
-        "adx": 21.706094788024824,
+        "adx": 20.279721094632333,
         "plus_di": null,
         "minus_di": null
       },
       "performance": {
-        "roc_1d": -9.404052130161055,
-        "roc_5d": -14.982042640252025,
-        "roc_20d": 3.304231602529506,
-        "momentum_10": 0.15999984741210938
+        "roc_1d": 1.1466538174829566,
+        "roc_5d": -12.708335609899535,
+        "roc_20d": 2.9484000122314002,
+        "momentum_10": -1.6800003051757812
       },
       "signals": {
         "golden_cross": false,
         "death_cross": false,
         "macd_bullish_cross": false,
-        "macd_bearish_cross": true,
+        "macd_bearish_cross": false,
         "rsi_overbought": false,
         "rsi_oversold": false,
         "price_above_sma_200": false,
