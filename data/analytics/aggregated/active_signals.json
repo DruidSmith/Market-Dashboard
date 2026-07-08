@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T13:09:58.584094Z",
+  "generated_at": "2026-07-08T15:52:28.985512Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -18,17 +18,22 @@
     {
       "symbol": "FENY",
       "macd": -0.61217410636106
+    },
+    {
+      "symbol": "VDE",
+      "macd": -2.5324093507466614
     }
   ],
-  "macd_bearish_crosses": [],
+  "macd_bearish_crosses": [
+    {
+      "symbol": "JPM",
+      "macd": 6.805516788069156
+    }
+  ],
   "rsi_overbought": [
     {
       "symbol": "DGRO",
       "rsi": 79.66985876221959
-    },
-    {
-      "symbol": "AXON",
-      "rsi": 78.37848616951811
     }
   ],
   "rsi_oversold": [
@@ -52,7 +57,7 @@
     },
     {
       "symbol": "V",
-      "volatility": 1.3204313223350277
+      "volatility": 1.3398701569037765
     },
     {
       "symbol": "LRCX",
@@ -71,6 +76,10 @@
       "volatility": 2.0603793733283218
     },
     {
+      "symbol": "VEA",
+      "volatility": 1.4620804045505547
+    },
+    {
       "symbol": "GOOGL",
       "volatility": 2.124233749257169
     },
@@ -80,7 +89,7 @@
     },
     {
       "symbol": "AXON",
-      "volatility": 4.82139280486288
+      "volatility": 5.034701074957195
     },
     {
       "symbol": "QQQ",
@@ -88,7 +97,7 @@
     },
     {
       "symbol": "MA",
-      "volatility": 1.3811139487366266
+      "volatility": 1.5930878265741046
     },
     {
       "symbol": "ASML",
@@ -96,7 +105,7 @@
     },
     {
       "symbol": "JPM",
-      "volatility": 1.2911749392787764
+      "volatility": 1.389812833728755
     },
     {
       "symbol": "INTC",
