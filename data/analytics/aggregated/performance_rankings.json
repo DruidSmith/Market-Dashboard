@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T12:12:48.523808Z",
+  "generated_at": "2026-07-13T15:25:07.217149Z",
   "top_gainers_1d": [
     {
       "symbol": "META",
@@ -10,16 +10,16 @@
       "roc_1d": 4.122022473713027
     },
     {
-      "symbol": "MSFT",
-      "roc_1d": 1.2257807126416997
+      "symbol": "VDE",
+      "roc_1d": 3.1672484277990742
     },
     {
-      "symbol": "GOOGL",
-      "roc_1d": 0.9656510675837282
+      "symbol": "HWM",
+      "roc_1d": 1.5347472274763962
     },
     {
-      "symbol": "VDC",
-      "roc_1d": 0.9459163869785625
+      "symbol": "MA",
+      "roc_1d": 1.5301662505266433
     }
   ],
   "top_losers_1d": [
@@ -62,19 +62,11 @@
       "roc_5d": 7.112513338400928
     },
     {
-      "symbol": "ETH-USD",
-      "roc_5d": 3.637031070588126
+      "symbol": "VDE",
+      "roc_5d": 5.867535616545538
     }
   ],
   "top_gainers_20d": [
-    {
-      "symbol": "META",
-      "roc_20d": 14.953901927314806
-    },
-    {
-      "symbol": "HWM",
-      "roc_20d": NaN
-    },
     {
       "symbol": "NQ=F",
       "roc_20d": NaN
@@ -86,6 +78,14 @@
     {
       "symbol": "AMD",
       "roc_20d": 21.75927510819964
+    },
+    {
+      "symbol": "META",
+      "roc_20d": 14.953901927314806
+    },
+    {
+      "symbol": "V",
+      "roc_20d": 10.96694000648517
     }
   ],
   "most_overbought": [
@@ -94,20 +94,20 @@
       "rsi_14": 68.28910678880722
     },
     {
+      "symbol": "V",
+      "rsi_14": 65.25044913586271
+    },
+    {
       "symbol": "META",
       "rsi_14": 65.0134479526146
     },
     {
+      "symbol": "MA",
+      "rsi_14": 63.58167047220095
+    },
+    {
       "symbol": "AAPL",
       "rsi_14": 62.745344470047364
-    },
-    {
-      "symbol": "VIG",
-      "rsi_14": 61.97585333499968
-    },
-    {
-      "symbol": "JPM",
-      "rsi_14": 61.857082068366964
     }
   ],
   "most_oversold": [
@@ -117,26 +117,22 @@
     },
     {
       "symbol": "VTIP",
-      "rsi_14": 28.976145628845003
+      "rsi_14": 28.65998287729026
     },
     {
       "symbol": "IONQ",
       "rsi_14": 34.71927893178693
     },
     {
-      "symbol": "VUG",
-      "rsi_14": 37.47279405544736
+      "symbol": "BND",
+      "rsi_14": 36.028845059773694
     },
     {
-      "symbol": "VGT",
-      "rsi_14": 39.03306202614013
+      "symbol": "VUG",
+      "rsi_14": 37.47279405544736
     }
   ],
   "highest_volatility": [
-    {
-      "symbol": "HWM",
-      "volatility_20d": NaN
-    },
     {
       "symbol": "VUG",
       "volatility_20d": NaN
@@ -152,6 +148,10 @@
     {
       "symbol": "LRCX",
       "volatility_20d": 5.815119649201704
+    },
+    {
+      "symbol": "QUBT",
+      "volatility_20d": 5.629601712062483
     }
   ]
 }
