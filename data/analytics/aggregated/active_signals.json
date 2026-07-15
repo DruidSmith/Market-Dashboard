@@ -1,12 +1,17 @@
 {
-  "generated_at": "2026-07-15T17:50:20.498217Z",
+  "generated_at": "2026-07-15T19:21:40.824200Z",
   "golden_crosses": [],
   "death_crosses": [],
-  "macd_bullish_crosses": [],
+  "macd_bullish_crosses": [
+    {
+      "symbol": "JPM",
+      "macd": 6.825236950578983
+    }
+  ],
   "macd_bearish_crosses": [
     {
-      "symbol": "VIG",
-      "macd": 1.461319742874565
+      "symbol": "DGRO",
+      "macd": 0.5914454965666636
     },
     {
       "symbol": "TEM",
@@ -15,10 +20,6 @@
     {
       "symbol": "SPLV",
       "macd": 0.6554204650743998
-    },
-    {
-      "symbol": "AXON",
-      "macd": 37.16014233747205
     }
   ],
   "rsi_overbought": [],
@@ -43,11 +44,11 @@
     },
     {
       "symbol": "MA",
-      "volatility": 1.5698338254889752
+      "volatility": 1.5737677792417581
     },
     {
       "symbol": "JPM",
-      "volatility": 1.4593309552406444
+      "volatility": 1.4738030475749406
     },
     {
       "symbol": "META",
@@ -55,15 +56,11 @@
     },
     {
       "symbol": "V",
-      "volatility": 1.2729009563246565
+      "volatility": 1.2730847940053565
     },
     {
       "symbol": "PLTR",
       "volatility": 3.816235899479343
-    },
-    {
-      "symbol": "VEA",
-      "volatility": 1.2805070501520366
     },
     {
       "symbol": "LRCX",
@@ -83,7 +80,7 @@
     },
     {
       "symbol": "AXON",
-      "volatility": 5.013469272729563
+      "volatility": 5.073488586077025
     }
   ],
   "low_volatility": [
