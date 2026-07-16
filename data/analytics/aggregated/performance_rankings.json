@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T16:23:19.554945Z",
+  "generated_at": "2026-07-16T17:48:33.225229Z",
   "top_gainers_1d": [
     {
       "symbol": "ASML",
@@ -10,16 +10,16 @@
       "roc_1d": 3.9777854565407056
     },
     {
+      "symbol": "MA",
+      "roc_1d": 2.0745969329176495
+    },
+    {
       "symbol": "SCHD",
       "roc_1d": 1.9162384195846371
     },
     {
       "symbol": "META",
       "roc_1d": 1.8234477241267477
-    },
-    {
-      "symbol": "AAPL",
-      "roc_1d": 1.2912820763757438
     }
   ],
   "top_losers_1d": [
@@ -68,15 +68,7 @@
   ],
   "top_gainers_20d": [
     {
-      "symbol": "VYM",
-      "roc_20d": NaN
-    },
-    {
-      "symbol": "META",
-      "roc_20d": 12.674400858285061
-    },
-    {
-      "symbol": "VIG",
+      "symbol": "DGRO",
       "roc_20d": NaN
     },
     {
@@ -84,30 +76,38 @@
       "roc_20d": 21.576771185616362
     },
     {
+      "symbol": "META",
+      "roc_20d": 12.674400858285061
+    },
+    {
+      "symbol": "TEM",
+      "roc_20d": 9.422783512866651
+    },
+    {
       "symbol": "V",
-      "roc_20d": 9.814103930986494
+      "roc_20d": 8.550977511608071
     }
   ],
   "most_overbought": [
+    {
+      "symbol": "V",
+      "rsi_14": 70.35689268826934
+    },
     {
       "symbol": "AAPL",
       "rsi_14": 70.24876184977455
     },
     {
-      "symbol": "JPM",
-      "rsi_14": 68.19805105358506
+      "symbol": "MA",
+      "rsi_14": 68.13398514717701
     },
     {
-      "symbol": "V",
-      "rsi_14": 67.56438316880916
+      "symbol": "DGRO",
+      "rsi_14": 66.20995708428589
     },
     {
       "symbol": "META",
       "rsi_14": 65.08362392851362
-    },
-    {
-      "symbol": "ETH-USD",
-      "rsi_14": 65.02790338875866
     }
   ],
   "most_oversold": [
@@ -138,20 +138,20 @@
       "volatility_20d": NaN
     },
     {
-      "symbol": "VYM",
+      "symbol": "FENY",
       "volatility_20d": NaN
     },
     {
-      "symbol": "VIG",
-      "volatility_20d": NaN
+      "symbol": "MU",
+      "volatility_20d": 6.935328801308396
     },
     {
       "symbol": "^VIX",
       "volatility_20d": 6.710352712896823
     },
     {
-      "symbol": "AMD",
-      "volatility_20d": 4.770036800808101
+      "symbol": "LRCX",
+      "volatility_20d": 5.593545298238513
     }
   ]
 }

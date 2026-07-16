@@ -1,12 +1,8 @@
 {
-  "generated_at": "2026-07-16T16:23:19.555762Z",
+  "generated_at": "2026-07-16T17:48:33.226371Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
-    {
-      "symbol": "JPM",
-      "macd": 6.825236950578983
-    },
     {
       "symbol": "VGK",
       "macd": 0.138484706036607
@@ -22,10 +18,6 @@
   ],
   "macd_bearish_crosses": [
     {
-      "symbol": "DGRO",
-      "macd": 0.5914454965666636
-    },
-    {
       "symbol": "VDC",
       "macd": -0.06022917757780988
     },
@@ -39,6 +31,10 @@
     }
   ],
   "rsi_overbought": [
+    {
+      "symbol": "V",
+      "rsi": 70.35689268826934
+    },
     {
       "symbol": "AAPL",
       "rsi": 70.24876184977455
@@ -61,11 +57,11 @@
     },
     {
       "symbol": "MA",
-      "volatility": 1.5737677792417581
+      "volatility": 1.564886071913232
     },
     {
       "symbol": "JPM",
-      "volatility": 1.4738030475749406
+      "volatility": 1.3546308159691371
     },
     {
       "symbol": "META",
@@ -73,7 +69,7 @@
     },
     {
       "symbol": "V",
-      "volatility": 1.2730847940053565
+      "volatility": 1.2070933187308643
     },
     {
       "symbol": "PLTR",
@@ -97,7 +93,7 @@
     },
     {
       "symbol": "AXON",
-      "volatility": 5.073488586077025
+      "volatility": 5.0240758386472715
     }
   ],
   "low_volatility": [
