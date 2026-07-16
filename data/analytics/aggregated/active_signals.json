@@ -1,67 +1,55 @@
 {
-  "generated_at": "2026-07-16T10:31:13.412883Z",
+  "generated_at": "2026-07-16T12:06:42.795583Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
     {
-      "symbol": "JPM",
-      "macd": 6.825236950578983
+      "symbol": "HWM",
+      "macd": 3.2366846129902456
     },
     {
       "symbol": "VGK",
       "macd": 0.138484706036607
     },
     {
-      "symbol": "HWM",
-      "macd": 3.2366846129902456
+      "symbol": "JPM",
+      "macd": 6.825236950578983
     }
   ],
   "macd_bearish_crosses": [
-    {
-      "symbol": "DGRO",
-      "macd": 0.5914454965666636
-    },
     {
       "symbol": "VDC",
       "macd": -0.06022917757780988
     },
     {
-      "symbol": "FSTA",
-      "macd": -0.009304963069496353
+      "symbol": "XLP",
+      "macd": 0.01766927423341258
+    },
+    {
+      "symbol": "DGRO",
+      "macd": 0.5914454965666636
     },
     {
       "symbol": "SPLV",
       "macd": 0.6554204650743998
     },
     {
-      "symbol": "XLP",
-      "macd": 0.01766927423341258
+      "symbol": "FSTA",
+      "macd": -0.009304963069496353
     }
   ],
   "rsi_overbought": [],
   "rsi_oversold": [
     {
-      "symbol": "IONQ",
-      "rsi": 29.724859491646015
-    },
-    {
       "symbol": "CRWD",
       "rsi": 23.329629641845543
+    },
+    {
+      "symbol": "IONQ",
+      "rsi": 29.724859491646015
     }
   ],
   "high_volatility": [
-    {
-      "symbol": "ASML",
-      "volatility": 4.143212876675397
-    },
-    {
-      "symbol": "MA",
-      "volatility": 1.5737677792417581
-    },
-    {
-      "symbol": "JPM",
-      "volatility": 1.4738030475749406
-    },
     {
       "symbol": "META",
       "volatility": 3.5357390709206897
@@ -71,12 +59,12 @@
       "volatility": 1.2730847940053565
     },
     {
-      "symbol": "PLTR",
-      "volatility": 3.816235899479343
-    },
-    {
       "symbol": "LRCX",
       "volatility": 5.683110532517531
+    },
+    {
+      "symbol": "PLTR",
+      "volatility": 3.816235899479343
     },
     {
       "symbol": "AMD",
@@ -87,34 +75,46 @@
       "volatility": 4.444415579772224
     },
     {
-      "symbol": "AAPL",
-      "volatility": 2.2011712983599847
-    },
-    {
       "symbol": "AXON",
       "volatility": 5.073488586077025
+    },
+    {
+      "symbol": "MA",
+      "volatility": 1.5737677792417581
+    },
+    {
+      "symbol": "ASML",
+      "volatility": 4.143212876675397
+    },
+    {
+      "symbol": "JPM",
+      "volatility": 1.4738030475749406
+    },
+    {
+      "symbol": "AAPL",
+      "volatility": 2.2011712983599847
     }
   ],
   "low_volatility": [
     {
-      "symbol": "BTC-USD",
-      "volatility": 2.108923699027742
-    },
-    {
-      "symbol": "ETH-USD",
-      "volatility": 2.121518302592971
-    },
-    {
       "symbol": "VGT",
       "volatility": 1.9597124312051657
+    },
+    {
+      "symbol": "QUBT",
+      "volatility": 5.103067919587262
     },
     {
       "symbol": "IONQ",
       "volatility": 4.845020470751547
     },
     {
-      "symbol": "QUBT",
-      "volatility": 5.103067919587262
+      "symbol": "ETH-USD",
+      "volatility": 2.121518302592971
+    },
+    {
+      "symbol": "BTC-USD",
+      "volatility": 2.1600856127442465
     }
   ]
 }
