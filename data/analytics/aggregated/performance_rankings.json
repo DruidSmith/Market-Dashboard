@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T14:35:59.942788Z",
+  "generated_at": "2026-07-16T16:23:19.554945Z",
   "top_gainers_1d": [
     {
       "symbol": "ASML",
@@ -10,48 +10,44 @@
       "roc_1d": 3.9777854565407056
     },
     {
+      "symbol": "SCHD",
+      "roc_1d": 1.9162384195846371
+    },
+    {
       "symbol": "META",
       "roc_1d": 1.8234477241267477
     },
     {
       "symbol": "AAPL",
       "roc_1d": 1.2912820763757438
-    },
-    {
-      "symbol": "JPM",
-      "roc_1d": 1.283208524166457
     }
   ],
   "top_losers_1d": [
+    {
+      "symbol": "IONQ",
+      "roc_1d": -6.332811600560584
+    },
+    {
+      "symbol": "QUBT",
+      "roc_1d": -5.253401516919764
+    },
     {
       "symbol": "AMD",
       "roc_1d": -3.8678552550593603
     },
     {
-      "symbol": "IONQ",
-      "roc_1d": -3.2555670282235827
+      "symbol": "TSM",
+      "roc_1d": -3.084240121600468
     },
     {
       "symbol": "MU",
       "roc_1d": -2.8789358605907034
-    },
-    {
-      "symbol": "INTC",
-      "roc_1d": -2.4527774838155936
-    },
-    {
-      "symbol": "SOXX",
-      "roc_1d": -2.3248855048226713
     }
   ],
   "top_gainers_5d": [
     {
       "symbol": "META",
       "roc_5d": 11.050226190728374
-    },
-    {
-      "symbol": "CRWD",
-      "roc_5d": 8.403096467612592
     },
     {
       "symbol": "GOOGL",
@@ -64,13 +60,13 @@
     {
       "symbol": "ETH-USD",
       "roc_5d": 5.0616806949726145
+    },
+    {
+      "symbol": "AMZN",
+      "roc_5d": 4.739182238639095
     }
   ],
   "top_gainers_20d": [
-    {
-      "symbol": "JPM",
-      "roc_20d": 8.136132950821517
-    },
     {
       "symbol": "VYM",
       "roc_20d": NaN
@@ -86,6 +82,10 @@
     {
       "symbol": "ETH-USD",
       "roc_20d": 21.576771185616362
+    },
+    {
+      "symbol": "V",
+      "roc_20d": 9.814103930986494
     }
   ],
   "most_overbought": [
@@ -113,23 +113,23 @@
   "most_oversold": [
     {
       "symbol": "CRWD",
-      "rsi_14": 23.329629641845543
+      "rsi_14": 23.19415453950971
     },
     {
       "symbol": "IONQ",
-      "rsi_14": 29.724859491646015
+      "rsi_14": 27.45331041260374
     },
     {
       "symbol": "VTIP",
       "rsi_14": 30.062643342558857
     },
     {
-      "symbol": "VGT",
-      "rsi_14": 36.877744485205355
+      "symbol": "QUBT",
+      "rsi_14": 36.36599355721062
     },
     {
-      "symbol": "QUBT",
-      "rsi_14": 39.01230020355323
+      "symbol": "VGT",
+      "rsi_14": 36.877744485205355
     }
   ],
   "highest_volatility": [
@@ -146,12 +146,12 @@
       "volatility_20d": NaN
     },
     {
-      "symbol": "NFLX",
-      "volatility_20d": NaN
+      "symbol": "^VIX",
+      "volatility_20d": 6.710352712896823
     },
     {
-      "symbol": "TEM",
-      "volatility_20d": 4.44890039052101
+      "symbol": "AMD",
+      "volatility_20d": 4.770036800808101
     }
   ]
 }
