@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-17T11:08:39.429014Z",
+  "timestamp": "2026-07-17T12:45:43.055111Z",
   "risk_score": 5,
   "max_score": 10,
   "overall_status": "WARNING",
@@ -17,11 +17,11 @@
       "interpretation": "P/E of 27.0 approaching historical crash threshold of 30"
     },
     "treasury_30y": {
-      "value": 5.0980000495910645,
+      "value": 5.057000160217285,
       "threshold": 4.5,
       "status": "danger",
       "signal": "SHIFT TO FIXED INCOME",
-      "interpretation": "30Y yield at 5.10% EXCEEDS threshold of 4.5%"
+      "interpretation": "30Y yield at 5.06% EXCEEDS threshold of 4.5%"
     },
     "nyse_new_highs": {
       "value": null,
