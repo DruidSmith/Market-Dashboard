@@ -1,6 +1,10 @@
 {
-  "generated_at": "2026-07-17T09:28:52.524018Z",
+  "generated_at": "2026-07-17T11:08:39.174207Z",
   "top_gainers_1d": [
+    {
+      "symbol": "^VIX",
+      "roc_1d": 13.425347551177879
+    },
     {
       "symbol": "ASML",
       "roc_1d": 4.097074303828441
@@ -16,10 +20,6 @@
     {
       "symbol": "VDC",
       "roc_1d": 2.4763678876978945
-    },
-    {
-      "symbol": "MA",
-      "roc_1d": 2.0745969329176495
     }
   ],
   "top_losers_1d": [
@@ -46,6 +46,10 @@
   ],
   "top_gainers_5d": [
     {
+      "symbol": "^VIX",
+      "roc_5d": 12.71819757942727
+    },
+    {
       "symbol": "GOOGL",
       "roc_5d": 5.912837933367232
     },
@@ -60,10 +64,6 @@
     {
       "symbol": "MA",
       "roc_5d": 4.6674278173550965
-    },
-    {
-      "symbol": "MSFT",
-      "roc_5d": 4.224507782813647
     }
   ],
   "top_gainers_20d": [
@@ -138,20 +138,20 @@
       "volatility_20d": NaN
     },
     {
+      "symbol": "^VIX",
+      "volatility_20d": 7.365441544081339
+    },
+    {
+      "symbol": "LRCX",
+      "volatility_20d": 5.593545298238513
+    },
+    {
       "symbol": "FENY",
       "volatility_20d": NaN
     },
     {
       "symbol": "MU",
       "volatility_20d": 6.935328801308396
-    },
-    {
-      "symbol": "^VIX",
-      "volatility_20d": 6.710352712896823
-    },
-    {
-      "symbol": "LRCX",
-      "volatility_20d": 5.593545298238513
     }
   ]
 }

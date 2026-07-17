@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T09:28:52.371756Z",
+  "generated_at": "2026-07-17T11:08:39.035533Z",
   "symbol_count": 55,
   "symbols": [
     {
@@ -1051,33 +1051,33 @@
       "symbol": "NQ=F",
       "category": "Market bull/bear indicator",
       "price": {
-        "close": 29431.5,
-        "open": 29709.0,
-        "high": 29797.0,
-        "low": 29255.5,
-        "volume": 201281
+        "close": 28800.5,
+        "open": 29191.0,
+        "high": 29220.0,
+        "low": 28550.0,
+        "volume": 123619
       },
       "moving_averages": {
-        "sma_20": 29848.8625,
+        "sma_20": 29759.6375,
         "sma_50": NaN,
         "sma_200": NaN,
-        "ema_12": 29673.429089384972,
-        "ema_26": 29732.04780231994
+        "ema_12": 29539.132306402666,
+        "ema_26": 29663.044261407354
       },
       "momentum": {
-        "rsi_14": 44.27166616756882,
-        "macd": -58.618712934967334,
-        "macd_signal": 9.410500106735448,
-        "macd_histogram": -68.02921304170277,
+        "rsi_14": 37.84903825735017,
+        "macd": -123.91195500468893,
+        "macd_signal": -17.25399091554943,
+        "macd_histogram": -106.65796408913951,
         "stochastic_k": null,
         "stochastic_d": null
       },
       "volatility": {
         "atr_14": NaN,
-        "bb_upper": 30697.803567963554,
-        "bb_middle": 29848.8625,
-        "bb_lower": 28999.921432036444,
-        "volatility_20d": 1.3732091192628815
+        "bb_upper": 30654.22658828305,
+        "bb_middle": 29759.6375,
+        "bb_lower": 28865.04841171695,
+        "volatility_20d": 1.439906100127738
       },
       "trend": {
         "adx": NaN,
@@ -1085,10 +1085,10 @@
         "minus_di": null
       },
       "performance": {
-        "roc_1d": -0.5028693131396755,
-        "roc_5d": -1.4861675955214149,
-        "roc_20d": -3.7321121923297063,
-        "momentum_10": -297.75
+        "roc_1d": -2.1439614018993303,
+        "roc_5d": -3.38887817314224,
+        "roc_20d": -5.83455942455452,
+        "momentum_10": -1118.25
       },
       "signals": {
         "golden_cross": false,
@@ -1986,49 +1986,49 @@
       "symbol": "^VIX",
       "category": "Market volatility indicator",
       "price": {
-        "close": 15.9399995803833,
-        "open": 15.819999694824219,
-        "high": 16.540000915527344,
-        "low": 15.770000457763672,
+        "close": 18.079999923706055,
+        "open": 18.010000228881836,
+        "high": 18.690000534057617,
+        "low": 17.8799991607666,
         "volume": 0
       },
       "moving_averages": {
-        "sma_20": 17.23400011062622,
-        "sma_50": 17.482400131225585,
+        "sma_20": 17.2810001373291,
+        "sma_50": 17.49780014038086,
         "sma_200": NaN,
-        "ema_12": 16.657484316316538,
-        "ema_26": 17.12776331228075
+        "ema_12": 16.87633287129954,
+        "ema_26": 17.19829935757151
       },
       "momentum": {
-        "rsi_14": 44.72177525457784,
-        "macd": -0.4702789959642111,
-        "macd_signal": -0.3689908772429711,
-        "macd_histogram": -0.10128811872124,
+        "rsi_14": 53.393606988990335,
+        "macd": -0.3219664862719718,
+        "macd_signal": -0.35958599904877125,
+        "macd_histogram": 0.03761951277679948,
         "stochastic_k": null,
         "stochastic_d": null
       },
       "volatility": {
-        "atr_14": 1.3134100538911861,
-        "bb_upper": 19.819717857773938,
-        "bb_middle": 17.23400011062622,
-        "bb_lower": 14.6482823634785,
-        "volatility_20d": 6.710352712896823
+        "atr_14": 1.4160236895899811,
+        "bb_upper": 19.892221339661784,
+        "bb_middle": 17.2810001373291,
+        "bb_lower": 14.669778934996419,
+        "volatility_20d": 7.365441544081339
       },
       "trend": {
-        "adx": 16.682191061253775,
+        "adx": 17.914147628940434,
         "plus_di": null,
         "minus_di": null
       },
       "performance": {
-        "roc_1d": -1.0552515426909825,
-        "roc_5d": -1.6049454957493214,
-        "roc_20d": -6.838112146298869,
-        "momentum_10": -0.6700010299682617
+        "roc_1d": 13.425347551177879,
+        "roc_5d": 12.71819757942727,
+        "roc_20d": 5.484250685710768,
+        "momentum_10": 2.2699995040893555
       },
       "signals": {
         "golden_cross": false,
         "death_cross": false,
-        "macd_bullish_cross": false,
+        "macd_bullish_cross": true,
         "macd_bearish_cross": false,
         "rsi_overbought": false,
         "rsi_oversold": false,
