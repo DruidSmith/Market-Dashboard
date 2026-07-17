@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T20:29:43.375351Z",
+  "generated_at": "2026-07-17T21:26:55.254794Z",
   "top_gainers_1d": [
     {
       "symbol": "^VIX",
@@ -10,22 +10,26 @@
       "roc_1d": 2.2247062558966357
     },
     {
-      "symbol": "SCHD",
-      "roc_1d": 1.9162384195846371
-    },
-    {
       "symbol": "ITA",
       "roc_1d": 1.7648501492142366
     },
     {
       "symbol": "QUBT",
       "roc_1d": 1.7612554410137093
+    },
+    {
+      "symbol": "XLE",
+      "roc_1d": 1.1670777832042845
     }
   ],
   "top_losers_1d": [
     {
       "symbol": "GOOGL",
       "roc_1d": -7.747096011932541
+    },
+    {
+      "symbol": "NFLX",
+      "roc_1d": -6.337025131971485
     },
     {
       "symbol": "ASML",
@@ -38,16 +42,16 @@
     {
       "symbol": "ETH-USD",
       "roc_1d": -3.2622085997101813
-    },
-    {
-      "symbol": "TSM",
-      "roc_1d": -3.084240121600468
     }
   ],
   "top_gainers_5d": [
     {
       "symbol": "^VIX",
       "roc_5d": 12.71819757942727
+    },
+    {
+      "symbol": "CRWD",
+      "roc_5d": 8.494502498893786
     },
     {
       "symbol": "AAPL",
@@ -60,13 +64,13 @@
     {
       "symbol": "XLE",
       "roc_5d": 4.656860097021287
-    },
-    {
-      "symbol": "FENY",
-      "roc_5d": 4.444440150486062
     }
   ],
   "top_gainers_20d": [
+    {
+      "symbol": "AXON",
+      "roc_20d": 23.01836667438124
+    },
     {
       "symbol": "ETH-USD",
       "roc_20d": 15.591347740370388
@@ -80,12 +84,8 @@
       "roc_20d": 12.769040874682535
     },
     {
-      "symbol": "XLE",
-      "roc_20d": 5.441745726101521
-    },
-    {
-      "symbol": "CRWD",
-      "roc_20d": NaN
+      "symbol": "MA",
+      "roc_20d": 10.170594868386718
     }
   ],
   "most_overbought": [
@@ -113,11 +113,15 @@
   "most_oversold": [
     {
       "symbol": "CRWD",
-      "rsi_14": 23.19415453950971
+      "rsi_14": 23.107225794225897
     },
     {
       "symbol": "IONQ",
       "rsi_14": 26.924845261580458
+    },
+    {
+      "symbol": "NFLX",
+      "rsi_14": 30.72347671628073
     },
     {
       "symbol": "EME",
@@ -126,13 +130,13 @@
     {
       "symbol": "VUG",
       "rsi_14": 35.02610361248986
-    },
-    {
-      "symbol": "VGT",
-      "rsi_14": 35.11709142200351
     }
   ],
   "highest_volatility": [
+    {
+      "symbol": "CRWD",
+      "volatility_20d": 17.363443387990685
+    },
     {
       "symbol": "^VIX",
       "volatility_20d": 7.365441544081339
@@ -144,10 +148,6 @@
     {
       "symbol": "LRCX",
       "volatility_20d": 5.6403963753707895
-    },
-    {
-      "symbol": "CRWD",
-      "volatility_20d": NaN
     },
     {
       "symbol": "INTC",
