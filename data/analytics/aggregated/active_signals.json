@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T14:53:17.284164Z",
+  "generated_at": "2026-07-20T15:16:12.851552Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -8,16 +8,25 @@
       "macd": 0.6474319926301604
     }
   ],
-  "macd_bearish_crosses": [],
+  "macd_bearish_crosses": [
+    {
+      "symbol": "NFLX",
+      "macd": -2.6892109392849903
+    }
+  ],
   "rsi_overbought": [],
   "rsi_oversold": [
     {
+      "symbol": "NFLX",
+      "rsi": 28.66284465312515
+    },
+    {
       "symbol": "IONQ",
-      "rsi": 26.924845261580458
+      "rsi": 26.6155748552939
     },
     {
       "symbol": "CRWD",
-      "rsi": 23.107225794225897
+      "rsi": 23.077588258546996
     }
   ],
   "high_volatility": [
@@ -73,15 +82,15 @@
     },
     {
       "symbol": "VGT",
-      "volatility": 1.911342885148067
+      "volatility": 1.7995004580497929
     },
     {
       "symbol": "IONQ",
-      "volatility": 4.731339010980523
+      "volatility": 4.716604276867249
     },
     {
       "symbol": "QUBT",
-      "volatility": 4.904817415814509
+      "volatility": 4.562056272760466
     }
   ]
 }
