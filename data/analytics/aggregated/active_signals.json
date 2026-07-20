@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-07-20T15:16:12.851552Z",
+  "generated_at": "2026-07-20T16:59:31.141029Z",
   "golden_crosses": [],
   "death_crosses": [],
-  "macd_bullish_crosses": [
+  "macd_bullish_crosses": [],
+  "macd_bearish_crosses": [
     {
       "symbol": "DGRO",
-      "macd": 0.6474319926301604
-    }
-  ],
-  "macd_bearish_crosses": [
+      "macd": 0.5972588381405899
+    },
+    {
+      "symbol": "JPM",
+      "macd": 6.563057996714122
+    },
+    {
+      "symbol": "VYM",
+      "macd": 0.6386423086646005
+    },
     {
       "symbol": "NFLX",
       "macd": -2.6892109392849903
@@ -35,12 +42,8 @@
       "volatility": 4.087173688978171
     },
     {
-      "symbol": "MA",
-      "volatility": 1.5153825788744808
-    },
-    {
       "symbol": "JPM",
-      "volatility": 1.3495263520556393
+      "volatility": 1.2524488159341225
     },
     {
       "symbol": "META",
@@ -52,7 +55,7 @@
     },
     {
       "symbol": "V",
-      "volatility": 1.2077805022957884
+      "volatility": 1.16646740782309
     },
     {
       "symbol": "LRCX",
@@ -68,7 +71,7 @@
     },
     {
       "symbol": "AXON",
-      "volatility": 5.029794815106825
+      "volatility": 5.03930576498474
     }
   ],
   "low_volatility": [
