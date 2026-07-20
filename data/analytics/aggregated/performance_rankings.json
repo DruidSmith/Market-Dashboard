@@ -1,9 +1,13 @@
 {
-  "generated_at": "2026-07-20T12:34:22.376935Z",
+  "generated_at": "2026-07-20T14:53:17.283040Z",
   "top_gainers_1d": [
     {
-      "symbol": "^VIX",
-      "roc_1d": 13.425347551177879
+      "symbol": "GOOGL",
+      "roc_1d": 3.327174421618051
+    },
+    {
+      "symbol": "MU",
+      "roc_1d": 3.1447681702976737
     },
     {
       "symbol": "HWM",
@@ -16,46 +20,38 @@
     {
       "symbol": "QUBT",
       "roc_1d": 1.7612554410137093
-    },
-    {
-      "symbol": "XLE",
-      "roc_1d": 1.1670777832042845
     }
   ],
   "top_losers_1d": [
-    {
-      "symbol": "GOOGL",
-      "roc_1d": -7.747096011932541
-    },
     {
       "symbol": "NFLX",
       "roc_1d": -6.337025131971485
     },
     {
-      "symbol": "ASML",
-      "roc_1d": -4.323871227863451
-    },
-    {
-      "symbol": "LRCX",
-      "roc_1d": -4.283276065481334
-    },
-    {
       "symbol": "AXON",
       "roc_1d": -2.9775280003841775
+    },
+    {
+      "symbol": "NVDA",
+      "roc_1d": -2.5891973361714338
+    },
+    {
+      "symbol": "META",
+      "roc_1d": -2.189482690892386
+    },
+    {
+      "symbol": "AAPL",
+      "roc_1d": -2.0989408185375424
     }
   ],
   "top_gainers_5d": [
-    {
-      "symbol": "^VIX",
-      "roc_5d": 12.71819757942727
-    },
     {
       "symbol": "CRWD",
       "roc_5d": 8.494502498893786
     },
     {
-      "symbol": "AAPL",
-      "roc_5d": 5.841679082297002
+      "symbol": "^VIX",
+      "roc_5d": 6.4685350828774135
     },
     {
       "symbol": "VDE",
@@ -64,6 +60,10 @@
     {
       "symbol": "XLE",
       "roc_5d": 4.656860097021287
+    },
+    {
+      "symbol": "FENY",
+      "roc_5d": 4.444440150486062
     }
   ],
   "top_gainers_20d": [
@@ -80,19 +80,15 @@
       "roc_20d": 13.5214876643577
     },
     {
-      "symbol": "AAPL",
-      "roc_20d": 12.769040874682535
-    },
-    {
       "symbol": "BTC-USD",
       "roc_20d": 10.556049858931926
+    },
+    {
+      "symbol": "MA",
+      "roc_20d": 10.170594868386718
     }
   ],
   "most_overbought": [
-    {
-      "symbol": "AAPL",
-      "rsi_14": 71.51314636533223
-    },
     {
       "symbol": "DGRO",
       "rsi_14": 69.09840985478121
@@ -108,6 +104,10 @@
     {
       "symbol": "JPM",
       "rsi_14": 64.5661627543415
+    },
+    {
+      "symbol": "XLE",
+      "rsi_14": 64.18616497724761
     }
   ],
   "most_oversold": [
@@ -139,15 +139,15 @@
     },
     {
       "symbol": "^VIX",
-      "volatility_20d": 7.365441544081339
+      "volatility_20d": 7.347303262137566
     },
     {
       "symbol": "MU",
-      "volatility_20d": 6.912727631694087
+      "volatility_20d": 6.535787870521381
     },
     {
       "symbol": "LRCX",
-      "volatility_20d": 5.6403963753707895
+      "volatility_20d": 5.4749246015308355
     },
     {
       "symbol": "INTC",
