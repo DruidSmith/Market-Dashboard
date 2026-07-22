@@ -1,31 +1,28 @@
 {
-  "generated_at": "2026-07-22T14:36:49.185725Z",
+  "generated_at": "2026-07-22T16:25:26.125842Z",
   "golden_crosses": [],
   "death_crosses": [],
-  "macd_bullish_crosses": [],
+  "macd_bullish_crosses": [
+    {
+      "symbol": "VYM",
+      "macd": 0.6979656522811126
+    }
+  ],
   "macd_bearish_crosses": [
     {
       "symbol": "GOOGL",
       "macd": -2.0063640263550724
-    },
-    {
-      "symbol": "SPLV",
-      "macd": 0.5809850993881724
     }
   ],
   "rsi_overbought": [],
   "rsi_oversold": [
-    {
-      "symbol": "NFLX",
-      "rsi": 27.355001209740422
-    },
     {
       "symbol": "IONQ",
       "rsi": 29.967694953728184
     },
     {
       "symbol": "CRWD",
-      "rsi": 22.387791319010546
+      "rsi": 22.105779585714785
     }
   ],
   "high_volatility": [
