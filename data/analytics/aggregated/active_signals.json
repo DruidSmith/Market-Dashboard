@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T21:11:57.366927Z",
+  "generated_at": "2026-07-24T22:37:03.690477Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -8,7 +8,12 @@
       "macd": -107.49865847060747
     }
   ],
-  "macd_bearish_crosses": [],
+  "macd_bearish_crosses": [
+    {
+      "symbol": "PLTR",
+      "macd": -0.7348222662509727
+    }
+  ],
   "rsi_overbought": [
     {
       "symbol": "XLE",
@@ -41,8 +46,12 @@
   ],
   "low_volatility": [
     {
+      "symbol": "PLTR",
+      "volatility": 3.0105489016503286
+    },
+    {
       "symbol": "QUBT",
-      "volatility": 4.70243489970996
+      "volatility": 4.386385804618661
     },
     {
       "symbol": "BTC-USD",
@@ -58,7 +67,7 @@
     },
     {
       "symbol": "VGT",
-      "volatility": 1.6523770470267929
+      "volatility": 1.6614162477674859
     },
     {
       "symbol": "IONQ",
