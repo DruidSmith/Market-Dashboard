@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T13:13:22.636942Z",
+  "generated_at": "2026-07-28T15:52:11.435662Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -18,6 +18,10 @@
     {
       "symbol": "DGRO",
       "macd": 0.5714814577813314
+    },
+    {
+      "symbol": "MA",
+      "macd": 10.926355954883093
     }
   ],
   "macd_bearish_crosses": [
@@ -30,15 +34,16 @@
       "macd": -21.036410162669767
     }
   ],
-  "rsi_overbought": [],
+  "rsi_overbought": [
+    {
+      "symbol": "JPM",
+      "rsi": 70.19229777859269
+    }
+  ],
   "rsi_oversold": [
     {
       "symbol": "CRWD",
       "rsi": 21.86173006101653
-    },
-    {
-      "symbol": "VTIP",
-      "rsi": 29.937500521733412
     }
   ],
   "high_volatility": [
@@ -56,7 +61,7 @@
     },
     {
       "symbol": "MA",
-      "volatility": 1.5535683344208833
+      "volatility": 1.560744006878445
     }
   ],
   "low_volatility": [
@@ -70,7 +75,7 @@
     },
     {
       "symbol": "VEA",
-      "volatility": 1.1094930405459518
+      "volatility": 1.1069686293988752
     },
     {
       "symbol": "VGT",
