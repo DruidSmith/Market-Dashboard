@@ -1,8 +1,12 @@
 {
-  "generated_at": "2026-07-28T21:14:15.176197Z",
+  "generated_at": "2026-07-28T22:36:26.064720Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
+    {
+      "symbol": "QUBT",
+      "macd": -0.5491595953175175
+    },
     {
       "symbol": "XLP",
       "macd": 0.31349615122998387
@@ -14,10 +18,6 @@
     {
       "symbol": "FSTA",
       "macd": 0.1410171007751373
-    },
-    {
-      "symbol": "SPLV",
-      "macd": 0.6200356500561952
     },
     {
       "symbol": "VGK",
@@ -64,6 +64,10 @@
   ],
   "high_volatility": [
     {
+      "symbol": "PLTR",
+      "volatility": 3.467075239132747
+    },
+    {
       "symbol": "GOOGL",
       "volatility": 3.0327408568270444
     },
@@ -79,7 +83,7 @@
   "low_volatility": [
     {
       "symbol": "QUBT",
-      "volatility": 4.728230469225789
+      "volatility": 4.554166809577567
     },
     {
       "symbol": "BTC-USD",
@@ -95,11 +99,11 @@
     },
     {
       "symbol": "VGT",
-      "volatility": 1.639158620961875
+      "volatility": 1.6117852604818819
     },
     {
       "symbol": "IONQ",
-      "volatility": 5.004142048557448
+      "volatility": 4.717595281448425
     },
     {
       "symbol": "AMZN",
