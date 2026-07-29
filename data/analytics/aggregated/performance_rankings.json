@@ -1,9 +1,13 @@
 {
-  "generated_at": "2026-07-28T22:36:26.063562Z",
+  "generated_at": "2026-07-29T00:03:51.142853Z",
   "top_gainers_1d": [
     {
       "symbol": "AXON",
       "roc_1d": 3.774850661106366
+    },
+    {
+      "symbol": "NFLX",
+      "roc_1d": 2.8267014497691534
     },
     {
       "symbol": "VDC",
@@ -16,10 +20,6 @@
     {
       "symbol": "XLP",
       "roc_1d": 2.199542424292056
-    },
-    {
-      "symbol": "GOOGL",
-      "roc_1d": 2.1894885931953434
     }
   ],
   "top_losers_1d": [
@@ -46,6 +46,10 @@
   ],
   "top_gainers_5d": [
     {
+      "symbol": "NFLX",
+      "roc_5d": 8.190099279044482
+    },
+    {
       "symbol": "ITA",
       "roc_5d": 6.1527781783535795
     },
@@ -60,10 +64,6 @@
     {
       "symbol": "AAPL",
       "roc_5d": 4.2007511904258665
-    },
-    {
-      "symbol": "NFLX",
-      "roc_5d": 3.9536309483306775
     }
   ],
   "top_gainers_20d": [
@@ -90,6 +90,14 @@
   ],
   "most_overbought": [
     {
+      "symbol": "SCHD",
+      "rsi_14": 72.56709012850206
+    },
+    {
+      "symbol": "DGRO",
+      "rsi_14": 72.09842273408726
+    },
+    {
       "symbol": "JPM",
       "rsi_14": 70.19229777859269
     },
@@ -98,22 +106,14 @@
       "rsi_14": 69.4733584656134
     },
     {
-      "symbol": "SCHD",
-      "rsi_14": 67.58885844102085
-    },
-    {
-      "symbol": "DGRO",
-      "rsi_14": 67.04175828592147
-    },
-    {
-      "symbol": "MA",
-      "rsi_14": 66.7843658347416
+      "symbol": "VYM",
+      "rsi_14": 67.43732494318493
     }
   ],
   "most_oversold": [
     {
       "symbol": "CRWD",
-      "rsi_14": 21.86173006101653
+      "rsi_14": 22.35807280180009
     },
     {
       "symbol": "NQ=F",
@@ -135,7 +135,7 @@
   "highest_volatility": [
     {
       "symbol": "CRWD",
-      "volatility_20d": 17.296319187663247
+      "volatility_20d": 17.14860284793134
     },
     {
       "symbol": "^VIX",
