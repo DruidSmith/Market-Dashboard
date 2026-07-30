@@ -1,8 +1,13 @@
 {
-  "generated_at": "2026-07-30T15:34:37.965557Z",
+  "generated_at": "2026-07-30T17:42:22.547530Z",
   "golden_crosses": [],
   "death_crosses": [],
-  "macd_bullish_crosses": [],
+  "macd_bullish_crosses": [
+    {
+      "symbol": "EME",
+      "macd": -20.978707136951584
+    }
+  ],
   "macd_bearish_crosses": [
     {
       "symbol": "QUBT",
@@ -17,6 +22,10 @@
       "macd": 1.0932944458875227
     },
     {
+      "symbol": "HWM",
+      "macd": 3.69582760124149
+    },
+    {
       "symbol": "ETH-USD",
       "macd": 38.78133767341933
     }
@@ -28,10 +37,6 @@
     }
   ],
   "rsi_oversold": [
-    {
-      "symbol": "EME",
-      "rsi": 26.94060392629325
-    },
     {
       "symbol": "NQ=F",
       "rsi": 29.140607970233404
@@ -67,10 +72,6 @@
     {
       "symbol": "BTC-USD",
       "volatility": 1.7512635096258025
-    },
-    {
-      "symbol": "VEA",
-      "volatility": 1.136863230187385
     },
     {
       "symbol": "VGT",
