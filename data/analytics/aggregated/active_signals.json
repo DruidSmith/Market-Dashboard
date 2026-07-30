@@ -1,18 +1,22 @@
 {
-  "generated_at": "2026-07-30T21:17:56.487608Z",
+  "generated_at": "2026-07-30T22:38:44.205124Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
     {
+      "symbol": "QUBT",
+      "macd": -0.5178240435054793
+    },
+    {
       "symbol": "EME",
       "macd": -20.978707136951584
+    },
+    {
+      "symbol": "IONQ",
+      "macd": -4.725045192477523
     }
   ],
   "macd_bearish_crosses": [
-    {
-      "symbol": "QUBT",
-      "macd": -0.5674198319285324
-    },
     {
       "symbol": "JPM",
       "macd": 6.748614434497597
@@ -52,6 +56,14 @@
   ],
   "high_volatility": [
     {
+      "symbol": "LRCX",
+      "volatility": 6.300877098705091
+    },
+    {
+      "symbol": "ASML",
+      "volatility": 3.569757391174622
+    },
+    {
       "symbol": "META",
       "volatility": 3.3516643096684287
     },
@@ -72,6 +84,10 @@
       "volatility": 1.3986322395751596
     },
     {
+      "symbol": "MU",
+      "volatility": 7.1144496786556815
+    },
+    {
       "symbol": "MA",
       "volatility": 1.502706645087438
     }
@@ -79,7 +95,7 @@
   "low_volatility": [
     {
       "symbol": "QUBT",
-      "volatility": 4.6435813297906305
+      "volatility": 5.249595104625377
     },
     {
       "symbol": "BTC-USD",
@@ -91,11 +107,11 @@
     },
     {
       "symbol": "VGT",
-      "volatility": 1.4648587215781403
+      "volatility": 1.8654356843159428
     },
     {
       "symbol": "IONQ",
-      "volatility": 4.652959610265781
+      "volatility": 5.253044929234462
     },
     {
       "symbol": "ETH-USD",
