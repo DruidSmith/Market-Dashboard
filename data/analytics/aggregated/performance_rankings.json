@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T10:08:18.988189Z",
+  "generated_at": "2026-07-31T12:30:10.142258Z",
   "top_gainers_1d": [
     {
       "symbol": "MU",
@@ -24,6 +24,10 @@
   ],
   "top_losers_1d": [
     {
+      "symbol": "^VIX",
+      "roc_1d": -12.358973576472355
+    },
+    {
       "symbol": "META",
       "roc_1d": -9.401250920876015
     },
@@ -38,20 +42,12 @@
     {
       "symbol": "SCHD",
       "roc_1d": -2.6884116927560875
-    },
-    {
-      "symbol": "XLP",
-      "roc_1d": -2.479723169200365
     }
   ],
   "top_gainers_5d": [
     {
       "symbol": "MSFT",
       "roc_5d": 18.21898998313527
-    },
-    {
-      "symbol": "^VIX",
-      "roc_5d": 9.859154929577475
     },
     {
       "symbol": "MA",
@@ -64,13 +60,13 @@
     {
       "symbol": "GOOGL",
       "roc_5d": 5.026913374036246
+    },
+    {
+      "symbol": "IONQ",
+      "roc_5d": 4.989729316603753
     }
   ],
   "top_gainers_20d": [
-    {
-      "symbol": "^VIX",
-      "roc_20d": 17.39915282030364
-    },
     {
       "symbol": "MSFT",
       "roc_20d": 17.388364613427456
@@ -86,6 +82,10 @@
     {
       "symbol": "XLE",
       "roc_20d": 10.028323856626464
+    },
+    {
+      "symbol": "FENY",
+      "roc_20d": 9.677077141466729
     }
   ],
   "most_overbought": [
@@ -106,18 +106,14 @@
       "rsi_14": 61.54834972314492
     },
     {
-      "symbol": "^VIX",
-      "rsi_14": 58.57069059485414
+      "symbol": "JPM",
+      "rsi_14": 58.46246950415102
     }
   ],
   "most_oversold": [
     {
       "symbol": "CRWD",
       "rsi_14": 23.919674418882593
-    },
-    {
-      "symbol": "NQ=F",
-      "rsi_14": 29.140607970233404
     },
     {
       "symbol": "META",
@@ -130,6 +126,10 @@
     {
       "symbol": "VUG",
       "rsi_14": 38.7921241438126
+    },
+    {
+      "symbol": "IONQ",
+      "rsi_14": 38.98383273390216
     }
   ],
   "highest_volatility": [
@@ -138,12 +138,12 @@
       "volatility_20d": 17.117107033022023
     },
     {
-      "symbol": "MU",
-      "volatility_20d": 7.1144496786556815
+      "symbol": "^VIX",
+      "volatility_20d": 7.171830324415274
     },
     {
-      "symbol": "^VIX",
-      "volatility_20d": 6.630617882168946
+      "symbol": "MU",
+      "volatility_20d": 7.1144496786556815
     },
     {
       "symbol": "LRCX",
