@@ -1,13 +1,17 @@
 {
-  "generated_at": "2026-08-03T17:13:54.463546Z",
+  "generated_at": "2026-08-03T19:08:44.683242Z",
   "top_gainers_1d": [
-    {
-      "symbol": "GOOGL",
-      "roc_1d": 6.73440057965653
-    },
     {
       "symbol": "META",
       "roc_1d": 6.492600648362146
+    },
+    {
+      "symbol": "GOOGL",
+      "roc_1d": 5.332319651253137
+    },
+    {
+      "symbol": "MSFT",
+      "roc_1d": 5.216041954446249
     },
     {
       "symbol": "TEM",
@@ -16,20 +20,16 @@
     {
       "symbol": "AMZN",
       "roc_1d": 4.643205130207617
-    },
-    {
-      "symbol": "MSFT",
-      "roc_1d": 3.0192850660396786
     }
   ],
   "top_losers_1d": [
     {
-      "symbol": "^VIX",
-      "roc_1d": -12.358973576472355
-    },
-    {
       "symbol": "AAPL",
       "roc_1d": -9.29129986781787
+    },
+    {
+      "symbol": "^VIX",
+      "roc_1d": -7.840843420852616
     },
     {
       "symbol": "MU",
@@ -40,22 +40,22 @@
       "roc_1d": -2.3096827310417845
     },
     {
-      "symbol": "AMD",
-      "roc_1d": -1.9036281079341077
+      "symbol": "LRCX",
+      "roc_1d": -1.5786686106947445
     }
   ],
   "top_gainers_5d": [
+    {
+      "symbol": "MSFT",
+      "roc_5d": 25.664349469322765
+    },
     {
       "symbol": "AMZN",
       "roc_5d": 22.077366213496674
     },
     {
-      "symbol": "MSFT",
-      "roc_5d": 21.750061922618546
-    },
-    {
       "symbol": "GOOGL",
-      "roc_5d": 11.381127090722366
+      "roc_5d": 14.870161049006247
     },
     {
       "symbol": "EME",
@@ -69,7 +69,7 @@
   "top_gainers_20d": [
     {
       "symbol": "MSFT",
-      "roc_20d": 19.588264004532864
+      "roc_20d": 27.207447121020078
     },
     {
       "symbol": "AMZN",
@@ -91,7 +91,7 @@
   "most_overbought": [
     {
       "symbol": "MSFT",
-      "rsi_14": 75.7554556606109
+      "rsi_14": 79.6473703204998
     },
     {
       "symbol": "AMZN",
@@ -134,24 +134,24 @@
   ],
   "highest_volatility": [
     {
-      "symbol": "MU",
-      "volatility_20d": 7.204847770901271
+      "symbol": "^VIX",
+      "volatility_20d": 7.417879299028589
     },
     {
-      "symbol": "^VIX",
-      "volatility_20d": 7.171830324415274
+      "symbol": "MU",
+      "volatility_20d": 7.204847770901271
     },
     {
       "symbol": "LRCX",
       "volatility_20d": 6.155020933676678
     },
     {
-      "symbol": "AMD",
-      "volatility_20d": 5.6278514745738315
+      "symbol": "INTC",
+      "volatility_20d": 5.431388774201352
     },
     {
-      "symbol": "INTC",
-      "volatility_20d": 5.455230786677232
+      "symbol": "AMD",
+      "volatility_20d": 5.420091588561951
     }
   ]
 }
