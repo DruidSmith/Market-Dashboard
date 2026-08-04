@@ -1,9 +1,17 @@
 {
-  "generated_at": "2026-08-04T18:14:31.575110Z",
+  "generated_at": "2026-08-04T20:11:21.898679Z",
   "top_gainers_1d": [
+    {
+      "symbol": "INTC",
+      "roc_1d": 11.288144299652082
+    },
     {
       "symbol": "AVGO",
       "roc_1d": 8.170401327998068
+    },
+    {
+      "symbol": "AMD",
+      "roc_1d": 6.848811349314721
     },
     {
       "symbol": "CRWD",
@@ -12,14 +20,6 @@
     {
       "symbol": "IONQ",
       "roc_1d": 6.745426529686238
-    },
-    {
-      "symbol": "QUBT",
-      "roc_1d": 6.591861475244998
-    },
-    {
-      "symbol": "GOOGL",
-      "roc_1d": 5.332319651253137
     }
   ],
   "top_losers_1d": [
@@ -47,11 +47,15 @@
   "top_gainers_5d": [
     {
       "symbol": "MSFT",
-      "roc_5d": 25.664349469322765
+      "roc_5d": 25.28536669932169
     },
     {
       "symbol": "AMZN",
       "roc_5d": 20.22597249414655
+    },
+    {
+      "symbol": "INTC",
+      "roc_5d": 16.871375485191464
     },
     {
       "symbol": "EME",
@@ -59,17 +63,13 @@
     },
     {
       "symbol": "GOOGL",
-      "roc_5d": 14.870161049006247
-    },
-    {
-      "symbol": "CRWD",
-      "roc_5d": 12.453496529771325
+      "roc_5d": 13.167122221847283
     }
   ],
   "top_gainers_20d": [
     {
       "symbol": "MSFT",
-      "roc_20d": 27.207447121020078
+      "roc_20d": 26.738504834866884
     },
     {
       "symbol": "AVGO",
@@ -91,7 +91,11 @@
   "most_overbought": [
     {
       "symbol": "MSFT",
-      "rsi_14": 79.6473703204998
+      "rsi_14": 80.19127094202372
+    },
+    {
+      "symbol": "SPY",
+      "rsi_14": 67.82038538388929
     },
     {
       "symbol": "AMZN",
@@ -104,20 +108,12 @@
     {
       "symbol": "MA",
       "rsi_14": 67.07424541085854
-    },
-    {
-      "symbol": "AXON",
-      "rsi_14": 64.54106186256594
     }
   ],
   "most_oversold": [
     {
       "symbol": "CRWD",
       "rsi_14": 29.778814386442164
-    },
-    {
-      "symbol": "INTC",
-      "rsi_14": 40.66302390546839
     },
     {
       "symbol": "AAPL",
@@ -130,6 +126,10 @@
     {
       "symbol": "VTIP",
       "rsi_14": 42.420611156136104
+    },
+    {
+      "symbol": "BND",
+      "rsi_14": 43.62754021065604
     }
   ],
   "highest_volatility": [
@@ -147,11 +147,11 @@
     },
     {
       "symbol": "INTC",
-      "volatility_20d": 5.431388774201352
+      "volatility_20d": 5.6848110469950965
     },
     {
       "symbol": "AMD",
-      "volatility_20d": 5.420091588561951
+      "volatility_20d": 5.485466397847491
     }
   ]
 }
