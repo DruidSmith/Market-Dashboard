@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T12:25:33.590338Z",
+  "generated_at": "2026-08-05T14:58:12.663520Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -24,10 +24,6 @@
       "macd": -6.481461707582753
     },
     {
-      "symbol": "VIG",
-      "macd": 1.2015612196803431
-    },
-    {
       "symbol": "QQQ",
       "macd": -4.979289000155177
     },
@@ -44,7 +40,16 @@
       "macd": 13.092976621686603
     }
   ],
-  "macd_bearish_crosses": [],
+  "macd_bearish_crosses": [
+    {
+      "symbol": "XLE",
+      "macd": 0.6073952583108735
+    },
+    {
+      "symbol": "FENY",
+      "macd": 0.33361309894666036
+    }
+  ],
   "rsi_overbought": [
     {
       "symbol": "PLTR",
@@ -95,7 +100,7 @@
     },
     {
       "symbol": "V",
-      "volatility": 1.2875719008530644
+      "volatility": 1.2316766124371632
     },
     {
       "symbol": "MU",
@@ -108,10 +113,6 @@
     {
       "symbol": "AMZN",
       "volatility": 3.8417385178468066
-    },
-    {
-      "symbol": "MA",
-      "volatility": 1.4250237667687866
     }
   ],
   "low_volatility": [
