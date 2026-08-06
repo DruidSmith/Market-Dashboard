@@ -1,8 +1,12 @@
 {
-  "generated_at": "2026-08-06T12:28:18.488244Z",
+  "generated_at": "2026-08-06T14:58:18.332067Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
+    {
+      "symbol": "LRCX",
+      "macd": -12.772715371592312
+    },
     {
       "symbol": "BND",
       "macd": -0.19268255643696364
@@ -10,21 +14,9 @@
     {
       "symbol": "SOXX",
       "macd": -14.391926330025854
-    },
-    {
-      "symbol": "LRCX",
-      "macd": -12.772715371592312
     }
   ],
   "macd_bearish_crosses": [
-    {
-      "symbol": "XLE",
-      "macd": 0.6073952583108735
-    },
-    {
-      "symbol": "FENY",
-      "macd": 0.33361309894666036
-    },
     {
       "symbol": "VDE",
       "macd": 1.921088412853777
@@ -39,16 +31,20 @@
   "rsi_oversold": [],
   "high_volatility": [
     {
-      "symbol": "GOOGL",
-      "volatility": 3.6800770128151874
+      "symbol": "PLTR",
+      "volatility": 7.326928096735912
     },
     {
-      "symbol": "AMZN",
-      "volatility": 3.864209016307152
+      "symbol": "LRCX",
+      "volatility": 6.198130696285508
     },
     {
       "symbol": "META",
       "volatility": 3.4719245969714274
+    },
+    {
+      "symbol": "GOOGL",
+      "volatility": 3.6800770128151874
     },
     {
       "symbol": "NVDA",
@@ -59,27 +55,27 @@
       "volatility": 3.7971620265947834
     },
     {
-      "symbol": "PLTR",
-      "volatility": 7.326928096735912
-    },
-    {
       "symbol": "AMD",
       "volatility": 5.714646165204397
     },
     {
-      "symbol": "LRCX",
-      "volatility": 6.198130696285508
+      "symbol": "AAPL",
+      "volatility": 2.629175195295954
     },
     {
       "symbol": "V",
       "volatility": 1.2316766124371632
     },
     {
-      "symbol": "AAPL",
-      "volatility": 2.629175195295954
+      "symbol": "AMZN",
+      "volatility": 3.864209016307152
     }
   ],
   "low_volatility": [
+    {
+      "symbol": "QUBT",
+      "volatility": 5.200821204381699
+    },
     {
       "symbol": "BTC-USD",
       "volatility": 1.2035915628216138
@@ -89,16 +85,12 @@
       "volatility": 5.675646999567395
     },
     {
-      "symbol": "QUBT",
-      "volatility": 5.200821204381699
+      "symbol": "VGT",
+      "volatility": 2.074184569141199
     },
     {
       "symbol": "IONQ",
       "volatility": 5.357030481716641
-    },
-    {
-      "symbol": "VGT",
-      "volatility": 2.074184569141199
     },
     {
       "symbol": "^VIX",
