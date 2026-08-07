@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T16:03:57.950379Z",
+  "generated_at": "2026-08-07T17:26:27.484688Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -16,54 +16,58 @@
     {
       "symbol": "XLP",
       "macd": 0.314938042534493
+    },
+    {
+      "symbol": "JPM",
+      "macd": 6.859031228379877
     }
   ],
   "rsi_overbought": [
-    {
-      "symbol": "MSFT",
-      "rsi": 79.70068756903048
-    },
     {
       "symbol": "PLTR",
       "rsi": 71.36742836844019
     },
     {
-      "symbol": "MA",
-      "rsi": 70.0873336047653
+      "symbol": "MSFT",
+      "rsi": 79.70068756903048
     }
   ],
   "rsi_oversold": [],
   "high_volatility": [
     {
-      "symbol": "GOOGL",
-      "volatility": 3.6456578311062606
+      "symbol": "PLTR",
+      "volatility": 7.442848734662368
     },
     {
-      "symbol": "AMZN",
-      "volatility": 3.8607142334168745
+      "symbol": "GOOGL",
+      "volatility": 3.6456578311062606
     },
     {
       "symbol": "MSFT",
       "volatility": 3.7779124159270983
     },
     {
-      "symbol": "PLTR",
-      "volatility": 7.442848734662368
-    },
-    {
       "symbol": "AMD",
       "volatility": 5.423856258430343
     },
     {
-      "symbol": "AXON",
-      "volatility": 4.537521489186171
-    },
-    {
       "symbol": "AAPL",
       "volatility": 2.6321948154249952
+    },
+    {
+      "symbol": "AMZN",
+      "volatility": 3.8607142334168745
+    },
+    {
+      "symbol": "AXON",
+      "volatility": 4.850357864083992
     }
   ],
   "low_volatility": [
+    {
+      "symbol": "QUBT",
+      "volatility": 4.90149744541723
+    },
     {
       "symbol": "BTC-USD",
       "volatility": 1.1831262076912057
@@ -77,20 +81,16 @@
       "volatility": 3.9499060628871443
     },
     {
-      "symbol": "QUBT",
-      "volatility": 4.90149744541723
-    },
-    {
-      "symbol": "IONQ",
-      "volatility": 5.383765796464976
+      "symbol": "VEA",
+      "volatility": 1.0973174302741957
     },
     {
       "symbol": "VGT",
       "volatility": 2.022712540728671
     },
     {
-      "symbol": "VEA",
-      "volatility": 1.0873912746077667
+      "symbol": "IONQ",
+      "volatility": 5.383765796464976
     },
     {
       "symbol": "^VIX",
