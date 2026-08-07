@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T00:49:29.878874Z",
+  "generated_at": "2026-08-07T03:54:36.752069Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -8,11 +8,20 @@
       "macd": -12.772715371592312
     },
     {
+      "symbol": "TEM",
+      "macd": -2.157838528875047
+    },
+    {
       "symbol": "SOXX",
       "macd": -14.391926330025854
     }
   ],
-  "macd_bearish_crosses": [],
+  "macd_bearish_crosses": [
+    {
+      "symbol": "XLP",
+      "macd": 0.314938042534493
+    }
+  ],
   "rsi_overbought": [
     {
       "symbol": "MSFT",
@@ -97,7 +106,7 @@
     },
     {
       "symbol": "ETH-USD",
-      "volatility": 1.627232786563527
+      "volatility": 1.6306257991392625
     }
   ]
 }
