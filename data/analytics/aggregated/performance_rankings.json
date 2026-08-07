@@ -1,9 +1,17 @@
 {
-  "generated_at": "2026-08-07T05:45:35.909655Z",
+  "generated_at": "2026-08-07T07:26:13.203406Z",
   "top_gainers_1d": [
+    {
+      "symbol": "MSFT",
+      "roc_1d": 2.543797258000624
+    },
     {
       "symbol": "TSM",
       "roc_1d": 1.8067659387265955
+    },
+    {
+      "symbol": "ASML",
+      "roc_1d": 1.558200049490921
     },
     {
       "symbol": "AMD",
@@ -12,14 +20,6 @@
     {
       "symbol": "VDE",
       "roc_1d": 0.9938095356137655
-    },
-    {
-      "symbol": "MA",
-      "roc_1d": 0.7803984367040107
-    },
-    {
-      "symbol": "XLE",
-      "roc_1d": 0.5483004743703779
     }
   ],
   "top_losers_1d": [
@@ -32,48 +32,48 @@
       "roc_1d": -4.2905102184874195
     },
     {
-      "symbol": "GOOGL",
-      "roc_1d": -4.030187069160918
-    },
-    {
       "symbol": "QUBT",
       "roc_1d": -3.7919766538862643
     },
     {
       "symbol": "FIX",
       "roc_1d": -3.262958565626295
+    },
+    {
+      "symbol": "^VIX",
+      "roc_1d": -2.8203500891168076
     }
   ],
   "top_gainers_5d": [
     {
       "symbol": "PLTR",
-      "roc_5d": 28.804872094131095
-    },
-    {
-      "symbol": "MSFT",
-      "roc_5d": 24.81691524288683
+      "roc_5d": 27.531486540633754
     },
     {
       "symbol": "IONQ",
       "roc_5d": 21.942286173949977
     },
     {
-      "symbol": "LRCX",
-      "roc_5d": 21.82286744293902
-    },
-    {
       "symbol": "QUBT",
       "roc_5d": 21.64383400580434
+    },
+    {
+      "symbol": "AMZN",
+      "roc_5d": 14.411789109957285
+    },
+    {
+      "symbol": "NVDA",
+      "roc_5d": 12.279539085040604
     }
   ],
   "top_gainers_20d": [
     {
       "symbol": "MSFT",
-      "roc_20d": 27.161265746299044
+      "roc_20d": 31.42865671239392
     },
     {
       "symbol": "PLTR",
-      "roc_20d": 19.82301558999997
+      "roc_20d": 21.793464275400034
     },
     {
       "symbol": "AMZN",
@@ -91,19 +91,19 @@
   "most_overbought": [
     {
       "symbol": "MSFT",
-      "rsi_14": 77.10756091469098
+      "rsi_14": 79.11243089648642
     },
     {
       "symbol": "MA",
       "rsi_14": 70.0873336047653
     },
     {
-      "symbol": "PLTR",
-      "rsi_14": 68.21540545948926
-    },
-    {
       "symbol": "VIG",
       "rsi_14": 68.08060892416165
+    },
+    {
+      "symbol": "PLTR",
+      "rsi_14": 65.93857996448463
     },
     {
       "symbol": "DGRO",
@@ -135,15 +135,15 @@
   "highest_volatility": [
     {
       "symbol": "PLTR",
-      "volatility_20d": 7.326928096735912
+      "volatility_20d": 7.286202900886255
     },
     {
       "symbol": "MU",
-      "volatility_20d": 7.312291751750117
+      "volatility_20d": 7.0788588210156975
     },
     {
       "symbol": "LRCX",
-      "volatility_20d": 6.198130696285508
+      "volatility_20d": 5.965186487061402
     },
     {
       "symbol": "^VIX",
