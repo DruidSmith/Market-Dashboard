@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-07T07:26:13.204542Z",
+  "generated_at": "2026-08-07T08:36:06.315184Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
     {
-      "symbol": "TEM",
-      "macd": -2.157838528875047
-    },
-    {
       "symbol": "MU",
       "macd": -28.280651119731715
+    },
+    {
+      "symbol": "TEM",
+      "macd": -2.157838528875047
     }
   ],
   "macd_bearish_crosses": [
@@ -31,16 +31,12 @@
   "rsi_oversold": [],
   "high_volatility": [
     {
-      "symbol": "PLTR",
-      "volatility": 7.286202900886255
-    },
-    {
-      "symbol": "LRCX",
-      "volatility": 5.965186487061402
-    },
-    {
       "symbol": "GOOGL",
       "volatility": 3.648044592631714
+    },
+    {
+      "symbol": "AMZN",
+      "volatility": 3.8607142334168745
     },
     {
       "symbol": "NVDA",
@@ -51,27 +47,27 @@
       "volatility": 3.7751148423317287
     },
     {
+      "symbol": "PLTR",
+      "volatility": 7.286202900886255
+    },
+    {
       "symbol": "AMD",
       "volatility": 5.42561676504023
     },
     {
-      "symbol": "AAPL",
-      "volatility": 2.6287763476008994
-    },
-    {
-      "symbol": "AMZN",
-      "volatility": 3.8607142334168745
+      "symbol": "LRCX",
+      "volatility": 5.965186487061402
     },
     {
       "symbol": "AXON",
       "volatility": 4.537521489186171
+    },
+    {
+      "symbol": "AAPL",
+      "volatility": 2.6287763476008994
     }
   ],
   "low_volatility": [
-    {
-      "symbol": "QUBT",
-      "volatility": 5.200821204381699
-    },
     {
       "symbol": "BTC-USD",
       "volatility": 1.1831262076912057
@@ -81,16 +77,20 @@
       "volatility": 5.568358710507374
     },
     {
-      "symbol": "VEA",
-      "volatility": 1.0873912746077667
-    },
-    {
-      "symbol": "VGT",
-      "volatility": 2.074184569141199
+      "symbol": "QUBT",
+      "volatility": 5.072174752690078
     },
     {
       "symbol": "IONQ",
-      "volatility": 5.357030481716641
+      "volatility": 5.350620019020481
+    },
+    {
+      "symbol": "VGT",
+      "volatility": 2.011672237904807
+    },
+    {
+      "symbol": "VEA",
+      "volatility": 1.0873912746077667
     },
     {
       "symbol": "^VIX",
