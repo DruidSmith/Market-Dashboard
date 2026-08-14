@@ -1,8 +1,12 @@
 {
-  "generated_at": "2026-08-14T12:12:00.698684Z",
+  "generated_at": "2026-08-14T13:56:22.526657Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
+    {
+      "symbol": "AMD",
+      "macd": -6.571096650683444
+    },
     {
       "symbol": "VDC",
       "macd": 0.6471633291125443
@@ -12,11 +16,16 @@
       "macd": 0.15780620734260964
     }
   ],
-  "macd_bearish_crosses": [],
+  "macd_bearish_crosses": [
+    {
+      "symbol": "GOOGL",
+      "macd": -0.8948515617184398
+    }
+  ],
   "rsi_overbought": [
     {
       "symbol": "MSFT",
-      "rsi": 72.39361105838472
+      "rsi": 71.42123098400577
     },
     {
       "symbol": "VIG",
@@ -32,10 +41,6 @@
     {
       "symbol": "AMZN",
       "volatility": 3.821463205027283
-    },
-    {
-      "symbol": "MSFT",
-      "volatility": 3.8213375396277676
     },
     {
       "symbol": "AXON",
@@ -61,7 +66,7 @@
     },
     {
       "symbol": "ASML",
-      "volatility": 3.042920297784887
+      "volatility": 2.865823918051033
     },
     {
       "symbol": "QQQ",
@@ -69,11 +74,11 @@
     },
     {
       "symbol": "INTC",
-      "volatility": 5.1835519639174
+      "volatility": 5.154515750155038
     },
     {
       "symbol": "VOO",
-      "volatility": 0.852448155189396
+      "volatility": 0.8057805815415077
     },
     {
       "symbol": "VGT",
@@ -85,7 +90,7 @@
     },
     {
       "symbol": "^VIX",
-      "volatility": 5.376242943204238
+      "volatility": 4.306215831745399
     },
     {
       "symbol": "AVGO",
@@ -117,11 +122,11 @@
     },
     {
       "symbol": "SOXX",
-      "volatility": 3.588257823298802
+      "volatility": 3.561051116485006
     },
     {
       "symbol": "NVDA",
-      "volatility": 2.334081867198243
+      "volatility": 2.225024421054034
     }
   ]
 }
