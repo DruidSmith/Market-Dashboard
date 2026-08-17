@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-17T13:44:01.436168Z",
+  "timestamp": "2026-08-17T14:35:18.462727Z",
   "risk_score": 5,
   "max_score": 10,
   "overall_status": "WARNING",
@@ -10,14 +10,14 @@
   ],
   "indicators": {
     "sp500_pe": {
-      "value": 26.124487,
+      "value": 26.122465,
       "threshold": 30,
       "status": "warning",
       "signal": "MONITOR CLOSELY",
       "interpretation": "P/E of 26.1 approaching historical crash threshold of 30"
     },
     "treasury_30y": {
-      "value": 5.281000137329102,
+      "value": 5.279000282287598,
       "threshold": 4.5,
       "status": "danger",
       "signal": "SHIFT TO FIXED INCOME",
