@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T16:39:06.159005Z",
+  "generated_at": "2026-08-18T17:33:48.376614Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -8,7 +8,12 @@
       "macd": 0.24681846855042977
     }
   ],
-  "macd_bearish_crosses": [],
+  "macd_bearish_crosses": [
+    {
+      "symbol": "MSFT",
+      "macd": 25.094559685260776
+    }
+  ],
   "rsi_overbought": [
     {
       "symbol": "FENY",
@@ -37,7 +42,7 @@
   "low_volatility": [
     {
       "symbol": "AMD",
-      "volatility": 5.23268494156436
+      "volatility": 5.06854510064001
     },
     {
       "symbol": "MU",
@@ -57,11 +62,11 @@
     },
     {
       "symbol": "QQQ",
-      "volatility": 1.3011323739249543
+      "volatility": 1.330875752114992
     },
     {
       "symbol": "INTC",
-      "volatility": 5.155660564638489
+      "volatility": 5.137228069709848
     },
     {
       "symbol": "V",
@@ -69,11 +74,15 @@
     },
     {
       "symbol": "VOO",
-      "volatility": 0.8194628411174008
+      "volatility": 0.8505255075701608
     },
     {
       "symbol": "VGT",
       "volatility": 1.9183925012935092
+    },
+    {
+      "symbol": "GOOGL",
+      "volatility": 2.94996125951115
     },
     {
       "symbol": "ETH-USD",
@@ -105,7 +114,7 @@
     },
     {
       "symbol": "SPY",
-      "volatility": 0.7105794522921153
+      "volatility": 0.7354599336505431
     },
     {
       "symbol": "JPM",
@@ -117,11 +126,11 @@
     },
     {
       "symbol": "SOXX",
-      "volatility": 3.5845820061550424
+      "volatility": 3.6823999898991704
     },
     {
       "symbol": "NVDA",
-      "volatility": 2.225054903175511
+      "volatility": 2.322684461904943
     }
   ]
 }
