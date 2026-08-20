@@ -1,8 +1,17 @@
 {
-  "generated_at": "2026-08-20T05:58:53.453376Z",
+  "generated_at": "2026-08-20T07:00:21.722896Z",
   "golden_crosses": [],
   "death_crosses": [],
-  "macd_bullish_crosses": [],
+  "macd_bullish_crosses": [
+    {
+      "symbol": "BTC-USD",
+      "macd": 413.254005637762
+    },
+    {
+      "symbol": "ETH-USD",
+      "macd": 40.049327975408914
+    }
+  ],
   "macd_bearish_crosses": [
     {
       "symbol": "AMD",
@@ -23,8 +32,16 @@
       "rsi": 73.3093697016279
     },
     {
+      "symbol": "BTC-USD",
+      "rsi": 74.59429432303307
+    },
+    {
       "symbol": "FENY",
       "rsi": 76.52084340976788
+    },
+    {
+      "symbol": "ETH-USD",
+      "rsi": 83.67473286568995
     },
     {
       "symbol": "SCHD",
@@ -42,6 +59,10 @@
   "rsi_oversold": [],
   "high_volatility": [
     {
+      "symbol": "ETH-USD",
+      "volatility": 4.1356903732601795
+    },
+    {
       "symbol": "AXON",
       "volatility": 5.093038315358455
     },
@@ -58,10 +79,6 @@
     {
       "symbol": "MU",
       "volatility": 6.704608589044263
-    },
-    {
-      "symbol": "BTC-USD",
-      "volatility": 0.815831089437533
     },
     {
       "symbol": "MA",
@@ -94,10 +111,6 @@
     {
       "symbol": "GOOGL",
       "volatility": 2.9303952924196572
-    },
-    {
-      "symbol": "ETH-USD",
-      "volatility": 1.0413898923171778
     },
     {
       "symbol": "^VIX",
