@@ -1,9 +1,13 @@
 {
-  "generated_at": "2026-08-21T13:52:59.053207Z",
+  "generated_at": "2026-08-21T14:41:53.337595Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [],
   "macd_bearish_crosses": [
+    {
+      "symbol": "DGRO",
+      "macd": 0.7465705645328882
+    },
     {
       "symbol": "VOO",
       "macd": 6.223011371738039
@@ -27,14 +31,6 @@
     {
       "symbol": "NQ=F",
       "macd": 151.09467012397
-    },
-    {
-      "symbol": "VIG",
-      "macd": 2.0037236555655795
-    },
-    {
-      "symbol": "VYM",
-      "macd": 1.4200651320284692
     }
   ],
   "rsi_overbought": [
@@ -44,7 +40,7 @@
     },
     {
       "symbol": "FENY",
-      "rsi": 77.51835912472339
+      "rsi": 72.44615696018141
     },
     {
       "symbol": "ETH-USD",
@@ -52,7 +48,7 @@
     },
     {
       "symbol": "SCHD",
-      "rsi": 72.53571948220862
+      "rsi": 72.58451942773843
     },
     {
       "symbol": "VDE",
@@ -60,10 +56,15 @@
     },
     {
       "symbol": "XLE",
-      "rsi": 78.2321281911025
+      "rsi": 72.93197947926004
     }
   ],
-  "rsi_oversold": [],
+  "rsi_oversold": [
+    {
+      "symbol": "CRWD",
+      "rsi": 29.826232853682527
+    }
+  ],
   "high_volatility": [
     {
       "symbol": "BTC-USD",
