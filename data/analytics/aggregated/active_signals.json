@@ -1,8 +1,16 @@
 {
-  "generated_at": "2026-08-24T17:07:22.985486Z",
+  "generated_at": "2026-08-24T18:00:53.271048Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
+    {
+      "symbol": "MA",
+      "macd": 11.641359323566576
+    },
+    {
+      "symbol": "V",
+      "macd": 4.730968796903483
+    },
     {
       "symbol": "^VIX",
       "macd": -0.505763155389829
@@ -40,8 +48,8 @@
       "rsi": 78.21041628502967
     },
     {
-      "symbol": "FENY",
-      "rsi": 72.44615696018141
+      "symbol": "MA",
+      "rsi": 71.62318976836431
     },
     {
       "symbol": "ETH-USD",
@@ -54,10 +62,6 @@
     {
       "symbol": "VDE",
       "rsi": 72.31635120635443
-    },
-    {
-      "symbol": "XLE",
-      "rsi": 72.93197947926004
     }
   ],
   "rsi_oversold": [
@@ -86,10 +90,6 @@
       "volatility": 6.782971046790803
     },
     {
-      "symbol": "MA",
-      "volatility": 1.1442004756704807
-    },
-    {
       "symbol": "ASML",
       "volatility": 2.668539473942045
     },
@@ -108,10 +108,6 @@
     {
       "symbol": "INTC",
       "volatility": 4.928399997662555
-    },
-    {
-      "symbol": "V",
-      "volatility": 1.313754855918942
     },
     {
       "symbol": "VOO",
@@ -151,7 +147,7 @@
     },
     {
       "symbol": "VEA",
-      "volatility": 1.0660781946212106
+      "volatility": 1.0710018440066278
     },
     {
       "symbol": "SPY",
@@ -159,7 +155,7 @@
     },
     {
       "symbol": "JPM",
-      "volatility": 0.9583275353068205
+      "volatility": 0.9577501913799165
     },
     {
       "symbol": "LRCX",
