@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-08-27T11:05:58.722313Z",
+  "generated_at": "2026-08-27T21:08:04.169323Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
     {
       "symbol": "AAPL",
       "macd": -0.879740944431262
+    },
+    {
+      "symbol": "VGT",
+      "macd": 0.12024318241165588
     }
   ],
   "macd_bearish_crosses": [
+    {
+      "symbol": "FENY",
+      "macd": 0.7811139979143533
+    },
     {
       "symbol": "GOOGL",
       "macd": -1.9385019076020171
@@ -20,6 +28,10 @@
     {
       "symbol": "PLTR",
       "macd": 10.991257905837188
+    },
+    {
+      "symbol": "XLE",
+      "macd": 1.4130556848686382
     }
   ],
   "rsi_overbought": [
@@ -28,20 +40,12 @@
       "rsi": 74.19638284754666
     },
     {
-      "symbol": "MA",
-      "rsi": 71.51425902327733
-    },
-    {
       "symbol": "ETH-USD",
       "rsi": 73.43930066267862
     },
     {
       "symbol": "NFLX",
       "rsi": 70.87800065337922
-    },
-    {
-      "symbol": "SCHD",
-      "rsi": 71.78430407240178
     }
   ],
   "rsi_oversold": [
@@ -71,7 +75,7 @@
     },
     {
       "symbol": "MA",
-      "volatility": 1.0628554408219308
+      "volatility": 1.0963483939599787
     },
     {
       "symbol": "AAPL",
@@ -99,7 +103,7 @@
     },
     {
       "symbol": "V",
-      "volatility": 1.2907974854421342
+      "volatility": 1.0787060021615438
     },
     {
       "symbol": "VOO",
@@ -107,7 +111,7 @@
     },
     {
       "symbol": "VGT",
-      "volatility": 1.7904377819992214
+      "volatility": 1.623827218457471
     },
     {
       "symbol": "GOOGL",
@@ -147,7 +151,7 @@
     },
     {
       "symbol": "JPM",
-      "volatility": 0.8354939134159157
+      "volatility": 0.8586560970870434
     },
     {
       "symbol": "LRCX",
