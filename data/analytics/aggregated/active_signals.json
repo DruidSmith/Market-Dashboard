@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T18:28:35.298247Z",
+  "generated_at": "2026-08-29T01:53:59.007614Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -14,12 +14,20 @@
   ],
   "macd_bearish_crosses": [
     {
+      "symbol": "AMD",
+      "macd": -7.996422546723693
+    },
+    {
       "symbol": "FENY",
       "macd": 0.7811139979143533
     },
     {
       "symbol": "GOOGL",
       "macd": -1.9385019076020171
+    },
+    {
+      "symbol": "^VIX",
+      "macd": -0.516163546223046
     },
     {
       "symbol": "FSTA",
@@ -48,6 +56,10 @@
   ],
   "rsi_overbought": [
     {
+      "symbol": "MSFT",
+      "rsi": 72.82077618072674
+    },
+    {
       "symbol": "NFLX",
       "rsi": 70.87800065337922
     }
@@ -66,12 +78,16 @@
     {
       "symbol": "ETH-USD",
       "volatility": 4.707693425786803
+    },
+    {
+      "symbol": "NVDA",
+      "volatility": 2.859741684171591
     }
   ],
   "low_volatility": [
     {
       "symbol": "AMD",
-      "volatility": 4.587997674347871
+      "volatility": 3.571505541285348
     },
     {
       "symbol": "MU",
@@ -95,15 +111,15 @@
     },
     {
       "symbol": "META",
-      "volatility": 3.3316697424621857
+      "volatility": 2.3595783803682795
     },
     {
       "symbol": "QQQ",
-      "volatility": 1.2247954428200767
+      "volatility": 1.2012865700442483
     },
     {
       "symbol": "INTC",
-      "volatility": 4.634916977770213
+      "volatility": 4.046414084752622
     },
     {
       "symbol": "V",
@@ -111,7 +127,7 @@
     },
     {
       "symbol": "VOO",
-      "volatility": 0.7051377350516232
+      "volatility": 0.6242253166772398
     },
     {
       "symbol": "VGT",
@@ -123,15 +139,11 @@
     },
     {
       "symbol": "^VIX",
-      "volatility": 4.568200904030987
+      "volatility": 3.6076228252880127
     },
     {
       "symbol": "AVGO",
       "volatility": 3.0015818840881137
-    },
-    {
-      "symbol": "MSFT",
-      "volatility": 3.8125214589317276
     },
     {
       "symbol": "IONQ",
@@ -151,7 +163,7 @@
     },
     {
       "symbol": "SPY",
-      "volatility": 0.6655457956812401
+      "volatility": 0.6482013247812617
     },
     {
       "symbol": "JPM",
@@ -163,11 +175,7 @@
     },
     {
       "symbol": "SOXX",
-      "volatility": 3.280890866161929
-    },
-    {
-      "symbol": "NVDA",
-      "volatility": 1.951207263815823
+      "volatility": 2.833726772768732
     }
   ]
 }
