@@ -1,8 +1,16 @@
 {
-  "generated_at": "2026-08-29T08:52:29.736784Z",
+  "generated_at": "2026-08-29T14:20:14.605163Z",
   "top_gainers_1d": [
     {
+      "symbol": "DGRO",
+      "roc_1d": NaN
+    },
+    {
       "symbol": "MU",
+      "roc_1d": NaN
+    },
+    {
+      "symbol": "TSM",
       "roc_1d": NaN
     },
     {
@@ -12,80 +20,72 @@
     {
       "symbol": "ASML",
       "roc_1d": NaN
-    },
-    {
-      "symbol": "VGT",
-      "roc_1d": 3.5768961962832524
-    },
-    {
-      "symbol": "AMZN",
-      "roc_1d": 3.5721141799910594
     }
   ],
   "top_losers_1d": [
-    {
-      "symbol": "TEM",
-      "roc_1d": -9.124351895422578
-    },
-    {
-      "symbol": "FIX",
-      "roc_1d": -5.556104815782659
-    },
     {
       "symbol": "NVDA",
       "roc_1d": -4.5749595891063315
     },
     {
-      "symbol": "BTC-USD",
-      "roc_1d": -3.2853222024994744
+      "symbol": "VYM",
+      "roc_1d": -0.47278037405839024
     },
     {
-      "symbol": "SOXX",
-      "roc_1d": -3.19928397558501
+      "symbol": "VIG",
+      "roc_1d": NaN
+    },
+    {
+      "symbol": "NQ=F",
+      "roc_1d": NaN
+    },
+    {
+      "symbol": "TEM",
+      "roc_1d": -9.124351895422578
     }
   ],
   "top_gainers_5d": [
     {
+      "symbol": "DGRO",
+      "roc_5d": NaN
+    },
+    {
       "symbol": "MU",
       "roc_5d": NaN
     },
     {
+      "symbol": "TSM",
+      "roc_5d": NaN
+    },
+    {
+      "symbol": "MA",
+      "roc_5d": 2.2153808522706875
+    },
+    {
       "symbol": "AAPL",
       "roc_5d": NaN
-    },
-    {
-      "symbol": "ASML",
-      "roc_5d": NaN
-    },
-    {
-      "symbol": "GOOGL",
-      "roc_5d": NaN
-    },
-    {
-      "symbol": "MSFT",
-      "roc_5d": 6.5315509946376915
     }
   ],
   "top_gainers_20d": [
     {
+      "symbol": "DGRO",
+      "roc_20d": NaN
+    },
+    {
       "symbol": "MU",
+      "roc_20d": NaN
+    },
+    {
+      "symbol": "BTC-USD",
+      "roc_20d": 19.65806252855822
+    },
+    {
+      "symbol": "TSM",
       "roc_20d": NaN
     },
     {
       "symbol": "AAPL",
       "roc_20d": NaN
-    },
-    {
-      "symbol": "ASML",
-      "roc_20d": NaN
-    },
-    {
-      "symbol": "GOOGL",
-      "roc_20d": NaN
-    },
-    {
-      "symbol": "TEM",
-      "roc_20d": 46.43264059229284
     }
   ],
   "most_overbought": [
@@ -98,23 +98,19 @@
       "rsi_14": 71.86689593773788
     },
     {
-      "symbol": "NFLX",
-      "rsi_14": 70.87800065337922
-    },
-    {
       "symbol": "ETH-USD",
       "rsi_14": 68.28200671195303
     },
     {
       "symbol": "BTC-USD",
       "rsi_14": 67.11320973451376
+    },
+    {
+      "symbol": "MA",
+      "rsi_14": 66.23048991715989
     }
   ],
   "most_oversold": [
-    {
-      "symbol": "CRWD",
-      "rsi_14": 29.732291585403175
-    },
     {
       "symbol": "FIX",
       "rsi_14": 35.879882681624
@@ -130,28 +126,32 @@
     {
       "symbol": "HWM",
       "rsi_14": 39.759528075622036
+    },
+    {
+      "symbol": "SPLV",
+      "rsi_14": 40.657863481914184
     }
   ],
   "highest_volatility": [
+    {
+      "symbol": "DGRO",
+      "volatility_20d": NaN
+    },
+    {
+      "symbol": "AMD",
+      "volatility_20d": 3.571505541285348
+    },
     {
       "symbol": "MU",
       "volatility_20d": NaN
     },
     {
-      "symbol": "AAPL",
-      "volatility_20d": NaN
+      "symbol": "BTC-USD",
+      "volatility_20d": 3.1374162394499416
     },
     {
-      "symbol": "ASML",
+      "symbol": "TSM",
       "volatility_20d": NaN
-    },
-    {
-      "symbol": "GOOGL",
-      "volatility_20d": NaN
-    },
-    {
-      "symbol": "TEM",
-      "volatility_20d": 7.237684396615744
     }
   ]
 }
