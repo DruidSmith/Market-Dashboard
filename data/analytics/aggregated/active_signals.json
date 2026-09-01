@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-01T20:07:24.533660Z",
+  "generated_at": "2026-09-01T22:46:42.197768Z",
   "golden_crosses": [
     {
       "symbol": "MSFT",
-      "date": "2026-09-01T20:07:24.364460Z"
+      "date": "2026-09-01T22:46:42.015745Z"
     }
   ],
   "death_crosses": [],
@@ -21,15 +21,15 @@
       "macd": -0.49292572392486633
     },
     {
+      "symbol": "VDE",
+      "macd": 4.000739174526132
+    },
+    {
       "symbol": "XLE",
       "macd": 1.4841358778376232
     }
   ],
   "macd_bearish_crosses": [
-    {
-      "symbol": "GLD",
-      "macd": 8.982935538103618
-    },
     {
       "symbol": "VTIP",
       "macd": -0.0019653243736641457
@@ -53,11 +53,20 @@
   ],
   "rsi_overbought": [
     {
+      "symbol": "VDE",
+      "rsi": 71.89301539052153
+    },
+    {
       "symbol": "PLTR",
       "rsi": 71.86689593773788
     }
   ],
-  "rsi_oversold": [],
+  "rsi_oversold": [
+    {
+      "symbol": "ITA",
+      "rsi": 29.731883241383656
+    }
+  ],
   "high_volatility": [
     {
       "symbol": "BTC-USD",
