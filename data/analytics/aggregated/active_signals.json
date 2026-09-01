@@ -1,27 +1,29 @@
 {
-  "generated_at": "2026-09-01T02:00:36.401602Z",
-  "golden_crosses": [],
+  "generated_at": "2026-09-01T07:43:52.299112Z",
+  "golden_crosses": [
+    {
+      "symbol": "MSFT",
+      "date": "2026-09-01T07:43:52.134280Z"
+    }
+  ],
   "death_crosses": [],
-  "macd_bullish_crosses": [],
-  "macd_bearish_crosses": [
+  "macd_bullish_crosses": [
     {
       "symbol": "AMD",
-      "macd": -7.996422546723693
-    },
-    {
-      "symbol": "GLD",
-      "macd": 8.982935538103618
+      "macd": -7.830796596392133
     },
     {
       "symbol": "^VIX",
-      "macd": -0.516163546223046
+      "macd": -0.49292572392486633
+    }
+  ],
+  "macd_bearish_crosses": [
+    {
+      "symbol": "GLD",
+      "macd": 8.982935538103618
     }
   ],
   "rsi_overbought": [
-    {
-      "symbol": "MSFT",
-      "rsi": 72.82077618072674
-    },
     {
       "symbol": "PLTR",
       "rsi": 71.86689593773788
@@ -44,13 +46,13 @@
     },
     {
       "symbol": "NVDA",
-      "volatility": 2.859741684171591
+      "volatility": 2.758404876474031
     }
   ],
   "low_volatility": [
     {
       "symbol": "AMD",
-      "volatility": 3.571505541285348
+      "volatility": 3.5521082764727296
     },
     {
       "symbol": "AMZN",
@@ -62,23 +64,27 @@
     },
     {
       "symbol": "QQQ",
-      "volatility": 1.2012865700442483
+      "volatility": 1.1558047781994185
     },
     {
       "symbol": "INTC",
-      "volatility": 4.046414084752622
+      "volatility": 4.045091959363984
     },
     {
       "symbol": "VOO",
-      "volatility": 0.6242253166772398
+      "volatility": 0.5427979672329131
     },
     {
       "symbol": "^VIX",
-      "volatility": 3.6076228252880127
+      "volatility": 3.311328168562055
     },
     {
       "symbol": "AVGO",
       "volatility": 3.0047604154779313
+    },
+    {
+      "symbol": "MSFT",
+      "volatility": 1.419087744651634
     },
     {
       "symbol": "SPY",
@@ -86,7 +92,7 @@
     },
     {
       "symbol": "SOXX",
-      "volatility": 2.833726772768732
+      "volatility": 2.832094294188372
     }
   ]
 }
