@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T18:55:15.506821Z",
+  "generated_at": "2026-09-02T21:41:22.708074Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -10,12 +10,16 @@
   ],
   "macd_bearish_crosses": [
     {
+      "symbol": "AMD",
+      "macd": -8.498061900122082
+    },
+    {
       "symbol": "ETH-USD",
       "macd": 141.36642874919744
     },
     {
-      "symbol": "AMD",
-      "macd": -8.498061900122082
+      "symbol": "TEM",
+      "macd": 3.695409217854099
     },
     {
       "symbol": "PLTR",
@@ -36,18 +40,38 @@
   ],
   "high_volatility": [
     {
-      "symbol": "ETH-USD",
-      "volatility": 4.692350343496681
-    },
-    {
       "symbol": "BTC-USD",
       "volatility": 3.1210686593858643
+    },
+    {
+      "symbol": "ETH-USD",
+      "volatility": 4.692350343496681
     }
   ],
   "low_volatility": [
     {
+      "symbol": "AMD",
+      "volatility": 3.182587228744675
+    },
+    {
+      "symbol": "AMZN",
+      "volatility": 1.453049348765592
+    },
+    {
+      "symbol": "META",
+      "volatility": 1.8627231091228322
+    },
+    {
       "symbol": "QQQ",
       "volatility": 0.873289623797305
+    },
+    {
+      "symbol": "INTC",
+      "volatility": 3.0530579842621544
+    },
+    {
+      "symbol": "VOO",
+      "volatility": 0.40279064646230733
     },
     {
       "symbol": "^VIX",
@@ -55,35 +79,15 @@
     },
     {
       "symbol": "AVGO",
-      "volatility": 2.2699347946900352
-    },
-    {
-      "symbol": "META",
-      "volatility": 1.8627231091228322
-    },
-    {
-      "symbol": "AMD",
-      "volatility": 3.182587228744675
-    },
-    {
-      "symbol": "SPY",
-      "volatility": 0.43065134906733077
-    },
-    {
-      "symbol": "AMZN",
-      "volatility": 1.489745952246932
-    },
-    {
-      "symbol": "VOO",
-      "volatility": 0.40279064646230733
+      "volatility": 2.264163143415469
     },
     {
       "symbol": "MSFT",
       "volatility": 1.4464020456192792
     },
     {
-      "symbol": "INTC",
-      "volatility": 3.0530579842621544
+      "symbol": "SPY",
+      "volatility": 0.43065134906733077
     },
     {
       "symbol": "SOXX",
