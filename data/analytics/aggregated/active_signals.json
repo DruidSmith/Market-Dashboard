@@ -1,33 +1,21 @@
 {
-  "generated_at": "2026-09-02T15:14:57.197856Z",
+  "generated_at": "2026-09-02T18:55:15.506821Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
     {
       "symbol": "^VIX",
       "macd": -0.49292572392486633
-    },
-    {
-      "symbol": "VDE",
-      "macd": 4.000739174526132
     }
   ],
   "macd_bearish_crosses": [
-    {
-      "symbol": "AMD",
-      "macd": -8.498061900122082
-    },
-    {
-      "symbol": "VTIP",
-      "macd": -0.0019653243736641457
-    },
     {
       "symbol": "ETH-USD",
       "macd": 141.36642874919744
     },
     {
-      "symbol": "BND",
-      "macd": -0.09239631978802265
+      "symbol": "AMD",
+      "macd": -8.498061900122082
     },
     {
       "symbol": "PLTR",
@@ -37,49 +25,29 @@
   "rsi_overbought": [
     {
       "symbol": "VDE",
-      "rsi": 71.89301539052153
+      "rsi": 73.3685449808985
     }
   ],
   "rsi_oversold": [
     {
       "symbol": "ITA",
-      "rsi": 29.731883241383656
+      "rsi": 27.897470344998396
     }
   ],
   "high_volatility": [
     {
-      "symbol": "BTC-USD",
-      "volatility": 3.1210686593858643
-    },
-    {
       "symbol": "ETH-USD",
       "volatility": 4.692350343496681
+    },
+    {
+      "symbol": "BTC-USD",
+      "volatility": 3.1210686593858643
     }
   ],
   "low_volatility": [
     {
-      "symbol": "AMD",
-      "volatility": 3.182587228744675
-    },
-    {
-      "symbol": "AMZN",
-      "volatility": 1.489745952246932
-    },
-    {
-      "symbol": "META",
-      "volatility": 1.8627231091228322
-    },
-    {
       "symbol": "QQQ",
       "volatility": 0.873289623797305
-    },
-    {
-      "symbol": "INTC",
-      "volatility": 3.0530579842621544
-    },
-    {
-      "symbol": "VOO",
-      "volatility": 0.40279064646230733
     },
     {
       "symbol": "^VIX",
@@ -90,12 +58,32 @@
       "volatility": 2.2699347946900352
     },
     {
-      "symbol": "MSFT",
-      "volatility": 1.4464020456192792
+      "symbol": "META",
+      "volatility": 1.8627231091228322
+    },
+    {
+      "symbol": "AMD",
+      "volatility": 3.182587228744675
     },
     {
       "symbol": "SPY",
       "volatility": 0.43065134906733077
+    },
+    {
+      "symbol": "AMZN",
+      "volatility": 1.489745952246932
+    },
+    {
+      "symbol": "VOO",
+      "volatility": 0.40279064646230733
+    },
+    {
+      "symbol": "MSFT",
+      "volatility": 1.4464020456192792
+    },
+    {
+      "symbol": "INTC",
+      "volatility": 3.0530579842621544
     },
     {
       "symbol": "SOXX",
