@@ -1,17 +1,13 @@
 {
-  "generated_at": "2026-09-01T22:46:42.197768Z",
+  "generated_at": "2026-09-02T00:56:57.540509Z",
   "golden_crosses": [
     {
       "symbol": "MSFT",
-      "date": "2026-09-01T22:46:42.015745Z"
+      "date": "2026-09-02T00:56:57.376907Z"
     }
   ],
   "death_crosses": [],
   "macd_bullish_crosses": [
-    {
-      "symbol": "AMD",
-      "macd": -7.830796596392133
-    },
     {
       "symbol": "FENY",
       "macd": 0.8235585658046816
@@ -31,12 +27,20 @@
   ],
   "macd_bearish_crosses": [
     {
+      "symbol": "AMD",
+      "macd": -8.498061900122082
+    },
+    {
       "symbol": "VTIP",
       "macd": -0.0019653243736641457
     },
     {
       "symbol": "MA",
       "macd": 11.67190800212677
+    },
+    {
+      "symbol": "ETH-USD",
+      "macd": 141.36642874919744
     },
     {
       "symbol": "BND",
@@ -70,37 +74,33 @@
   "high_volatility": [
     {
       "symbol": "BTC-USD",
-      "volatility": 3.0768546314998564
+      "volatility": 3.1210686593858643
     },
     {
       "symbol": "ETH-USD",
-      "volatility": 4.630678053559916
-    },
-    {
-      "symbol": "NVDA",
-      "volatility": 2.758404876474031
+      "volatility": 4.692350343496681
     }
   ],
   "low_volatility": [
     {
       "symbol": "AMD",
-      "volatility": 3.5521082764727296
+      "volatility": 3.182587228744675
     },
     {
       "symbol": "AMZN",
-      "volatility": 1.5113280685081645
+      "volatility": 1.489745952246932
     },
     {
       "symbol": "META",
-      "volatility": 1.849680771425151
+      "volatility": 1.8627231091228322
     },
     {
       "symbol": "QQQ",
-      "volatility": 1.1558047781994185
+      "volatility": 0.873289623797305
     },
     {
       "symbol": "INTC",
-      "volatility": 4.045091959363984
+      "volatility": 3.0530579842621544
     },
     {
       "symbol": "VOO",
@@ -112,7 +112,7 @@
     },
     {
       "symbol": "AVGO",
-      "volatility": 3.0047604154779313
+      "volatility": 2.2699347946900352
     },
     {
       "symbol": "MSFT",
@@ -120,7 +120,7 @@
     },
     {
       "symbol": "SPY",
-      "volatility": 0.5982832684261441
+      "volatility": 0.43065134906733077
     },
     {
       "symbol": "SOXX",
