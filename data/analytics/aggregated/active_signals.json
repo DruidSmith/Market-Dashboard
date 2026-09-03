@@ -1,13 +1,14 @@
 {
-  "generated_at": "2026-09-03T17:45:29.714586Z",
+  "generated_at": "2026-09-03T20:51:28.515560Z",
   "golden_crosses": [],
   "death_crosses": [],
-  "macd_bullish_crosses": [],
-  "macd_bearish_crosses": [
+  "macd_bullish_crosses": [
     {
-      "symbol": "ETH-USD",
-      "macd": 141.36642874919744
-    },
+      "symbol": "NVDA",
+      "macd": 3.1907205735864466
+    }
+  ],
+  "macd_bearish_crosses": [
     {
       "symbol": "VUG",
       "macd": -0.02463230730616317
@@ -17,27 +18,31 @@
     {
       "symbol": "VDE",
       "rsi": 70.59291337672559
+    },
+    {
+      "symbol": "BTC-USD",
+      "rsi": 70.93686524905928
     }
   ],
   "rsi_oversold": [],
   "high_volatility": [
     {
       "symbol": "NVDA",
-      "volatility": 2.7548279826101703
+      "volatility": 2.7783060536425985
     },
     {
       "symbol": "ETH-USD",
-      "volatility": 4.692350343496681
+      "volatility": 4.723956613963006
     },
     {
       "symbol": "BTC-USD",
-      "volatility": 3.1210686593858643
+      "volatility": 3.2611108394556423
     }
   ],
   "low_volatility": [
     {
       "symbol": "QQQ",
-      "volatility": 0.8555149380290281
+      "volatility": 0.895199594714147
     },
     {
       "symbol": "^VIX",
@@ -45,7 +50,7 @@
     },
     {
       "symbol": "AVGO",
-      "volatility": 2.264163143415469
+      "volatility": 2.3076364304836834
     },
     {
       "symbol": "AMD",
@@ -53,11 +58,11 @@
     },
     {
       "symbol": "SPY",
-      "volatility": 0.4437663319800869
+      "volatility": 0.5031680606022814
     },
     {
       "symbol": "AMZN",
-      "volatility": 1.453049348765592
+      "volatility": 1.5115008536622225
     },
     {
       "symbol": "VOO",
