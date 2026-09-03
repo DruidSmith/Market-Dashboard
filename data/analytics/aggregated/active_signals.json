@@ -1,8 +1,12 @@
 {
-  "generated_at": "2026-09-03T20:51:28.515560Z",
+  "generated_at": "2026-09-03T23:10:18.416986Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
+    {
+      "symbol": "INTC",
+      "macd": -3.0307895283114306
+    },
     {
       "symbol": "NVDA",
       "macd": 3.1907205735864466
@@ -16,69 +20,65 @@
   ],
   "rsi_overbought": [
     {
-      "symbol": "VDE",
-      "rsi": 70.59291337672559
-    },
-    {
       "symbol": "BTC-USD",
       "rsi": 70.93686524905928
+    },
+    {
+      "symbol": "VDE",
+      "rsi": 70.59291337672559
     }
   ],
   "rsi_oversold": [],
   "high_volatility": [
     {
-      "symbol": "NVDA",
-      "volatility": 2.7783060536425985
+      "symbol": "BTC-USD",
+      "volatility": 3.2611108394556423
     },
     {
       "symbol": "ETH-USD",
       "volatility": 4.723956613963006
     },
     {
-      "symbol": "BTC-USD",
-      "volatility": 3.2611108394556423
+      "symbol": "NVDA",
+      "volatility": 2.7783060536425985
     }
   ],
   "low_volatility": [
     {
-      "symbol": "QQQ",
-      "volatility": 0.895199594714147
-    },
-    {
-      "symbol": "^VIX",
-      "volatility": 3.248690907878965
-    },
-    {
-      "symbol": "AVGO",
-      "volatility": 2.3076364304836834
-    },
-    {
       "symbol": "AMD",
-      "volatility": 2.7929304193891236
-    },
-    {
-      "symbol": "SPY",
-      "volatility": 0.5031680606022814
+      "volatility": 2.7632735501398322
     },
     {
       "symbol": "AMZN",
       "volatility": 1.5115008536622225
     },
     {
-      "symbol": "VOO",
-      "volatility": 0.4167458838079515
-    },
-    {
-      "symbol": "MSFT",
-      "volatility": 1.436824071488867
+      "symbol": "QQQ",
+      "volatility": 0.895199594714147
     },
     {
       "symbol": "INTC",
-      "volatility": 3.075057308584802
+      "volatility": 3.1130007850183534
+    },
+    {
+      "symbol": "VOO",
+      "volatility": 0.47842886303613263
+    },
+    {
+      "symbol": "^VIX",
+      "volatility": 3.4325181626825216
+    },
+    {
+      "symbol": "AVGO",
+      "volatility": 2.3076364304836834
+    },
+    {
+      "symbol": "SPY",
+      "volatility": 0.5031680606022814
     },
     {
       "symbol": "SOXX",
-      "volatility": 2.365407871281678
+      "volatility": 2.363242676092058
     }
   ]
 }
