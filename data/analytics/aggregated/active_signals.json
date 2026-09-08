@@ -1,11 +1,20 @@
 {
-  "generated_at": "2026-09-08T14:28:04.192678Z",
-  "golden_crosses": [],
+  "generated_at": "2026-09-08T18:03:46.889808Z",
+  "golden_crosses": [
+    {
+      "symbol": "BTC-USD",
+      "date": "2026-09-08T18:03:46.706752Z"
+    }
+  ],
   "death_crosses": [],
   "macd_bullish_crosses": [
     {
       "symbol": "^VIX",
       "macd": -0.43611071232005116
+    },
+    {
+      "symbol": "FIX",
+      "macd": -38.916593808845164
     },
     {
       "symbol": "VUG",
@@ -31,11 +40,11 @@
   "high_volatility": [
     {
       "symbol": "ETH-USD",
-      "volatility": 4.803146561871394
+      "volatility": 4.813064670070985
     },
     {
       "symbol": "BTC-USD",
-      "volatility": 3.3902261118491483
+      "volatility": 3.4096397612729983
     }
   ],
   "low_volatility": [
