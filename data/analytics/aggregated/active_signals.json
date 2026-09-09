@@ -1,17 +1,8 @@
 {
-  "generated_at": "2026-09-09T13:52:14.041941Z",
-  "golden_crosses": [
-    {
-      "symbol": "BTC-USD",
-      "date": "2026-09-09T13:52:13.851804Z"
-    }
-  ],
+  "generated_at": "2026-09-09T17:45:29.726471Z",
+  "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
-    {
-      "symbol": "FIX",
-      "macd": -38.916593808845164
-    },
     {
       "symbol": "AMD",
       "macd": -4.987165699107436
@@ -31,7 +22,12 @@
       "macd": 0.8239296453115372
     }
   ],
-  "rsi_overbought": [],
+  "rsi_overbought": [
+    {
+      "symbol": "META",
+      "rsi": 70.36829533798215
+    }
+  ],
   "rsi_oversold": [
     {
       "symbol": "ITA",
@@ -46,14 +42,6 @@
     {
       "symbol": "NVDA",
       "volatility": 2.7867566298299904
-    },
-    {
-      "symbol": "ETH-USD",
-      "volatility": 4.813064670070985
-    },
-    {
-      "symbol": "BTC-USD",
-      "volatility": 3.4096397612729983
     }
   ],
   "low_volatility": [
@@ -67,11 +55,7 @@
     },
     {
       "symbol": "AVGO",
-      "volatility": 2.4342573706479134
-    },
-    {
-      "symbol": "META",
-      "volatility": 2.0316565035252676
+      "volatility": 2.4165203095916894
     },
     {
       "symbol": "AMD",
@@ -79,11 +63,11 @@
     },
     {
       "symbol": "SPY",
-      "volatility": 0.5106771322953513
+      "volatility": 0.5165615906595306
     },
     {
       "symbol": "AMZN",
-      "volatility": 1.4264725298573167
+      "volatility": 1.437049748254912
     },
     {
       "symbol": "VOO",
