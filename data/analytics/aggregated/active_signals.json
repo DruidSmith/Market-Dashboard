@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-09T09:07:24.893528Z",
+  "generated_at": "2026-09-09T13:52:14.041941Z",
   "golden_crosses": [
     {
       "symbol": "BTC-USD",
-      "date": "2026-09-09T09:07:24.727119Z"
+      "date": "2026-09-09T13:52:13.851804Z"
     }
   ],
   "death_crosses": [],
@@ -21,10 +21,6 @@
       "macd": -3.895127131780953
     },
     {
-      "symbol": "VTIP",
-      "macd": -0.0008801487719125589
-    },
-    {
       "symbol": "SOXX",
       "macd": -6.746672206227913
     }
@@ -36,7 +32,16 @@
     }
   ],
   "rsi_overbought": [],
-  "rsi_oversold": [],
+  "rsi_oversold": [
+    {
+      "symbol": "ITA",
+      "rsi": 27.074535540207663
+    },
+    {
+      "symbol": "HWM",
+      "rsi": 28.001263527705362
+    }
+  ],
   "high_volatility": [
     {
       "symbol": "NVDA",
