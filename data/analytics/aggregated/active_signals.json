@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T09:04:31.497649Z",
+  "generated_at": "2026-09-11T13:45:24.772470Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [],
@@ -11,10 +11,6 @@
     {
       "symbol": "VWO",
       "macd": 0.3339938881628228
-    },
-    {
-      "symbol": "NVDA",
-      "macd": 2.967572459573006
     },
     {
       "symbol": "VDE",
@@ -33,7 +29,12 @@
       "macd": 0.8082655112698731
     }
   ],
-  "rsi_overbought": [],
+  "rsi_overbought": [
+    {
+      "symbol": "META",
+      "rsi": 71.16378973049387
+    }
+  ],
   "rsi_oversold": [
     {
       "symbol": "ITA",
@@ -48,7 +49,7 @@
   "low_volatility": [
     {
       "symbol": "QQQ",
-      "volatility": 0.8721780088441276
+      "volatility": 0.8552427850221164
     },
     {
       "symbol": "AVGO",
@@ -56,11 +57,11 @@
     },
     {
       "symbol": "AMD",
-      "volatility": 3.230293757046564
+      "volatility": 3.1910097498114145
     },
     {
       "symbol": "SPY",
-      "volatility": 0.5325045045027174
+      "volatility": 0.5578780461851799
     },
     {
       "symbol": "AMZN",
@@ -68,19 +69,19 @@
     },
     {
       "symbol": "VOO",
-      "volatility": 0.5113418630133739
+      "volatility": 0.5416944020808724
     },
     {
       "symbol": "MSFT",
-      "volatility": 1.4296007675925566
+      "volatility": 1.4368244498926375
     },
     {
       "symbol": "INTC",
-      "volatility": 4.046474202111052
+      "volatility": 3.971888570839364
     },
     {
       "symbol": "SOXX",
-      "volatility": 2.4284433961007683
+      "volatility": 2.4114881705036213
     }
   ]
 }
