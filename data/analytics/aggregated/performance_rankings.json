@@ -1,31 +1,35 @@
 {
-  "generated_at": "2026-09-17T00:16:09.364970Z",
+  "generated_at": "2026-09-17T05:12:38.265220Z",
   "top_gainers_1d": [
     {
       "symbol": "^VIX",
       "roc_1d": 2.9651063890188123
     },
     {
-      "symbol": "FIX",
-      "roc_1d": 1.6305356777612579
-    },
-    {
       "symbol": "AMD",
-      "roc_1d": NaN
-    },
-    {
-      "symbol": "MU",
       "roc_1d": NaN
     },
     {
       "symbol": "TEM",
       "roc_1d": 2.9193931456454214
+    },
+    {
+      "symbol": "HWM",
+      "roc_1d": 1.9277041078964219
+    },
+    {
+      "symbol": "FIX",
+      "roc_1d": 1.6305356777612579
     }
   ],
   "top_losers_1d": [
     {
       "symbol": "SOXX",
       "roc_1d": NaN
+    },
+    {
+      "symbol": "VUG",
+      "roc_1d": 0.0
     },
     {
       "symbol": "NFLX",
@@ -38,10 +42,6 @@
     {
       "symbol": "FENY",
       "roc_1d": -2.0268362032026976
-    },
-    {
-      "symbol": "VDE",
-      "roc_1d": -1.8857758000546232
     }
   ],
   "top_gainers_5d": [
@@ -58,12 +58,12 @@
       "roc_5d": 14.271895707736482
     },
     {
-      "symbol": "GOOGL",
-      "roc_5d": NaN
+      "symbol": "META",
+      "roc_5d": 3.2090435039040077
     },
     {
-      "symbol": "LRCX",
-      "roc_5d": NaN
+      "symbol": "XLP",
+      "roc_5d": 1.0344005492723518
     }
   ],
   "top_gainers_20d": [
@@ -84,8 +84,8 @@
       "roc_20d": 11.876179215586902
     },
     {
-      "symbol": "VWO",
-      "roc_20d": -0.2145094081731358
+      "symbol": "GOOGL",
+      "roc_20d": NaN
     }
   ],
   "most_overbought": [
@@ -95,7 +95,7 @@
     },
     {
       "symbol": "AAPL",
-      "rsi_14": 65.47369841963656
+      "rsi_14": 66.28696973194414
     },
     {
       "symbol": "VDE",
@@ -116,6 +116,10 @@
       "rsi_14": 29.0325454650755
     },
     {
+      "symbol": "SPLV",
+      "rsi_14": 31.41388370896661
+    },
+    {
       "symbol": "AVGO",
       "rsi_14": 31.603343121506015
     },
@@ -126,10 +130,6 @@
     {
       "symbol": "AXON",
       "rsi_14": 33.17549242475279
-    },
-    {
-      "symbol": "VGK",
-      "rsi_14": 33.7063786323791
     }
   ],
   "highest_volatility": [
