@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-21T07:01:35.833985Z",
+  "generated_at": "2026-09-21T14:00:40.184430Z",
   "top_gainers_1d": [
+    {
+      "symbol": "AMD",
+      "roc_1d": 8.500940516181089
+    },
     {
       "symbol": "ETH-USD",
       "roc_1d": 3.0824078634763774
-    },
-    {
-      "symbol": "AMD",
-      "roc_1d": 2.7023023249434175
     },
     {
       "symbol": "FIX",
@@ -18,18 +18,14 @@
       "roc_1d": 1.9104549377583657
     },
     {
-      "symbol": "NVDA",
-      "roc_1d": 1.3358292985729214
+      "symbol": "MU",
+      "roc_1d": NaN
     }
   ],
   "top_losers_1d": [
     {
       "symbol": "NFLX",
       "roc_1d": -4.674009769191311
-    },
-    {
-      "symbol": "^VIX",
-      "roc_1d": -4.080305556271013
     },
     {
       "symbol": "TEM",
@@ -42,6 +38,10 @@
     {
       "symbol": "IONQ",
       "roc_1d": -2.9995019333063477
+    },
+    {
+      "symbol": "META",
+      "roc_1d": -1.6935106794751298
     }
   ],
   "top_gainers_5d": [
@@ -54,34 +54,34 @@
       "roc_5d": NaN
     },
     {
-      "symbol": "ETH-USD",
-      "roc_5d": 10.757916357271945
+      "symbol": "FIX",
+      "roc_5d": NaN
     },
     {
-      "symbol": "NQ=F",
-      "roc_5d": 3.0588984180781154
+      "symbol": "ITA",
+      "roc_5d": NaN
     },
     {
-      "symbol": "MGK",
-      "roc_5d": 1.1012211868367316
+      "symbol": "EME",
+      "roc_5d": NaN
     }
   ],
   "top_gainers_20d": [
+    {
+      "symbol": "INTC",
+      "roc_20d": 31.454883146988898
+    },
+    {
+      "symbol": "AMD",
+      "roc_20d": 29.188065914725115
+    },
     {
       "symbol": "META",
       "roc_20d": 23.646038385273084
     },
     {
-      "symbol": "AMD",
-      "roc_20d": 21.234824979201793
-    },
-    {
       "symbol": "CRWD",
       "roc_20d": 20.49383919512071
-    },
-    {
-      "symbol": "INTC",
-      "roc_20d": 18.14621479269245
     },
     {
       "symbol": "TEM",
@@ -94,6 +94,10 @@
       "rsi_14": 69.07900179985806
     },
     {
+      "symbol": "AMD",
+      "rsi_14": 68.20092422380925
+    },
+    {
       "symbol": "AAPL",
       "rsi_14": 66.28696973194414
     },
@@ -104,10 +108,6 @@
     {
       "symbol": "ETH-USD",
       "rsi_14": 65.16574345048693
-    },
-    {
-      "symbol": "BTC-USD",
-      "rsi_14": 62.60037362756601
     }
   ],
   "most_oversold": [
