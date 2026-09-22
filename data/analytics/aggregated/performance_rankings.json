@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T01:33:12.122622Z",
+  "generated_at": "2026-09-22T07:35:00.700663Z",
   "top_gainers_1d": [
     {
       "symbol": "BND",
@@ -24,10 +24,6 @@
   ],
   "top_losers_1d": [
     {
-      "symbol": "TEM",
-      "roc_1d": -3.4907599875468653
-    },
-    {
       "symbol": "XLE",
       "roc_1d": -2.876688764348867
     },
@@ -40,29 +36,33 @@
       "roc_1d": -1.6935106794751298
     },
     {
-      "symbol": "VGK",
-      "roc_1d": -1.2986242063763864
+      "symbol": "XLP",
+      "roc_1d": -1.4674058571800042
+    },
+    {
+      "symbol": "GLD",
+      "roc_1d": -1.0727606638357368
     }
   ],
   "top_gainers_5d": [
-    {
-      "symbol": "QQQM",
-      "roc_5d": 4.59215264934536
-    },
-    {
-      "symbol": "QQQ",
-      "roc_5d": 0.8555484840528926
-    },
-    {
-      "symbol": "VGK",
-      "roc_5d": -2.060648518899877
-    },
     {
       "symbol": "BND",
       "roc_5d": NaN
     },
     {
-      "symbol": "FSTA",
+      "symbol": "VWO",
+      "roc_5d": NaN
+    },
+    {
+      "symbol": "EME",
+      "roc_5d": NaN
+    },
+    {
+      "symbol": "VDE",
+      "roc_5d": NaN
+    },
+    {
+      "symbol": "MU",
       "roc_5d": NaN
     }
   ],
@@ -84,11 +84,15 @@
       "roc_20d": NaN
     },
     {
-      "symbol": "AMD",
-      "roc_20d": 29.188065914725115
+      "symbol": "BTC-USD",
+      "roc_20d": 10.436320438261703
     }
   ],
   "most_overbought": [
+    {
+      "symbol": "BTC-USD",
+      "rsi_14": 69.27044837057474
+    },
     {
       "symbol": "MGK",
       "rsi_14": 69.11620561893916
@@ -104,16 +108,16 @@
     {
       "symbol": "VGT",
       "rsi_14": 68.21488907165573
-    },
-    {
-      "symbol": "AMD",
-      "rsi_14": 68.20092422380925
     }
   ],
   "most_oversold": [
     {
-      "symbol": "ITA",
-      "rsi_14": 25.06709635080567
+      "symbol": "XLP",
+      "rsi_14": 25.70979724697304
+    },
+    {
+      "symbol": "FSTA",
+      "rsi_14": 26.359659236988392
     },
     {
       "symbol": "VTIP",
@@ -124,12 +128,8 @@
       "rsi_14": 27.20415316068552
     },
     {
-      "symbol": "FSTA",
-      "rsi_14": 28.512208974680632
-    },
-    {
       "symbol": "VDC",
-      "rsi_14": 30.55643095590557
+      "rsi_14": 28.05737241478016
     }
   ],
   "highest_volatility": [
