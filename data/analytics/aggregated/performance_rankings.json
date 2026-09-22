@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T07:35:00.700663Z",
+  "generated_at": "2026-09-22T13:18:35.909942Z",
   "top_gainers_1d": [
     {
       "symbol": "BND",
@@ -14,12 +14,12 @@
       "roc_1d": NaN
     },
     {
-      "symbol": "VDE",
-      "roc_1d": NaN
+      "symbol": "META",
+      "roc_1d": 10.509797855254721
     },
     {
-      "symbol": "AMD",
-      "roc_1d": 8.500940516181089
+      "symbol": "VDE",
+      "roc_1d": NaN
     }
   ],
   "top_losers_1d": [
@@ -32,16 +32,16 @@
       "roc_1d": -2.3519461873674596
     },
     {
-      "symbol": "META",
-      "roc_1d": -1.6935106794751298
-    },
-    {
       "symbol": "XLP",
       "roc_1d": -1.4674058571800042
     },
     {
       "symbol": "GLD",
       "roc_1d": -1.0727606638357368
+    },
+    {
+      "symbol": "VDC",
+      "roc_1d": -0.6771826726346797
     }
   ],
   "top_gainers_5d": [
@@ -80,15 +80,19 @@
       "roc_20d": NaN
     },
     {
-      "symbol": "VDE",
-      "roc_20d": NaN
+      "symbol": "META",
+      "roc_20d": 34.372050670109886
     },
     {
-      "symbol": "BTC-USD",
-      "roc_20d": 10.436320438261703
+      "symbol": "VDE",
+      "roc_20d": NaN
     }
   ],
   "most_overbought": [
+    {
+      "symbol": "META",
+      "rsi_14": 80.15225101013365
+    },
     {
       "symbol": "BTC-USD",
       "rsi_14": 69.27044837057474
@@ -96,10 +100,6 @@
     {
       "symbol": "MGK",
       "rsi_14": 69.11620561893916
-    },
-    {
-      "symbol": "META",
-      "rsi_14": 69.07900179985806
     },
     {
       "symbol": "AAPL",

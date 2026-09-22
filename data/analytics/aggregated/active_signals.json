@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-22T07:35:00.701661Z",
+  "generated_at": "2026-09-22T13:18:35.910919Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
     {
-      "symbol": "QQQ",
-      "macd": 0.20911837946300693
+      "symbol": "AVGO",
+      "macd": -8.600719847213384
     }
   ],
   "macd_bearish_crosses": [
@@ -14,7 +14,12 @@
       "macd": -0.0036014771304930804
     }
   ],
-  "rsi_overbought": [],
+  "rsi_overbought": [
+    {
+      "symbol": "META",
+      "rsi": 80.15225101013365
+    }
+  ],
   "rsi_oversold": [
     {
       "symbol": "FSTA",
@@ -43,26 +48,26 @@
       "volatility": 2.5760935774281464
     },
     {
+      "symbol": "META",
+      "volatility": 2.728037161982927
+    },
+    {
       "symbol": "BTC-USD",
       "volatility": 2.466507317211001
     }
   ],
   "low_volatility": [
     {
-      "symbol": "QQQ",
-      "volatility": 0.8502094336393092
-    },
-    {
       "symbol": "AVGO",
-      "volatility": 2.03049231212249
+      "volatility": 2.105948829537392
     },
     {
       "symbol": "NVDA",
-      "volatility": 2.972637444071734
+      "volatility": 3.0004430941262847
     },
     {
       "symbol": "AMZN",
-      "volatility": 1.5467063236684113
+      "volatility": 1.6100885172483907
     }
   ]
 }
