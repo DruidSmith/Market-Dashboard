@@ -1,12 +1,8 @@
 {
-  "generated_at": "2026-09-23T04:18:25.869895Z",
+  "generated_at": "2026-09-23T09:29:13.662079Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
-    {
-      "symbol": "AVGO",
-      "macd": -8.600719847213384
-    },
     {
       "symbol": "ASML",
       "macd": -17.77224201710851
@@ -17,6 +13,10 @@
     {
       "symbol": "META",
       "rsi": 80.15225101013365
+    },
+    {
+      "symbol": "BTC-USD",
+      "rsi": 70.4720841837926
     },
     {
       "symbol": "AAPL",
@@ -48,29 +48,17 @@
   "high_volatility": [
     {
       "symbol": "ETH-USD",
-      "volatility": 2.5760935774281464
-    },
-    {
-      "symbol": "META",
-      "volatility": 2.728037161982927
+      "volatility": 2.440364269918393
     },
     {
       "symbol": "BTC-USD",
-      "volatility": 2.466507317211001
+      "volatility": 2.149470488415573
     }
   ],
   "low_volatility": [
     {
-      "symbol": "AVGO",
-      "volatility": 2.105948829537392
-    },
-    {
       "symbol": "NVDA",
       "volatility": 3.0004430941262847
-    },
-    {
-      "symbol": "AMZN",
-      "volatility": 1.6100885172483907
     }
   ]
 }
