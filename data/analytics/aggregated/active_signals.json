@@ -1,8 +1,16 @@
 {
-  "generated_at": "2026-09-23T09:29:13.662079Z",
+  "generated_at": "2026-09-23T14:23:20.590177Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
+    {
+      "symbol": "NVDA",
+      "macd": 1.677421944741809
+    },
+    {
+      "symbol": "VOO",
+      "macd": 0.8277739437528453
+    },
     {
       "symbol": "ASML",
       "macd": -17.77224201710851
@@ -25,6 +33,10 @@
   ],
   "rsi_oversold": [
     {
+      "symbol": "XLP",
+      "rsi": 25.709797246973025
+    },
+    {
       "symbol": "FSTA",
       "rsi": 26.359659236988392
     },
@@ -33,16 +45,12 @@
       "rsi": 28.05737241478016
     },
     {
-      "symbol": "XLP",
-      "rsi": 25.709797246973025
+      "symbol": "VTIP",
+      "rsi": 26.873639116682412
     },
     {
       "symbol": "SPLV",
       "rsi": 24.575134163912082
-    },
-    {
-      "symbol": "VTIP",
-      "rsi": 26.873639116682412
     }
   ],
   "high_volatility": [
@@ -58,7 +66,7 @@
   "low_volatility": [
     {
       "symbol": "NVDA",
-      "volatility": 3.0004430941262847
+      "volatility": 2.92842091914911
     }
   ]
 }
