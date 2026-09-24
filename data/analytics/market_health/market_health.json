@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-24T20:21:28.322152Z",
+  "timestamp": "2026-09-24T23:21:43.152250Z",
   "risk_score": 3,
   "max_score": 10,
   "overall_status": "WARNING",
@@ -8,7 +8,13 @@
     "\ud83d\udd34 CRITICAL: 30Y yield exceeds 4.5%"
   ],
   "indicators": {
-    "sp500_pe": null,
+    "sp500_pe": {
+      "value": 24.787346,
+      "threshold": 30,
+      "status": "normal",
+      "signal": "NORMAL",
+      "interpretation": "P/E of 24.8 below historical crash threshold of 30"
+    },
     "treasury_30y": {
       "value": 5.460999965667725,
       "threshold": 4.5,
