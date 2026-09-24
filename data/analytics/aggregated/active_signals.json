@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-24T05:59:57.288003Z",
+  "generated_at": "2026-09-24T11:37:21.253661Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
     {
-      "symbol": "NVDA",
-      "macd": 1.677421944741809
-    },
-    {
       "symbol": "EME",
       "macd": -11.468390058252794
+    },
+    {
+      "symbol": "SPY",
+      "macd": 0.56628868651228
     },
     {
       "symbol": "LRCX",
@@ -29,10 +29,6 @@
     {
       "symbol": "META",
       "rsi": 80.15225101013365
-    },
-    {
-      "symbol": "BTC-USD",
-      "rsi": 70.4720841837926
     }
   ],
   "rsi_oversold": [
@@ -64,17 +60,17 @@
   "high_volatility": [
     {
       "symbol": "ETH-USD",
-      "volatility": 2.440364269918393
+      "volatility": 2.5271448838873156
     },
     {
       "symbol": "BTC-USD",
-      "volatility": 2.149470488415573
+      "volatility": 2.1698117799430077
     }
   ],
   "low_volatility": [
     {
       "symbol": "NVDA",
-      "volatility": 2.92842091914911
+      "volatility": 2.9284708965190975
     }
   ]
 }
