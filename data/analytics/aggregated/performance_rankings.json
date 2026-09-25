@@ -1,10 +1,6 @@
 {
-  "generated_at": "2026-09-25T07:30:01.593284Z",
+  "generated_at": "2026-09-25T12:57:21.387849Z",
   "top_gainers_1d": [
-    {
-      "symbol": "SPY",
-      "roc_1d": NaN
-    },
     {
       "symbol": "MA",
       "roc_1d": NaN
@@ -19,6 +15,10 @@
     },
     {
       "symbol": "VWO",
+      "roc_1d": NaN
+    },
+    {
+      "symbol": "VTIP",
       "roc_1d": NaN
     }
   ],
@@ -40,8 +40,8 @@
       "roc_1d": NaN
     },
     {
-      "symbol": "INTC",
-      "roc_1d": -3.176972016149726
+      "symbol": "^VIX",
+      "roc_1d": -2.316600113004885
     }
   ],
   "top_gainers_5d": [
@@ -50,38 +50,38 @@
       "roc_5d": NaN
     },
     {
-      "symbol": "SOXX",
-      "roc_5d": 8.719903058624556
-    },
-    {
-      "symbol": "CRWD",
-      "roc_5d": 5.685802463577172
-    },
-    {
       "symbol": "MSFT",
       "roc_5d": NaN
     },
     {
       "symbol": "INTC",
-      "roc_5d": NaN
+      "roc_5d": 17.08639321365375
+    },
+    {
+      "symbol": "META",
+      "roc_5d": 13.964331409154362
+    },
+    {
+      "symbol": "SOXX",
+      "roc_5d": 8.719903058624556
     }
   ],
   "top_gainers_20d": [
+    {
+      "symbol": "INTC",
+      "roc_20d": 44.367636529548825
+    },
     {
       "symbol": "CRWD",
       "roc_20d": 37.3697376631281
     },
     {
-      "symbol": "INTC",
-      "roc_20d": 36.05423747122152
-    },
-    {
       "symbol": "META",
-      "roc_20d": 31.476181150255123
+      "roc_20d": 34.96546101383997
     },
     {
       "symbol": "AMD",
-      "roc_20d": 26.68192090714603
+      "roc_20d": 30.84233034928232
     },
     {
       "symbol": "TEM",
@@ -91,11 +91,15 @@
   "most_overbought": [
     {
       "symbol": "META",
-      "rsi_14": 80.15225101013365
+      "rsi_14": 83.63055213627345
     },
     {
       "symbol": "TEM",
       "rsi_14": 71.14841742731942
+    },
+    {
+      "symbol": "AMD",
+      "rsi_14": 68.96903010392258
     },
     {
       "symbol": "TSM",
@@ -104,10 +108,6 @@
     {
       "symbol": "PLTR",
       "rsi_14": 66.43957955915941
-    },
-    {
-      "symbol": "AMD",
-      "rsi_14": 65.70223677392201
     }
   ],
   "most_oversold": [
