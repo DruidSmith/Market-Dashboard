@@ -1,9 +1,17 @@
 {
-  "generated_at": "2026-09-29T08:14:38.113904Z",
+  "generated_at": "2026-09-29T15:02:46.863933Z",
   "top_gainers_1d": [
+    {
+      "symbol": "SPY",
+      "roc_1d": 0.5435468794763754
+    },
     {
       "symbol": "MA",
       "roc_1d": NaN
+    },
+    {
+      "symbol": "CRWD",
+      "roc_1d": 2.8239380396223757
     },
     {
       "symbol": "XLE",
@@ -12,14 +20,6 @@
     {
       "symbol": "^VIX",
       "roc_1d": 7.443999591892747
-    },
-    {
-      "symbol": "FIX",
-      "roc_1d": 0.9443905215993587
-    },
-    {
-      "symbol": "JPM",
-      "roc_1d": NaN
     }
   ],
   "top_losers_1d": [
@@ -46,27 +46,31 @@
   ],
   "top_gainers_5d": [
     {
+      "symbol": "XLP",
+      "roc_5d": NaN
+    },
+    {
+      "symbol": "VDE",
+      "roc_5d": NaN
+    },
+    {
       "symbol": "HWM",
       "roc_5d": NaN
     },
     {
-      "symbol": "JPM",
+      "symbol": "FIX",
       "roc_5d": NaN
     },
     {
-      "symbol": "VWO",
-      "roc_5d": NaN
-    },
-    {
-      "symbol": "VTIP",
-      "roc_5d": NaN
-    },
-    {
-      "symbol": "META",
-      "roc_5d": 12.061776307707706
+      "symbol": "^VIX",
+      "roc_5d": 9.316349748931806
     }
   ],
   "top_gainers_20d": [
+    {
+      "symbol": "XLP",
+      "roc_20d": -4.2304084239716655
+    },
     {
       "symbol": "QUBT",
       "roc_20d": NaN
@@ -77,11 +81,7 @@
     },
     {
       "symbol": "VDE",
-      "roc_20d": -1.1551147808378959
-    },
-    {
-      "symbol": "XLP",
-      "roc_20d": -3.549605321421867
+      "roc_20d": -4.409719790294764
     },
     {
       "symbol": "NFLX",
@@ -90,12 +90,12 @@
   ],
   "most_overbought": [
     {
-      "symbol": "TEM",
-      "rsi_14": 73.37406487896064
-    },
-    {
       "symbol": "META",
       "rsi_14": 72.96801112160297
+    },
+    {
+      "symbol": "TEM",
+      "rsi_14": 69.93604172169131
     },
     {
       "symbol": "TSM",
@@ -116,20 +116,20 @@
       "rsi_14": 22.480149614516364
     },
     {
+      "symbol": "XLP",
+      "rsi_14": 25.73940982716016
+    },
+    {
       "symbol": "VYM",
       "rsi_14": 25.864783437010118
     },
     {
-      "symbol": "XLP",
-      "rsi_14": 27.132596619555997
-    },
-    {
       "symbol": "FSTA",
-      "rsi_14": 27.95323832289543
+      "rsi_14": 26.586212886479075
     },
     {
       "symbol": "VDC",
-      "rsi_14": 29.44213406160047
+      "rsi_14": 27.77066281376949
     }
   ],
   "highest_volatility": [
