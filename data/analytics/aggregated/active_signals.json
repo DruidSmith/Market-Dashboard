@@ -1,15 +1,29 @@
 {
-  "generated_at": "2026-09-29T20:11:32.720855Z",
+  "generated_at": "2026-09-29T23:56:32.240588Z",
   "golden_crosses": [],
   "death_crosses": [],
-  "macd_bullish_crosses": [],
+  "macd_bullish_crosses": [
+    {
+      "symbol": "^VIX",
+      "macd": -0.06407220954475434
+    }
+  ],
   "macd_bearish_crosses": [
     {
       "symbol": "BTC-USD",
       "macd": 2132.7424471750855
+    },
+    {
+      "symbol": "VOO",
+      "macd": 1.0982663726441615
     }
   ],
-  "rsi_overbought": [],
+  "rsi_overbought": [
+    {
+      "symbol": "ASML",
+      "rsi": 71.32491329184262
+    }
+  ],
   "rsi_oversold": [
     {
       "symbol": "XLP",
