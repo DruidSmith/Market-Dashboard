@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T11:42:20.551497Z",
+  "generated_at": "2026-09-30T16:59:44.102597Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -9,10 +9,6 @@
     }
   ],
   "macd_bearish_crosses": [
-    {
-      "symbol": "BTC-USD",
-      "macd": 2132.7424471750855
-    },
     {
       "symbol": "VOO",
       "macd": 1.0982663726441615
@@ -24,6 +20,10 @@
   ],
   "rsi_overbought": [
     {
+      "symbol": "TEM",
+      "rsi": 70.06469514382397
+    },
+    {
       "symbol": "ASML",
       "rsi": 71.32491329184262
     }
@@ -31,19 +31,19 @@
   "rsi_oversold": [
     {
       "symbol": "XLP",
-      "rsi": 25.73940982716016
+      "rsi": 25.975730795325987
     },
     {
       "symbol": "ITA",
-      "rsi": 29.760051975914507
+      "rsi": 29.471607944685587
     },
     {
       "symbol": "FSTA",
-      "rsi": 26.586212886479075
+      "rsi": 26.454150488344055
     },
     {
       "symbol": "VDC",
-      "rsi": 27.77066281376949
+      "rsi": 27.431187895242985
     },
     {
       "symbol": "VYM",
@@ -54,7 +54,12 @@
       "rsi": 24.016480347048912
     }
   ],
-  "high_volatility": [],
+  "high_volatility": [
+    {
+      "symbol": "BTC-USD",
+      "volatility": 2.099404303204674
+    }
+  ],
   "low_volatility": [
     {
       "symbol": "NVDA",
