@@ -1,12 +1,8 @@
 {
-  "generated_at": "2026-10-03T13:14:43.532734Z",
+  "generated_at": "2026-10-03T17:33:51.137804Z",
   "top_gainers_1d": [
     {
       "symbol": "XLP",
-      "roc_1d": NaN
-    },
-    {
-      "symbol": "QUBT",
       "roc_1d": NaN
     },
     {
@@ -20,24 +16,28 @@
     {
       "symbol": "SOXX",
       "roc_1d": 2.181043317453857
+    },
+    {
+      "symbol": "JPM",
+      "roc_1d": 1.6266151054641353
     }
   ],
   "top_losers_1d": [
-    {
-      "symbol": "GOOGL",
-      "roc_1d": 1.5551117305733664
-    },
-    {
-      "symbol": "MU",
-      "roc_1d": NaN
-    },
     {
       "symbol": "^VIX",
       "roc_1d": -6.5893777318493445
     },
     {
+      "symbol": "QUBT",
+      "roc_1d": -2.5029800900318477
+    },
+    {
       "symbol": "AXON",
       "roc_1d": -2.098478371160284
+    },
+    {
+      "symbol": "MU",
+      "roc_1d": -2.050319366830411
     },
     {
       "symbol": "NFLX",
@@ -68,6 +68,10 @@
   ],
   "top_gainers_20d": [
     {
+      "symbol": "QUBT",
+      "roc_20d": NaN
+    },
+    {
       "symbol": "NFLX",
       "roc_20d": NaN
     },
@@ -82,20 +86,20 @@
     {
       "symbol": "CRWD",
       "roc_20d": NaN
-    },
-    {
-      "symbol": "DGRO",
-      "roc_20d": NaN
     }
   ],
   "most_overbought": [
+    {
+      "symbol": "ASML",
+      "rsi_14": 76.70613137337459
+    },
     {
       "symbol": "TSM",
       "rsi_14": 74.70075990956217
     },
     {
-      "symbol": "ASML",
-      "rsi_14": 71.32491329184262
+      "symbol": "LRCX",
+      "rsi_14": 71.66507274195666
     },
     {
       "symbol": "TEM",
@@ -104,10 +108,6 @@
     {
       "symbol": "VGT",
       "rsi_14": 69.48960056251741
-    },
-    {
-      "symbol": "LRCX",
-      "rsi_14": 68.35796782394038
     }
   ],
   "most_oversold": [
