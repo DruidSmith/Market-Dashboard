@@ -1,26 +1,27 @@
 {
-  "timestamp": "2026-10-05T07:36:24.179990Z",
-  "risk_score": 3,
+  "timestamp": "2026-10-05T17:01:55.332884Z",
+  "risk_score": 5,
   "max_score": 10,
   "overall_status": "WARNING",
   "recommendation": "MONITOR CLOSELY - Prepare exit strategy",
   "alerts": [
+    "\ud83d\udfe1 WARNING: S&P 500 P/E elevated",
     "\ud83d\udd34 CRITICAL: 30Y yield exceeds 4.5%"
   ],
   "indicators": {
     "sp500_pe": {
-      "value": 24.866829,
+      "value": 25.01206,
       "threshold": 30,
-      "status": "normal",
-      "signal": "NORMAL",
-      "interpretation": "P/E of 24.9 below historical crash threshold of 30"
+      "status": "warning",
+      "signal": "MONITOR CLOSELY",
+      "interpretation": "P/E of 25.0 approaching historical crash threshold of 30"
     },
     "treasury_30y": {
-      "value": 5.630000114440918,
+      "value": 5.690000057220459,
       "threshold": 4.5,
       "status": "danger",
       "signal": "SHIFT TO FIXED INCOME",
-      "interpretation": "30Y yield at 5.63% EXCEEDS threshold of 4.5%"
+      "interpretation": "30Y yield at 5.69% EXCEEDS threshold of 4.5%"
     },
     "nyse_new_highs": {
       "value": null,
