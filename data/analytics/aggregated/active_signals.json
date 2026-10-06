@@ -1,12 +1,8 @@
 {
-  "generated_at": "2026-10-06T17:07:57.964640Z",
+  "generated_at": "2026-10-06T21:51:59.403003Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
-    {
-      "symbol": "ITA",
-      "macd": -6.649559664803576
-    },
     {
       "symbol": "AMZN",
       "macd": -2.002496787706633
@@ -17,6 +13,10 @@
     }
   ],
   "macd_bearish_crosses": [
+    {
+      "symbol": "TEM",
+      "macd": 4.881846995205848
+    },
     {
       "symbol": "PLTR",
       "macd": 6.506673968853988
@@ -32,10 +32,6 @@
       "rsi": 70.70165108837142
     },
     {
-      "symbol": "TEM",
-      "rsi": 70.06469514382397
-    },
-    {
       "symbol": "ASML",
       "rsi": 74.7916606469469
     },
@@ -46,22 +42,6 @@
   ],
   "rsi_oversold": [
     {
-      "symbol": "XLP",
-      "rsi": 25.975730795325987
-    },
-    {
-      "symbol": "ITA",
-      "rsi": 28.088277429943687
-    },
-    {
-      "symbol": "FSTA",
-      "rsi": 26.0976600198005
-    },
-    {
-      "symbol": "VDC",
-      "rsi": 27.431187895242985
-    },
-    {
       "symbol": "VTIP",
       "rsi": 16.71227662387382
     }
@@ -70,11 +50,15 @@
   "low_volatility": [
     {
       "symbol": "ETH-USD",
-      "volatility": 2.0583793699964223
+      "volatility": 2.060707294363294
     },
     {
       "symbol": "NVDA",
       "volatility": 1.7311718164015593
+    },
+    {
+      "symbol": "BTC-USD",
+      "volatility": 1.852164222460556
     },
     {
       "symbol": "QQQ",
