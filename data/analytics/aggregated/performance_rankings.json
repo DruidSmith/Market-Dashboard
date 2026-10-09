@@ -1,10 +1,6 @@
 {
-  "generated_at": "2026-10-09T07:55:36.139012Z",
+  "generated_at": "2026-10-09T15:10:52.022939Z",
   "top_gainers_1d": [
-    {
-      "symbol": "VDE",
-      "roc_1d": NaN
-    },
     {
       "symbol": "NFLX",
       "roc_1d": NaN
@@ -20,6 +16,10 @@
     {
       "symbol": "CRWD",
       "roc_1d": NaN
+    },
+    {
+      "symbol": "XLE",
+      "roc_1d": 2.9671673537055243
     }
   ],
   "top_losers_1d": [
@@ -28,30 +28,26 @@
       "roc_1d": -4.794120788574219
     },
     {
+      "symbol": "GLD",
+      "roc_1d": -1.6715892731591908
+    },
+    {
       "symbol": "GOOGL",
       "roc_1d": -0.6305253794802068
     },
     {
+      "symbol": "QQQ",
+      "roc_1d": -0.34576896582166894
+    },
+    {
       "symbol": "BND",
-      "roc_1d": NaN
-    },
-    {
-      "symbol": "VEA",
-      "roc_1d": NaN
-    },
-    {
-      "symbol": "SCHD",
-      "roc_1d": NaN
+      "roc_1d": -0.1851393912738475
     }
   ],
   "top_gainers_5d": [
     {
       "symbol": "VDE",
-      "roc_5d": NaN
-    },
-    {
-      "symbol": "SPY",
-      "roc_5d": 1.5275046871459974
+      "roc_5d": 4.59842660915053
     },
     {
       "symbol": "NFLX",
@@ -64,9 +60,17 @@
     {
       "symbol": "TSM",
       "roc_5d": NaN
+    },
+    {
+      "symbol": "CRWD",
+      "roc_5d": NaN
     }
   ],
   "top_gainers_20d": [
+    {
+      "symbol": "XLP",
+      "roc_20d": NaN
+    },
     {
       "symbol": "VDE",
       "roc_20d": NaN
@@ -81,10 +85,6 @@
     },
     {
       "symbol": "TSM",
-      "roc_20d": NaN
-    },
-    {
-      "symbol": "CRWD",
       "roc_20d": NaN
     }
   ],
@@ -95,7 +95,11 @@
     },
     {
       "symbol": "EME",
-      "rsi_14": 69.36471951950944
+      "rsi_14": 71.56768113822639
+    },
+    {
+      "symbol": "VDE",
+      "rsi_14": 68.64491224887519
     },
     {
       "symbol": "VGT",
@@ -104,32 +108,28 @@
     {
       "symbol": "TSM",
       "rsi_14": 66.98112488700679
-    },
-    {
-      "symbol": "PLTR",
-      "rsi_14": 66.98109261585893
     }
   ],
   "most_oversold": [
     {
       "symbol": "VTIP",
-      "rsi_14": 16.71227662387382
+      "rsi_14": 16.140400227807717
     },
     {
       "symbol": "QUBT",
       "rsi_14": 26.488452690483655
     },
     {
-      "symbol": "ITA",
-      "rsi_14": 31.4729574047076
+      "symbol": "BND",
+      "rsi_14": 29.785736750423837
     },
     {
       "symbol": "SCHD",
       "rsi_14": 33.47443277924124
     },
     {
-      "symbol": "BND",
-      "rsi_14": 33.660859328528645
+      "symbol": "AXON",
+      "rsi_14": 33.718313959427306
     }
   ],
   "highest_volatility": [
