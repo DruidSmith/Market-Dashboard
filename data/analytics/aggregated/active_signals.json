@@ -1,23 +1,19 @@
 {
-  "generated_at": "2026-10-09T01:07:38.700763Z",
+  "generated_at": "2026-10-09T07:55:36.139819Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
     {
-      "symbol": "MA",
-      "macd": -2.322910040198394
+      "symbol": "XLE",
+      "macd": 0.2755362587495682
     },
     {
-      "symbol": "V",
-      "macd": -0.5336892706756089
+      "symbol": "FENY",
+      "macd": 0.0747921987639586
     },
     {
-      "symbol": "JEPI",
-      "macd": -0.14448756077047875
-    },
-    {
-      "symbol": "VYM",
-      "macd": -1.6906147524564688
+      "symbol": "AXON",
+      "macd": -34.1228989293852
     }
   ],
   "macd_bearish_crosses": [
@@ -42,7 +38,12 @@
       "rsi": 16.71227662387382
     }
   ],
-  "high_volatility": [],
+  "high_volatility": [
+    {
+      "symbol": "SCHG",
+      "volatility": 0.8571986552594837
+    }
+  ],
   "low_volatility": [
     {
       "symbol": "ETH-USD",
