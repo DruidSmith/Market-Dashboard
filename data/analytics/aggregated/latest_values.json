@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T08:57:04.366200Z",
+  "generated_at": "2026-10-12T18:53:38.601274Z",
   "symbol_count": 58,
   "symbols": [
     {
@@ -721,44 +721,44 @@
       "symbol": "^VIX",
       "category": "Market volatility indicator",
       "price": {
-        "close": 14.84000015258789,
-        "open": 15.34000015258789,
-        "high": 15.34000015258789,
-        "low": 14.770000457763672,
+        "close": 15.25,
+        "open": 15.390000343322754,
+        "high": 15.529999732971191,
+        "low": 15.109999656677246,
         "volume": 0
       },
       "moving_averages": {
-        "sma_20": 15.648500108718872,
-        "sma_50": 15.510600051879884,
-        "sma_200": 18.29470004081726,
-        "ema_12": 15.407072027118037,
-        "ema_26": 15.566274114034597
+        "sma_20": 15.556000089645385,
+        "sma_50": 15.500600051879882,
+        "sma_200": 18.296200041770934,
+        "ema_12": 15.382907099869108,
+        "ema_26": 15.542846401883887
       },
       "momentum": {
-        "rsi_14": 44.61239711879052,
-        "macd": -0.1592020869165598,
-        "macd_signal": -0.08415947581197787,
-        "macd_histogram": -0.07504261110458192,
+        "rsi_14": 47.749187047517495,
+        "macd": -0.15993930201477902,
+        "macd_signal": -0.09931544105253812,
+        "macd_histogram": -0.0606238609622409,
         "stochastic_k": null,
         "stochastic_d": null
       },
       "volatility": {
-        "atr_14": 0.9692082126317929,
-        "bb_upper": 17.465478495139205,
-        "bb_middle": 15.648500108718872,
-        "bb_lower": 13.831521722298538,
-        "volatility_20d": 4.745762147858194
+        "atr_14": 0.9492647388997577,
+        "bb_upper": 17.252341830443765,
+        "bb_middle": 15.556000089645385,
+        "bb_lower": 13.859658348847006,
+        "volatility_20d": 4.565525609870709
       },
       "trend": {
-        "adx": 19.353473145796208,
+        "adx": 19.29137377642802,
         "plus_di": null,
         "minus_di": null
       },
       "performance": {
-        "roc_1d": -2.8159809579911155,
-        "roc_5d": -3.0698906214698507,
-        "roc_20d": -7.94045049631883,
-        "momentum_10": -0.3400001525878906
+        "roc_1d": 2.762802177873369,
+        "roc_5d": -1.7396936198452728,
+        "roc_20d": -10.81871543976376,
+        "momentum_10": -1.0599994659423828
       },
       "signals": {
         "golden_cross": false,
@@ -776,24 +776,24 @@
       "symbol": "SOXX",
       "category": "AI bubble indicator",
       "price": {
-        "close": NaN,
-        "open": NaN,
-        "high": NaN,
-        "low": NaN,
-        "volume": 4897190
+        "close": 544.2999877929688,
+        "open": 552.666015625,
+        "high": 552.75,
+        "low": 543.3400268554688,
+        "volume": 4762575
       },
       "moving_averages": {
         "sma_20": NaN,
         "sma_50": NaN,
         "sma_200": NaN,
-        "ema_12": 571.9024852559626,
-        "ema_26": 556.8587718082854
+        "ema_12": 567.0204108747528,
+        "ema_26": 555.8599878070673
       },
       "momentum": {
         "rsi_14": 59.339390738944225,
-        "macd": 15.043713447677192,
-        "macd_signal": 13.296727154384572,
-        "macd_histogram": 1.7469862932926201,
+        "macd": 11.160423067685429,
+        "macd_signal": 12.869466337044745,
+        "macd_histogram": -1.7090432693593165,
         "stochastic_k": null,
         "stochastic_d": null
       },
@@ -811,15 +811,15 @@
       },
       "performance": {
         "roc_1d": NaN,
-        "roc_5d": NaN,
+        "roc_5d": -7.6690847014846515,
         "roc_20d": NaN,
-        "momentum_10": NaN
+        "momentum_10": -11.030029296875
       },
       "signals": {
         "golden_cross": false,
         "death_cross": false,
         "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
+        "macd_bearish_cross": true,
         "rsi_overbought": false,
         "rsi_oversold": false,
         "price_above_sma_200": false,
@@ -941,24 +941,24 @@
       "symbol": "MSFT",
       "category": "AI bubble indicator",
       "price": {
-        "close": NaN,
-        "open": NaN,
-        "high": NaN,
-        "low": NaN,
-        "volume": 17890995
+        "close": 539.5050048828125,
+        "open": 538.0700073242188,
+        "high": 542.739990234375,
+        "low": 535.7012939453125,
+        "volume": 11373587
       },
       "moving_averages": {
         "sma_20": NaN,
         "sma_50": NaN,
         "sma_200": NaN,
-        "ema_12": 517.381632111923,
-        "ema_26": 505.75185633068673
+        "ema_12": 521.294609608815,
+        "ema_26": 508.4362009872623
       },
       "momentum": {
         "rsi_14": 73.82057285860073,
-        "macd": 11.62977578123622,
-        "macd_signal": 10.157177416900135,
-        "macd_histogram": 1.4725983643360845,
+        "macd": 12.858408621552712,
+        "macd_signal": 10.697423657830651,
+        "macd_histogram": 2.1609849637220613,
         "stochastic_k": null,
         "stochastic_d": null
       },
@@ -976,9 +976,9 @@
       },
       "performance": {
         "roc_1d": NaN,
-        "roc_5d": NaN,
+        "roc_5d": 2.727638601395621,
         "roc_20d": NaN,
-        "momentum_10": NaN
+        "momentum_10": 29.730010986328125
       },
       "signals": {
         "golden_cross": false,
@@ -1436,33 +1436,33 @@
       "symbol": "NQ=F",
       "category": "Market bull/bear indicator",
       "price": {
-        "close": 31123.25,
-        "open": 31020.5,
-        "high": 31266.5,
-        "low": 30953.0,
-        "volume": 479441
+        "close": 30878.0,
+        "open": 31145.5,
+        "high": 31289.25,
+        "low": 30857.5,
+        "volume": 381862
       },
       "moving_averages": {
-        "sma_20": 30567.6,
+        "sma_20": 30637.4125,
         "sma_50": NaN,
         "sma_200": NaN,
-        "ema_12": 30944.5619926517,
-        "ema_26": 30513.494367361305
+        "ema_12": 30934.3216860899,
+        "ema_26": 30540.4947845938
       },
       "momentum": {
-        "rsi_14": 61.2512349426158,
-        "macd": 431.06762529039406,
-        "macd_signal": 398.1259665790628,
-        "macd_histogram": 32.941658711331286,
+        "rsi_14": 56.52620243425613,
+        "macd": 393.8269014961006,
+        "macd_signal": 397.2661535624704,
+        "macd_histogram": -3.439252066369761,
         "stochastic_k": null,
         "stochastic_d": null
       },
       "volatility": {
         "atr_14": NaN,
-        "bb_upper": 31976.194870784402,
-        "bb_middle": 30567.6,
-        "bb_lower": 29159.005129215595,
-        "volatility_20d": 1.0130743309115398
+        "bb_upper": 31959.56981169749,
+        "bb_middle": 30637.4125,
+        "bb_lower": 29315.255188302508,
+        "volatility_20d": 1.0090534622660265
       },
       "trend": {
         "adx": NaN,
@@ -1470,16 +1470,16 @@
         "minus_di": null
       },
       "performance": {
-        "roc_1d": 0.3991999870965657,
-        "roc_5d": 0.0008032644667865796,
-        "roc_20d": 7.0898314853205635,
-        "momentum_10": 204.25
+        "roc_1d": -0.7879961122312151,
+        "roc_5d": -1.474154435226549,
+        "roc_20d": 4.735980733843825,
+        "momentum_10": 377.75
       },
       "signals": {
         "golden_cross": false,
         "death_cross": false,
         "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
+        "macd_bearish_cross": true,
         "rsi_overbought": false,
         "rsi_oversold": false,
         "price_above_sma_200": false,
@@ -1986,24 +1986,24 @@
       "symbol": "PLTR",
       "category": "AI bubble indicator",
       "price": {
-        "close": 209.0500030517578,
-        "open": 201.47500610351562,
-        "high": 209.5800018310547,
-        "low": 198.3000030517578,
-        "volume": 37479600
+        "close": 206.58999633789062,
+        "open": 208.89999389648438,
+        "high": 212.9398956298828,
+        "low": 206.0500030517578,
+        "volume": 16893092
       },
       "moving_averages": {
         "sma_20": NaN,
         "sma_50": NaN,
         "sma_200": NaN,
-        "ema_12": 192.68361618099692,
-        "ema_26": 184.6934918305601
+        "ema_12": 194.82305928205747,
+        "ema_26": 186.3154551273994
       },
       "momentum": {
-        "rsi_14": 75.3479862637,
-        "macd": 7.990124350436815,
-        "macd_signal": 6.897468339352301,
-        "macd_histogram": 1.0926560110845145,
+        "rsi_14": 70.72497746689619,
+        "macd": 8.507604154658083,
+        "macd_signal": 7.219495502413458,
+        "macd_histogram": 1.2881086522446248,
         "stochastic_k": null,
         "stochastic_d": null
       },
@@ -2020,10 +2020,10 @@
         "minus_di": null
       },
       "performance": {
-        "roc_1d": 5.166517927119818,
-        "roc_5d": 10.754968504242557,
-        "roc_20d": 25.29217584928396,
-        "momentum_10": 17.300506591796875
+        "roc_1d": -1.1767551676419408,
+        "roc_5d": 9.076031148555042,
+        "roc_20d": NaN,
+        "momentum_10": 19.110000610351562
       },
       "signals": {
         "golden_cross": false,
@@ -2041,24 +2041,24 @@
       "symbol": "VOO",
       "category": "Market bull/bear indicator",
       "price": {
-        "close": NaN,
-        "open": NaN,
-        "high": NaN,
-        "low": NaN,
-        "volume": 4335241
+        "close": 714.27001953125,
+        "open": 715.8099975585938,
+        "high": 716.4149780273438,
+        "low": 714.260009765625,
+        "volume": 2676872
       },
       "moving_averages": {
         "sma_20": NaN,
         "sma_50": NaN,
         "sma_200": NaN,
-        "ema_12": 709.2268130766253,
-        "ema_26": 706.6973889867817
+        "ema_12": 710.1188087760827,
+        "ema_26": 707.2996305912018
       },
       "momentum": {
         "rsi_14": 58.85630162680184,
-        "macd": 2.5294240898435874,
-        "macd_signal": 1.8135536713469587,
-        "macd_histogram": 0.7158704184966287,
+        "macd": 2.8191781848809114,
+        "macd_signal": 2.0146785740537494,
+        "macd_histogram": 0.804499610827162,
         "stochastic_k": null,
         "stochastic_d": null
       },
@@ -2076,9 +2076,9 @@
       },
       "performance": {
         "roc_1d": NaN,
-        "roc_5d": NaN,
+        "roc_5d": 0.2737550801579003,
         "roc_20d": NaN,
-        "momentum_10": NaN
+        "momentum_10": 11.09002685546875
       },
       "signals": {
         "golden_cross": false,
@@ -2151,24 +2151,24 @@
       "symbol": "LRCX",
       "category": "AI bubble indicator",
       "price": {
-        "close": 318.8399963378906,
-        "open": 326.0,
-        "high": 326.7200012207031,
-        "low": 316.010009765625,
-        "volume": 4591300
+        "close": 310.3999938964844,
+        "open": 314.3467102050781,
+        "high": 314.95001220703125,
+        "low": 308.010009765625,
+        "volume": 2616252
       },
       "moving_averages": {
         "sma_20": NaN,
         "sma_50": NaN,
         "sma_200": NaN,
-        "ema_12": 323.6113175692351,
-        "ema_26": 317.8057366453065
+        "ema_12": 321.5788062349657,
+        "ema_26": 317.25716310835674
       },
       "momentum": {
-        "rsi_14": 47.649682060540776,
-        "macd": 5.805580923928574,
-        "macd_signal": 4.64347036556267,
-        "macd_histogram": 1.162110558365904,
+        "rsi_14": 42.40025719456605,
+        "macd": 4.32164312660899,
+        "macd_signal": 4.579104917771934,
+        "macd_histogram": -0.2574617911629442,
         "stochastic_k": null,
         "stochastic_d": null
       },
@@ -2185,16 +2185,16 @@
         "minus_di": null
       },
       "performance": {
-        "roc_1d": -0.5458685610874703,
-        "roc_5d": -8.24484005342443,
-        "roc_20d": 5.621625698213317,
-        "momentum_10": 4.79998779296875
+        "roc_1d": -2.647096518111225,
+        "roc_5d": -10.23712988610006,
+        "roc_20d": NaN,
+        "momentum_10": -4.07000732421875
       },
       "signals": {
         "golden_cross": false,
         "death_cross": false,
         "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
+        "macd_bearish_cross": true,
         "rsi_overbought": false,
         "rsi_oversold": false,
         "price_above_sma_200": false,
@@ -2316,24 +2316,24 @@
       "symbol": "ASML",
       "category": "AI bubble indicator",
       "price": {
-        "close": 1780.3399658203125,
-        "open": 1819.1400146484375,
-        "high": 1825.5699462890625,
-        "low": 1778.0,
-        "volume": 1203700
+        "close": 1759.8900146484375,
+        "open": 1784.8050537109375,
+        "high": 1784.8050537109375,
+        "low": 1755.239990234375,
+        "volume": 757503
       },
       "moving_averages": {
         "sma_20": NaN,
         "sma_50": NaN,
         "sma_200": NaN,
-        "ema_12": 1788.067297967877,
-        "ema_26": 1766.079018196517
+        "ema_12": 1783.732331303348,
+        "ema_26": 1765.620573489252
       },
       "momentum": {
-        "rsi_14": 56.783672266646406,
-        "macd": 21.988279771360112,
-        "macd_signal": 18.397999245251462,
-        "macd_histogram": 3.59028052610865,
+        "rsi_14": 53.027199502704576,
+        "macd": 18.11175781409611,
+        "macd_signal": 18.340750959020394,
+        "macd_histogram": -0.22899314492428502,
         "stochastic_k": null,
         "stochastic_d": null
       },
@@ -2350,16 +2350,16 @@
         "minus_di": null
       },
       "performance": {
-        "roc_1d": 0.5961117717331543,
-        "roc_5d": -4.657506790218524,
-        "roc_20d": 3.9663120106044003,
-        "momentum_10": 40.739990234375
+        "roc_1d": -1.1486542775245967,
+        "roc_5d": -5.375134230022594,
+        "roc_20d": NaN,
+        "momentum_10": -11.52001953125
       },
       "signals": {
         "golden_cross": false,
         "death_cross": false,
         "macd_bullish_cross": false,
-        "macd_bearish_cross": false,
+        "macd_bearish_cross": true,
         "rsi_overbought": false,
         "rsi_oversold": false,
         "price_above_sma_200": false,
@@ -3086,24 +3086,24 @@
       "symbol": "MU",
       "category": "AI bubble indicator",
       "price": {
-        "close": 1029.0,
-        "open": 1054.1700439453125,
-        "high": 1054.1700439453125,
-        "low": 1017.0,
-        "volume": 19852800
+        "close": 987.3400268554688,
+        "open": 1002.4099731445312,
+        "high": 1002.6699829101562,
+        "low": 978.5,
+        "volume": 17482557
       },
       "moving_averages": {
         "sma_20": NaN,
         "sma_50": NaN,
         "sma_200": NaN,
-        "ema_12": 1050.6171689418632,
-        "ema_26": 1026.1532902731074
+        "ema_12": 1040.8822240054947,
+        "ema_26": 1023.2782337236526
       },
       "momentum": {
-        "rsi_14": 41.08387268315369,
-        "macd": 24.463878668755797,
-        "macd_signal": 30.64830830621265,
-        "macd_histogram": -6.1844296374568515,
+        "rsi_14": 35.179600280110634,
+        "macd": 17.603990281842016,
+        "macd_signal": 28.03944470133852,
+        "macd_histogram": -10.435454419496505,
         "stochastic_k": null,
         "stochastic_d": null
       },
@@ -3120,10 +3120,10 @@
         "minus_di": null
       },
       "performance": {
-        "roc_1d": -0.6603303643430758,
-        "roc_5d": -4.269275369856951,
-        "roc_20d": 5.151286213953665,
-        "momentum_10": -52.5350341796875
+        "roc_1d": -4.048588255056485,
+        "roc_5d": -7.201392617680669,
+        "roc_20d": NaN,
+        "momentum_10": -66.63995361328125
       },
       "signals": {
         "golden_cross": false,
@@ -3141,24 +3141,24 @@
       "symbol": "GOOGL",
       "category": "AI bubble indicator",
       "price": {
-        "close": NaN,
-        "open": NaN,
-        "high": NaN,
-        "low": NaN,
-        "volume": 17231359
+        "close": 352.29010009765625,
+        "open": 351.94000244140625,
+        "high": 356.5,
+        "low": 350.5,
+        "volume": 11305860
       },
       "moving_averages": {
         "sma_20": NaN,
         "sma_50": NaN,
         "sma_200": NaN,
-        "ema_12": 345.2784213426445,
-        "ema_26": 344.5649234459696
+        "ema_12": 346.51858221087787,
+        "ema_26": 345.17929684684015
       },
       "momentum": {
         "rsi_14": 54.38874184843162,
-        "macd": 0.7134978966748804,
-        "macd_signal": -0.02879696097627063,
-        "macd_histogram": 0.742294857651151,
+        "macd": 1.3392853640377211,
+        "macd_signal": 0.24481950402652772,
+        "macd_histogram": 1.0944658600111934,
         "stochastic_k": null,
         "stochastic_d": null
       },
@@ -3176,9 +3176,9 @@
       },
       "performance": {
         "roc_1d": NaN,
-        "roc_5d": NaN,
+        "roc_5d": 1.6798276492762554,
         "roc_20d": NaN,
-        "momentum_10": NaN
+        "momentum_10": 12.340087890625
       },
       "signals": {
         "golden_cross": false,
