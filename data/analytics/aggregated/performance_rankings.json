@@ -1,14 +1,6 @@
 {
-  "generated_at": "2026-10-15T04:08:33.057118Z",
+  "generated_at": "2026-10-15T09:20:14.647039Z",
   "top_gainers_1d": [
-    {
-      "symbol": "XLP",
-      "roc_1d": 2.2211605451478267
-    },
-    {
-      "symbol": "QUBT",
-      "roc_1d": NaN
-    },
     {
       "symbol": "SPY",
       "roc_1d": NaN
@@ -20,28 +12,36 @@
     {
       "symbol": "^VIX",
       "roc_1d": 10.478063742665068
+    },
+    {
+      "symbol": "XLP",
+      "roc_1d": 2.2211605451478267
+    },
+    {
+      "symbol": "HWM",
+      "roc_1d": 0.8857711635995802
     }
   ],
   "top_losers_1d": [
+    {
+      "symbol": "IONQ",
+      "roc_1d": -9.530663718889432
+    },
+    {
+      "symbol": "QUBT",
+      "roc_1d": -8.151382126754836
+    },
     {
       "symbol": "FIX",
       "roc_1d": -5.223033994762649
     },
     {
-      "symbol": "ETH-USD",
-      "roc_1d": -3.5407797955811393
+      "symbol": "LRCX",
+      "roc_1d": -4.712554420027137
     },
     {
       "symbol": "MU",
-      "roc_1d": -3.4587906379958344
-    },
-    {
-      "symbol": "LRCX",
-      "roc_1d": -2.9929151828591904
-    },
-    {
-      "symbol": "ASML",
-      "roc_1d": -2.393899876250427
+      "roc_1d": -4.097818636216211
     }
   ],
   "top_gainers_5d": [
@@ -68,6 +68,10 @@
   ],
   "top_gainers_20d": [
     {
+      "symbol": "CRWD",
+      "roc_20d": 7.719900011483882
+    },
+    {
       "symbol": "SOXX",
       "roc_20d": NaN
     },
@@ -81,11 +85,7 @@
     },
     {
       "symbol": "PLTR",
-      "roc_20d": 20.926055355378747
-    },
-    {
-      "symbol": "VOO",
-      "roc_20d": NaN
+      "roc_20d": 15.274753609149183
     }
   ],
   "most_overbought": [
@@ -98,38 +98,38 @@
       "rsi_14": 72.89349913598006
     },
     {
-      "symbol": "PLTR",
-      "rsi_14": 72.27398196724758
-    },
-    {
       "symbol": "V",
       "rsi_14": 71.0089943239619
     },
     {
       "symbol": "FENY",
       "rsi_14": 70.87514825952012
+    },
+    {
+      "symbol": "VDC",
+      "rsi_14": 70.30982241708354
     }
   ],
   "most_oversold": [
+    {
+      "symbol": "QUBT",
+      "rsi_14": 19.820933029495762
+    },
     {
       "symbol": "VTIP",
       "rsi_14": 23.14708535142458
     },
     {
-      "symbol": "QUBT",
-      "rsi_14": 26.363448533718824
+      "symbol": "MU",
+      "rsi_14": 27.41683556765257
     },
     {
-      "symbol": "MU",
-      "rsi_14": 31.2189214855497
+      "symbol": "LRCX",
+      "rsi_14": 31.514917835882443
     },
     {
       "symbol": "AXON",
       "rsi_14": 31.908761004940118
-    },
-    {
-      "symbol": "FIX",
-      "rsi_14": 32.028386872900185
     }
   ],
   "highest_volatility": [

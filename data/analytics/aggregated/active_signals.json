@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-10-15T04:08:33.058579Z",
+  "generated_at": "2026-10-15T09:20:14.647840Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
     {
       "symbol": "^VIX",
       "macd": -0.025447578389256265
+    },
+    {
+      "symbol": "AAPL",
+      "macd": 4.481762773721016
     }
   ],
   "macd_bearish_crosses": [
     {
       "symbol": "SCHG",
       "macd": 0.2817971632358365
-    },
-    {
-      "symbol": "QQQM",
-      "macd": 3.4821271042663966
     },
     {
       "symbol": "EME",
@@ -48,10 +48,6 @@
       "rsi": 70.87514825952012
     },
     {
-      "symbol": "PLTR",
-      "rsi": 72.27398196724758
-    },
-    {
       "symbol": "V",
       "rsi": 71.0089943239619
     }
@@ -59,11 +55,15 @@
   "rsi_oversold": [
     {
       "symbol": "QUBT",
-      "rsi": 26.363448533718824
+      "rsi": 19.820933029495762
     },
     {
       "symbol": "VTIP",
       "rsi": 23.14708535142458
+    },
+    {
+      "symbol": "MU",
+      "rsi": 27.41683556765257
     }
   ],
   "high_volatility": [],
