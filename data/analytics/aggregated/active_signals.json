@@ -1,8 +1,13 @@
 {
-  "generated_at": "2026-10-14T23:49:18.747357Z",
+  "generated_at": "2026-10-15T04:08:33.058579Z",
   "golden_crosses": [],
   "death_crosses": [],
-  "macd_bullish_crosses": [],
+  "macd_bullish_crosses": [
+    {
+      "symbol": "^VIX",
+      "macd": -0.025447578389256265
+    }
+  ],
   "macd_bearish_crosses": [
     {
       "symbol": "SCHG",
@@ -19,6 +24,10 @@
     {
       "symbol": "VGT",
       "macd": 1.8661799610620875
+    },
+    {
+      "symbol": "QQQ",
+      "macd": 7.069542041822842
     }
   ],
   "rsi_overbought": [
@@ -29,10 +38,6 @@
     {
       "symbol": "XLE",
       "rsi": 72.89349913598006
-    },
-    {
-      "symbol": "MSFT",
-      "rsi": 76.06279855219347
     },
     {
       "symbol": "VDC",
