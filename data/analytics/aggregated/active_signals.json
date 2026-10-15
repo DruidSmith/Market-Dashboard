@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T14:22:10.209902Z",
+  "generated_at": "2026-10-15T18:33:49.078381Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -13,10 +13,6 @@
     }
   ],
   "macd_bearish_crosses": [
-    {
-      "symbol": "SCHG",
-      "macd": 0.2817971632358365
-    },
     {
       "symbol": "EME",
       "macd": 1.7395193897646095
@@ -32,20 +28,16 @@
       "rsi": 75.98412142346253
     },
     {
-      "symbol": "XLE",
-      "rsi": 72.89349913598006
+      "symbol": "MA",
+      "rsi": 74.86693575090929
     },
     {
       "symbol": "VDC",
       "rsi": 70.30982241708354
     },
     {
-      "symbol": "FENY",
-      "rsi": 70.87514825952012
-    },
-    {
       "symbol": "V",
-      "rsi": 71.0089943239619
+      "rsi": 76.41138413948485
     }
   ],
   "rsi_oversold": [
@@ -62,7 +54,12 @@
       "rsi": 27.41683556765257
     }
   ],
-  "high_volatility": [],
+  "high_volatility": [
+    {
+      "symbol": "SCHG",
+      "volatility": 0.9049997594973015
+    }
+  ],
   "low_volatility": [
     {
       "symbol": "BTC-USD",

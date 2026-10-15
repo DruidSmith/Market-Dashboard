@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T14:22:10.208798Z",
+  "generated_at": "2026-10-15T18:33:49.077225Z",
   "top_gainers_1d": [
     {
       "symbol": "XLP",
@@ -14,12 +14,12 @@
       "roc_1d": 10.478063742665068
     },
     {
-      "symbol": "SOXX",
-      "roc_1d": NaN
+      "symbol": "MA",
+      "roc_1d": 2.216089350022754
     },
     {
-      "symbol": "FSTA",
-      "roc_1d": 2.159627278645826
+      "symbol": "SOXX",
+      "roc_1d": NaN
     }
   ],
   "top_losers_1d": [
@@ -46,6 +46,10 @@
   ],
   "top_gainers_5d": [
     {
+      "symbol": "XLP",
+      "roc_5d": 5.33659825362498
+    },
+    {
       "symbol": "VDE",
       "roc_5d": NaN
     },
@@ -58,18 +62,14 @@
       "roc_5d": NaN
     },
     {
-      "symbol": "TSM",
-      "roc_5d": NaN
-    },
-    {
-      "symbol": "CRWD",
-      "roc_5d": NaN
+      "symbol": "MA",
+      "roc_5d": 7.554889799878262
     }
   ],
   "top_gainers_20d": [
     {
-      "symbol": "XLE",
-      "roc_20d": 4.6457609628763
+      "symbol": "MA",
+      "roc_20d": 9.271651929243108
     },
     {
       "symbol": "SOXX",
@@ -90,24 +90,24 @@
   ],
   "most_overbought": [
     {
+      "symbol": "V",
+      "rsi_14": 76.41138413948485
+    },
+    {
       "symbol": "VDE",
       "rsi_14": 75.98412142346253
     },
     {
-      "symbol": "XLE",
-      "rsi_14": 72.89349913598006
-    },
-    {
-      "symbol": "V",
-      "rsi_14": 71.0089943239619
-    },
-    {
-      "symbol": "FENY",
-      "rsi_14": 70.87514825952012
+      "symbol": "MA",
+      "rsi_14": 74.86693575090929
     },
     {
       "symbol": "VDC",
       "rsi_14": 70.30982241708354
+    },
+    {
+      "symbol": "META",
+      "rsi_14": 68.9761629679058
     }
   ],
   "most_oversold": [
@@ -128,8 +128,8 @@
       "rsi_14": 31.514917835882443
     },
     {
-      "symbol": "AXON",
-      "rsi_14": 31.908761004940118
+      "symbol": "FIX",
+      "rsi_14": 32.028386872900185
     }
   ],
   "highest_volatility": [
