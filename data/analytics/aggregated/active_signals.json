@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T22:04:40.333168Z",
+  "generated_at": "2026-10-16T00:39:56.563532Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -8,11 +8,23 @@
       "macd": -0.025447578389256265
     },
     {
+      "symbol": "VGK",
+      "macd": -1.031088624510744
+    },
+    {
       "symbol": "AAPL",
       "macd": 4.481762773721016
+    },
+    {
+      "symbol": "GLD",
+      "macd": -4.882183848475449
     }
   ],
   "macd_bearish_crosses": [
+    {
+      "symbol": "AVGO",
+      "macd": -3.416002296599004
+    },
     {
       "symbol": "QQQ",
       "macd": 7.069542041822842
@@ -42,6 +54,10 @@
       "rsi": 19.820933029495762
     },
     {
+      "symbol": "FIX",
+      "rsi": 28.041792802559243
+    },
+    {
       "symbol": "VTIP",
       "rsi": 29.813792376740082
     },
@@ -58,8 +74,12 @@
   ],
   "low_volatility": [
     {
+      "symbol": "ETH-USD",
+      "volatility": 1.7413758183597452
+    },
+    {
       "symbol": "BTC-USD",
-      "volatility": 1.0005705271017027
+      "volatility": 1.0170196941314407
     }
   ]
 }

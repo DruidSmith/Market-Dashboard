@@ -1,10 +1,6 @@
 {
-  "generated_at": "2026-10-15T22:04:40.332261Z",
+  "generated_at": "2026-10-16T00:39:56.562302Z",
   "top_gainers_1d": [
-    {
-      "symbol": "SPY",
-      "roc_1d": NaN
-    },
     {
       "symbol": "^VIX",
       "roc_1d": 10.478063742665068
@@ -20,6 +16,10 @@
     {
       "symbol": "ITA",
       "roc_1d": 1.3121781255881038
+    },
+    {
+      "symbol": "VIG",
+      "roc_1d": 0.9101955663872285
     }
   ],
   "top_losers_1d": [
@@ -32,16 +32,16 @@
       "roc_1d": -8.151382126754836
     },
     {
-      "symbol": "FIX",
-      "roc_1d": -5.223033994762649
-    },
-    {
       "symbol": "LRCX",
       "roc_1d": -4.712554420027137
     },
     {
       "symbol": "MU",
       "roc_1d": -4.097818636216211
+    },
+    {
+      "symbol": "ASML",
+      "roc_1d": -3.944672677230987
     }
   ],
   "top_gainers_5d": [
@@ -68,10 +68,6 @@
   ],
   "top_gainers_20d": [
     {
-      "symbol": "MA",
-      "roc_20d": 9.271651929243108
-    },
-    {
       "symbol": "SOXX",
       "roc_20d": NaN
     },
@@ -84,8 +80,12 @@
       "roc_20d": NaN
     },
     {
-      "symbol": "PLTR",
-      "roc_20d": 15.274753609149183
+      "symbol": "META",
+      "roc_20d": NaN
+    },
+    {
+      "symbol": "TEM",
+      "roc_20d": NaN
     }
   ],
   "most_overbought": [
@@ -120,16 +120,16 @@
       "rsi_14": 27.41683556765257
     },
     {
+      "symbol": "FIX",
+      "rsi_14": 28.041792802559243
+    },
+    {
       "symbol": "VTIP",
       "rsi_14": 29.813792376740082
     },
     {
       "symbol": "LRCX",
       "rsi_14": 31.514917835882443
-    },
-    {
-      "symbol": "FIX",
-      "rsi_14": 32.028386872900185
     }
   ],
   "highest_volatility": [
