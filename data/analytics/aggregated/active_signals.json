@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T04:54:39.621698Z",
+  "generated_at": "2026-10-17T09:08:23.064702Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -8,7 +8,12 @@
       "macd": -0.27291923435834775
     }
   ],
-  "macd_bearish_crosses": [],
+  "macd_bearish_crosses": [
+    {
+      "symbol": "PLTR",
+      "macd": 6.664620350684828
+    }
+  ],
   "rsi_overbought": [
     {
       "symbol": "XLP",
@@ -47,6 +52,10 @@
     {
       "symbol": "AXON",
       "rsi": 26.841660600127653
+    },
+    {
+      "symbol": "MU",
+      "rsi": 26.594828855627654
     }
   ],
   "high_volatility": [
