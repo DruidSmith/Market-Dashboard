@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T11:08:18.890594Z",
+  "generated_at": "2026-10-19T17:42:03.723594Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -16,42 +16,38 @@
   ],
   "rsi_overbought": [
     {
-      "symbol": "XLP",
-      "rsi": 73.83884506336732
+      "symbol": "MA",
+      "rsi": 71.08604524836649
     },
     {
       "symbol": "VDE",
       "rsi": 71.8621762649363
     },
     {
-      "symbol": "MA",
-      "rsi": 71.08604524836649
+      "symbol": "VDC",
+      "rsi": 72.48277737397441
+    },
+    {
+      "symbol": "V",
+      "rsi": 73.00707074351601
     },
     {
       "symbol": "^VIX",
       "rsi": 70.1268977377443
     },
     {
-      "symbol": "VDC",
-      "rsi": 75.48524680159001
-    },
-    {
-      "symbol": "V",
-      "rsi": 73.00707074351601
+      "symbol": "XLP",
+      "rsi": 70.88108919357497
     }
   ],
   "rsi_oversold": [
     {
-      "symbol": "FIX",
-      "rsi": 25.640817842801567
+      "symbol": "AXON",
+      "rsi": 26.841660600127653
     },
     {
       "symbol": "LRCX",
       "rsi": 24.41009137431645
-    },
-    {
-      "symbol": "AXON",
-      "rsi": 26.841660600127653
     },
     {
       "symbol": "MU",
@@ -60,22 +56,18 @@
   ],
   "high_volatility": [
     {
-      "symbol": "SCHG",
-      "volatility": 1.0085705894936474
-    },
-    {
       "symbol": "^VIX",
       "volatility": 6.1966554643587815
+    },
+    {
+      "symbol": "SCHG",
+      "volatility": 1.0085705894936474
     }
   ],
   "low_volatility": [
     {
-      "symbol": "ETH-USD",
-      "volatility": 1.7551361854325551
-    },
-    {
       "symbol": "BTC-USD",
-      "volatility": 0.9659359153598832
+      "volatility": 0.9835805033126295
     }
   ]
 }
