@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T17:42:03.723594Z",
+  "generated_at": "2026-10-19T22:13:15.442338Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -10,18 +10,30 @@
   ],
   "macd_bearish_crosses": [
     {
+      "symbol": "SPY",
+      "macd": 1.9439966185753974
+    },
+    {
+      "symbol": "MSFT",
+      "macd": 12.017905689627469
+    },
+    {
       "symbol": "PLTR",
       "macd": 6.664620350684828
     }
   ],
   "rsi_overbought": [
     {
-      "symbol": "MA",
-      "rsi": 71.08604524836649
+      "symbol": "XLP",
+      "rsi": 70.88108919357497
     },
     {
       "symbol": "VDE",
       "rsi": 71.8621762649363
+    },
+    {
+      "symbol": "MA",
+      "rsi": 71.08604524836649
     },
     {
       "symbol": "VDC",
@@ -30,24 +42,16 @@
     {
       "symbol": "V",
       "rsi": 73.00707074351601
-    },
-    {
-      "symbol": "^VIX",
-      "rsi": 70.1268977377443
-    },
-    {
-      "symbol": "XLP",
-      "rsi": 70.88108919357497
     }
   ],
   "rsi_oversold": [
     {
-      "symbol": "AXON",
-      "rsi": 26.841660600127653
-    },
-    {
       "symbol": "LRCX",
       "rsi": 24.41009137431645
+    },
+    {
+      "symbol": "AXON",
+      "rsi": 26.841660600127653
     },
     {
       "symbol": "MU",
@@ -56,12 +60,12 @@
   ],
   "high_volatility": [
     {
-      "symbol": "^VIX",
-      "volatility": 6.1966554643587815
-    },
-    {
       "symbol": "SCHG",
       "volatility": 1.0085705894936474
+    },
+    {
+      "symbol": "^VIX",
+      "volatility": 6.545699579943615
     }
   ],
   "low_volatility": [
