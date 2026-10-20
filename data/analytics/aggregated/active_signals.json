@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T01:11:59.263411Z",
+  "generated_at": "2026-10-20T06:27:40.359888Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -20,16 +20,12 @@
   ],
   "rsi_overbought": [
     {
-      "symbol": "XLP",
-      "rsi": 70.88108919357497
+      "symbol": "MA",
+      "rsi": 71.08604524836649
     },
     {
       "symbol": "VDE",
       "rsi": 71.8621762649363
-    },
-    {
-      "symbol": "MA",
-      "rsi": 71.08604524836649
     },
     {
       "symbol": "VDC",
@@ -38,16 +34,20 @@
     {
       "symbol": "V",
       "rsi": 73.00707074351601
+    },
+    {
+      "symbol": "XLP",
+      "rsi": 70.88108919357497
     }
   ],
   "rsi_oversold": [
     {
-      "symbol": "LRCX",
-      "rsi": 24.41009137431645
-    },
-    {
       "symbol": "AXON",
       "rsi": 26.841660600127653
+    },
+    {
+      "symbol": "LRCX",
+      "rsi": 24.41009137431645
     },
     {
       "symbol": "MU",
@@ -56,12 +56,12 @@
   ],
   "high_volatility": [
     {
-      "symbol": "SCHG",
-      "volatility": 1.0085705894936474
-    },
-    {
       "symbol": "^VIX",
       "volatility": 6.545699579943615
+    },
+    {
+      "symbol": "SCHG",
+      "volatility": 1.0085705894936474
     }
   ],
   "low_volatility": [
