@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-21T07:23:14.557518Z",
+  "generated_at": "2026-10-21T13:08:34.506073Z",
   "top_gainers_1d": [
     {
-      "symbol": "AAPL",
+      "symbol": "QUBT",
       "roc_1d": NaN
     },
     {
-      "symbol": "GOOGL",
+      "symbol": "QQQM",
       "roc_1d": NaN
     },
     {
@@ -14,25 +14,21 @@
       "roc_1d": 3.729606189259016
     },
     {
-      "symbol": "LRCX",
-      "roc_1d": NaN
+      "symbol": "ETH-USD",
+      "roc_1d": 1.5729345904393233
     },
     {
-      "symbol": "QQQM",
-      "roc_1d": NaN
+      "symbol": "TSM",
+      "roc_1d": 1.156533562763462
     }
   ],
   "top_losers_1d": [
     {
-      "symbol": "CRWD",
-      "roc_1d": -0.3200398802255311
+      "symbol": "GOOGL",
+      "roc_1d": NaN
     },
     {
-      "symbol": "XLP",
-      "roc_1d": 0.40100650666383686
-    },
-    {
-      "symbol": "QUBT",
+      "symbol": "MU",
       "roc_1d": NaN
     },
     {
@@ -42,68 +38,72 @@
     {
       "symbol": "HWM",
       "roc_1d": -5.325409646095681
+    },
+    {
+      "symbol": "FIX",
+      "roc_1d": -5.006715122675387
     }
   ],
   "top_gainers_5d": [
     {
-      "symbol": "MA",
-      "roc_5d": 3.5809703737094134
-    },
-    {
-      "symbol": "SOXX",
-      "roc_5d": NaN
-    },
-    {
-      "symbol": "VDC",
-      "roc_5d": 3.8478356245882805
+      "symbol": "XLP",
+      "roc_5d": 4.085989680788815
     },
     {
       "symbol": "SPY",
       "roc_5d": NaN
     },
     {
-      "symbol": "INTC",
+      "symbol": "^VIX",
+      "roc_5d": 13.359521591510637
+    },
+    {
+      "symbol": "SOXX",
       "roc_5d": NaN
+    },
+    {
+      "symbol": "FSTA",
+      "roc_5d": 3.8873233705619237
     }
   ],
   "top_gainers_20d": [
     {
-      "symbol": "EME",
+      "symbol": "XLP",
       "roc_20d": NaN
     },
     {
-      "symbol": "VWO",
+      "symbol": "VDE",
       "roc_20d": NaN
     },
     {
-      "symbol": "MA",
-      "roc_20d": 8.5880380345831
+      "symbol": "SPY",
+      "roc_20d": NaN
     },
     {
-      "symbol": "VYM",
-      "roc_20d": 1.5373871081841406
+      "symbol": "HWM",
+      "roc_20d": NaN
     },
     {
-      "symbol": "AAPL",
-      "roc_20d": -0.512820512820511
+      "symbol": "FIX",
+      "roc_20d": NaN
     }
   ],
   "most_overbought": [
     {
       "symbol": "V",
-      "rsi_14": 74.48614009450516
+      "rsi_14": 76.31766994717508
     },
     {
       "symbol": "VDC",
       "rsi_14": 73.5312050118501
     },
     {
-      "symbol": "XLP",
-      "rsi_14": 72.11917269409626
+      "symbol": "MA",
+      "rsi_14": 73.46826015999689
     },
     {
-      "symbol": "MA",
-      "rsi_14": 71.91752757918508
+      "symbol": "XLP",
+      "rsi_14": 72.11917269409626
     },
     {
       "symbol": "XLE",
@@ -111,10 +111,6 @@
     }
   ],
   "most_oversold": [
-    {
-      "symbol": "AXON",
-      "rsi_14": 23.85238871270478
-    },
     {
       "symbol": "LRCX",
       "rsi_14": 24.41009137431645
@@ -130,27 +126,31 @@
     {
       "symbol": "HWM",
       "rsi_14": 29.915973493968394
+    },
+    {
+      "symbol": "QUBT",
+      "rsi_14": 30.08382681523139
     }
   ],
   "highest_volatility": [
     {
-      "symbol": "EME",
+      "symbol": "XLP",
       "volatility_20d": NaN
     },
     {
-      "symbol": "VWO",
+      "symbol": "QUBT",
+      "volatility_20d": NaN
+    },
+    {
+      "symbol": "VDE",
+      "volatility_20d": NaN
+    },
+    {
+      "symbol": "SPY",
       "volatility_20d": NaN
     },
     {
       "symbol": "NFLX",
-      "volatility_20d": NaN
-    },
-    {
-      "symbol": "AAPL",
-      "volatility_20d": NaN
-    },
-    {
-      "symbol": "MA",
       "volatility_20d": NaN
     }
   ]
