@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-10-22T00:33:43.180980Z",
+  "generated_at": "2026-10-22T05:55:28.551743Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [],
   "macd_bearish_crosses": [
-    {
-      "symbol": "AAPL",
-      "macd": 4.236778590889344
-    },
     {
       "symbol": "HWM",
       "macd": -8.945350936294432
@@ -15,12 +11,12 @@
   ],
   "rsi_overbought": [
     {
-      "symbol": "MA",
-      "rsi": 73.46826015999689
-    },
-    {
       "symbol": "SPY",
       "rsi": 70.95681958837821
+    },
+    {
+      "symbol": "MA",
+      "rsi": 73.46826015999689
     },
     {
       "symbol": "V",
@@ -33,26 +29,22 @@
       "rsi": 28.373208723491686
     },
     {
-      "symbol": "LRCX",
-      "rsi": 24.41009137431645
-    },
-    {
-      "symbol": "MU",
-      "rsi": 26.594828855627654
-    },
-    {
       "symbol": "FIX",
       "rsi": 27.412639995175425
+    },
+    {
+      "symbol": "LRCX",
+      "rsi": 24.41009137431645
     }
   ],
   "high_volatility": [
     {
-      "symbol": "^VIX",
-      "volatility": 6.726802775692573
-    },
-    {
       "symbol": "SCHG",
       "volatility": 0.8991213773888926
+    },
+    {
+      "symbol": "^VIX",
+      "volatility": 6.726802775692573
     }
   ],
   "low_volatility": []
