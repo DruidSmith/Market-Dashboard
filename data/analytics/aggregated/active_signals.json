@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T16:58:52.534424Z",
+  "generated_at": "2026-10-22T20:30:23.920719Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [],
@@ -7,13 +7,13 @@
     {
       "symbol": "NFLX",
       "macd": -1.5504758914214563
+    },
+    {
+      "symbol": "GLD",
+      "macd": -5.168502957756857
     }
   ],
   "rsi_overbought": [
-    {
-      "symbol": "SPY",
-      "rsi": 70.95681958837821
-    },
     {
       "symbol": "MA",
       "rsi": 74.30452982599863
@@ -23,11 +23,31 @@
       "rsi": 70.31221229193191
     },
     {
+      "symbol": "VDC",
+      "rsi": 77.87913991551677
+    },
+    {
+      "symbol": "SPY",
+      "rsi": 70.95681958837821
+    },
+    {
+      "symbol": "FSTA",
+      "rsi": 73.18317667558911
+    },
+    {
       "symbol": "V",
       "rsi": 79.64181843398825
+    },
+    {
+      "symbol": "XLP",
+      "rsi": 76.58028495971143
     }
   ],
   "rsi_oversold": [
+    {
+      "symbol": "EME",
+      "rsi": 29.686093052767333
+    },
     {
       "symbol": "NFLX",
       "rsi": 26.882946654369547
@@ -37,22 +57,22 @@
       "rsi": 21.46523030754655
     },
     {
-      "symbol": "FIX",
-      "rsi": 27.412639995175425
-    },
-    {
       "symbol": "LRCX",
       "rsi": 24.41009137431645
+    },
+    {
+      "symbol": "FIX",
+      "rsi": 21.551321259234157
     }
   ],
   "high_volatility": [
     {
-      "symbol": "SCHG",
-      "volatility": 1.0529588010029516
-    },
-    {
       "symbol": "^VIX",
       "volatility": 6.726802775692573
+    },
+    {
+      "symbol": "SCHG",
+      "volatility": 1.0529588010029516
     }
   ],
   "low_volatility": []
