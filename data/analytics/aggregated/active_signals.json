@@ -1,13 +1,14 @@
 {
-  "generated_at": "2026-10-23T04:16:44.896189Z",
+  "generated_at": "2026-10-23T09:31:03.305287Z",
   "golden_crosses": [],
   "death_crosses": [],
-  "macd_bullish_crosses": [],
-  "macd_bearish_crosses": [
+  "macd_bullish_crosses": [
     {
-      "symbol": "NFLX",
-      "macd": -1.5504758914214563
-    },
+      "symbol": "AAPL",
+      "macd": 4.645200903816203
+    }
+  ],
+  "macd_bearish_crosses": [
     {
       "symbol": "GLD",
       "macd": -5.168502957756857
@@ -35,15 +36,19 @@
       "rsi": 77.87913991551677
     },
     {
+      "symbol": "AAPL",
+      "rsi": 72.31460112686415
+    },
+    {
       "symbol": "V",
       "rsi": 79.64181843398825
+    },
+    {
+      "symbol": "SPLV",
+      "rsi": 71.55670593242625
     }
   ],
   "rsi_oversold": [
-    {
-      "symbol": "NFLX",
-      "rsi": 26.882946654369547
-    },
     {
       "symbol": "HWM",
       "rsi": 21.46523030754655
