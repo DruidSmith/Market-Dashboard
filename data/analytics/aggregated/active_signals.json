@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T20:54:05.916628Z",
+  "generated_at": "2026-10-28T00:22:54.074995Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -8,12 +8,7 @@
       "macd": -0.5937111453498716
     }
   ],
-  "macd_bearish_crosses": [
-    {
-      "symbol": "AMZN",
-      "macd": 0.2216169173412652
-    }
-  ],
+  "macd_bearish_crosses": [],
   "rsi_overbought": [
     {
       "symbol": "XLE",
@@ -48,5 +43,10 @@
       "volatility": 7.203220391898945
     }
   ],
-  "low_volatility": []
+  "low_volatility": [
+    {
+      "symbol": "BTC-USD",
+      "volatility": 1.4000044909978022
+    }
+  ]
 }
