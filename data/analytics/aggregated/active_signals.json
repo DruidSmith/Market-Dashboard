@@ -1,50 +1,41 @@
 {
-  "generated_at": "2026-10-28T13:26:26.359026Z",
+  "generated_at": "2026-10-28T19:02:36.000790Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
     {
-      "symbol": "CRWD",
-      "macd": 2.267560851543294
-    },
-    {
       "symbol": "VEA",
       "macd": -0.5937111453498716
+    },
+    {
+      "symbol": "CRWD",
+      "macd": 2.267560851543294
     }
   ],
   "macd_bearish_crosses": [],
-  "rsi_overbought": [
-    {
-      "symbol": "XLE",
-      "rsi": 72.84293755244403
-    },
-    {
-      "symbol": "FENY",
-      "rsi": 71.04644974590963
-    }
-  ],
+  "rsi_overbought": [],
   "rsi_oversold": [
     {
-      "symbol": "NFLX",
-      "rsi": 27.123931479756124
+      "symbol": "LRCX",
+      "rsi": 24.39223933460373
     },
     {
       "symbol": "HWM",
       "rsi": 26.656614197056484
     },
     {
-      "symbol": "LRCX",
-      "rsi": 24.39223933460373
+      "symbol": "NFLX",
+      "rsi": 27.123931479756124
     }
   ],
   "high_volatility": [
     {
-      "symbol": "SCHG",
-      "volatility": 1.092317684185763
-    },
-    {
       "symbol": "^VIX",
       "volatility": 7.291402392962219
+    },
+    {
+      "symbol": "SCHG",
+      "volatility": 1.092317684185763
     }
   ],
   "low_volatility": [
