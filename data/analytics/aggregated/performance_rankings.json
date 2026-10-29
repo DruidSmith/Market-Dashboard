@@ -1,17 +1,9 @@
 {
-  "generated_at": "2026-10-29T09:43:28.667232Z",
+  "generated_at": "2026-10-29T16:49:06.169336Z",
   "top_gainers_1d": [
-    {
-      "symbol": "GOOGL",
-      "roc_1d": NaN
-    },
     {
       "symbol": "SPY",
       "roc_1d": NaN
-    },
-    {
-      "symbol": "QUBT",
-      "roc_1d": 7.176287817427762
     },
     {
       "symbol": "NVDA",
@@ -20,12 +12,28 @@
     {
       "symbol": "AMZN",
       "roc_1d": NaN
+    },
+    {
+      "symbol": "IONQ",
+      "roc_1d": 7.119637573998894
+    },
+    {
+      "symbol": "INTC",
+      "roc_1d": NaN
     }
   ],
   "top_losers_1d": [
     {
+      "symbol": "GOOGL",
+      "roc_1d": -12.207209170471224
+    },
+    {
+      "symbol": "MU",
+      "roc_1d": -4.143485353747289
+    },
+    {
       "symbol": "^VIX",
-      "roc_1d": -4.730826322781068
+      "roc_1d": -3.1933708636984526
     },
     {
       "symbol": "NFLX",
@@ -34,29 +42,9 @@
     {
       "symbol": "ETH-USD",
       "roc_1d": -1.943447968757639
-    },
-    {
-      "symbol": "AXON",
-      "roc_1d": -1.3831107553257782
-    },
-    {
-      "symbol": "BTC-USD",
-      "roc_1d": -1.2887286066033066
     }
   ],
   "top_gainers_5d": [
-    {
-      "symbol": "QUBT",
-      "roc_5d": 5.692305931678177
-    },
-    {
-      "symbol": "AXON",
-      "roc_5d": 5.109291359257906
-    },
-    {
-      "symbol": "PLTR",
-      "roc_5d": 3.182756713272794
-    },
     {
       "symbol": "VOO",
       "roc_5d": NaN
@@ -64,6 +52,18 @@
     {
       "symbol": "INTC",
       "roc_5d": NaN
+    },
+    {
+      "symbol": "AMD",
+      "roc_5d": NaN
+    },
+    {
+      "symbol": "SOXX",
+      "roc_5d": NaN
+    },
+    {
+      "symbol": "CRWD",
+      "roc_5d": 17.878345766570124
     }
   ],
   "top_gainers_20d": [
@@ -91,7 +91,7 @@
   "most_overbought": [
     {
       "symbol": "AAPL",
-      "rsi_14": 66.43900222632254
+      "rsi_14": 66.42925148568088
     },
     {
       "symbol": "TEM",
@@ -112,8 +112,8 @@
   ],
   "most_oversold": [
     {
-      "symbol": "LRCX",
-      "rsi_14": 24.39223933460373
+      "symbol": "GOOGL",
+      "rsi_14": 18.02632742532886
     },
     {
       "symbol": "NFLX",
@@ -124,12 +124,12 @@
       "rsi_14": 31.901864243827305
     },
     {
-      "symbol": "GOOGL",
-      "rsi_14": 34.094837753457895
-    },
-    {
       "symbol": "AVGO",
       "rsi_14": 36.10288438336641
+    },
+    {
+      "symbol": "ETH-USD",
+      "rsi_14": 36.50863286291512
     }
   ],
   "highest_volatility": [
