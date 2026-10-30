@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T21:42:48.249165Z",
+  "generated_at": "2026-10-30T01:47:37.811195Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -22,7 +22,16 @@
       "macd": 0.4699301237176492
     }
   ],
-  "rsi_overbought": [],
+  "rsi_overbought": [
+    {
+      "symbol": "DGRO",
+      "rsi": 70.37139190880022
+    },
+    {
+      "symbol": "VIG",
+      "rsi": 70.74307500793182
+    }
+  ],
   "rsi_oversold": [
     {
       "symbol": "GOOGL",
@@ -35,12 +44,16 @@
   ],
   "high_volatility": [
     {
+      "symbol": "JEPI",
+      "volatility": 0.35314182703809516
+    },
+    {
       "symbol": "^VIX",
       "volatility": 7.38755975075014
     },
     {
       "symbol": "SCHG",
-      "volatility": 1.093625273355698
+      "volatility": 1.1230744279875076
     }
   ],
   "low_volatility": [
