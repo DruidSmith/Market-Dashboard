@@ -1,15 +1,11 @@
 {
-  "generated_at": "2026-10-30T08:25:17.736049Z",
+  "generated_at": "2026-10-30T15:15:34.557184Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
     {
       "symbol": "MU",
       "macd": -21.977256536367122
-    },
-    {
-      "symbol": "TEM",
-      "macd": -0.1395779433955795
     },
     {
       "symbol": "AAPL",
@@ -20,6 +16,10 @@
     {
       "symbol": "^VIX",
       "macd": 0.4699301237176492
+    },
+    {
+      "symbol": "AVGO",
+      "macd": -7.292276932545747
     }
   ],
   "rsi_overbought": [
@@ -36,6 +36,14 @@
     {
       "symbol": "GOOGL",
       "rsi": 18.02632742532886
+    },
+    {
+      "symbol": "AMZN",
+      "rsi": 24.824742132941267
+    },
+    {
+      "symbol": "AVGO",
+      "rsi": 22.2160859147491
     },
     {
       "symbol": "NFLX",
@@ -56,14 +64,5 @@
       "volatility": 1.1230744279875076
     }
   ],
-  "low_volatility": [
-    {
-      "symbol": "BTC-USD",
-      "volatility": 1.4267527120958854
-    },
-    {
-      "symbol": "ETH-USD",
-      "volatility": 1.9732063902259773
-    }
-  ]
+  "low_volatility": []
 }
