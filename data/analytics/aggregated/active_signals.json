@@ -1,8 +1,12 @@
 {
-  "generated_at": "2026-10-30T15:15:34.557184Z",
+  "generated_at": "2026-10-30T20:03:18.009500Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
+    {
+      "symbol": "^VIX",
+      "macd": 0.7745403274839973
+    },
     {
       "symbol": "MU",
       "macd": -21.977256536367122
@@ -13,10 +17,6 @@
     }
   ],
   "macd_bearish_crosses": [
-    {
-      "symbol": "^VIX",
-      "macd": 0.4699301237176492
-    },
     {
       "symbol": "AVGO",
       "macd": -7.292276932545747
@@ -42,8 +42,24 @@
       "rsi": 24.824742132941267
     },
     {
+      "symbol": "INTC",
+      "rsi": 14.508345920409084
+    },
+    {
+      "symbol": "QQQ",
+      "rsi": 24.11956141333627
+    },
+    {
       "symbol": "AVGO",
       "rsi": 22.2160859147491
+    },
+    {
+      "symbol": "AMD",
+      "rsi": 23.910787383760663
+    },
+    {
+      "symbol": "SOXX",
+      "rsi": 28.67387075438633
     },
     {
       "symbol": "NFLX",
@@ -57,7 +73,7 @@
     },
     {
       "symbol": "^VIX",
-      "volatility": 7.38755975075014
+      "volatility": 10.038224577327597
     },
     {
       "symbol": "SCHG",
