@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T05:24:31.543433Z",
+  "generated_at": "2026-10-31T11:07:39.388640Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -10,70 +10,74 @@
   ],
   "macd_bearish_crosses": [
     {
-      "symbol": "MU",
-      "macd": -24.52621278152685
-    },
-    {
       "symbol": "AVGO",
       "macd": -7.292276932545747
     },
     {
       "symbol": "AAPL",
       "macd": 4.225537198532493
+    },
+    {
+      "symbol": "MU",
+      "macd": -24.52621278152685
     }
   ],
   "rsi_overbought": [
     {
       "symbol": "SCHD",
       "rsi": 70.90290121523357
+    },
+    {
+      "symbol": "V",
+      "rsi": 70.04546707355746
     }
   ],
   "rsi_oversold": [
     {
-      "symbol": "GOOGL",
-      "rsi": 16.603517957613505
+      "symbol": "QQQ",
+      "rsi": 24.11956141333627
     },
     {
       "symbol": "AMZN",
       "rsi": 24.824742132941267
     },
     {
-      "symbol": "INTC",
-      "rsi": 14.508345920409084
-    },
-    {
-      "symbol": "QQQ",
-      "rsi": 24.11956141333627
-    },
-    {
       "symbol": "AVGO",
       "rsi": 22.2160859147491
+    },
+    {
+      "symbol": "INTC",
+      "rsi": 14.508345920409084
     },
     {
       "symbol": "AMD",
       "rsi": 23.910787383760663
     },
     {
-      "symbol": "SOXX",
-      "rsi": 28.67387075438633
+      "symbol": "GOOGL",
+      "rsi": 16.603517957613505
     },
     {
       "symbol": "NFLX",
       "rsi": 26.687511944775196
+    },
+    {
+      "symbol": "SOXX",
+      "rsi": 28.67387075438633
     }
   ],
   "high_volatility": [
     {
-      "symbol": "JEPI",
-      "volatility": 0.35314182703809516
+      "symbol": "SCHG",
+      "volatility": 1.2003002762442136
     },
     {
       "symbol": "^VIX",
       "volatility": 10.038224577327597
     },
     {
-      "symbol": "SCHG",
-      "volatility": 1.1230744279875076
+      "symbol": "JEPI",
+      "volatility": 0.38675755586326793
     }
   ],
   "low_volatility": []
