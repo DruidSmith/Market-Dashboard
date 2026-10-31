@@ -1,8 +1,12 @@
 {
-  "generated_at": "2026-10-31T11:07:39.388640Z",
+  "generated_at": "2026-10-31T16:16:41.946302Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
+    {
+      "symbol": "HWM",
+      "macd": -10.921466366594558
+    },
     {
       "symbol": "^VIX",
       "macd": 0.7745403274839973
@@ -24,6 +28,10 @@
   ],
   "rsi_overbought": [
     {
+      "symbol": "BND",
+      "rsi": 72.05390048377323
+    },
+    {
       "symbol": "SCHD",
       "rsi": 70.90290121523357
     },
@@ -33,6 +41,10 @@
     }
   ],
   "rsi_oversold": [
+    {
+      "symbol": "VWO",
+      "rsi": 27.842524022132565
+    },
     {
       "symbol": "QQQ",
       "rsi": 24.11956141333627
