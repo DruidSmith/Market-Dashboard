@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-01T12:00:46.167187Z",
+  "generated_at": "2026-11-01T17:55:13.111042Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
     {
-      "symbol": "HWM",
-      "macd": -10.921466366594558
-    },
-    {
       "symbol": "^VIX",
       "macd": 0.7745403274839973
+    },
+    {
+      "symbol": "HWM",
+      "macd": -10.921466366594558
     }
   ],
   "macd_bearish_crosses": [
@@ -18,15 +18,19 @@
       "macd": -7.292276932545747
     },
     {
-      "symbol": "AAPL",
-      "macd": 4.225537198532493
-    },
-    {
       "symbol": "MU",
       "macd": -24.52621278152685
+    },
+    {
+      "symbol": "AAPL",
+      "macd": 4.225537198532493
     }
   ],
   "rsi_overbought": [
+    {
+      "symbol": "V",
+      "rsi": 70.04546707355746
+    },
     {
       "symbol": "BND",
       "rsi": 72.05390048377323
@@ -34,13 +38,33 @@
     {
       "symbol": "SCHD",
       "rsi": 70.90290121523357
-    },
-    {
-      "symbol": "V",
-      "rsi": 70.04546707355746
     }
   ],
   "rsi_oversold": [
+    {
+      "symbol": "NFLX",
+      "rsi": 26.687511944775196
+    },
+    {
+      "symbol": "AVGO",
+      "rsi": 22.2160859147491
+    },
+    {
+      "symbol": "AMD",
+      "rsi": 23.910787383760663
+    },
+    {
+      "symbol": "SOXX",
+      "rsi": 28.67387075438633
+    },
+    {
+      "symbol": "AMZN",
+      "rsi": 24.824742132941267
+    },
+    {
+      "symbol": "INTC",
+      "rsi": 14.508345920409084
+    },
     {
       "symbol": "VWO",
       "rsi": 27.842524022132565
@@ -50,39 +74,11 @@
       "rsi": 24.11956141333627
     },
     {
-      "symbol": "AMZN",
-      "rsi": 24.824742132941267
-    },
-    {
-      "symbol": "AVGO",
-      "rsi": 22.2160859147491
-    },
-    {
-      "symbol": "INTC",
-      "rsi": 14.508345920409084
-    },
-    {
-      "symbol": "AMD",
-      "rsi": 23.910787383760663
-    },
-    {
       "symbol": "GOOGL",
       "rsi": 16.603517957613505
-    },
-    {
-      "symbol": "NFLX",
-      "rsi": 26.687511944775196
-    },
-    {
-      "symbol": "SOXX",
-      "rsi": 28.67387075438633
     }
   ],
   "high_volatility": [
-    {
-      "symbol": "SCHG",
-      "volatility": 1.2003002762442136
-    },
     {
       "symbol": "^VIX",
       "volatility": 10.038224577327597
@@ -90,16 +86,20 @@
     {
       "symbol": "JEPI",
       "volatility": 0.38675755586326793
+    },
+    {
+      "symbol": "SCHG",
+      "volatility": 1.2003002762442136
     }
   ],
   "low_volatility": [
     {
-      "symbol": "BTC-USD",
-      "volatility": 1.514699437793862
-    },
-    {
       "symbol": "ETH-USD",
       "volatility": 1.993520582025839
+    },
+    {
+      "symbol": "BTC-USD",
+      "volatility": 1.514699437793862
     }
   ]
 }
