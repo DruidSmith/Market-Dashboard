@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T15:44:33.818127Z",
+  "generated_at": "2026-11-05T21:52:58.038504Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -12,13 +12,13 @@
     {
       "symbol": "CRWD",
       "macd": 1.8278496672996312
+    },
+    {
+      "symbol": "QUBT",
+      "macd": -0.45034023403329204
     }
   ],
   "rsi_overbought": [
-    {
-      "symbol": "VDC",
-      "rsi": 70.53281429669866
-    },
     {
       "symbol": "MA",
       "rsi": 76.37130403729138
@@ -28,72 +28,96 @@
       "rsi": 76.08221824864185
     },
     {
+      "symbol": "VIG",
+      "rsi": 73.8332850229381
+    },
+    {
+      "symbol": "VDC",
+      "rsi": 70.53281429669866
+    },
+    {
       "symbol": "SCHD",
       "rsi": 75.96923666939351
     },
     {
       "symbol": "V",
       "rsi": 74.74633394594063
-    },
-    {
-      "symbol": "VIG",
-      "rsi": 73.8332850229381
     }
   ],
   "rsi_oversold": [
     {
-      "symbol": "NQ=F",
-      "rsi": 29.669789605708928
-    },
-    {
-      "symbol": "QQQ",
-      "rsi": 22.27495037658079
-    },
-    {
-      "symbol": "AVGO",
-      "rsi": 21.22469453808685
-    },
-    {
-      "symbol": "INTC",
-      "rsi": 12.293091306604623
+      "symbol": "SOXX",
+      "rsi": 8.63303718907855
     },
     {
       "symbol": "AMD",
       "rsi": 20.43266728645014
     },
     {
+      "symbol": "ASML",
+      "rsi": 20.69887690055195
+    },
+    {
+      "symbol": "NQ=F",
+      "rsi": 29.071904044762476
+    },
+    {
       "symbol": "FIX",
       "rsi": 29.31464535319182
-    },
-    {
-      "symbol": "GOOGL",
-      "rsi": 17.816278701509304
-    },
-    {
-      "symbol": "NFLX",
-      "rsi": 26.687511944775196
     },
     {
       "symbol": "NVDA",
       "rsi": 23.529174823082613
     },
     {
-      "symbol": "SOXX",
-      "rsi": 8.63303718907855
+      "symbol": "GOOGL",
+      "rsi": 26.265737412701057
+    },
+    {
+      "symbol": "INTC",
+      "rsi": 12.293091306604623
+    },
+    {
+      "symbol": "LRCX",
+      "rsi": 18.39252897441476
+    },
+    {
+      "symbol": "QQQ",
+      "rsi": 22.27495037658079
+    },
+    {
+      "symbol": "MU",
+      "rsi": 22.998801376290146
+    },
+    {
+      "symbol": "PLTR",
+      "rsi": 20.793092856001678
+    },
+    {
+      "symbol": "QUBT",
+      "rsi": 26.63534060445815
+    },
+    {
+      "symbol": "NFLX",
+      "rsi": 26.687511944775196
+    },
+    {
+      "symbol": "AVGO",
+      "rsi": 21.22469453808685
     }
   ],
   "high_volatility": [
     {
-      "symbol": "SCHG",
-      "volatility": 1.2322727720121016
+      "symbol": "JEPI",
+      "volatility": 0.5265050753779891
     },
     {
       "symbol": "^VIX",
-      "volatility": 10.039052549428398
+      "volatility": 19.006477693368396
     },
     {
-      "symbol": "JEPI",
-      "volatility": 0.5265050753779891
+      "symbol": "SCHG",
+      "volatility": 1.2322727720121016
     }
   ],
   "low_volatility": []

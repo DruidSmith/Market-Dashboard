@@ -1,434 +1,18 @@
 {
-  "generated_at": "2026-11-05T15:44:33.815723Z",
+  "generated_at": "2026-11-05T21:52:58.035345Z",
   "category_count": 15,
   "categories": [
-    {
-      "category": "International Equity",
-      "symbol_count": 3,
-      "symbols": [
-        {
-          "symbol": "VWO",
-          "close": 56.279998779296875,
-          "rsi_14": 40.11507129507789,
-          "roc_1d": 1.698588045025562,
-          "roc_5d": -1.297793182262319,
-          "roc_20d": NaN,
-          "volatility_20d": NaN,
-          "price_above_sma_200": false
-        },
-        {
-          "symbol": "VGK",
-          "close": 90.23999786376953,
-          "rsi_14": 69.01290848817806,
-          "roc_1d": 2.9549301686274676,
-          "roc_5d": 3.3558588788293875,
-          "roc_20d": 5.46984623505955,
-          "volatility_20d": NaN,
-          "price_above_sma_200": false
-        },
-        {
-          "symbol": "VEA",
-          "close": 70.81999969482422,
-          "rsi_14": 58.528667979768166,
-          "roc_1d": 2.0902362560647703,
-          "roc_5d": 0.6824045805004175,
-          "roc_20d": NaN,
-          "volatility_20d": NaN,
-          "price_above_sma_200": false
-        }
-      ]
-    },
-    {
-      "category": "Market bull/bear indicator",
-      "symbol_count": 8,
-      "symbols": [
-        {
-          "symbol": "NQ=F",
-          "close": 27768.25,
-          "rsi_14": 29.669789605708928,
-          "roc_1d": -3.408063169611797,
-          "roc_5d": -6.855460888232923,
-          "roc_20d": -11.799925357134345,
-          "volatility_20d": 1.495626511889286,
-          "price_above_sma_200": false
-        },
-        {
-          "symbol": "QQQ",
-          "close": 658.5499877929688,
-          "rsi_14": 22.27495037658079,
-          "roc_1d": -4.826941805742646,
-          "roc_5d": -7.938887372504622,
-          "roc_20d": -12.787540812831066,
-          "volatility_20d": NaN,
-          "price_above_sma_200": false
-        },
-        {
-          "symbol": "QQQM",
-          "close": 282.2300109863281,
-          "rsi_14": 31.23182436961197,
-          "roc_1d": -0.6144889795517416,
-          "roc_5d": -4.960257574286143,
-          "roc_20d": -9.7614777548368,
-          "volatility_20d": NaN,
-          "price_above_sma_200": false
-        },
-        {
-          "symbol": "MGK",
-          "close": 86.44000244140625,
-          "rsi_14": 31.654360487092475,
-          "roc_1d": -0.23659092804242388,
-          "roc_5d": -4.507284967926117,
-          "roc_20d": -9.115758714443423,
-          "volatility_20d": NaN,
-          "price_above_sma_200": false
-        },
-        {
-          "symbol": "SPY",
-          "close": 745.8300170898438,
-          "rsi_14": 35.698088128071205,
-          "roc_1d": -2.7360076858083615,
-          "roc_5d": -3.0583821240672715,
-          "roc_20d": -3.845751629255356,
-          "volatility_20d": NaN,
-          "price_above_sma_200": false
-        },
-        {
-          "symbol": "VOO",
-          "close": 685.489990234375,
-          "rsi_14": 35.76302629424778,
-          "roc_1d": -2.7370297483804595,
-          "roc_5d": -3.0862999581231065,
-          "roc_20d": -3.8509305497328894,
-          "volatility_20d": NaN,
-          "price_above_sma_200": false
-        },
-        {
-          "symbol": "VUG",
-          "close": 84.83000183105469,
-          "rsi_14": 32.48245236854321,
-          "roc_1d": -0.19834958211769615,
-          "roc_5d": -4.092702365276269,
-          "roc_20d": -8.43048101257483,
-          "volatility_20d": NaN,
-          "price_above_sma_200": false
-        },
-        {
-          "symbol": "JEPI",
-          "close": 58.290000915527344,
-          "rsi_14": 66.79554456487564,
-          "roc_1d": 1.6745143098053195,
-          "roc_5d": 1.462141238350978,
-          "roc_20d": 3.2595219268728215,
-          "volatility_20d": 0.5265050753779891,
-          "price_above_sma_200": false
-        }
-      ]
-    },
-    {
-      "category": "Defense/Industrial Tech",
-      "symbol_count": 6,
-      "symbols": [
-        {
-          "symbol": "HWM",
-          "close": 213.55999755859375,
-          "rsi_14": 50.45212811766854,
-          "roc_1d": -4.28468885254889,
-          "roc_5d": 9.41134017491596,
-          "roc_20d": NaN,
-          "volatility_20d": NaN,
-          "price_above_sma_200": false
-        },
-        {
-          "symbol": "AXON",
-          "close": 424.17999267578125,
-          "rsi_14": 50.29189188018219,
-          "roc_1d": 1.8268202745666207,
-          "roc_5d": 0.23866985277758435,
-          "roc_20d": NaN,
-          "volatility_20d": NaN,
-          "price_above_sma_200": false
-        },
-        {
-          "symbol": "TEM",
-          "close": 75.61000061035156,
-          "rsi_14": 57.954341090465284,
-          "roc_1d": -5.770186162365953,
-          "roc_5d": -1.3053126119736413,
-          "roc_20d": 7.4769044069921575,
-          "volatility_20d": NaN,
-          "price_above_sma_200": false
-        },
-        {
-          "symbol": "FIX",
-          "close": 1091.31005859375,
-          "rsi_14": 29.31464535319182,
-          "roc_1d": -14.360039490122967,
-          "roc_5d": -18.908131199573898,
-          "roc_20d": -37.33001402501931,
-          "volatility_20d": 5.488637394167604,
-          "price_above_sma_200": false
-        },
-        {
-          "symbol": "EME",
-          "close": 639.25,
-          "rsi_14": 33.78114888512752,
-          "roc_1d": -7.996430355610762,
-          "roc_5d": -5.791760150316216,
-          "roc_20d": NaN,
-          "volatility_20d": NaN,
-          "price_above_sma_200": false
-        },
-        {
-          "symbol": "ITA",
-          "close": 212.83999633789062,
-          "rsi_14": 54.96099596260757,
-          "roc_1d": -2.248592912486491,
-          "roc_5d": 2.4549873446953363,
-          "roc_20d": NaN,
-          "volatility_20d": NaN,
-          "price_above_sma_200": false
-        }
-      ]
-    },
-    {
-      "category": "Energy Sector",
-      "symbol_count": 3,
-      "symbols": [
-        {
-          "symbol": "FENY",
-          "close": 34.599998474121094,
-          "rsi_14": 46.48115825162896,
-          "roc_1d": -5.438649002919038,
-          "roc_5d": -8.34437490299048,
-          "roc_20d": -1.0014371421402046,
-          "volatility_20d": NaN,
-          "price_above_sma_200": false
-        },
-        {
-          "symbol": "XLE",
-          "close": 63.2515983581543,
-          "rsi_14": 47.84723734888747,
-          "roc_1d": -5.1415745820795555,
-          "roc_5d": -7.930711546017466,
-          "roc_20d": -0.17108941154201363,
-          "volatility_20d": NaN,
-          "price_above_sma_200": false
-        },
-        {
-          "symbol": "VDE",
-          "close": 176.4199981689453,
-          "rsi_14": 36.51218737305912,
-          "roc_1d": -5.733366859458188,
-          "roc_5d": -7.730125007950617,
-          "roc_20d": NaN,
-          "volatility_20d": NaN,
-          "price_above_sma_200": false
-        }
-      ]
-    },
-    {
-      "category": "Precious Metals",
-      "symbol_count": 1,
-      "symbols": [
-        {
-          "symbol": "GLD",
-          "close": 372.489990234375,
-          "rsi_14": 48.95434711637414,
-          "roc_1d": 3.4953145075889536,
-          "roc_5d": -0.27309027993387414,
-          "roc_20d": -0.9018874652548803,
-          "volatility_20d": NaN,
-          "price_above_sma_200": false
-        }
-      ]
-    },
-    {
-      "category": "Consumer Staples",
-      "symbol_count": 3,
-      "symbols": [
-        {
-          "symbol": "VDC",
-          "close": 249.94000244140625,
-          "rsi_14": 70.53281429669866,
-          "roc_1d": 2.784062311731983,
-          "roc_5d": 5.951678214575451,
-          "roc_20d": 12.778633673935325,
-          "volatility_20d": 1.3789871205773578,
-          "price_above_sma_200": false
-        },
-        {
-          "symbol": "FSTA",
-          "close": 58.290000915527344,
-          "rsi_14": 68.78835789684528,
-          "roc_1d": 2.8223713663392713,
-          "roc_5d": 6.0589553976093224,
-          "roc_20d": NaN,
-          "volatility_20d": NaN,
-          "price_above_sma_200": false
-        },
-        {
-          "symbol": "XLP",
-          "close": 91.94000244140625,
-          "rsi_14": 68.80467220041305,
-          "roc_1d": 2.884441677506566,
-          "roc_5d": 5.872876921449555,
-          "roc_20d": 12.533666922473952,
-          "volatility_20d": 1.4499396931937065,
-          "price_above_sma_200": false
-        }
-      ]
-    },
     {
       "category": "AI bubble indicator",
       "symbol_count": 18,
       "symbols": [
         {
-          "symbol": "AMZN",
-          "close": 256.8699951171875,
-          "rsi_14": 50.0061314675418,
-          "roc_1d": -3.4432220817730674,
-          "roc_5d": 5.365274289869171,
-          "roc_20d": 1.1060369934647651,
-          "volatility_20d": NaN,
-          "price_above_sma_200": false
-        },
-        {
-          "symbol": "AVGO",
-          "close": 301.1549987792969,
-          "rsi_14": 21.22469453808685,
-          "roc_1d": -7.473580983765249,
-          "roc_5d": -12.708696006000908,
-          "roc_20d": -16.37835660297865,
-          "volatility_20d": NaN,
-          "price_above_sma_200": false
-        },
-        {
-          "symbol": "INTC",
-          "close": 54.130001068115234,
-          "rsi_14": 12.293091306604623,
-          "roc_1d": -7.104855598292414,
-          "roc_5d": -41.207775336662465,
-          "roc_20d": -50.60229954041219,
-          "volatility_20d": NaN,
-          "price_above_sma_200": false
-        },
-        {
-          "symbol": "AMD",
-          "close": 418.25750732421875,
-          "rsi_14": 20.43266728645014,
-          "roc_1d": -14.428268675314959,
-          "roc_5d": -26.157706305612205,
-          "roc_20d": -34.297200776383875,
-          "volatility_20d": NaN,
-          "price_above_sma_200": false
-        },
-        {
-          "symbol": "AAPL",
-          "close": 331.8999938964844,
-          "rsi_14": 43.063196610550264,
-          "roc_1d": -1.2172970793080995,
-          "roc_5d": -4.3791448976518215,
-          "roc_20d": -0.5185417861129693,
-          "volatility_20d": NaN,
-          "price_above_sma_200": false
-        },
-        {
-          "symbol": "LRCX",
-          "close": 230.72000122070312,
-          "rsi_14": 30.322016325225533,
-          "roc_1d": 1.3886463772244229,
-          "roc_5d": -4.205939226116817,
-          "roc_20d": -30.8994006713154,
-          "volatility_20d": NaN,
-          "price_above_sma_200": false
-        },
-        {
-          "symbol": "TSM",
-          "close": 404.79998779296875,
-          "rsi_14": 40.03418122150153,
-          "roc_1d": 0.23523131734448643,
-          "roc_5d": -7.340858306283127,
-          "roc_20d": -16.068837230256683,
-          "volatility_20d": NaN,
-          "price_above_sma_200": false
-        },
-        {
           "symbol": "MSFT",
-          "close": 520.989990234375,
-          "rsi_14": 48.61653400779732,
-          "roc_1d": 2.735051910935282,
-          "roc_5d": -1.9460648792444024,
-          "roc_20d": -1.5699976856685893,
-          "volatility_20d": NaN,
-          "price_above_sma_200": false
-        },
-        {
-          "symbol": "MU",
-          "close": 855.0999755859375,
-          "rsi_14": 36.037939930674916,
-          "roc_1d": 1.1258641108285117,
-          "roc_5d": -7.931008377317605,
-          "roc_20d": -18.216082514090694,
-          "volatility_20d": NaN,
-          "price_above_sma_200": false
-        },
-        {
-          "symbol": "VGT",
-          "close": 116.13009643554688,
-          "rsi_14": 39.728856664137815,
-          "roc_1d": 0.7374199039310358,
-          "roc_5d": -5.834097458534638,
-          "roc_20d": -9.857878766595253,
-          "volatility_20d": NaN,
-          "price_above_sma_200": false
-        },
-        {
-          "symbol": "GOOGL",
-          "close": 280.0299987792969,
-          "rsi_14": 17.816278701509304,
-          "roc_1d": 0.37277629353231756,
-          "roc_5d": -12.648945502350594,
-          "roc_20d": -19.45754582420548,
-          "volatility_20d": NaN,
-          "price_above_sma_200": false
-        },
-        {
-          "symbol": "NFLX",
-          "close": 63.41999816894531,
-          "rsi_14": 26.687511944775196,
-          "roc_1d": NaN,
-          "roc_5d": 1.4395356759308475,
-          "roc_20d": -7.67215618743986,
-          "volatility_20d": NaN,
-          "price_above_sma_200": false
-        },
-        {
-          "symbol": "CRWD",
-          "close": 244.67999267578125,
-          "rsi_14": 50.650947731592574,
-          "roc_1d": NaN,
-          "roc_5d": -8.708304340949747,
-          "roc_20d": -12.257044564027385,
-          "volatility_20d": NaN,
-          "price_above_sma_200": false
-        },
-        {
-          "symbol": "ASML",
-          "close": 1552.1400146484375,
-          "rsi_14": 34.44069770659209,
-          "roc_1d": 1.7036444723578903,
-          "roc_5d": -5.100969960344337,
-          "roc_20d": -15.37320564258896,
-          "volatility_20d": NaN,
-          "price_above_sma_200": false
-        },
-        {
-          "symbol": "NVDA",
-          "close": 185.9340057373047,
-          "rsi_14": 23.529174823082613,
-          "roc_1d": -7.093388696922476,
-          "roc_5d": -12.976690746786524,
-          "roc_20d": -21.43744151103727,
+          "close": 535.9299926757812,
+          "rsi_14": 55.03530259680562,
+          "roc_1d": -3.5750261881237977,
+          "roc_5d": 2.250371123926742,
+          "roc_20d": 0.8562587510179576,
           "volatility_20d": NaN,
           "price_above_sma_200": false
         },
@@ -443,12 +27,42 @@
           "price_above_sma_200": false
         },
         {
-          "symbol": "PLTR",
-          "close": 175.39999389648438,
-          "rsi_14": 30.108514821415397,
-          "roc_1d": -4.375090103179113,
-          "roc_5d": -11.739547291612872,
-          "roc_20d": -8.679134061569016,
+          "symbol": "AMD",
+          "close": 418.25750732421875,
+          "rsi_14": 20.43266728645014,
+          "roc_1d": -14.428268675314959,
+          "roc_5d": -26.157706305612205,
+          "roc_20d": -34.297200776383875,
+          "volatility_20d": NaN,
+          "price_above_sma_200": false
+        },
+        {
+          "symbol": "ASML",
+          "close": 1356.6500244140625,
+          "rsi_14": 20.69887690055195,
+          "roc_1d": -9.333022779985466,
+          "roc_5d": -18.980815522543004,
+          "roc_20d": -23.3440128789112,
+          "volatility_20d": NaN,
+          "price_above_sma_200": false
+        },
+        {
+          "symbol": "AAPL",
+          "close": 344.1700134277344,
+          "rsi_14": 54.302816446286364,
+          "roc_1d": -1.5278521898332786,
+          "roc_5d": -1.617921093611585,
+          "roc_20d": 1.101580357230092,
+          "volatility_20d": NaN,
+          "price_above_sma_200": false
+        },
+        {
+          "symbol": "NVDA",
+          "close": 185.9340057373047,
+          "rsi_14": 23.529174823082613,
+          "roc_1d": -7.093388696922476,
+          "roc_5d": -12.976690746786524,
+          "roc_20d": -21.43744151103727,
           "volatility_20d": NaN,
           "price_above_sma_200": false
         },
@@ -461,154 +75,114 @@
           "roc_20d": -17.922964449664935,
           "volatility_20d": NaN,
           "price_above_sma_200": false
-        }
-      ]
-    },
-    {
-      "category": "Low Volatility/Defensive",
-      "symbol_count": 1,
-      "symbols": [
-        {
-          "symbol": "SPLV",
-          "close": 76.87999725341797,
-          "rsi_14": 66.81450713950512,
-          "roc_1d": -0.6333274858074223,
-          "roc_5d": 1.9763866239984607,
-          "roc_20d": 7.179692813978611,
-          "volatility_20d": NaN,
-          "price_above_sma_200": false
-        }
-      ]
-    },
-    {
-      "category": "Crypto indicator",
-      "symbol_count": 2,
-      "symbols": [
-        {
-          "symbol": "BTC-USD",
-          "close": 80563.6796875,
-          "rsi_14": 50.51898517081287,
-          "roc_1d": 0.1969903060442757,
-          "roc_5d": 3.9971871149452554,
-          "roc_20d": -2.150141349793988,
-          "volatility_20d": 1.6877349726528297,
-          "price_above_sma_200": true
         },
         {
-          "symbol": "ETH-USD",
-          "close": 2425.43994140625,
-          "rsi_14": 53.655502378503876,
-          "roc_1d": 0.12914001698685063,
-          "roc_5d": 7.67481791009057,
-          "roc_20d": -0.6870809959040658,
-          "volatility_20d": 2.2457762564859944,
-          "price_above_sma_200": true
-        }
-      ]
-    },
-    {
-      "category": "Payments/Fintech",
-      "symbol_count": 2,
-      "symbols": [
-        {
-          "symbol": "MA",
-          "close": 667.5499877929688,
-          "rsi_14": 76.37130403729138,
-          "roc_1d": 3.147500749052412,
-          "roc_5d": 9.032256070717647,
-          "roc_20d": 17.101706952232586,
+          "symbol": "TSM",
+          "close": 404.79998779296875,
+          "rsi_14": 40.03418122150153,
+          "roc_1d": 0.23523131734448643,
+          "roc_5d": -7.340858306283127,
+          "roc_20d": -16.068837230256683,
           "volatility_20d": NaN,
           "price_above_sma_200": false
         },
         {
-          "symbol": "V",
-          "close": 432.2699890136719,
-          "rsi_14": 74.74633394594063,
-          "roc_1d": 2.818604064379149,
-          "roc_5d": 7.56061522816367,
-          "roc_20d": 16.17037944724391,
-          "volatility_20d": 1.4250507410734363,
-          "price_above_sma_200": false
-        }
-      ]
-    },
-    {
-      "category": "Quantum/Emerging Tech",
-      "symbol_count": 2,
-      "symbols": [
-        {
-          "symbol": "IONQ",
-          "close": 29.989999771118164,
-          "rsi_14": 40.06271695082561,
-          "roc_1d": 4.095801204615479,
-          "roc_5d": -8.983310844564695,
-          "roc_20d": -30.723032716866282,
+          "symbol": "GOOGL",
+          "close": 282.57000732421875,
+          "rsi_14": 26.265737412701057,
+          "roc_1d": -2.2012201961667865,
+          "roc_5d": -0.9325819723215889,
+          "roc_20d": -18.869332914620973,
           "volatility_20d": NaN,
           "price_above_sma_200": false
         },
         {
-          "symbol": "QUBT",
-          "close": 6.429999828338623,
-          "rsi_14": 36.917726741624854,
-          "roc_1d": 0.2338248881495364,
-          "roc_5d": -6.4046588726347835,
-          "roc_20d": -18.193387797518934,
-          "volatility_20d": NaN,
-          "price_above_sma_200": false
-        }
-      ]
-    },
-    {
-      "category": "Dividend Growth",
-      "symbol_count": 5,
-      "symbols": [
-        {
-          "symbol": "VYM",
-          "close": 164.92999267578125,
-          "rsi_14": 67.59511031590532,
-          "roc_1d": 1.0167136399103383,
-          "roc_5d": 1.165425940447018,
-          "roc_20d": 4.750711891088777,
+          "symbol": "INTC",
+          "close": 54.130001068115234,
+          "rsi_14": 12.293091306604623,
+          "roc_1d": -7.104855598292414,
+          "roc_5d": -41.207775336662465,
+          "roc_20d": -50.60229954041219,
           "volatility_20d": NaN,
           "price_above_sma_200": false
         },
         {
-          "symbol": "SCHG",
-          "close": 34.720001220703125,
-          "rsi_14": 43.2510350218505,
-          "roc_1d": 1.2540107719305027,
-          "roc_5d": -2.5266640599924894,
-          "roc_20d": -5.831293120332437,
-          "volatility_20d": 1.2322727720121016,
-          "price_above_sma_200": false
-        },
-        {
-          "symbol": "DGRO",
-          "close": 82.3550033569336,
-          "rsi_14": 76.08221824864185,
-          "roc_1d": 1.9749890769103606,
-          "roc_5d": 2.9566265237209954,
-          "roc_20d": 7.893359598253857,
+          "symbol": "AMZN",
+          "close": 256.8699951171875,
+          "rsi_14": 50.0061314675418,
+          "roc_1d": -3.4432220817730674,
+          "roc_5d": 5.365274289869171,
+          "roc_20d": 1.1060369934647651,
           "volatility_20d": NaN,
           "price_above_sma_200": false
         },
         {
-          "symbol": "SCHD",
-          "close": 36.125,
-          "rsi_14": 75.96923666939351,
-          "roc_1d": 1.6174424058496673,
-          "roc_5d": 3.2290358697101285,
-          "roc_20d": 10.643529160910049,
+          "symbol": "LRCX",
+          "close": 185.1999969482422,
+          "rsi_14": 18.39252897441476,
+          "roc_1d": -16.3618285353905,
+          "roc_5d": -27.602517995481477,
+          "roc_20d": -42.231510944262936,
           "volatility_20d": NaN,
           "price_above_sma_200": false
         },
         {
-          "symbol": "VIG",
-          "close": 252.2449951171875,
-          "rsi_14": 73.8332850229381,
-          "roc_1d": 1.9295243354469749,
-          "roc_5d": 2.747452186227095,
-          "roc_20d": 6.436975935874845,
+          "symbol": "MU",
+          "close": 656.3900146484375,
+          "rsi_14": 22.998801376290146,
+          "roc_1d": -17.459096013768615,
+          "roc_5d": -30.355757466961663,
+          "roc_20d": -36.63210183933937,
+          "volatility_20d": NaN,
+          "price_above_sma_200": false
+        },
+        {
+          "symbol": "VGT",
+          "close": 116.13009643554688,
+          "rsi_14": 39.728856664137815,
+          "roc_1d": 0.7374199039310358,
+          "roc_5d": -5.834097458534638,
+          "roc_20d": -9.857878766595253,
+          "volatility_20d": NaN,
+          "price_above_sma_200": false
+        },
+        {
+          "symbol": "CRWD",
+          "close": 244.67999267578125,
+          "rsi_14": 50.650947731592574,
+          "roc_1d": NaN,
+          "roc_5d": -8.708304340949747,
+          "roc_20d": -12.257044564027385,
+          "volatility_20d": NaN,
+          "price_above_sma_200": false
+        },
+        {
+          "symbol": "PLTR",
+          "close": 154.99000549316406,
+          "rsi_14": 20.793092856001678,
+          "roc_1d": -9.73208605246233,
+          "roc_5d": -20.1802482002016,
+          "roc_20d": -22.029375970945818,
+          "volatility_20d": NaN,
+          "price_above_sma_200": false
+        },
+        {
+          "symbol": "NFLX",
+          "close": 63.41999816894531,
+          "rsi_14": 26.687511944775196,
+          "roc_1d": NaN,
+          "roc_5d": 1.4395356759308475,
+          "roc_20d": -7.67215618743986,
+          "volatility_20d": NaN,
+          "price_above_sma_200": false
+        },
+        {
+          "symbol": "AVGO",
+          "close": 301.1549987792969,
+          "rsi_14": 21.22469453808685,
+          "roc_1d": -7.473580983765249,
+          "roc_5d": -12.708696006000908,
+          "roc_20d": -16.37835660297865,
           "volatility_20d": NaN,
           "price_above_sma_200": false
         }
@@ -641,6 +215,448 @@
       ]
     },
     {
+      "category": "Crypto indicator",
+      "symbol_count": 2,
+      "symbols": [
+        {
+          "symbol": "BTC-USD",
+          "close": 80563.6796875,
+          "rsi_14": 50.51898517081287,
+          "roc_1d": 0.1969903060442757,
+          "roc_5d": 3.9971871149452554,
+          "roc_20d": -2.150141349793988,
+          "volatility_20d": 1.6877349726528297,
+          "price_above_sma_200": true
+        },
+        {
+          "symbol": "ETH-USD",
+          "close": 2425.43994140625,
+          "rsi_14": 53.655502378503876,
+          "roc_1d": 0.12914001698685063,
+          "roc_5d": 7.67481791009057,
+          "roc_20d": -0.6870809959040658,
+          "volatility_20d": 2.2457762564859944,
+          "price_above_sma_200": true
+        }
+      ]
+    },
+    {
+      "category": "Defense/Industrial Tech",
+      "symbol_count": 6,
+      "symbols": [
+        {
+          "symbol": "ITA",
+          "close": 212.83999633789062,
+          "rsi_14": 54.96099596260757,
+          "roc_1d": -2.248592912486491,
+          "roc_5d": 2.4549873446953363,
+          "roc_20d": NaN,
+          "volatility_20d": NaN,
+          "price_above_sma_200": false
+        },
+        {
+          "symbol": "FIX",
+          "close": 1091.31005859375,
+          "rsi_14": 29.31464535319182,
+          "roc_1d": -14.360039490122967,
+          "roc_5d": -18.908131199573898,
+          "roc_20d": -37.33001402501931,
+          "volatility_20d": 5.488637394167604,
+          "price_above_sma_200": false
+        },
+        {
+          "symbol": "HWM",
+          "close": 213.55999755859375,
+          "rsi_14": 50.45212811766854,
+          "roc_1d": -4.28468885254889,
+          "roc_5d": 9.41134017491596,
+          "roc_20d": NaN,
+          "volatility_20d": NaN,
+          "price_above_sma_200": false
+        },
+        {
+          "symbol": "TEM",
+          "close": 75.61000061035156,
+          "rsi_14": 57.954341090465284,
+          "roc_1d": -5.770186162365953,
+          "roc_5d": -1.3053126119736413,
+          "roc_20d": 7.4769044069921575,
+          "volatility_20d": NaN,
+          "price_above_sma_200": false
+        },
+        {
+          "symbol": "AXON",
+          "close": 424.17999267578125,
+          "rsi_14": 50.29189188018219,
+          "roc_1d": 1.8268202745666207,
+          "roc_5d": 0.23866985277758435,
+          "roc_20d": NaN,
+          "volatility_20d": NaN,
+          "price_above_sma_200": false
+        },
+        {
+          "symbol": "EME",
+          "close": 639.25,
+          "rsi_14": 33.78114888512752,
+          "roc_1d": -7.996430355610762,
+          "roc_5d": -5.791760150316216,
+          "roc_20d": NaN,
+          "volatility_20d": NaN,
+          "price_above_sma_200": false
+        }
+      ]
+    },
+    {
+      "category": "Precious Metals",
+      "symbol_count": 1,
+      "symbols": [
+        {
+          "symbol": "GLD",
+          "close": 372.489990234375,
+          "rsi_14": 48.95434711637414,
+          "roc_1d": 3.4953145075889536,
+          "roc_5d": -0.27309027993387414,
+          "roc_20d": -0.9018874652548803,
+          "volatility_20d": NaN,
+          "price_above_sma_200": false
+        }
+      ]
+    },
+    {
+      "category": "Energy Sector",
+      "symbol_count": 3,
+      "symbols": [
+        {
+          "symbol": "VDE",
+          "close": 176.4199981689453,
+          "rsi_14": 36.51218737305912,
+          "roc_1d": -5.733366859458188,
+          "roc_5d": -7.730125007950617,
+          "roc_20d": NaN,
+          "volatility_20d": NaN,
+          "price_above_sma_200": false
+        },
+        {
+          "symbol": "FENY",
+          "close": 34.599998474121094,
+          "rsi_14": 46.48115825162896,
+          "roc_1d": -5.438649002919038,
+          "roc_5d": -8.34437490299048,
+          "roc_20d": -1.0014371421402046,
+          "volatility_20d": NaN,
+          "price_above_sma_200": false
+        },
+        {
+          "symbol": "XLE",
+          "close": 63.2515983581543,
+          "rsi_14": 47.84723734888747,
+          "roc_1d": -5.1415745820795555,
+          "roc_5d": -7.930711546017466,
+          "roc_20d": -0.17108941154201363,
+          "volatility_20d": NaN,
+          "price_above_sma_200": false
+        }
+      ]
+    },
+    {
+      "category": "International Equity",
+      "symbol_count": 3,
+      "symbols": [
+        {
+          "symbol": "VEA",
+          "close": 70.81999969482422,
+          "rsi_14": 58.528667979768166,
+          "roc_1d": 2.0902362560647703,
+          "roc_5d": 0.6824045805004175,
+          "roc_20d": NaN,
+          "volatility_20d": NaN,
+          "price_above_sma_200": false
+        },
+        {
+          "symbol": "VWO",
+          "close": 56.279998779296875,
+          "rsi_14": 40.11507129507789,
+          "roc_1d": 1.698588045025562,
+          "roc_5d": -1.297793182262319,
+          "roc_20d": NaN,
+          "volatility_20d": NaN,
+          "price_above_sma_200": false
+        },
+        {
+          "symbol": "VGK",
+          "close": 90.23999786376953,
+          "rsi_14": 69.01290848817806,
+          "roc_1d": 2.9549301686274676,
+          "roc_5d": 3.3558588788293875,
+          "roc_20d": 5.46984623505955,
+          "volatility_20d": NaN,
+          "price_above_sma_200": false
+        }
+      ]
+    },
+    {
+      "category": "Market bull/bear indicator",
+      "symbol_count": 8,
+      "symbols": [
+        {
+          "symbol": "MGK",
+          "close": 86.44000244140625,
+          "rsi_14": 31.654360487092475,
+          "roc_1d": -0.23659092804242388,
+          "roc_5d": -4.507284967926117,
+          "roc_20d": -9.115758714443423,
+          "volatility_20d": NaN,
+          "price_above_sma_200": false
+        },
+        {
+          "symbol": "NQ=F",
+          "close": 26666.75,
+          "rsi_14": 29.071904044762476,
+          "roc_1d": -6.651089115842723,
+          "roc_5d": -9.79153452577276,
+          "roc_20d": -13.976838336102194,
+          "volatility_20d": 2.1758696637264503,
+          "price_above_sma_200": false
+        },
+        {
+          "symbol": "VUG",
+          "close": 84.83000183105469,
+          "rsi_14": 32.48245236854321,
+          "roc_1d": -0.19834958211769615,
+          "roc_5d": -4.092702365276269,
+          "roc_20d": -8.43048101257483,
+          "volatility_20d": NaN,
+          "price_above_sma_200": false
+        },
+        {
+          "symbol": "JEPI",
+          "close": 58.290000915527344,
+          "rsi_14": 66.79554456487564,
+          "roc_1d": 1.6745143098053195,
+          "roc_5d": 1.462141238350978,
+          "roc_20d": 3.2595219268728215,
+          "volatility_20d": 0.5265050753779891,
+          "price_above_sma_200": false
+        },
+        {
+          "symbol": "SPY",
+          "close": 745.8300170898438,
+          "rsi_14": 35.698088128071205,
+          "roc_1d": -2.7360076858083615,
+          "roc_5d": -3.0583821240672715,
+          "roc_20d": -3.845751629255356,
+          "volatility_20d": NaN,
+          "price_above_sma_200": false
+        },
+        {
+          "symbol": "VOO",
+          "close": 685.489990234375,
+          "rsi_14": 35.76302629424778,
+          "roc_1d": -2.7370297483804595,
+          "roc_5d": -3.0862999581231065,
+          "roc_20d": -3.8509305497328894,
+          "volatility_20d": NaN,
+          "price_above_sma_200": false
+        },
+        {
+          "symbol": "QQQ",
+          "close": 658.5499877929688,
+          "rsi_14": 22.27495037658079,
+          "roc_1d": -4.826941805742646,
+          "roc_5d": -7.938887372504622,
+          "roc_20d": -12.787540812831066,
+          "volatility_20d": NaN,
+          "price_above_sma_200": false
+        },
+        {
+          "symbol": "QQQM",
+          "close": 282.2300109863281,
+          "rsi_14": 31.23182436961197,
+          "roc_1d": -0.6144889795517416,
+          "roc_5d": -4.960257574286143,
+          "roc_20d": -9.7614777548368,
+          "volatility_20d": NaN,
+          "price_above_sma_200": false
+        }
+      ]
+    },
+    {
+      "category": "Low Volatility/Defensive",
+      "symbol_count": 1,
+      "symbols": [
+        {
+          "symbol": "SPLV",
+          "close": 76.87999725341797,
+          "rsi_14": 66.81450713950512,
+          "roc_1d": -0.6333274858074223,
+          "roc_5d": 1.9763866239984607,
+          "roc_20d": 7.179692813978611,
+          "volatility_20d": NaN,
+          "price_above_sma_200": false
+        }
+      ]
+    },
+    {
+      "category": "Market volatility indicator",
+      "symbol_count": 1,
+      "symbols": [
+        {
+          "symbol": "^VIX",
+          "close": 28.18000030517578,
+          "rsi_14": 68.6568613459304,
+          "roc_1d": 69.65682883607872,
+          "roc_5d": 72.14415919660662,
+          "roc_20d": 84.54485566729846,
+          "volatility_20d": 19.006477693368396,
+          "price_above_sma_200": true
+        }
+      ]
+    },
+    {
+      "category": "Consumer Staples",
+      "symbol_count": 3,
+      "symbols": [
+        {
+          "symbol": "FSTA",
+          "close": 58.290000915527344,
+          "rsi_14": 68.78835789684528,
+          "roc_1d": 2.8223713663392713,
+          "roc_5d": 6.0589553976093224,
+          "roc_20d": NaN,
+          "volatility_20d": NaN,
+          "price_above_sma_200": false
+        },
+        {
+          "symbol": "XLP",
+          "close": 91.94000244140625,
+          "rsi_14": 68.80467220041305,
+          "roc_1d": 2.884441677506566,
+          "roc_5d": 5.872876921449555,
+          "roc_20d": 12.533666922473952,
+          "volatility_20d": 1.4499396931937065,
+          "price_above_sma_200": false
+        },
+        {
+          "symbol": "VDC",
+          "close": 249.94000244140625,
+          "rsi_14": 70.53281429669866,
+          "roc_1d": 2.784062311731983,
+          "roc_5d": 5.951678214575451,
+          "roc_20d": 12.778633673935325,
+          "volatility_20d": 1.3789871205773578,
+          "price_above_sma_200": false
+        }
+      ]
+    },
+    {
+      "category": "Payments/Fintech",
+      "symbol_count": 2,
+      "symbols": [
+        {
+          "symbol": "MA",
+          "close": 667.5499877929688,
+          "rsi_14": 76.37130403729138,
+          "roc_1d": 3.147500749052412,
+          "roc_5d": 9.032256070717647,
+          "roc_20d": 17.101706952232586,
+          "volatility_20d": NaN,
+          "price_above_sma_200": false
+        },
+        {
+          "symbol": "V",
+          "close": 432.2699890136719,
+          "rsi_14": 74.74633394594063,
+          "roc_1d": 2.818604064379149,
+          "roc_5d": 7.56061522816367,
+          "roc_20d": 16.17037944724391,
+          "volatility_20d": 1.4250507410734363,
+          "price_above_sma_200": false
+        }
+      ]
+    },
+    {
+      "category": "Dividend Growth",
+      "symbol_count": 5,
+      "symbols": [
+        {
+          "symbol": "DGRO",
+          "close": 82.3550033569336,
+          "rsi_14": 76.08221824864185,
+          "roc_1d": 1.9749890769103606,
+          "roc_5d": 2.9566265237209954,
+          "roc_20d": 7.893359598253857,
+          "volatility_20d": NaN,
+          "price_above_sma_200": false
+        },
+        {
+          "symbol": "VIG",
+          "close": 252.2449951171875,
+          "rsi_14": 73.8332850229381,
+          "roc_1d": 1.9295243354469749,
+          "roc_5d": 2.747452186227095,
+          "roc_20d": 6.436975935874845,
+          "volatility_20d": NaN,
+          "price_above_sma_200": false
+        },
+        {
+          "symbol": "VYM",
+          "close": 164.92999267578125,
+          "rsi_14": 67.59511031590532,
+          "roc_1d": 1.0167136399103383,
+          "roc_5d": 1.165425940447018,
+          "roc_20d": 4.750711891088777,
+          "volatility_20d": NaN,
+          "price_above_sma_200": false
+        },
+        {
+          "symbol": "SCHD",
+          "close": 36.125,
+          "rsi_14": 75.96923666939351,
+          "roc_1d": 1.6174424058496673,
+          "roc_5d": 3.2290358697101285,
+          "roc_20d": 10.643529160910049,
+          "volatility_20d": NaN,
+          "price_above_sma_200": false
+        },
+        {
+          "symbol": "SCHG",
+          "close": 34.720001220703125,
+          "rsi_14": 43.2510350218505,
+          "roc_1d": 1.2540107719305027,
+          "roc_5d": -2.5266640599924894,
+          "roc_20d": -5.831293120332437,
+          "volatility_20d": 1.2322727720121016,
+          "price_above_sma_200": false
+        }
+      ]
+    },
+    {
+      "category": "Quantum/Emerging Tech",
+      "symbol_count": 2,
+      "symbols": [
+        {
+          "symbol": "IONQ",
+          "close": 29.989999771118164,
+          "rsi_14": 40.06271695082561,
+          "roc_1d": 4.095801204615479,
+          "roc_5d": -8.983310844564695,
+          "roc_20d": -30.723032716866282,
+          "volatility_20d": NaN,
+          "price_above_sma_200": false
+        },
+        {
+          "symbol": "QUBT",
+          "close": 5.630000114440918,
+          "rsi_14": 26.63534060445815,
+          "roc_1d": -12.441675509413008,
+          "roc_5d": -18.049487507629745,
+          "roc_20d": -24.4295267304677,
+          "volatility_20d": NaN,
+          "price_above_sma_200": false
+        }
+      ]
+    },
+    {
       "category": "Financials",
       "symbol_count": 1,
       "symbols": [
@@ -653,22 +669,6 @@
           "roc_20d": 6.44760023841453,
           "volatility_20d": 1.2521468033945158,
           "price_above_sma_200": false
-        }
-      ]
-    },
-    {
-      "category": "Market volatility indicator",
-      "symbol_count": 1,
-      "symbols": [
-        {
-          "symbol": "^VIX",
-          "close": 20.829999923706055,
-          "rsi_14": 61.35486888038055,
-          "roc_1d": -1.5130009484437767,
-          "roc_5d": 18.892690522023447,
-          "roc_20d": 38.77414794188698,
-          "volatility_20d": 10.039052549428398,
-          "price_above_sma_200": true
         }
       ]
     }
