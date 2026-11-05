@@ -1,8 +1,13 @@
 {
-  "generated_at": "2026-11-05T00:16:42.260014Z",
+  "generated_at": "2026-11-05T07:15:36.308580Z",
   "golden_crosses": [],
   "death_crosses": [],
-  "macd_bullish_crosses": [],
+  "macd_bullish_crosses": [
+    {
+      "symbol": "BTC-USD",
+      "macd": -799.6449867689516
+    }
+  ],
   "macd_bearish_crosses": [
     {
       "symbol": "CRWD",
@@ -10,6 +15,10 @@
     }
   ],
   "rsi_overbought": [
+    {
+      "symbol": "VDC",
+      "rsi": 70.53281429669866
+    },
     {
       "symbol": "MA",
       "rsi": 76.37130403729138
@@ -49,6 +58,10 @@
       "rsi": 27.305392112692658
     },
     {
+      "symbol": "FIX",
+      "rsi": 29.31464535319182
+    },
+    {
       "symbol": "GOOGL",
       "rsi": 17.816278701509304
     },
@@ -71,14 +84,5 @@
       "volatility": 0.5265050753779891
     }
   ],
-  "low_volatility": [
-    {
-      "symbol": "BTC-USD",
-      "volatility": 1.485237829744413
-    },
-    {
-      "symbol": "ETH-USD",
-      "volatility": 1.8074184481036657
-    }
-  ]
+  "low_volatility": []
 }
