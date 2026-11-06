@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T02:09:19.541283Z",
+  "generated_at": "2026-11-06T09:45:28.459497Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -9,6 +9,10 @@
     }
   ],
   "macd_bearish_crosses": [
+    {
+      "symbol": "JEPI",
+      "macd": 0.17184480742148622
+    },
     {
       "symbol": "QUBT",
       "macd": -0.45034023403329204
@@ -20,28 +24,12 @@
       "rsi": 73.51487716880857
     },
     {
-      "symbol": "MA",
-      "rsi": 76.37130403729138
-    },
-    {
-      "symbol": "DGRO",
-      "rsi": 76.08221824864185
-    },
-    {
-      "symbol": "VIG",
-      "rsi": 73.8332850229381
-    },
-    {
       "symbol": "VDC",
       "rsi": 70.53281429669866
     },
     {
       "symbol": "SCHD",
       "rsi": 75.96923666939351
-    },
-    {
-      "symbol": "V",
-      "rsi": 74.74633394594063
     }
   ],
   "rsi_oversold": [
@@ -105,7 +93,7 @@
   "high_volatility": [
     {
       "symbol": "JEPI",
-      "volatility": 0.5265050753779891
+      "volatility": 0.9249464340127841
     },
     {
       "symbol": "^VIX",
@@ -113,7 +101,7 @@
     },
     {
       "symbol": "SCHG",
-      "volatility": 1.2322727720121016
+      "volatility": 1.689009252454687
     }
   ],
   "low_volatility": []
