@@ -1,14 +1,13 @@
 {
-  "generated_at": "2026-11-06T17:18:32.383156Z",
+  "generated_at": "2026-11-06T22:18:48.603380Z",
   "golden_crosses": [],
   "death_crosses": [],
-  "macd_bullish_crosses": [
+  "macd_bullish_crosses": [],
+  "macd_bearish_crosses": [
     {
       "symbol": "BTC-USD",
-      "macd": -799.6449867689516
-    }
-  ],
-  "macd_bearish_crosses": [
+      "macd": -1035.0669187092135
+    },
     {
       "symbol": "VEA",
       "macd": -0.4958355174369302
@@ -30,10 +29,6 @@
     {
       "symbol": "SPLV",
       "rsi": 73.51487716880857
-    },
-    {
-      "symbol": "VDC",
-      "rsi": 70.53281429669866
     },
     {
       "symbol": "SCHD",
@@ -63,7 +58,7 @@
     },
     {
       "symbol": "FIX",
-      "rsi": 29.31464535319182
+      "rsi": 29.61807961916304
     },
     {
       "symbol": "NVDA",
@@ -103,10 +98,14 @@
     },
     {
       "symbol": "AVGO",
-      "rsi": 21.22469453808685
+      "rsi": 19.49186588827756
     }
   ],
   "high_volatility": [
+    {
+      "symbol": "BTC-USD",
+      "volatility": 2.10658245958207
+    },
     {
       "symbol": "JEPI",
       "volatility": 0.9249464340127841
@@ -114,6 +113,10 @@
     {
       "symbol": "^VIX",
       "volatility": 19.006477693368396
+    },
+    {
+      "symbol": "ETH-USD",
+      "volatility": 2.8324294209832526
     },
     {
       "symbol": "SCHG",

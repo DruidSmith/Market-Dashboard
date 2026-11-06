@@ -1,13 +1,17 @@
 {
-  "generated_at": "2026-11-06T17:18:32.382297Z",
+  "generated_at": "2026-11-06T22:18:48.602607Z",
   "top_gainers_1d": [
     {
-      "symbol": "GLD",
-      "roc_1d": 3.4953145075889536
+      "symbol": "ITA",
+      "roc_1d": 0.9605016693710944
     },
     {
       "symbol": "VDE",
       "roc_1d": 0.950188935322438
+    },
+    {
+      "symbol": "VTIP",
+      "roc_1d": 0.030749057039347605
     },
     {
       "symbol": "MGK",
@@ -16,16 +20,12 @@
     {
       "symbol": "SPLV",
       "roc_1d": NaN
-    },
-    {
-      "symbol": "VUG",
-      "roc_1d": NaN
     }
   ],
   "top_losers_1d": [
     {
       "symbol": "AVGO",
-      "roc_1d": -7.473580983765249
+      "roc_1d": -2.478788785890751
     },
     {
       "symbol": "NFLX",
@@ -46,6 +46,14 @@
   ],
   "top_gainers_5d": [
     {
+      "symbol": "GLD",
+      "roc_5d": 3.954229850372326
+    },
+    {
+      "symbol": "MSFT",
+      "roc_5d": 2.250371123926742
+    },
+    {
       "symbol": "MGK",
       "roc_5d": NaN
     },
@@ -55,36 +63,28 @@
     },
     {
       "symbol": "VUG",
-      "roc_5d": NaN
-    },
-    {
-      "symbol": "^VIX",
-      "roc_5d": 72.14415919660662
-    },
-    {
-      "symbol": "TSM",
       "roc_5d": NaN
     }
   ],
   "top_gainers_20d": [
     {
+      "symbol": "VEA",
+      "roc_20d": -3.070356900589588
+    },
+    {
+      "symbol": "VDE",
+      "roc_20d": -6.153955224468454
+    },
+    {
+      "symbol": "BTC-USD",
+      "roc_20d": -6.85315646539676
+    },
+    {
       "symbol": "MGK",
       "roc_20d": NaN
     },
     {
       "symbol": "SPLV",
-      "roc_20d": NaN
-    },
-    {
-      "symbol": "VUG",
-      "roc_20d": NaN
-    },
-    {
-      "symbol": "^VIX",
-      "roc_20d": 84.54485566729846
-    },
-    {
-      "symbol": "TSM",
       "roc_20d": NaN
     }
   ],
@@ -98,16 +98,16 @@
       "rsi_14": 73.51487716880857
     },
     {
-      "symbol": "VDC",
-      "rsi_14": 70.53281429669866
+      "symbol": "^VIX",
+      "rsi_14": 68.6568613459304
     },
     {
-      "symbol": "VGK",
-      "rsi_14": 69.01290848817806
+      "symbol": "MA",
+      "rsi_14": 67.35594999026802
     },
     {
-      "symbol": "XLP",
-      "rsi_14": 68.80467220041305
+      "symbol": "BND",
+      "rsi_14": 66.46553452691724
     }
   ],
   "most_oversold": [
@@ -128,8 +128,8 @@
       "rsi_14": 18.39252897441476
     },
     {
-      "symbol": "AMD",
-      "rsi_14": 20.43266728645014
+      "symbol": "AVGO",
+      "rsi_14": 19.49186588827756
     }
   ],
   "highest_volatility": [
