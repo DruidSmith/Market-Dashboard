@@ -1,9 +1,13 @@
 {
-  "generated_at": "2026-11-06T09:45:28.456338Z",
+  "generated_at": "2026-11-06T17:18:32.382297Z",
   "top_gainers_1d": [
     {
       "symbol": "GLD",
       "roc_1d": 3.4953145075889536
+    },
+    {
+      "symbol": "VDE",
+      "roc_1d": 0.950188935322438
     },
     {
       "symbol": "MGK",
@@ -16,10 +20,6 @@
     {
       "symbol": "VUG",
       "roc_1d": NaN
-    },
-    {
-      "symbol": "^VIX",
-      "roc_1d": 69.65682883607872
     }
   ],
   "top_losers_1d": [
@@ -32,16 +32,16 @@
       "roc_1d": NaN
     },
     {
+      "symbol": "VEA",
+      "roc_1d": 0.0
+    },
+    {
+      "symbol": "AXON",
+      "roc_1d": -17.94333252019069
+    },
+    {
       "symbol": "MU",
       "roc_1d": -17.459096013768615
-    },
-    {
-      "symbol": "LRCX",
-      "roc_1d": -16.3618285353905
-    },
-    {
-      "symbol": "AMD",
-      "roc_1d": -14.428268675314959
     }
   ],
   "top_gainers_5d": [
@@ -62,29 +62,29 @@
       "roc_5d": 72.14415919660662
     },
     {
-      "symbol": "HWM",
-      "roc_5d": 9.41134017491596
+      "symbol": "TSM",
+      "roc_5d": NaN
     }
   ],
   "top_gainers_20d": [
     {
-      "symbol": "MSFT",
-      "roc_20d": 0.8562587510179576
-    },
-    {
-      "symbol": "VTIP",
+      "symbol": "MGK",
       "roc_20d": NaN
     },
     {
-      "symbol": "ITA",
+      "symbol": "SPLV",
       "roc_20d": NaN
     },
     {
-      "symbol": "GLD",
-      "roc_20d": -0.9018874652548803
+      "symbol": "VUG",
+      "roc_20d": NaN
     },
     {
-      "symbol": "VDE",
+      "symbol": "^VIX",
+      "roc_20d": 84.54485566729846
+    },
+    {
+      "symbol": "TSM",
       "roc_20d": NaN
     }
   ],
@@ -116,6 +116,10 @@
       "rsi_14": 8.63303718907855
     },
     {
+      "symbol": "ITA",
+      "rsi_14": 10.369147266836734
+    },
+    {
       "symbol": "INTC",
       "rsi_14": 12.293091306604623
     },
@@ -126,10 +130,6 @@
     {
       "symbol": "AMD",
       "rsi_14": 20.43266728645014
-    },
-    {
-      "symbol": "ASML",
-      "rsi_14": 20.69887690055195
     }
   ],
   "highest_volatility": [
@@ -138,19 +138,19 @@
       "volatility_20d": NaN
     },
     {
-      "symbol": "VTIP",
-      "volatility_20d": NaN
-    },
-    {
-      "symbol": "BTC-USD",
-      "volatility_20d": 1.6877349726528297
-    },
-    {
       "symbol": "SOXX",
       "volatility_20d": NaN
     },
     {
-      "symbol": "ITA",
+      "symbol": "GLD",
+      "volatility_20d": NaN
+    },
+    {
+      "symbol": "AMD",
+      "volatility_20d": NaN
+    },
+    {
+      "symbol": "ASML",
       "volatility_20d": NaN
     }
   ]
