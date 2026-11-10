@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T11:38:34.404803Z",
+  "generated_at": "2026-11-10T19:32:51.796349Z",
   "top_gainers_1d": [
     {
       "symbol": "AMD",
@@ -10,27 +10,19 @@
       "roc_1d": NaN
     },
     {
-      "symbol": "IONQ",
-      "roc_1d": 8.33844668843453
-    },
-    {
-      "symbol": "SCHD",
-      "roc_1d": NaN
-    },
-    {
       "symbol": "LRCX",
       "roc_1d": 10.412090831663367
-    }
-  ],
-  "top_losers_1d": [
+    },
     {
       "symbol": "AVGO",
       "roc_1d": 9.693895258277685
     },
     {
-      "symbol": "NFLX",
-      "roc_1d": NaN
-    },
+      "symbol": "QUBT",
+      "roc_1d": 8.372831219531008
+    }
+  ],
+  "top_losers_1d": [
     {
       "symbol": "VEA",
       "roc_1d": 0.0
@@ -42,6 +34,14 @@
     {
       "symbol": "AXON",
       "roc_1d": -17.94333252019069
+    },
+    {
+      "symbol": "ETH-USD",
+      "roc_1d": -4.962129960083361
+    },
+    {
+      "symbol": "NVDA",
+      "roc_1d": -4.645256453366553
     }
   ],
   "top_gainers_5d": [
@@ -73,7 +73,7 @@
     },
     {
       "symbol": "MA",
-      "roc_20d": 10.788606439595249
+      "roc_20d": 9.265052134701612
     },
     {
       "symbol": "FSTA",
@@ -84,18 +84,22 @@
       "roc_20d": 8.262724414043632
     },
     {
-      "symbol": "SPLV",
-      "roc_20d": 6.924029196504966
+      "symbol": "IONQ",
+      "roc_20d": NaN
     }
   ],
   "most_overbought": [
+    {
+      "symbol": "SCHD",
+      "rsi_14": 80.56589904851505
+    },
     {
       "symbol": "SPLV",
       "rsi_14": 76.93979147141494
     },
     {
-      "symbol": "SCHD",
-      "rsi_14": 75.96923666939351
+      "symbol": "MA",
+      "rsi_14": 68.15198029754366
     },
     {
       "symbol": "BND",
@@ -104,10 +108,6 @@
     {
       "symbol": "V",
       "rsi_14": 65.15655160265766
-    },
-    {
-      "symbol": "MA",
-      "rsi_14": 65.06580950382748
     }
   ],
   "most_oversold": [
