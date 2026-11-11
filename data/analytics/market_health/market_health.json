@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-11T15:05:44.868694Z",
+  "timestamp": "2026-11-11T22:11:15.415698Z",
   "risk_score": 3,
   "max_score": 10,
   "overall_status": "WARNING",
@@ -9,11 +9,11 @@
   ],
   "indicators": {
     "sp500_pe": {
-      "value": 24.051952,
+      "value": 24.172848,
       "threshold": 30,
       "status": "normal",
       "signal": "NORMAL",
-      "interpretation": "P/E of 24.1 below historical crash threshold of 30"
+      "interpretation": "P/E of 24.2 below historical crash threshold of 30"
     },
     "treasury_30y": {
       "value": 5.355999946594238,
