@@ -1,11 +1,15 @@
 {
-  "generated_at": "2026-11-12T19:46:11.337158Z",
+  "generated_at": "2026-11-13T00:59:33.520049Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
     {
       "symbol": "AAPL",
       "macd": 3.5871392408217275
+    },
+    {
+      "symbol": "FIX",
+      "macd": -118.42372011226689
     },
     {
       "symbol": "VYM",
@@ -21,6 +25,10 @@
     }
   ],
   "macd_bearish_crosses": [
+    {
+      "symbol": "GLD",
+      "macd": -4.762415355468136
+    },
     {
       "symbol": "^VIX",
       "macd": 1.09365339536906
@@ -46,12 +54,16 @@
   ],
   "rsi_oversold": [
     {
+      "symbol": "BTC-USD",
+      "rsi": 25.479686299515976
+    },
+    {
       "symbol": "SOXX",
       "rsi": 13.745851379593702
     },
     {
       "symbol": "ITA",
-      "rsi": 12.448306317851817
+      "rsi": 12.867031485411772
     },
     {
       "symbol": "NVDA",
@@ -59,7 +71,7 @@
     },
     {
       "symbol": "ETH-USD",
-      "rsi": 28.77192381793307
+      "rsi": 26.80158300231338
     },
     {
       "symbol": "INTC",
@@ -72,6 +84,10 @@
   ],
   "high_volatility": [
     {
+      "symbol": "BTC-USD",
+      "volatility": 1.8704225284934484
+    },
+    {
       "symbol": "JEPI",
       "volatility": 1.043508655893386
     },
@@ -81,7 +97,7 @@
     },
     {
       "symbol": "ETH-USD",
-      "volatility": 2.7449634384026966
+      "volatility": 2.744447642188867
     },
     {
       "symbol": "SCHG",
