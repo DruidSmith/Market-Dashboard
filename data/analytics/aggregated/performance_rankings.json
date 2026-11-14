@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T10:00:38.155238Z",
+  "generated_at": "2026-11-14T16:33:41.930212Z",
   "top_gainers_1d": [
     {
       "symbol": "AMD",
@@ -10,12 +10,12 @@
       "roc_1d": 8.66309553898712
     },
     {
-      "symbol": "AVGO",
-      "roc_1d": 3.1538372947059523
-    },
-    {
       "symbol": "AXON",
       "roc_1d": 3.0598043421079746
+    },
+    {
+      "symbol": "XLP",
+      "roc_1d": 1.4166494071090607
     },
     {
       "symbol": "FSTA",
@@ -23,6 +23,14 @@
     }
   ],
   "top_losers_1d": [
+    {
+      "symbol": "ETH-USD",
+      "roc_1d": -9.293078811025135
+    },
+    {
+      "symbol": "BTC-USD",
+      "roc_1d": -8.06693252310976
+    },
     {
       "symbol": "IONQ",
       "roc_1d": -6.416077156268097
@@ -32,16 +40,8 @@
       "roc_1d": -6.012031535157525
     },
     {
-      "symbol": "LRCX",
-      "roc_1d": -5.079562007873372
-    },
-    {
-      "symbol": "MU",
-      "roc_1d": -4.576237797689142
-    },
-    {
       "symbol": "TEM",
-      "roc_1d": -4.456755510419752
+      "roc_1d": -5.652919949967094
     }
   ],
   "top_gainers_5d": [
@@ -51,11 +51,7 @@
     },
     {
       "symbol": "AVGO",
-      "roc_5d": 20.987526964008897
-    },
-    {
-      "symbol": "FIX",
-      "roc_5d": 16.907783174717462
+      "roc_5d": 18.155200000332506
     },
     {
       "symbol": "SOXX",
@@ -64,9 +60,17 @@
     {
       "symbol": "INTC",
       "roc_5d": 13.061148264023847
+    },
+    {
+      "symbol": "LRCX",
+      "roc_5d": 10.708938373798604
     }
   ],
   "top_gainers_20d": [
+    {
+      "symbol": "GLD",
+      "roc_20d": NaN
+    },
     {
       "symbol": "META",
       "roc_20d": NaN
@@ -76,16 +80,12 @@
       "roc_20d": 7.638331909143292
     },
     {
-      "symbol": "FSTA",
-      "roc_20d": 6.08633341446827
-    },
-    {
-      "symbol": "TEM",
+      "symbol": "VGK",
       "roc_20d": NaN
     },
     {
-      "symbol": "V",
-      "roc_20d": 6.404088463793656
+      "symbol": "AMZN",
+      "roc_20d": NaN
     }
   ],
   "most_overbought": [
@@ -98,16 +98,16 @@
       "rsi_14": 77.53469586302127
     },
     {
+      "symbol": "VDC",
+      "rsi_14": 68.09257788091588
+    },
+    {
       "symbol": "FSTA",
       "rsi_14": 67.46214474999456
     },
     {
-      "symbol": "MA",
-      "rsi_14": 65.34231060861654
-    },
-    {
-      "symbol": "VDC",
-      "rsi_14": 64.47148091363883
+      "symbol": "XLP",
+      "rsi_14": 65.84255352114644
     }
   ],
   "most_oversold": [
@@ -120,16 +120,16 @@
       "rsi_14": 13.72727346724973
     },
     {
-      "symbol": "NVDA",
-      "rsi_14": 21.00446370556473
-    },
-    {
       "symbol": "BTC-USD",
-      "rsi_14": 25.479686299515976
+      "rsi_14": 17.641649946829034
     },
     {
       "symbol": "ETH-USD",
-      "rsi_14": 26.80158300231338
+      "rsi_14": 19.939538616495398
+    },
+    {
+      "symbol": "NVDA",
+      "rsi_14": 21.00446370556473
     }
   ],
   "highest_volatility": [
@@ -138,20 +138,20 @@
       "volatility_20d": NaN
     },
     {
+      "symbol": "BTC-USD",
+      "volatility_20d": 2.4700840438637948
+    },
+    {
       "symbol": "SOXX",
       "volatility_20d": NaN
     },
     {
-      "symbol": "GLD",
-      "volatility_20d": NaN
+      "symbol": "ITA",
+      "volatility_20d": 15.384741512134937
     },
     {
-      "symbol": "AMD",
-      "volatility_20d": NaN
-    },
-    {
-      "symbol": "ASML",
-      "volatility_20d": NaN
+      "symbol": "VTIP",
+      "volatility_20d": 0.14195500559289126
     }
   ]
 }
