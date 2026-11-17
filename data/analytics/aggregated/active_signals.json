@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T10:34:12.521541Z",
+  "generated_at": "2026-11-17T19:43:18.003934Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -10,56 +10,40 @@
   ],
   "macd_bearish_crosses": [
     {
+      "symbol": "VEA",
+      "macd": -0.3820272527159574
+    },
+    {
       "symbol": "MA",
       "macd": 18.04317201878075
     },
     {
-      "symbol": "TEM",
-      "macd": 1.6655214114568366
-    },
-    {
       "symbol": "IONQ",
       "macd": -1.8949130806495305
-    },
-    {
-      "symbol": "VEA",
-      "macd": -0.3820272527159574
     }
   ],
   "rsi_overbought": [
     {
-      "symbol": "SCHD",
-      "rsi": 80.87458645637231
-    },
-    {
       "symbol": "SPLV",
       "rsi": 77.53469586302127
+    },
+    {
+      "symbol": "SCHD",
+      "rsi": 80.87458645637231
     }
   ],
   "rsi_oversold": [
     {
-      "symbol": "INTC",
-      "rsi": 27.100246877687113
+      "symbol": "BTC-USD",
+      "rsi": 17.321000718145626
     },
     {
       "symbol": "SOXX",
       "rsi": 13.455473246026031
     },
     {
-      "symbol": "BTC-USD",
-      "rsi": 17.321000718145626
-    },
-    {
-      "symbol": "AXON",
-      "rsi": 28.088636541503448
-    },
-    {
-      "symbol": "IONQ",
-      "rsi": 27.844671444814054
-    },
-    {
       "symbol": "ITA",
-      "rsi": 12.843241907337642
+      "rsi": 12.589334260689967
     },
     {
       "symbol": "NVDA",
@@ -68,28 +52,40 @@
     {
       "symbol": "ETH-USD",
       "rsi": 19.806531116282713
+    },
+    {
+      "symbol": "IONQ",
+      "rsi": 27.844671444814054
+    },
+    {
+      "symbol": "INTC",
+      "rsi": 27.100246877687113
+    },
+    {
+      "symbol": "AXON",
+      "rsi": 28.088636541503448
     }
   ],
   "high_volatility": [
     {
-      "symbol": "^VIX",
-      "volatility": 19.77576986025585
-    },
-    {
       "symbol": "BTC-USD",
       "volatility": 2.4728421120555546
-    },
-    {
-      "symbol": "SCHG",
-      "volatility": 1.8868107897520967
     },
     {
       "symbol": "JEPI",
       "volatility": 1.0900256878337355
     },
     {
+      "symbol": "^VIX",
+      "volatility": 19.77576986025585
+    },
+    {
       "symbol": "ETH-USD",
       "volatility": 3.3032602076095587
+    },
+    {
+      "symbol": "SCHG",
+      "volatility": 1.8868107897520967
     }
   ],
   "low_volatility": []
