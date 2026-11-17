@@ -1,8 +1,12 @@
 {
-  "generated_at": "2026-11-17T02:00:29.737956Z",
+  "generated_at": "2026-11-17T10:34:12.520771Z",
   "top_gainers_1d": [
     {
-      "symbol": "SPLV",
+      "symbol": "VDC",
+      "roc_1d": 1.3158970915335688
+    },
+    {
+      "symbol": "TSM",
       "roc_1d": NaN
     },
     {
@@ -10,27 +14,15 @@
       "roc_1d": 8.66309553898712
     },
     {
-      "symbol": "META",
-      "roc_1d": 2.899250735962977
-    },
-    {
-      "symbol": "MSFT",
-      "roc_1d": 0.3422520128764317
-    },
-    {
-      "symbol": "TSM",
+      "symbol": "VIG",
       "roc_1d": NaN
+    },
+    {
+      "symbol": "VTIP",
+      "roc_1d": -0.05151236418565741
     }
   ],
   "top_losers_1d": [
-    {
-      "symbol": "AVGO",
-      "roc_1d": -4.761767560506658
-    },
-    {
-      "symbol": "NFLX",
-      "roc_1d": NaN
-    },
     {
       "symbol": "AMD",
       "roc_1d": -8.754483393650691
@@ -42,49 +34,57 @@
     {
       "symbol": "TEM",
       "roc_1d": -5.652919949967094
+    },
+    {
+      "symbol": "MU",
+      "roc_1d": -4.90633897605014
+    },
+    {
+      "symbol": "AVGO",
+      "roc_1d": -4.761767560506658
     }
   ],
   "top_gainers_5d": [
     {
-      "symbol": "AMD",
-      "roc_5d": 18.933722473677193
+      "symbol": "INTC",
+      "roc_5d": 6.0056878845537565
+    },
+    {
+      "symbol": "TSM",
+      "roc_5d": NaN
     },
     {
       "symbol": "SOXX",
       "roc_5d": 9.353258907666051
     },
     {
-      "symbol": "SPLV",
+      "symbol": "VIG",
       "roc_5d": NaN
     },
     {
-      "symbol": "FIX",
-      "roc_5d": 9.336609336609335
-    },
-    {
-      "symbol": "HWM",
-      "roc_5d": 7.396196265668165
+      "symbol": "AVGO",
+      "roc_5d": 18.155200000332506
     }
   ],
   "top_gainers_20d": [
     {
-      "symbol": "GLD",
+      "symbol": "VDC",
+      "roc_20d": 6.039679922098751
+    },
+    {
+      "symbol": "TSM",
+      "roc_20d": NaN
+    },
+    {
+      "symbol": "^VIX",
+      "roc_20d": 1.6508250499474464
+    },
+    {
+      "symbol": "AAPL",
       "roc_20d": NaN
     },
     {
       "symbol": "ASML",
-      "roc_20d": NaN
-    },
-    {
-      "symbol": "SPLV",
-      "roc_20d": NaN
-    },
-    {
-      "symbol": "FENY",
-      "roc_20d": -4.6801634411321675
-    },
-    {
-      "symbol": "AAPL",
       "roc_20d": NaN
     }
   ],
@@ -134,24 +134,24 @@
   ],
   "highest_volatility": [
     {
-      "symbol": "MSFT",
+      "symbol": "INTC",
       "volatility_20d": NaN
     },
     {
-      "symbol": "BTC-USD",
-      "volatility_20d": 2.4728421120555546
+      "symbol": "TSM",
+      "volatility_20d": NaN
+    },
+    {
+      "symbol": "^VIX",
+      "volatility_20d": 19.77576986025585
+    },
+    {
+      "symbol": "AAPL",
+      "volatility_20d": NaN
     },
     {
       "symbol": "SOXX",
       "volatility_20d": NaN
-    },
-    {
-      "symbol": "ITA",
-      "volatility_20d": 15.384741512134937
-    },
-    {
-      "symbol": "VTIP",
-      "volatility_20d": 0.14195500559289126
     }
   ]
 }
