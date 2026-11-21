@@ -1,10 +1,6 @@
 {
-  "generated_at": "2026-11-21T06:37:51.523809Z",
+  "generated_at": "2026-11-21T15:14:01.638672Z",
   "top_gainers_1d": [
-    {
-      "symbol": "VTIP",
-      "roc_1d": 0.3087086343030565
-    },
     {
       "symbol": "AVGO",
       "roc_1d": NaN
@@ -20,9 +16,17 @@
     {
       "symbol": "^VIX",
       "roc_1d": 0.8087184877542342
+    },
+    {
+      "symbol": "SPLV",
+      "roc_1d": 0.7278692526895503
     }
   ],
   "top_losers_1d": [
+    {
+      "symbol": "TEM",
+      "roc_1d": -10.618587936092272
+    },
     {
       "symbol": "TSM",
       "roc_1d": -8.37853966509452
@@ -38,20 +42,12 @@
     {
       "symbol": "VGT",
       "roc_1d": -7.000665419250829
-    },
-    {
-      "symbol": "EME",
-      "roc_1d": -5.410561127479729
     }
   ],
   "top_gainers_5d": [
     {
       "symbol": "VTIP",
       "roc_5d": 0.47413598204866236
-    },
-    {
-      "symbol": "FIX",
-      "roc_5d": -0.8740424656106804
     },
     {
       "symbol": "AVGO",
@@ -64,6 +60,10 @@
     {
       "symbol": "AMD",
       "roc_5d": NaN
+    },
+    {
+      "symbol": "^VIX",
+      "roc_5d": 41.09252217949877
     }
   ],
   "top_gainers_20d": [
@@ -107,13 +107,13 @@
     },
     {
       "symbol": "VDC",
-      "rsi_14": 55.08850420262842
+      "rsi_14": 56.66835264141859
     }
   ],
   "most_oversold": [
     {
       "symbol": "ITA",
-      "rsi_14": 12.579432729771668
+      "rsi_14": 12.194314495204296
     },
     {
       "symbol": "SOXX",
@@ -121,25 +121,25 @@
     },
     {
       "symbol": "BTC-USD",
-      "rsi_14": 14.339749953391177
+      "rsi_14": 13.84098683744395
+    },
+    {
+      "symbol": "ETH-USD",
+      "rsi_14": 17.339851600823366
     },
     {
       "symbol": "NVDA",
       "rsi_14": 17.776851581368973
-    },
-    {
-      "symbol": "ETH-USD",
-      "rsi_14": 19.218397955634643
     }
   ],
   "highest_volatility": [
     {
       "symbol": "ITA",
-      "volatility_20d": 15.377012014889463
+      "volatility_20d": 15.37023851046066
     },
     {
       "symbol": "FIX",
-      "volatility_20d": 6.591812685069623
+      "volatility_20d": 6.438599888414345
     },
     {
       "symbol": "NQ=F",
