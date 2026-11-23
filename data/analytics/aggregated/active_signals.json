@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T22:26:03.679353Z",
+  "generated_at": "2026-11-23T03:01:55.433407Z",
   "golden_crosses": [],
   "death_crosses": [],
   "macd_bullish_crosses": [
@@ -14,10 +14,6 @@
       "macd": -4.227477475625335
     },
     {
-      "symbol": "AMD",
-      "macd": -17.53137141680253
-    },
-    {
       "symbol": "LRCX",
       "macd": -20.281598772634993
     },
@@ -28,6 +24,10 @@
     {
       "symbol": "AMZN",
       "macd": 1.4489069255128015
+    },
+    {
+      "symbol": "AMD",
+      "macd": -17.53137141680253
     }
   ],
   "rsi_overbought": [
@@ -38,8 +38,12 @@
   ],
   "rsi_oversold": [
     {
-      "symbol": "ITA",
-      "rsi": 12.194314495204296
+      "symbol": "INTC",
+      "rsi": 23.935596127250548
+    },
+    {
+      "symbol": "SOXX",
+      "rsi": 12.202208932424782
     },
     {
       "symbol": "VOO",
@@ -47,47 +51,39 @@
     },
     {
       "symbol": "BTC-USD",
-      "rsi": 13.84098683744395
-    },
-    {
-      "symbol": "INTC",
-      "rsi": 23.935596127250548
-    },
-    {
-      "symbol": "GLD",
-      "rsi": 26.468003229304514
-    },
-    {
-      "symbol": "LRCX",
-      "rsi": 29.694169036795174
-    },
-    {
-      "symbol": "GOOGL",
-      "rsi": 27.071010243927248
-    },
-    {
-      "symbol": "SOXX",
-      "rsi": 12.202208932424782
+      "rsi": 15.788362623429549
     },
     {
       "symbol": "ASML",
       "rsi": 26.664408165114637
     },
     {
-      "symbol": "MU",
-      "rsi": 27.82409033775656
+      "symbol": "MGK",
+      "rsi": 28.21111975065915
+    },
+    {
+      "symbol": "VUG",
+      "rsi": 28.536537195296177
+    },
+    {
+      "symbol": "LRCX",
+      "rsi": 29.694169036795174
     },
     {
       "symbol": "QUBT",
       "rsi": 26.063701670118107
     },
     {
-      "symbol": "QQQM",
-      "rsi": 29.27388012390935
+      "symbol": "GOOGL",
+      "rsi": 27.071010243927248
     },
     {
-      "symbol": "VEA",
-      "rsi": 25.159419146429087
+      "symbol": "VWO",
+      "rsi": 24.12640154724508
+    },
+    {
+      "symbol": "QQQM",
+      "rsi": 29.27388012390935
     },
     {
       "symbol": "AXON",
@@ -98,58 +94,62 @@
       "rsi": 20.492830653742743
     },
     {
-      "symbol": "ETH-USD",
-      "rsi": 17.339851600823366
-    },
-    {
-      "symbol": "VWO",
-      "rsi": 24.12640154724508
-    },
-    {
-      "symbol": "PLTR",
-      "rsi": 24.308540573157742
-    },
-    {
-      "symbol": "MGK",
-      "rsi": 28.21111975065915
-    },
-    {
-      "symbol": "JEPI",
-      "rsi": 29.054204891653214
+      "symbol": "MU",
+      "rsi": 27.82409033775656
     },
     {
       "symbol": "SCHG",
       "rsi": 25.53086481087361
     },
     {
+      "symbol": "VEA",
+      "rsi": 25.159419146429087
+    },
+    {
+      "symbol": "ITA",
+      "rsi": 12.194314495204296
+    },
+    {
+      "symbol": "GLD",
+      "rsi": 26.468003229304514
+    },
+    {
       "symbol": "NVDA",
       "rsi": 17.776851581368973
     },
     {
-      "symbol": "VUG",
-      "rsi": 28.536537195296177
+      "symbol": "JEPI",
+      "rsi": 29.054204891653214
+    },
+    {
+      "symbol": "PLTR",
+      "rsi": 24.308540573157742
+    },
+    {
+      "symbol": "ETH-USD",
+      "rsi": 19.591730829767044
     }
   ],
   "high_volatility": [
-    {
-      "symbol": "BTC-USD",
-      "volatility": 2.478990558318278
-    },
     {
       "symbol": "^VIX",
       "volatility": 20.065445586556578
     },
     {
-      "symbol": "ETH-USD",
-      "volatility": 3.2828411977090077
+      "symbol": "BTC-USD",
+      "volatility": 2.4891337988479005
+    },
+    {
+      "symbol": "SCHG",
+      "volatility": 2.153971280032462
     },
     {
       "symbol": "JEPI",
       "volatility": 1.26977567094502
     },
     {
-      "symbol": "SCHG",
-      "volatility": 2.153971280032462
+      "symbol": "ETH-USD",
+      "volatility": 3.285859168374811
     }
   ],
   "low_volatility": []
