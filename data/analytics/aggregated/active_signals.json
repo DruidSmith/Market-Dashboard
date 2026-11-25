@@ -1,6 +1,11 @@
 {
-  "generated_at": "2026-11-25T14:51:36.755466Z",
-  "golden_crosses": [],
+  "generated_at": "2026-11-25T23:32:29.642666Z",
+  "golden_crosses": [
+    {
+      "symbol": "^VIX",
+      "date": "2026-11-25T23:32:29.480415Z"
+    }
+  ],
   "death_crosses": [],
   "macd_bullish_crosses": [
     {
@@ -8,20 +13,11 @@
       "macd": -19.106579816013323
     },
     {
-      "symbol": "GOOGL",
-      "macd": -13.081747180317905
-    },
-    {
       "symbol": "AXON",
       "macd": -31.12158782193916
     }
   ],
-  "macd_bearish_crosses": [
-    {
-      "symbol": "AMD",
-      "macd": -17.53137141680253
-    }
-  ],
+  "macd_bearish_crosses": [],
   "rsi_overbought": [
     {
       "symbol": "SCHD",
@@ -34,16 +30,8 @@
       "rsi": 14.565992637032465
     },
     {
-      "symbol": "VOO",
-      "rsi": 22.808445137876646
-    },
-    {
       "symbol": "BTC-USD",
       "rsi": 14.953373217717527
-    },
-    {
-      "symbol": "INTC",
-      "rsi": 23.935596127250548
     },
     {
       "symbol": "GLD",
@@ -51,7 +39,7 @@
     },
     {
       "symbol": "SOXX",
-      "rsi": 12.202208932424782
+      "rsi": 17.746769788921114
     },
     {
       "symbol": "IONQ",
@@ -64,10 +52,6 @@
     {
       "symbol": "ETH-USD",
       "rsi": 18.089728718179842
-    },
-    {
-      "symbol": "NVDA",
-      "rsi": 17.776851581368973
     }
   ],
   "high_volatility": [
@@ -77,7 +61,7 @@
     },
     {
       "symbol": "^VIX",
-      "volatility": 19.956254420615608
+      "volatility": 20.162853641664515
     },
     {
       "symbol": "JEPI",
