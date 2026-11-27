@@ -1,13 +1,18 @@
 {
-  "generated_at": "2026-11-27T01:54:35.547930Z",
+  "generated_at": "2026-11-27T10:43:11.608869Z",
   "golden_crosses": [
     {
       "symbol": "^VIX",
-      "date": "2026-11-27T01:54:35.315358Z"
+      "date": "2026-11-27T10:43:11.454114Z"
     }
   ],
   "death_crosses": [],
-  "macd_bullish_crosses": [],
+  "macd_bullish_crosses": [
+    {
+      "symbol": "ITA",
+      "macd": -33.403514521367356
+    }
+  ],
   "macd_bearish_crosses": [],
   "rsi_overbought": [
     {
@@ -22,7 +27,7 @@
   "rsi_oversold": [
     {
       "symbol": "ITA",
-      "rsi": 14.565992637032465
+      "rsi": 15.330127807833733
     },
     {
       "symbol": "BTC-USD",
